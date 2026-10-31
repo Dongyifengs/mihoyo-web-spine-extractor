@@ -131,4 +131,3 @@ python -m pytest -q
 模块职责：`resolve` 入口解析，`javascript` 安全的静态语法读取，`discovery` 资源发现，`browser` 网络捕获，`network` 有界并发下载，`matching` 配对，`atlas` 图集解析和裁切，`export` 导出与报告，`engine` 编排，`gui` / `cli` 两个入口。
 
 格式依据：[Spine atlas 格式](https://esotericsoftware.com/spine-atlas-format)、[Spine JSON 格式](https://esotericsoftware.com/spine-json-format)。浏览器捕获使用 [Playwright 网络 API](https://playwright.dev/python/docs/network)，脚本语法读取使用 [Tree-sitter](https://github.com/tree-sitter/py-tree-sitter)。参考过用户提供的 AutoSpineProTools / SpineAuto 的功能需求，本实现重新编写，不依赖其中的 Spine 安装路径或代理配置。
-
