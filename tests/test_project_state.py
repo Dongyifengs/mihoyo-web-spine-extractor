@@ -77,3 +77,28 @@ async def test_official_roundtrip_guards_project_replacement(tmp_path, outcome):
         assert "selection_warning" in info
         assert project.read_bytes() == (b"user-edited-project" if outcome == "concurrent_edit" else original)
     assert not list(tmp_path.glob(".spine-selection-*"))
+
+
+@pytest.mark.parametrize('names, expected', [(['in', 'idle', 'prefixLOOPsuffix', 'loop2'], 'prefixLOOPsuffix'), (['idle', 'out'], 'idle')])
+async def test_export_prefers_loop_substring_before_writing_selection(tmp_path, monkeypatch, names, expected):
+    project = tmp_path / 'project.spine'
+    project.write_bytes(b'original')
+    selected = []
+
+    def candidate(original, ordered):
+        selected.append(ordered)
+        return original
+
+    monkeypatch.setattr('spine_extractor.spine_cli.selection_candidate', candidate)
+
+    async def runner(args, cwd, options):
+        for i, arg in enumerate(args):
+            if arg == '-o':
+                dest = Path(args[i + 1])
+                dest.mkdir(parents=True)
+                (dest / 'skeleton.json').write_text(json.dumps({'bones': [{'name': 'root'}]}), 'utf-8')
+        return ''
+
+    info = await select_animation(project, names, ['spine'], Options(), runner, [])
+    assert info['default_animation'] == expected
+    assert selected[0][0] == expected and set(selected[0]) == set(names)

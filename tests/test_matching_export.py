@@ -1,4 +1,6 @@
 
+import io
+
 from PIL import Image
 
 from spine_extractor.atlas import parse_atlas, unpack_atlas
@@ -76,3 +78,24 @@ def test_report_escapes_site_and_resource_names():
                             "warnings": [], "scope": "test"})
     assert "<script>" not in report
     assert "&lt;script&gt;" in report
+
+
+async def test_original_texture_preferred_over_oss_webp_copy(png, atlas):
+    scanner = Scanner('https://site.test/')
+    a = Asset('atlas', atlas.encode(), 'https://site.test/hero.atlas')
+    page = parse_atlas(atlas)[0]
+    original = 'https://site.test/hero.png'
+    processed = original + '?x-oss-process=image/format,webp/quality,Q_90'
+    buf = io.BytesIO()
+    with Image.open(io.BytesIO(png)) as image:
+        image.save(buf, 'WEBP', quality=90)
+    webp = buf.getvalue()
+    async with Fetcher(Options()) as fetcher:
+        fetcher.remember(Resource(processed, webp))
+        assert select_image(scanner, fetcher, a, page, [processed])[:2] == (webp, processed)
+        fetcher.remember(Resource(original, png))
+        assert select_image(scanner, fetcher, a, page, [processed, original])[:2] == (png, original)
+        # A different content selector is not just an OSS format variant.
+        other = original + '?revision=2'
+        fetcher.remember(Resource(other, webp))
+        assert select_image(scanner, fetcher, a, page, [original, other])[0] is None

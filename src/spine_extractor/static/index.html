@@ -4,7 +4,7 @@
 <aside class="sidebar">
   <a class="brand" href="#extract"><span>Spine 素材提取</span></a>
 
-  <nav><a href="#extract" data-nav="extract">＋ <span>提取素材</span></a><a href="#library" data-nav="library">▦ <span>素材库</span><span id="library-count" class="nav-count">0</span></a><a href="#settings" data-nav="settings">⚙ <span>设置</span></a></nav>
+  <nav><a href="#extract" data-nav="extract">＋ <span>提取素材</span></a><a href="#news" data-nav="news">◷ <span>网页活动</span></a><a href="#library" data-nav="library">▦ <span>素材库</span><span id="library-count" class="nav-count">0</span></a><a href="#settings" data-nav="settings">⚙ <span>设置</span></a></nav>
   <div class="nav-label recent-label">最近的活动</div><div id="recent-activities" class="recent-list"></div>
   <div class="sidebar-foot"><span class="connection-dot"></span> 本地运行 <span id="app-version"></span><a href="/static/vendor/SPINE-RUNTIMES-LICENSE.txt" target="_blank">运行时许可</a></div>
 </aside>
@@ -24,6 +24,8 @@
   </section>
   <section id="view-library" class="view" hidden><div class="section-heading"><p class="muted">网页加载 20 秒后截取封面，自动隐藏进入活动、登录、分享等界面。</p><div class="section-actions"><button id="fill-covers" class="button small">补全封面</button><button id="refresh-library" class="button small">刷新</button></div></div><div id="library-grid" class="library-grid"></div></section>
   <section id="view-activity" class="view" hidden><div id="activity-gallery"></div></section>
+  <section id="view-composition" class="view" hidden><div id="composition-view"></div></section>
+  <section id="view-news" class="view" hidden><div id="news-view"></div></section>
   <section id="view-settings" class="view" hidden><form id="settings-form">
     <section class="panel settings-panel"><h3>文件保存</h3><label for="settings-output">输出目录</label><input id="settings-output" required><p class="field-note">直接在此目录下按活动标题创建文件夹，重复名称依次编号。</p></section>
     <section class="panel settings-panel"><div class="panel-heading"><h3>Spine CLI</h3><span class="badge amber">可选 · 需要正版</span></div><p class="settings-description">使用已激活的正版 Spine 编辑器，将 JSON / SKEL 与切片导入为 <strong>.spine</strong> 工程，双击即可在 Spine 中打开。不配置也可以提取和网页预览。</p><label for="settings-spine">CLI 文件路径</label><div class="input-action"><input id="settings-spine" placeholder="D:\Program Files\Spine\spine.com"><button id="detect-spine" class="button" type="button">使用检测路径</button></div><p class="field-note">Windows 请选择安装目录里的 spine.com。首次使用某个版本时，Spine 可能需要下载对应编辑器。</p><div class="form-grid two"><div><label for="settings-spine-version">编辑器版本 <span class="muted">选填</span></label><input id="settings-spine-version" placeholder="自动匹配骨骼版本，如 4.2.43"></div><div><label for="settings-spine-timeout">单组转换超时（秒）</label><input id="settings-spine-timeout" type="number" min="10" max="3600" value="180"></div></div></section>

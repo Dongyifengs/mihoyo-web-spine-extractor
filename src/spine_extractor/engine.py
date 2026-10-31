@@ -9,6 +9,7 @@ from .export import export, write_json
 from .models import Cancelled, Log, Options
 from .network import Fetcher
 from .resolve import Target, resolve
+from .scene import save_scene
 from .urls import unique_directory
 
 
@@ -51,11 +52,13 @@ async def extract_target(target: Target, options: Options, log: Log, batch_folde
         browser_ok = False
         cover = None
         cover_error = ""
+        scene = None
         if options.mode in {"auto", "browser"}:
             try:
                 captured_page = await capture(fetcher, target.url, with_cover=options.cover)
                 final_url, markup = captured_page.url, captured_page.html
                 cover, cover_error = captured_page.cover, captured_page.cover_error
+                scene = captured_page.scene
                 scanner.page_url = final_url
                 if markup:
                     await asyncio.to_thread(scanner.scan_html, markup, final_url)
@@ -80,6 +83,11 @@ async def extract_target(target: Target, options: Options, log: Log, batch_folde
             "input_url": target.url, "article_url": target.article, "title": title,
             "mode": options.mode, "browser_capture": browser_ok,
         })
+        if scene and scene.get('scenes'):
+            try:
+                save_scene(folder, scene, manifest['groups'])
+            except (ValueError, OSError) as exc:
+                log(f'合并布局保存失败：{exc}')
         if options.cover:
             try:
                 if cover is None and not browser_ok:

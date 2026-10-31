@@ -1,26 +1,41 @@
 import {ExtraMotion} from './extra.js';
+import {FrameStats} from './performance.js';
 
 const versions = {'3.8': '3.8', '4.0': '4.0.31', '4.1': '4.1.56', '4.2': '4.2.120'};
 const runtimes = new Map();
-let scriptQueue = Promise.resolve();
 export const runtimeVersion = group => (group.version || '').match(/^\d+\.\d+/)?.[0];
+export const preferredAnimation = names => names?.find(name => /loop/i.test(name)) || names?.[0] || '';
 
 export function loadRuntime(version) {
-  if (!versions[version]) return Promise.reject(new Error(`暂不支持 Spine ${version || '未知版本'} 的网页预览`));
-  if (!runtimes.has(version)) {
-    const loading = scriptQueue.then(() => new Promise((resolve, reject) => {
-      // Each runtime keeps its own namespace. In particular, 3.8 must not merge into 4.x.
-      window.spine = undefined;
-      const script = document.createElement('script');
-      script.src = `/static/vendor/spine-player-${versions[version]}.js`;
-      script.onload = () => resolve(window.spine);
-      script.onerror = () => reject(new Error('无法加载本地 Spine 运行时'));
-      document.head.append(script);
-    }));
-    runtimes.set(version, loading);
-    scriptQueue = loading.catch(() => {});
+  const exact = String(version || '').match(/^\d+\.\d+(?:\.\d+)?/)?.[0];
+  if (!exact) return Promise.reject(new Error('骨骼未提供可识别的 Spine 版本'));
+  const minor = exact.split('.').slice(0, 2).join('.');
+  if (!runtimes.has(minor)) {
+    const cdn = v => `https://unpkg.com/@esotericsoftware/spine-player@${v}/dist/iife/spine-player.js`;
+    const urls = [cdn(exact), cdn(minor + '.x')];
+    if (versions[minor]) urls.push(`/static/vendor/spine-player-${versions[minor]}.js`);
+    const loading = (async () => {
+      for (const url of urls) {
+        try {
+          const response = await fetch(url, {signal: AbortSignal.timeout(8000)});
+          if (!response.ok || /(?:text\/html|application\/json)/i.test(response.headers.get('content-type') || '')) continue;
+          const source = await response.text();
+          if (!source.trim() || /^\s*</.test(source)) continue;
+          // Each official IIFE gets a separate lexical scope: 3.8 must never merge into 4.x.
+          // Compile/execute failures and HTTP-200 error pages fall through to the next source.
+          const runtime = new Function(source + '\nreturn typeof spine === "undefined" ? null : spine;\n//# sourceURL=' + url)();
+          const webgl = runtime?.webgl || runtime;
+          if (!['Skeleton', 'SkeletonJson', 'SkeletonBinary', 'AnimationState', 'AnimationStateData', 'AtlasAttachmentLoader', 'Vector2'].every(key => typeof runtime?.[key] === 'function') ||
+              !['ManagedWebGLRenderingContext', 'SceneRenderer', 'AssetManager'].every(key => typeof webgl?.[key] === 'function')) continue;
+          return runtime;
+        } catch { /* Missing patch release, invalid code, CORS, timeout, or offline. */ }
+      }
+      throw new Error(`无法加载 Spine ${exact} / ${minor}.x 运行时，请检查网络后重试`);
+    })();
+    runtimes.set(minor, loading);
+    loading.catch(() => { if (runtimes.get(minor) === loading) runtimes.delete(minor); });
   }
-  return runtimes.get(version);
+  return runtimes.get(minor);
 }
 
 export const debugOptions = [
@@ -61,9 +76,12 @@ class Surface {
     this.skeleton = new r.Skeleton(data);
     this.animationState = new r.AnimationState(new r.AnimationStateData(data));
     this.animationState.data.defaultMix = 0;
-    this.group.animations = data.animations.map(a => a.name);
+    const runtimeNames = data.animations.map(a => a.name), originalNames = this.group.animations || [];
+    // JSON object enumeration moves numeric names (such as "0") to the front.
+    // Keep the source order recorded by extraction when choosing the fallback animation.
+    this.group.animations = [...originalNames.filter(name => runtimeNames.includes(name)), ...runtimeNames.filter(name => !originalNames.includes(name))];
     this.group.skins = data.skins.map(s => s.name);
-    this.state.animation ||= this.group.animations[0] || '';
+    this.state.animation ||= preferredAnimation(this.group.animations);
     this.state.skin ||= this.group.initial_skin || this.group.skins.find(s => s !== 'default') || this.group.skins[0] || '';
     // The reference captures the setup pose before applying any animation.
     this.updateWorld();
@@ -166,7 +184,7 @@ class Pool {
   }
   render(delta) {
     const active = this.surfaces.filter(s => s.ready && !s.disposed);
-    if (!active.length) return;
+    if (!active.length) return 0;
     const width = this.detail ? active[0].canvas.width : 320;
     const height = this.detail ? active[0].canvas.height : 240;
     // Bounded backing sheet: even hundreds of cards use the same context and GPU buffer.
@@ -213,6 +231,7 @@ class Pool {
           0, 0, surface.canvas.width, surface.canvas.height);
       });
     }
+    return active.length;
   }
   dispose() {
     this.disposed = true; this.surfaces.forEach(s => s.dispose());
@@ -221,24 +240,37 @@ class Pool {
 }
 
 export class RenderHub {
-  constructor({detail = false} = {}) {
+  constructor({detail = false, fps = detail ? 60 : 30, afterFrame = null} = {}) {
     this.detail = detail; this.pools = new Map(); this.disposed = false; this.lastTime = 0;
-    const frame = time => {
-      if (this.disposed) return;
+    this.stats = new FrameStats(); this.frameListeners = new Set();
+    const frame = this.frame = time => {
+      if (this.disposed || this.suspended) return;
       this.raf = requestAnimationFrame(frame);
-      if (time - this.lastTime < (detail ? 15 : 32)) return;
+      if (time - this.lastTime < 1000 / fps - 1) return;
       const dt = this.lastTime ? Math.min((time - this.lastTime) / 1000, 0.1) : 0;
       this.lastTime = time;
-      for (const pending of this.pools.values()) if (pending.pool) pending.pool.render(dt);
+      const start = performance.now(); let count = 0;
+      for (const pending of this.pools.values()) if (pending.pool) count += pending.pool.render(dt);
+      afterFrame?.();
+      if (count || afterFrame) {
+        this.stats.record(time, performance.now() - start, count);
+        for (const listener of this.frameListeners) listener(time);
+      }
     };
     this.raf = requestAnimationFrame(frame);
+  }
+  setSuspended(suspended) {
+    if (this.disposed || this.suspended === suspended) return;
+    this.suspended = suspended; cancelAnimationFrame(this.raf); this.lastTime = 0;
+    this.stats.reset();
+    if (!suspended) this.raf = requestAnimationFrame(this.frame);
   }
   async add(group, canvas, state, callbacks = {}) {
     const version = runtimeVersion(group);
     let surface;
     try {
       if (!this.pools.has(version)) {
-        const pending = loadRuntime(version).then(runtime => {
+        const pending = loadRuntime(group.version).then(runtime => {
           if (this.disposed) return null;
           const pool = new Pool(runtime, this.detail); pending.pool = pool; return pool;
         });
@@ -254,6 +286,7 @@ export class RenderHub {
   }
   dispose() {
     this.disposed = true; cancelAnimationFrame(this.raf);
+    this.frameListeners.clear();
     for (const pending of this.pools.values()) pending.pool?.dispose();
     this.pools.clear();
   }

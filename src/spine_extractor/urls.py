@@ -85,5 +85,5 @@ def event_link(url: str) -> bool:
     p = urlsplit(url)
     return bool(p.hostname and any(p.hostname == d or p.hostname.endswith("." + d)
                                   for d in ("mihoyo.com", "hoyoverse.com", "hoyolab.com"))
-                and "/event/" in p.path and not p.path.startswith("/common/")
+                and ("/event/" in p.path or p.path.startswith('/puzzle/')) and not p.path.startswith("/common/")
                 and Path(p.path).suffix.lower() in {"", ".html", ".htm"})

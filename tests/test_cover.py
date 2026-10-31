@@ -151,3 +151,32 @@ async def test_library_shows_cover_and_retake_action(web):
             assert await page.locator('a a, a button').count() == 0
         finally:
             await browser.close()
+
+
+@pytest.mark.skipif(not os.environ.get('SPINE_BROWSER_TEST'), reason='Set SPINE_BROWSER_TEST=1')
+async def test_stale_backend_explains_version_instead_of_missing_cover(web):
+    from playwright.async_api import async_playwright
+
+    from spine_extractor.browser import launch_browser
+
+    client, _ = web
+    bootstrap = client.get('/api/bootstrap').json()
+    bootstrap['version'] = '0.3.0'
+    async with async_playwright() as pw:
+        browser = await launch_browser(pw, Options(), headed=False)
+        try:
+            page = await browser.new_page()
+            posts = []
+            page.on('request', lambda request: posts.append(request.url) if request.method == 'POST' else None)
+            await page.route('**/api/bootstrap', lambda route: route.fulfill(json=bootstrap))
+            await page.route('**/api/instance', lambda route: route.abort())
+            await page.goto(str(client.base_url))
+            banner = page.locator('.backend-warning')
+            await banner.wait_for()
+            assert 'v0.3.0' in await banner.inner_text()
+            assert '重新运行' in await banner.inner_text()
+            assert '封面文件无需重新生成' in await banner.inner_text()
+            message = await page.evaluate("async () => { const {api}=await import('/static/api.js'); try {await api('/api/covers',{});} catch(e) {return e.message;} }")
+            assert 'v0.3.0' in message and not posts
+        finally:
+            await browser.close()

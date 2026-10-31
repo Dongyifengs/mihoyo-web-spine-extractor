@@ -1,7 +1,8 @@
 import {api, node, toast, watchJob} from './api.js';
-import {RenderHub, debugOptions} from './renderer.js';
+import {RenderHub, debugOptions, preferredAnimation} from './renderer.js';
+import {FrameMonitor} from './performance.js';
 
-const initialAnimation = group => (group.animations || []).find(name => /idle|loop|stand/i.test(name)) || group.animations?.[0] || '';
+const initialAnimation = group => preferredAnimation(group.animations);
 const button = (label, action, className = '') => {
   const result = node('button', className, label); result.type = 'button'; result.onclick = action; return result;
 };
@@ -12,10 +13,10 @@ export class Gallery {
     this.render();
   }
   destroy() {
-    this.destroyed = true; this.hub.dispose(); this.closeDetail(); this.dialog?.remove(); this.container.replaceChildren();
+    this.destroyed = true; this.monitor?.destroy(); this.hub.dispose(); this.closeDetail(); this.dialog?.remove(); this.container.replaceChildren();
   }
   reload(activity) {
-    this.hub.dispose(); this.closeDetail(); this.dialog?.remove(); this.dialog = null;
+    this.monitor?.destroy(); this.hub.dispose(); this.closeDetail(); this.dialog?.remove(); this.dialog = null;
     this.activity = activity; this.render();
   }
   state(index) {
@@ -31,6 +32,7 @@ export class Gallery {
     const text = node('div'); text.append(node('h2', '', activity.title), node('p', 'muted', `${activity.groups.length} 组素材 · ${activity.complete_count} 组齐全 · ${activity.groups.filter(g => g.spine_project?.status === 'success').length} 个工程`));
     const actions = node('div', 'activity-actions');
     actions.append(button('打开文件夹', () => this.action('open-folder')), button('全部生成 .spine', () => this.convert()));
+    const composition = node('a', 'button', '测试合并'); composition.href = '/#composition/' + activity.id; actions.prepend(composition);
     for (const [label, url] of [['报告 ↗', activity.report_url], ['活动网页 ↗', activity.page_url]]) {
       const link = node('a', 'button', label); link.href = url; link.target = '_blank'; link.rel = 'noopener'; actions.append(link);
     }
@@ -56,6 +58,7 @@ export class Gallery {
     this.grid = node('div', 'gallery-grid');
     activity.groups.forEach((group, index) => this.grid.append(this.card(group, index)));
     this.container.replaceChildren(heading, toolbar, this.grid);
+    this.monitor = new FrameMonitor(this.hub, this.container, {floating: true}); toolbar.append(this.monitor.button);
     if (!activity.groups.length) this.grid.append(node('div', 'empty-state', '没有识别到 Spine 资源。可重新捕获，并进入活动场景。'));
     // Start every preview now; scrolling and filtering never create or destroy renderers.
     this.cards.forEach((card, index) => {
@@ -65,9 +68,8 @@ export class Gallery {
         ready: surface => {
           if (this.destroyed) return;
           card.surface = surface;
-          const animated = surface.skeleton.data.animations.filter(a => a.duration > 0);
           if (!this.state(index).userAnimation) {
-            this.state(index).animation = (animated.find(a => /idle|loop|stand/i.test(a.name)) || animated[0])?.name || this.state(index).animation;
+            this.state(index).animation = initialAnimation(group);
             surface.setState(true);
           }
           card.placeholder.hidden = true; card.element.dataset.preview = 'ready';
@@ -164,6 +166,7 @@ export class Gallery {
   }
   openDetail(index) {
     this.closeDetail(); this.dialog?.remove();
+    this.hub.setSuspended(true); this.grid.classList.add('previews-suspended');
     const group = this.activity.groups[index]; this.detailIndex = index;
     const dialog = node('dialog', 'detail-modal'); this.dialog = dialog;
     const top = node('div', 'detail-top'), title = node('div', 'detail-title'); title.append(node('h2', '', group.name)); this.addExtraTag(title, group);
@@ -216,7 +219,7 @@ export class Gallery {
     if (group.spine_project?.default_animation) side.append(node('p', 'field-note', `工程默认动作：${group.spine_project.default_animation}`));
     for (const message of [...(group.warnings || []), ...[group.spine_project?.error, group.spine_project?.selection_warning].filter(Boolean)]) side.append(node('p', 'detail-warning', message));
     body.append(viewer, side); dialog.append(top, body); document.body.append(dialog);
-    dialog.addEventListener('close', () => this.closeDetail());
+    dialog.addEventListener('close', () => { if (this.dialog === dialog) this.closeDetail(); });
     dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
     dialog.showModal();
     const resize = () => {
@@ -243,6 +246,7 @@ export class Gallery {
     }, {passive: false});
     canvas.ondblclick = () => this.detailSurface?.fit();
     this.detailHub = new RenderHub({detail: true});
+    this.detailMonitor = new FrameMonitor(this.detailHub, preview); top.insertBefore(this.detailMonitor.button, full);
     this.detailHub.add(group, canvas, this.state(index), {
       ready: surface => {
         if (!dialog.open) return;
@@ -261,9 +265,11 @@ export class Gallery {
   closeDetail() {
     if (this.fullscreenChange) document.removeEventListener('fullscreenchange', this.fullscreenChange);
     if (this.detailIndex !== undefined && document.fullscreenElement) document.exitFullscreen().catch(() => {});
+    this.detailMonitor?.destroy(); this.detailMonitor = null;
     this.detailHub?.dispose(); this.resizeObserver?.disconnect(); this.detailHub = null; this.detailSurface = null;
     if (this.detailIndex !== undefined) this.cards[this.detailIndex]?.controls.sync();
     this.detailIndex = undefined;
+    this.hub.setSuspended(false); this.grid.classList.remove('previews-suspended');
   }
   async action(name, payload = {}) {
     try { await api(`/api/activities/${this.activity.id}/${name}`, payload); } catch (error) { toast(error.message); }

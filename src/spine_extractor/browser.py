@@ -7,6 +7,7 @@ from playwright.async_api import Error, async_playwright
 from .cover import COVER_VIEWPORT, Cover, page_cover
 from .models import Cancelled, Log, Options, Resource
 from .network import Fetcher
+from .scene import page_scene
 from .urls import ASSET_EXTS, http_url, suffix
 
 
@@ -16,6 +17,7 @@ class CaptureResult:
     html: str
     cover: Cover | None = None
     cover_error: str = ""
+    scene: dict | None = None
 
 
 async def launch_browser(pw, options: Options, *, headed=None):
@@ -112,6 +114,13 @@ async def capture(fetcher: Fetcher, url: str, *, with_cover=False) -> CaptureRes
                 except Exception as exc:
                     cover_error = str(exc).splitlines()[0]
                     fetcher.log(f"封面截图失败：{cover_error}")
+            scene = None
+            try:
+                scene = await page_scene(page, options, fetcher.log)
+            except Cancelled:
+                raise
+            except Exception as exc:
+                fetcher.log(f"合并布局未捕获，可稍后重试：{str(exc).splitlines()[0]}")
             final_url, html = page.url, await page.content()
             context.remove_listener("response", on_response)
             if tasks:
@@ -124,7 +133,7 @@ async def capture(fetcher: Fetcher, url: str, *, with_cover=False) -> CaptureRes
             # Reuse only this isolated session's cookies for CDN downloads.
             for cookie in await context.cookies():
                 fetcher.client.cookies.set(cookie["name"], cookie["value"], domain=cookie["domain"], path=cookie["path"])
-            return CaptureResult(final_url, html, cover, cover_error)
+            return CaptureResult(final_url, html, cover, cover_error, scene)
         finally:
             if cover_task:
                 cover_task.cancel()

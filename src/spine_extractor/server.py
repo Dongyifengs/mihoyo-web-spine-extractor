@@ -14,7 +14,7 @@ import webbrowser
 from copy import deepcopy
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import quote, unquote, urlsplit
+from urllib.parse import parse_qs, quote, unquote, urlsplit
 
 from . import __version__
 from .engine import run
@@ -22,7 +22,10 @@ from .browser import capture_cover
 from .cover import save_cover
 from .export import write_json
 from .models import Cancelled, Options
+from .network import Fetcher
+from .news import SOURCES, list_events, validate_source
 from .report import render_report
+from .scene import capture_scene, save_scene
 from .spine_cli import convert_group, detect_cli, editor_version, validate_cli
 from .urls import digest, safe_relative
 
@@ -80,6 +83,7 @@ class Workbench:
         self.active_job = None
         self.port = 0
         self.library: dict[str, Path] = {}
+        self.news_cache = {}
 
     def options(self, values=None) -> Options:
         data = {**self.settings, **(values or {})}
@@ -307,13 +311,56 @@ class Workbench:
             return result
         return self.add_job(options, generate, "截取活动封面")
 
+    def composition(self, key: str):
+        folder = self.folder(key)
+        path = confined(folder, 'composition.json')
+        if not path.is_file():
+            return {'scenes': [], 'warnings': [], 'width': 1280, 'height': 720}
+        data = json.loads(path.read_text('utf-8'))
+        for scene in data['scenes']:
+            scene['reference_url'] = f'/files/{key}/' + quote(scene['reference'], safe='/')
+            for layer in scene['layers']:
+                layer['image_url'] = f'/files/{key}/' + quote(layer['image'], safe='/')
+        return data
+
+    def capture_composition(self, key: str):
+        folder, manifest = self.activity(key)
+        options = self.options()
+
+        async def generate(log):
+            cover, data = await capture_scene(manifest.get('page_url') or manifest.get('input_url', ''), options, log)
+            options.check()
+            _, current = self.activity(key)
+            saved = save_scene(folder, data, current['groups'])
+            current['cover'] = save_cover(folder, cover)
+            current.pop('cover_error', None)
+            write_json(folder / 'manifest.json', current)
+            return {'kind': 'composition', 'scenes': len(saved['scenes']),
+                    'layers': sum(len(scene['layers']) for scene in saved['scenes'])}
+        return self.add_job(options, generate, '捕获原网页布局')
+
+    def news(self, source):
+        validate_source(source)
+        with self.lock:
+            cached = self.news_cache.get(source)
+        if cached and time.monotonic() - cached[0] < 300:
+            return cached[1]
+
+        async def fetch():
+            async with Fetcher(self.options(), lambda _: None) as fetcher:
+                return await list_events(fetcher, source)
+        result = asyncio.run(fetch())
+        with self.lock:
+            self.news_cache[source] = time.monotonic(), result
+        return result
+
 
 def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
     class Handler(BaseHTTPRequestHandler):
         def log_message(self, *_):
             pass
 
-        def send(self, status, data, mime="application/json; charset=utf-8"):
+        def send(self, status, data, mime="application/json; charset=utf-8", headers=None):
             if isinstance(data, (dict, list)):
                 data = json.dumps(data, ensure_ascii=False).encode("utf-8")
             elif isinstance(data, str):
@@ -323,6 +370,8 @@ def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
             self.send_header("Content-Length", str(len(data)))
             self.send_header("X-Content-Type-Options", "nosniff")
             self.send_header("Cache-Control", "no-store" if mime.startswith("application/json") else "no-cache")
+            for key, value in (headers or {}).items():
+                self.send_header(key, value)
             try:
                 self.end_headers()
                 self.wfile.write(data)
@@ -357,10 +406,25 @@ def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
                 if path == "/api/bootstrap":
                     return self.send(200, {"version": __version__, "csrf": state.csrf, "settings": state.settings,
                                            "detected_spine": detect_cli(), "active_job": state.active_job})
+                if path == '/api/instance':
+                    origin = self.headers.get('Origin', '')
+                    parsed = urlsplit(origin)
+                    if origin and (parsed.scheme != 'http' or parsed.hostname not in {'localhost', '127.0.0.1'}
+                                   or parsed.path or parsed.query or parsed.fragment or parsed.username):
+                        return self.send(403, {'error': '仅供本地工作台识别版本'})
+                    return self.send(200, {'version': __version__, 'output': state.settings['output']},
+                                     headers={'Access-Control-Allow-Origin': origin, 'Vary': 'Origin'} if origin else {})
                 if path == "/api/activities":
                     return self.send(200, state.refresh())
+                if path == '/api/news/sources':
+                    return self.send(200, SOURCES)
+                if path == '/api/news':
+                    source = parse_qs(urlsplit(self.path).query).get('source', ['genshin.web_cn'])[0]
+                    return self.send(200, state.news(source))
                 if parts[:2] == ["api", "activities"] and len(parts) == 3:
                     return self.send(200, state.detail(parts[2]))
+                if parts[:2] == ['api', 'activities'] and len(parts) == 4 and parts[3] == 'composition':
+                    return self.send(200, state.composition(parts[2]))
                 if parts[:2] == ["api", "activities"] and len(parts) == 5 and parts[3] == "preview":
                     return self.send(200, state.preview(parts[2], int(parts[4])))
                 if parts[:2] == ["api", "jobs"] and len(parts) == 3:
@@ -381,7 +445,7 @@ def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
                 raise FileNotFoundError("地址不存在")
             except FileNotFoundError as exc:
                 self.send(404, {"error": str(exc)})
-            except (ValueError, OSError, KeyError) as exc:
+            except (ValueError, OSError, KeyError, RuntimeError) as exc:
                 self.send(400, {"error": str(exc)})
 
         def do_POST(self):
@@ -424,6 +488,8 @@ def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
                     key, action = parts[2:]
                     if action == "cover":
                         return self.send(202, state.covers(key))
+                    if action == 'composition':
+                        return self.send(202, state.capture_composition(key))
                     if action == "convert":
                         return self.send(202, state.conversion(key, payload.get("groups")))
                     folder, manifest = state.activity(key)
@@ -457,18 +523,21 @@ def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="在本机浏览器中使用 Spine 素材工作台")
-    parser.add_argument("--port", type=int, default=8765)
+    parser.add_argument("--port", type=int, default=None)
     parser.add_argument("--output", type=Path)
     parser.add_argument("--config-dir", type=Path, default=Path(".spine-extractor"))
     parser.add_argument("--no-open", action="store_true", help="不自动打开浏览器")
     args = parser.parse_args(argv)
-    if not 0 <= args.port <= 65535:
+    if args.port is not None and not 0 <= args.port <= 65535:
         parser.error("端口必须在 0–65535 之间")
     state = Workbench(args.config_dir, args.output)
-    try:
-        server = make_server(state, args.port)
-    except OSError as exc:
-        parser.error(f"端口无法启动（可能已被占用），可使用 --port 更换端口：{exc}")
+    for port in ([args.port] if args.port is not None else [*range(8765, 8776), 0]):
+        try:
+            server = make_server(state, port)
+            break
+        except OSError as exc:
+            if args.port is not None or port == 0:
+                parser.error(f'端口无法启动：{exc}')
     url = f"http://127.0.0.1:{state.port}"
     print(f"Spine 素材工作台：{url}\n保持此终端运行，Ctrl+C 退出。", flush=True)
     if not args.no_open:

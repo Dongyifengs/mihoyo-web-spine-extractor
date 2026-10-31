@@ -23,4 +23,4 @@ Other Python dependencies are installed from their upstream distributions using 
 
 `dayu-extra.js` and `dayu-debug.js` adapt the postprocessing algorithms and DOM debug panel from the user-supplied `spine_mirror.zip`. The original copyright notice identifies Dayu Network Technology (大于网络科技), 2024–2026. The archive does not contain a separate license grant. These reference files retain their original rights and are **not relicensed under this project's MIT license**. See `static/vendor/DAYU-NOTICE.txt`.
 
-The adapter excludes the reference application's model manager, hosting, and unrelated application bootstrap. The original algorithms and panel are used only for browser preview, never baked into generated editor projects.
+The adapter excludes the reference application's model manager, hosting, and unrelated application bootstrap. The original algorithms are used only for browser preview, never baked into generated editor projects. The workbench now uses its own read-only `extra-panel.js`; the retained `dayu-debug.js` reference panel is not loaded.

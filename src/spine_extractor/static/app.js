@@ -1,5 +1,7 @@
 import {api, boot, node, toast, watchJob} from './api.js';
 import {Gallery} from './gallery.js';
+import {Composition} from './composition.js';
+import {NewsPage} from './news.js';
 
 const $ = id => document.getElementById(id);
 let bootstrap, activities = [], gallery, activeJob, polling, routeGeneration = 0;
@@ -67,18 +69,26 @@ async function requestCover(path, control) {
 async function route() {
   const generation = ++routeGeneration;
   const [section = 'extract', id] = location.hash.slice(1).split('/');
-  const view = ['extract', 'library', 'settings', 'activity'].includes(section) ? section : 'extract';
+  const view = ['extract', 'library', 'settings', 'activity', 'composition', 'news'].includes(section) ? section : 'extract';
   for (const element of document.querySelectorAll('.view')) element.hidden = element.id !== 'view-' + view;
-  for (const link of document.querySelectorAll('[data-nav]')) link.classList.toggle('active', link.dataset.nav === (view === 'activity' ? 'library' : view));
+  for (const link of document.querySelectorAll('[data-nav]')) link.classList.toggle('active', link.dataset.nav === (['activity', 'composition'].includes(view) ? 'library' : view));
   for (const link of document.querySelectorAll('[data-activity]')) link.classList.toggle('active', link.dataset.activity === id);
-  $('page-title').textContent = {extract: '提取素材', library: '素材库', settings: '设置', activity: '活动素材'}[view];
+  $('page-title').textContent = {extract: '提取素材', library: '素材库', settings: '设置', activity: '活动素材', composition: '测试合并', news: '网页活动'}[view];
   if (gallery) { gallery.destroy(); gallery = null; }
   if (view === 'library') await loadLibrary();
+  if (view === 'news') gallery = new NewsPage($('news-view'));
   if (view === 'activity' && id) {
     $('activity-gallery').replaceChildren(node('p', 'muted', '正在读取素材…'));
     try {
       const activity = await api('/api/activities/' + id);
       if (generation === routeGeneration) gallery = new Gallery($('activity-gallery'), activity);
+    } catch (error) { toast(error.message); }
+  }
+  if (view === 'composition' && id) {
+    $('composition-view').replaceChildren(node('p', 'muted', '正在读取原网页布局…'));
+    try {
+      const [activity, data] = await Promise.all([api('/api/activities/' + id), api(`/api/activities/${id}/composition`)]);
+      if (generation === routeGeneration) gallery = new Composition($('composition-view'), activity, data);
     } catch (error) { toast(error.message); }
   }
 }
@@ -89,6 +99,7 @@ function summarize(job) {
   if (job.status === 'cancelled') return '任务已停止，已经完成的文件保留。';
   const result = job.result;
   if (result.kind === 'covers') return `封面截图结束：${result.captured} 个成功，${result.failed} 个失败。`;
+  if (result.kind === 'composition') return `合并布局已生成：${result.scenes} 个场景，${result.layers} 个图层。`;
   if ('converted' in result) return `工程转换结束：${result.converted} 个成功，${result.failed} 个失败。`;
   const complete = result.activities.reduce((n, a) => n + a.complete, 0);
   const partial = result.activities.reduce((n, a) => n + a.partial, 0);
@@ -153,4 +164,4 @@ try {
   bootstrap = await boot(); $('app-version').textContent = 'v' + bootstrap.version; applySettings(bootstrap.settings);
   await loadLibrary(); await route();
   if (bootstrap.active_job) { const job = await api('/api/jobs/' + bootstrap.active_job); if (job.status === 'running') trackJob(job); }
-} catch (error) { toast('工作台启动失败：' + error.message); }
+} catch (error) { const banner = node('div', 'backend-warning', error.message); document.querySelector('.workspace').prepend(banner); toast('工作台启动失败：' + error.message); }

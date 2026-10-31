@@ -106,6 +106,8 @@ async def select_animation(project: Path, names: list[str], prefix: list[str], o
     """Validate a state-only candidate with the official reader before installing it."""
     if not names:
         return {}
+    preferred = next((name for name in names if 'loop' in name.lower()), names[0])
+    names = [preferred] + [name for name in names if name != preferred]
     original = project.read_bytes()
     try:
         candidate = selection_candidate(original, names)
@@ -138,7 +140,7 @@ async def select_animation(project: Path, names: list[str], prefix: list[str], o
             pending = root / "selected.spine"
             pending.write_bytes(candidate)
             pending.replace(project)
-        output_log.append(f"已默认选中第一个动画：{names[0]}（官方 CLI 回读校验通过）")
+        output_log.append(f"已默认选中动画：{names[0]}（优先 loop，官方 CLI 回读校验通过）")
         return {"default_animation": names[0]}
     except Cancelled:
         raise

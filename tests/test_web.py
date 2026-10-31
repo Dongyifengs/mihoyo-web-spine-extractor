@@ -28,7 +28,11 @@ def test_default_page_and_auth_guards(web):
     client, _ = web
     assert client.get("/").status_code == 200
     assert "正版" in client.get("/").text
-    assert client.get("/api/bootstrap").json()["version"] == "0.4.0"
+    assert client.get("/api/bootstrap").json()["version"] == "0.6.1"
+    instance = client.get('/api/instance', headers={'Origin': 'http://127.0.0.1:8766'})
+    assert instance.status_code == 200 and instance.headers['access-control-allow-origin'] == 'http://127.0.0.1:8766'
+    assert 'csrf' not in instance.json() and 'settings' not in instance.json()
+    assert client.get('/api/instance', headers={'Origin': 'https://evil.test'}).status_code == 403
     assert client.post("/api/settings", json={"spine_cli": ""}, headers={"Origin": "https://evil.test"}).status_code == 403
     assert client.post("/api/settings", json={}, headers={"X-Spine-Token": "wrong"}).status_code == 403
     assert client.get("/api/bootstrap", headers={"Host": "evil.test"}).status_code == 403
@@ -145,6 +149,7 @@ async def test_gallery_renders_all_cards_and_interactive_details(web, skeleton, 
         assert browser is not None, "Install a Playwright Chromium, Edge or Chrome browser"
         try:
             page = await browser.new_page(viewport={"width": 1400, "height": 960})
+            await page.route('https://unpkg.com/**', lambda route: route.abort())
             page.on("pageerror", lambda error: errors.append(str(error)))
             # Observe real runtime instances without adding test hooks to the shipped app.
             script = (STATIC / "gallery.js").read_text("utf-8").replace(
@@ -185,7 +190,7 @@ async def test_gallery_renders_all_cards_and_interactive_details(web, skeleton, 
             assert await page.evaluate("__testGallery.detailSurface.state.speed") == 0.5
             await dialog.get_by_label("放大", exact=True).click()
             assert await page.evaluate("__testGallery.detailSurface.view.zoom") > 1
-            view = dialog.locator('.detail-preview canvas')
+            view = dialog.locator('.detail-preview > canvas')
             box = await view.bounding_box()
             await page.mouse.move(box['x'] + 100, box['y'] + 100)
             await page.mouse.down()

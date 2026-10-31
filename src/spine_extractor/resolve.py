@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 
 from .browser import capture
 from .network import Fetcher
+from .news import news_input, resolve_news
 from .urls import event_link, http_url
 
 
@@ -77,6 +78,9 @@ async def resolve(fetcher: Fetcher, input_url: str) -> list[Target]:
     url = http_url(input_url)
     if not url:
         raise ValueError("请输入完整的 http:// 或 https:// 网页地址")
+    news = news_input(url)
+    if news:
+        return await resolve_news(fetcher, news)
     if event_link(url):
         return [Target(url)]
     resource = await fetcher.get(url)

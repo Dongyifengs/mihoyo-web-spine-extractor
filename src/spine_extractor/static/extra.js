@@ -1,11 +1,12 @@
 import {ExtraBone, ExtraSlot, createDebugProvider} from './vendor/dayu-extra.js';
-import {ExtraDebugPanel} from './vendor/dayu-debug.js';
+import {ExtraPanel} from './extra-panel.js';
 
 const poseFields = ['x', 'y', 'rotation', 'scaleX', 'scaleY', 'shearX', 'shearY'];
 
 /** Adapter for the exact post-animation algorithms in the supplied reference. */
 export class ExtraMotion {
   constructor(raw, skeleton, state, name, changed = () => {}) {
+    this.changed = changed;
     this.skeleton = skeleton; this.state = state; this.warnings = []; this.basePose = null;
     // The reference adds this signed, hierarchical scale helper to Spine Bone.
     // Official runtimes only expose getWorldScaleX/Y (matrix magnitudes).
@@ -67,19 +68,20 @@ export class ExtraMotion {
     if (this.provider.debugMode) this.snapshot();
   }
   snapshot() {
-    this.provider._frameData.set(this.mesh, {spineId: this.mesh.name, autoBones: this.mesh.autoBone.map(auto => {
-      const animation = auto.currentAnimation, history = auto.history?.current, bone = auto.rootBone;
-      return {rootBoneName: auto.rootBoneName, mode: animation?.mode ?? 0, trackName: auto.currentTrackName || 'none',
-        speedX: history?.speedX ?? 0, speedY: history?.speedY ?? 0,
-        forceX: animation?.forceX ?? 0, forceY: animation?.forceY ?? 0,
-        rotationDelta: bone ? bone.rotation - (bone.initRotation ?? 0) : 0,
-        elasticSpeedX: bone?.elasticSpeedX ?? 0, elasticSpeedY: bone?.elasticSpeedY ?? 0};
-    })});
+    this.provider._frameData.set(this.mesh, {spineId: this.mesh.name, autoBones: this.mesh.autoBone.map(auto => this.boneSnapshot(auto))});
+  }
+  boneSnapshot(auto) {
+    if (!auto) return null;
+    const animation = auto.currentAnimation, history = auto.history?.current, bone = auto.rootBone;
+    return {rootBoneName: auto.rootBoneName, mode: animation?.mode ?? 0, trackName: auto.currentTrackName || 'none',
+      speedX: history?.speedX ?? 0, speedY: history?.speedY ?? 0,
+      forceX: animation?.forceX ?? 0, forceY: animation?.forceY ?? 0,
+      rotationDelta: bone ? bone.rotation - (bone.initRotation ?? 0) : 0,
+      elasticSpeedX: bone?.elasticSpeedX ?? 0, elasticSpeedY: bone?.elasticSpeedY ?? 0};
   }
   showPanel(container) {
     if (this.panel) return;
-    this.snapshot();
-    this.panel = new ExtraDebugPanel({provider: this.provider, container, embedded: true, initialOpacity: 1});
+    this.panel = new ExtraPanel(this, container);
   }
   hidePanel() { this.panel?.destroy(); this.panel = null; }
   dispose() { this.hidePanel(); this.provider._skeletonMeshes.clear(); this.provider._frameData.clear(); }

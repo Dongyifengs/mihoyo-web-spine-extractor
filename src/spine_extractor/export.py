@@ -3,7 +3,7 @@ import io
 import json
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import parse_qsl, urljoin, urlsplit
 
 from PIL import Image
 
@@ -52,6 +52,16 @@ def select_image(scanner: Scanner, fetcher: Fetcher, atlas, page, candidates: li
             size = image_info(asset.data)
             if size and (named or (expected and size == expected)):
                 possible.append((2 if named else -1, asset.data, asset.source))
+    # OSS can serve a lossy WebP copy under the same PNG path. Prefer the valid
+    # unprocessed original for that exact resource; other query selectors stay distinct.
+    def variant(url):
+        parts = urlsplit(url)
+        query = parse_qsl(parts.query, keep_blank_values=True)
+        return ((parts.scheme, parts.netloc, parts.path, tuple(sorted((k, v) for k, v in query if k != 'x-oss-process'))),
+                any(k == 'x-oss-process' for k, _ in query))
+
+    originals = {variant(url)[0] for _, _, url in possible if not variant(url)[1]}
+    possible = [item for item in possible if not variant(item[2])[1] or variant(item[2])[0] not in originals]
     possible.sort(key=lambda item: (-item[0], item[2]))
     if not possible:
         return None, None, "未找到可用贴图（可能未加载、下载失败或尺寸不符）"
