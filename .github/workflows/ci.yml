@@ -1,4 +1,4 @@
-name: Tests and Windows build
+name: Tests and web package
 on:
   push:
   pull_request:
@@ -7,6 +7,7 @@ permissions:
   contents: read
 jobs:
   test:
+    timeout-minutes: 15
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
@@ -19,22 +20,23 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: python -m pip install -e ".[dev]"
       - run: python -m ruff check .
-      - run: python -m playwright install --with-deps chromium
+      - run: python -m playwright install --with-deps --only-shell chromium
+        if: runner.os == 'Linux'
+      - run: python -m playwright install --only-shell chromium
+        if: runner.os == 'Windows'
       - run: python -m pytest -q
         env:
           SPINE_BROWSER_TEST: '1'
-  windows-app:
+  web-package:
     if: github.event_name != 'pull_request'
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install -e ".[dev]"
-      - shell: pwsh
-        run: ./scripts/build_windows.ps1
+      - run: python scripts/package_web.py
       - uses: actions/upload-artifact@v4
         with:
-          name: MihoyoSpineExtractor-Windows
-          path: dist/MihoyoSpineExtractor.exe
+          name: mihoyo-spine-web
+          path: dist/mihoyo-spine-web.zip

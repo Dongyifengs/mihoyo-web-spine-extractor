@@ -28,7 +28,9 @@ async def test_static_pipeline_redirect_base_and_repeat_run(server, tmp_path):
     assert json.loads((dest / "skeleton.json").read_text())["skeleton"]["images"] == "./source/"
     assert json.loads((dest / "import.json").read_text())["skeleton"]["images"] == "./regions/"
     again = await run([base + "/index.html"], options, lambda _: None)
-    assert again["directory"] != result["directory"]
+    assert folder.name == "测试活动"
+    assert Path(again["activities"][0]["folder"]).name == "测试活动-1"
+    assert group["directory"] == "spine/hero"
     assert (dest / "hero.png").exists()
     assert requests.count("/assets/hero.1234abcd..png") == 2
 
@@ -52,7 +54,7 @@ async def test_limits_404_and_cancellation(server, tmp_path):
     options.cancel.set()
     result = await run([base + "/index.html"], options, lambda _: None)
     assert result["cancelled"]
-    assert (Path(result["directory"]) / "batch.json").exists()
+    assert Path(result["batch_file"]).exists()
 
 
 @pytest.mark.skipif(not os.environ.get("SPINE_BROWSER_TEST"), reason="Set SPINE_BROWSER_TEST=1 with a browser installed")

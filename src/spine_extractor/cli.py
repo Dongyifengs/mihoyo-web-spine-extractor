@@ -15,9 +15,12 @@ def parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="米哈游网页 Spine 提取器：支持活动页、新闻页和 RSS/Atom/JSON Feed")
     p.add_argument("urls", nargs="*", help="一个或多个网页地址")
     p.add_argument("--version", action="version", version=__version__)
-    p.add_argument("--gui", action="store_true", help="打开中文窗口")
     p.add_argument("--urls-file", type=Path, help="UTF-8 文本，每行一个网址")
-    p.add_argument("-o", "--output", type=Path, default=Path("downloads"), help="输出目录，默认 downloads")
+    p.add_argument("-o", "--output", type=Path, default=Path("outputs"), help="输出目录，默认 outputs")
+    p.add_argument("--title", default="", help="活动名称，留空读取网页标题")
+    p.add_argument("--spine-cli", default="", help="可选，已激活的正版 Spine CLI 路径，如 spine.com")
+    p.add_argument("--spine-version", default="", help="可选，指定用于导入工程的编辑器版本")
+    p.add_argument("--spine-timeout", type=float, default=180, help="每组工程转换超时秒数")
     p.add_argument("--mode", choices=["auto", "static", "browser"], default="auto", help="auto/browser 均扫描静态资源并捕获浏览器；static 仅静态")
     p.add_argument("--browser", choices=["auto", "chromium", "msedge", "chrome"], default="auto")
     p.add_argument("--headed", action="store_true", help="显示浏览器，可手动触发活动场景")
@@ -40,12 +43,13 @@ def main(argv: list[str] | None = None) -> int:
     for stream in (sys.stdout, sys.stderr):
         if stream and hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8", errors="replace")
+    argv = list(sys.argv[1:] if argv is None else argv)
+    if not argv or argv[0] == "serve":
+        from .server import main as serve
+        serve(argv[1:] if argv else [])
+        return 0
     p = parser()
     args = p.parse_args(argv)
-    if args.gui or (not args.urls and not args.urls_file):
-        from .gui import main as gui_main
-        gui_main()
-        return 0
     urls = args.urls[:]
     if args.urls_file:
         try:
@@ -63,6 +67,7 @@ def main(argv: list[str] | None = None) -> int:
             feed_limit=args.feed_limit, concurrency=args.concurrency, timeout=args.timeout, retries=args.retries,
             max_files=args.max_files, max_file_mb=args.max_file_mb, max_total_mb=args.max_total_mb,
             proxy=args.proxy, unpack=not args.no_unpack,
+            title=args.title, spine_cli=args.spine_cli, spine_version=args.spine_version, spine_timeout=args.spine_timeout,
         )
         if args.list:
             async def listing():
@@ -84,7 +89,7 @@ def main(argv: list[str] | None = None) -> int:
     if result["cancelled"]:
         return 130
     if result["errors"] or not result["activities"] or any(
-        a["partial"] or not a["skeletons"] or (args.mode == "browser" and a["warnings"])
+        a["partial"] or a.get("conversion_failed") or not a["skeletons"] or (args.mode == "browser" and a["warnings"])
         for a in result["activities"]
     ):
         return 2

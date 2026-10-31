@@ -62,6 +62,25 @@ def digest(data: bytes | str, length: int = 12) -> str:
     return hashlib.sha256(data.encode() if isinstance(data, str) else data).hexdigest()[:length]
 
 
+def unique_directory(parent: Path, name: str) -> Path:
+    """Reserve a human-readable directory atomically, with Windows-safe collision handling."""
+    parent.mkdir(parents=True, exist_ok=True)
+    stem = safe_name(name, "未命名活动")
+    existing = {p.name.casefold() for p in parent.iterdir()}
+    counter = 0
+    while True:
+        suffix = "" if counter == 0 else f"-{counter}"
+        candidate = stem[:80 - len(suffix)].rstrip(" .") + suffix
+        if candidate.casefold() not in existing:
+            path = parent / candidate
+            try:
+                path.mkdir(exist_ok=False)
+                return path
+            except FileExistsError:
+                pass
+        counter += 1
+
+
 def event_link(url: str) -> bool:
     p = urlsplit(url)
     return bool(p.hostname and any(p.hostname == d or p.hostname.endswith("." + d)

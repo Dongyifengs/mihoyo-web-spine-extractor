@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spine 素材工作台</title><link rel="stylesheet" href="/static/app.css"></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="#extract"><span class="brand-symbol">S</span><span>SPINE<span class="brand-sub">素材工作台</span></span></a>
+  <div class="nav-label">工作空间</div>
+  <nav><a href="#extract" data-nav="extract">＋ <span>提取素材</span></a><a href="#library" data-nav="library">▦ <span>素材库</span><span id="library-count" class="nav-count">0</span></a><a href="#settings" data-nav="settings">⚙ <span>设置</span></a></nav>
+  <div class="nav-label recent-label">最近的活动</div><div id="recent-activities" class="recent-list"></div>
+  <div class="sidebar-foot"><span class="connection-dot"></span> 本地运行 <span id="app-version"></span><a href="/static/vendor/SPINE-RUNTIMES-LICENSE.txt" target="_blank">运行时许可</a></div>
+</aside>
+<main class="workspace">
+  <header class="topbar"><div><div class="eyebrow">MIHOYO WEB ASSETS</div><h1 id="page-title">提取素材</h1></div><a class="button subtle" href="#library">查看素材库 <span>↗</span></a></header>
+  <section id="view-extract" class="view">
+    <div class="intro"><span class="tag">FROM WEB TO SPINE</span><h2>把网页里的动画，<br>整理成你的素材库。</h2><p>粘贴一个活动地址，提取骨骼与贴图。预览动作，切换皮肤，或生成 Spine 工程。</p></div>
+    <form id="extract-form" class="panel extract-panel">
+      <div class="panel-heading"><h3>新建提取</h3><span class="muted">活动页 / 新闻文章 / RSS 订阅</span></div>
+      <label for="urls">网页地址</label><textarea id="urls" rows="3" placeholder="https://act.mihoyo.com/ys/event/...&#10;支持多个地址，每行一个" required></textarea>
+      <div class="form-grid three"><div><label for="task-title">活动名称 <span class="muted">选填</span></label><input id="task-title" placeholder="自动读取网页标题"></div><div><label for="mode">扫描方式</label><select id="mode"><option value="auto">自动扫描 + 浏览器捕获</option><option value="static">仅静态扫描</option><option value="browser">浏览器捕获 + 静态补全</option></select></div><div class="form-grid two"><div><label for="wait">捕获秒数</label><input id="wait" type="number" min="0" max="1800" value="12"></div><div><label for="feed-limit">订阅处理数</label><input id="feed-limit" type="number" min="1" max="500" value="3"></div></div></div>
+      <div class="check-row"><label class="check"><input id="headed" type="checkbox">显示浏览器，手动进入活动场景</label><label class="check"><input id="unpack" type="checkbox" checked>拆分素材图片</label></div>
+      <div class="conversion-option"><label class="check"><input id="convert" type="checkbox">同时生成 .spine 工程</label><span id="convert-hint" class="muted">可在设置中配置正版 Spine CLI</span></div>
+      <div class="form-footer"><div class="save-location"><span class="muted">保存到</span><span id="output-label"></span><a href="#settings">更改</a></div><button class="button primary" id="start-task" type="submit">开始提取 <span>→</span></button></div>
+    </form>
+    <div class="info-strip"><span>◌</span><p>资源按「活动标题 / Spine 项目名」整理；同名目录会依次添加 -1、-2。需要交互加载的场景，可以打开浏览器手动进入。</p></div>
+    <section id="job-panel" class="panel job-panel" hidden><div class="panel-heading"><h3 id="job-title">正在提取</h3><button id="cancel-task" class="button danger small">停止任务</button></div><div class="job-progress"><span></span></div><p id="job-summary"></p><pre id="job-log" aria-live="polite"></pre><div id="job-results"></div></section>
+  </section>
+  <section id="view-library" class="view" hidden><div class="section-heading"><p class="muted">选择一个活动，浏览所有动画素材。</p><button id="refresh-library" class="button small">刷新</button></div><div id="library-grid" class="library-grid"></div></section>
+  <section id="view-activity" class="view" hidden><div id="activity-gallery"></div></section>
+  <section id="view-settings" class="view" hidden><form id="settings-form">
+    <section class="panel settings-panel"><h3>文件保存</h3><label for="settings-output">输出目录</label><input id="settings-output" required><p class="field-note">直接在此目录下按活动标题创建文件夹，重复名称依次编号。</p></section>
+    <section class="panel settings-panel"><div class="panel-heading"><h3>Spine CLI</h3><span class="badge amber">可选 · 需要正版</span></div><p class="settings-description">使用已激活的正版 Spine 编辑器，将 JSON / SKEL 与切片导入为 <strong>.spine</strong> 工程，双击即可在 Spine 中打开。不配置也可以提取和网页预览。</p><label for="settings-spine">CLI 文件路径</label><div class="input-action"><input id="settings-spine" placeholder="D:\Program Files\Spine\spine.com"><button id="detect-spine" class="button" type="button">使用检测路径</button></div><p class="field-note">Windows 请选择安装目录里的 spine.com。首次使用某个版本时，Spine 可能需要下载对应编辑器。</p><div class="form-grid two"><div><label for="settings-spine-version">编辑器版本 <span class="muted">选填</span></label><input id="settings-spine-version" placeholder="自动匹配骨骼版本，如 4.2.43"></div><div><label for="settings-spine-timeout">单组转换超时（秒）</label><input id="settings-spine-timeout" type="number" min="10" max="3600" value="180"></div></div></section>
+    <section class="panel settings-panel"><h3>网络</h3><label for="settings-proxy">代理地址 <span class="muted">选填</span></label><input id="settings-proxy" placeholder="http://127.0.0.1:7890"><p class="field-note">应用于下载、浏览器捕获和 Spine 版本下载。</p></section><button class="button primary" type="submit">保存设置</button><span id="settings-saved" class="saved-indicator"></span>
+  </form></section>
+</main><div id="job-dock" hidden><span class="connection-dot"></span><span id="dock-title">任务运行中</span><a href="#extract">查看进度 →</a></div><div id="toast" role="status"></div>
+<script type="module" src="/static/app.js"></script></body></html>

@@ -8,7 +8,7 @@ from .export import export, write_json
 from .models import Cancelled, Log, Options
 from .network import Fetcher
 from .resolve import Target, resolve
-from .urls import digest, safe_name
+from .urls import unique_directory
 
 
 async def crawl(scanner: Scanner, fetcher: Fetcher):
@@ -66,10 +66,11 @@ async def extract_target(target: Target, options: Options, log: Log, batch_folde
                 log(scanner.warnings[-1])
         if not scanner.skeletons:
             scanner.warnings.append("未发现骨骼：页面可能没有 Spine、活动已下线，或需要交互才能加载。")
-        title = scanner.title or target.title or target.url.split("/event/")[-1].split("/")[0]
-        folder = batch_folder / (safe_name(title, "activity")[:48] + "-" + digest(target.url.split("?", 1)[0], 8))
-        if folder.exists():
-            folder = folder.with_name(folder.name + "-" + digest(target.url, 8))
+        title = options.title.strip() or scanner.title or target.title or "未命名活动"
+        if title == "未命名活动":
+            scanner.warnings.append("网页未提供标题，可在网页设置活动名称，或使用浏览器模式获取动态标题。")
+        scanner.title = title
+        folder = unique_directory(batch_folder, title)
         manifest = await export(scanner, fetcher, folder, {
             "input_url": target.url, "article_url": target.article, "title": title,
             "mode": options.mode, "browser_capture": browser_ok,
@@ -77,16 +78,19 @@ async def extract_target(target: Target, options: Options, log: Log, batch_folde
         return {"url": target.url, "folder": str(folder.resolve()), "report": str((folder / "report.html").resolve()),
                 "skeletons": manifest["skeleton_count"], "atlases": manifest["atlas_count"],
                 "complete": manifest["complete_count"], "partial": sum(g["status"] != "complete" for g in manifest["groups"]),
+                "conversion_failed": sum(g.get("spine_project", {}).get("status") == "failed" for g in manifest["groups"]),
                 "warnings": manifest["warnings"]}
 
 
 async def run(urls: list[str], options: Options, log: Log = print) -> dict:
-    """One run gets a fresh directory. Partial batch results survive errors/cancellation."""
+    """Activity titles are the top-level folders; repeated names get -1, -2, ... ."""
     options.output.mkdir(parents=True, exist_ok=True)
     run_name = datetime.now().strftime("%Y%m%d-%H%M%S-%f")
-    folder = options.output.resolve() / run_name
-    folder.mkdir(exist_ok=False)
-    result = {"directory": str(folder), "activities": [], "errors": [], "cancelled": False}
+    folder = options.output.resolve()
+    history = folder / ".spine-extractor" / "runs"
+    history.mkdir(parents=True, exist_ok=True)
+    batch_file = history / (run_name + ".json")
+    result = {"directory": str(folder), "batch_file": str(batch_file), "activities": [], "errors": [], "cancelled": False}
     seen = set()
     try:
         for url in urls:
@@ -115,7 +119,7 @@ async def run(urls: list[str], options: Options, log: Log = print) -> dict:
                 except Exception as exc:
                     result["errors"].append({"url": target.url, "error": str(exc)})
                     log(f"活动处理失败: {exc}")
-                write_json(folder / "batch.json", result)
+                write_json(batch_file, result)
     except Cancelled:
         result["cancelled"] = True
         log("已取消，已完成的文件保留")
@@ -123,5 +127,5 @@ async def run(urls: list[str], options: Options, log: Log = print) -> dict:
         result["cancelled"] = True
         raise
     finally:
-        write_json(folder / "batch.json", result)
+        write_json(batch_file, result)
     return result

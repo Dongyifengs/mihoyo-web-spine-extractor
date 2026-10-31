@@ -129,6 +129,10 @@ class Scanner:
         soup = BeautifulSoup(text, "html.parser")
         if soup.title and soup.title.get_text(strip=True) and not self.title:
             self.title = soup.title.get_text(strip=True)
+        if not self.title:
+            meta = soup.find("meta", attrs={"property": "og:title"}) or soup.find("meta", attrs={"name": "twitter:title"})
+            if meta and meta.get("content"):
+                self.title = meta["content"].strip()
         base_tag = soup.find("base", href=True)
         base = http_url(base_tag["href"], source) if base_tag else source
         base = base or source
@@ -179,6 +183,8 @@ class Scanner:
             self.add_json(value, source, hint)
         elif isinstance(value, dict):
             for key, child in value.items():
+                if key == "web_title" and isinstance(child, str) and not self.title:
+                    self.title = child.strip()
                 self.walk_json(child, source, key, depth + 1)
         elif isinstance(value, list):
             for child in value:

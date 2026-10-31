@@ -1,133 +1,143 @@
-# 米哈游网页 Spine 提取器
+# 米哈游网页 Spine 素材工作台
 
-输入活动网页、官网新闻链接或 RSS 订阅地址，自动发现并下载 Spine 骨骼、图集和贴图，按 **活动 → 资源组** 整理，生成可直接打开的中文报告。
+输入米哈游活动网页、新闻链接或 RSS 地址，提取 Spine 骨骼、atlas 和贴图，按活动标题整理。在本地网页中浏览动画卡片、切换动作与皮肤；可选调用正版 Spine CLI 拆图并生成 `.spine` 工程。
 
-Python 3.11+，中文桌面窗口 + 命令行。Windows 可打包为独立 EXE；提取与拆分图片不需要安装 Spine 编辑器。
+**Python 3.11+，本地网页应用。** 启动服务后打开浏览器操作，默认地址 `http://127.0.0.1:8765`。不需要桌面窗口或 EXE。
 
-## 使用
+## 启动
 
-### Windows 窗口
+Windows 安装 Python 3.11 或更新版本，下载本仓库或 Actions 中的 `mihoyo-spine-web` 压缩包，解压后双击 **`启动网页.bat`**。首次启动会创建虚拟环境并安装依赖，然后打开浏览器。保持启动终端运行，关闭终端会停止服务。
 
-使用打包后的 `MihoyoSpineExtractor.exe`：双击运行，粘贴地址，选择目录，点击「开始提取」。无需 Python。浏览器捕获自动尝试 Chromium、系统 Edge、系统 Chrome。
-
-从源码运行：安装 Python 3.11 或更新版本，双击 `安装依赖.bat`，完成后双击 `启动窗口.bat`。
-
-也可手动安装：
+也可以手动运行：
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\python -m pip install -e .
-.venv\Scripts\python -m spine_extractor --gui
+.venv\Scripts\python -m spine_extractor serve
 ```
 
-没有可用浏览器时，静态模式仍能工作。源码版可安装专用 Chromium：
+macOS/Linux 将 `.venv\Scripts\python` 换成 `.venv/bin/python`。安装后也可使用 `spine-web`。端口被占用时执行 `python -m spine_extractor serve --port 8766`；`--no-open` 禁用自动打开浏览器。
 
-```powershell
-.venv\Scripts\python -m playwright install chromium
-```
+浏览器捕获依次尝试 Playwright Chromium、系统 Edge、系统 Chrome。均未安装时可运行 `python -m playwright install chromium`，或使用静态模式。
 
-Linux 使用窗口需要系统的 Tk（如 `python3-tk`）；命令行不需要 Tk。Windows 构建产物也会出现在仓库 Actions 中成功的 `Tests and Windows build` 运行的 Artifacts 区域。
+## 网页操作
 
-### 命令行
+1. **提取素材**：粘贴活动、新闻或 RSS 地址，每行一个。默认静态扫描结合浏览器捕获；需要交互的活动可勾选显示浏览器、增加等待时间，再进入相应场景。
+2. **素材库**：选择活动，在网格中直接观看动画。每张卡片都有动作、皮肤、播放/暂停、循环和重播控制，详情提供大预览、速度选择和文件入口。
+3. **设置**：修改输出目录、代理，以及可选的 Spine CLI 路径。设置保存在本机 `.spine-extractor/settings.json`。
 
-```powershell
-# 默认：静态扫描 + 12 秒浏览器捕获
-spine-extract "https://act.mihoyo.com/ys/event/e20260520invite-19ccy4/index.html"
+预览按骨骼版本选择随包提供的 Spine 3.8 / 4.0 / 4.1 / 4.2 运行时，无需从 CDN 加载。当前视野最多启用 8 个卡片播放器，滚出视野后释放；详情使用独立播放器。其他版本或资源异常会显示具体错误，原始素材仍可下载。
 
-# 快速静态扫描，保存到指定目录
-spine-extract "活动地址" --mode static -o downloads
+报告与素材库使用同样的动画卡片。从工作台打开报告；直接以 `file://` 双击 `report.html` 无法加载网页服务中的播放器和操作接口。
 
-# 需要点击或切换场景的活动：显示浏览器，留 120 秒供手动操作
-spine-extract "活动地址" --headed --wait 120
+## 可选：生成 Spine 工程
 
-# 输入官网文章，自动展开并寻找“点击参与活动”
-spine-extract "https://ys.mihoyo.com/main/news/detail/164277"
+**需要自行安装并激活正版 Spine，工具不提供编辑器或许可证。** 不配置 CLI 时仍可提取、拆图；网页预览运行时的许可见下方第三方说明。
 
-# RSS：默认处理前 3 个不同活动，按订阅源原始顺序
-spine-extract "https://news-api.amarea.cn/news/feed/genshin.web_cn?whitelist=%E7%BD%91%E9%A1%B5%E6%B4%BB%E5%8A%A8" --feed-limit 3
+在「设置 → Spine CLI」填写安装目录中的 `spine.com`，例如 `D:\Program Files\Spine\spine.com`，也可点击检测路径。保存后：
 
-# 只看订阅源中的入口，不提取活动素材
-spine-extract "订阅地址" --list --feed-limit 10
+- 新提取任务可勾选「生成 .spine 工程」。
+- 已提取活动可点击「全部生成 .spine」，或在单个素材详情中生成。
+- 成功后点击「在 Spine 中打开工程」，或直接双击项目目录里的 `.spine` 文件（需要系统已关联 Spine 编辑器）。
 
-# 批量输入：UTF-8 文件，每行一个地址，# 开头为注释
-spine-extract --urls-file urls.txt --mode static --no-unpack --json
+程序调用 CLI 解包 atlas，再导入骨骼；图片路径使用相对于工程的 `./regions/`。原始 JSON/二进制保持不变。二进制骨骼会先通过 CLI 转出用于导入的 JSON 副本。
 
-# 显式代理、浏览器和扫描上限
-spine-extract "活动地址" --proxy http://127.0.0.1:7890 --browser msedge --max-files 2000 --max-total-mb 768
-```
+默认按骨骼版本选择编辑器，`4.0-from-4.1.24` 使用其来源版本 `4.1.24` 导入。也可以在设置中指定版本。首次使用某个版本时 Spine 可能需要下载更新，必要时增大超时。版本、授权或数据不兼容时会保留素材并显示失败原因，详见该组 `spine-cli.log`。
 
-未激活虚拟环境时，可用 `.venv\Scripts\python -m spine_extractor` 替代 `spine-extract`。在 macOS/Linux 中改用 `.venv/bin/python`。
-
-`--mode auto` 和 `browser` 都会做静态扫描与浏览器捕获；`browser` 模式捕获失败时命令行返回非零状态。`static` 不启动浏览器。`--no-unpack` 跳过图块拆分，适合大活动快速归档。所有选项见 `spine-extract --help`。
-
-返回码：`0` 已发现的资源组均配套；`2` 存在失败入口、不完整资源或未发现骨骼；`130` 取消；`1` 参数之外的启动错误。默认保存请求失败诊断，但资源探测产生的无关 404 不会使完整的资源组失败。
-
-## 输出结构
+## 文件组织
 
 ```text
-downloads/时间戳/
-  batch.json                         # 本次批量任务摘要
-  活动名-地址摘要/
-    report.html                      # 双击查看：完整/待补齐、版本、文件入口
-    manifest.json                    # 来源、配对依据、SHA-256、缺图和请求失败
+outputs/
+  魔女尼可的茶会/
+    report.html
+    manifest.json                    # 来源、配对依据、完整性、版本、动画与工程状态
     spine/
-      资源名-内容摘要/
+      game_bei_a/
         skeleton.json 或 skeleton.skel
         skeleton.atlas
-        原图集页面名.png              # 与 atlas 内页面名称一致，支持多页和子目录
-        regions/                     # 拆分后的区域图片，恢复旋转与裁剪偏移
-        import.json                  # 拆分成功时生成的编辑器导入副本
+        原图集页面名.png              # 与 atlas 内的文件名一致，支持多页、子目录
+        regions/                     # 拆分出的图片
+        import.json                  # 相对图片路径的导入副本
+        game_bei_a.spine              # 可选：正版 CLI 转换成功后生成
+        spine-cli.log                # 可选：转换记录
         metadata.json
-    unpaired/                        # 配对有歧义或缺少骨骼/图集，原样保留供核对
-    embedded-images/                 # 脚本内的图片，可能含非 Spine 辅助素材
+      game_bei_a-1/                  # 同名不同资源按顺序编号
+    unpaired/                        # 缺少配套或配对有歧义的资源
+    embedded-images/                 # 脚本内的辅助图片
+  魔女尼可的茶会-1/                   # 再次提取保留上一次结果
+  .spine-extractor/runs/              # 批量任务记录
 ```
 
-每次运行新建目录，保留以前的结果。文件内容重复会去重，文件夹附加内容摘要，避免同名覆盖。
+活动名优先使用手动名称，其次使用网页标题和入口提供的标题。动态标题通过浏览器获取；确实没有标题时标为「未命名活动」，可手动填写。活动和项目目录均不添加随机摘要。遇到同名按 `-1`、`-2`、`-3` 编号；Windows 不允许的字符会替换。
 
-`skeleton.json` 保留骨骼数据及原有版本、缩放、图片路径；独立下载的 JSON 保留原始字节，JS 内嵌数据转为合法 JSON。`import.json` 只将编辑器图片目录设为 `./regions/`。不会自动改版本号、缩放数值，也不会生成专有的 `.spine` 工程文件。
+`skeleton.json` 保留原始版本、缩放和图片目录，独立 JSON 保留原始字节。仅 `import.json` 使用 `./regions/`。未配置 CLI 时，Pillow 拆图保留原贴图像素和预乘 Alpha，不擅自改版本或修复画质。
 
-## 支持的资源形式
+## 命令行
 
-- 旧版 `JSON.parse(...)`、单/双引号和静态模板字符串中的骨骼与 atlas。
-- 新版直接内嵌的 JavaScript 对象，包括当前样本使用的 Spine 4.2 数据。
-- 独立 `.json`、`.atlas`、`.skel`；带可识别 Spine 版本头的 `.bin` / `.bytes`。
-- HTML 脚本、CSS、iframe、ESM 资源引用、可静态求值的 webpack 懒加载 chunk 文件名。
-- 浏览器实际收到的脚本、JSON、二进制、图片和延迟响应；显示浏览器后可手动触发场景。
-- 哈希文件名、CDN/相对路径、`<base>`、重定向、URL 查询参数、内嵌 data URI 图片。
-- 新旧 atlas 字段、多页贴图、90/180/270 度旋转、裁剪偏移与序列区域。
-- RSS、Atom、JSON Feed；优先使用正文中的参与活动链接，动态新闻页用浏览器展开。
+```powershell
+# 开启本地网页
+spine-extract serve --port 8765
 
-配对依据是文件名、骨骼附件路径与图集区域的对应关系，以及原始附件尺寸。不会依赖压缩变量名、固定的 `vendors.js` 文件名或字符串相邻位置。候选同样匹配时保留为待核对，不猜配。
+# 提取活动，默认静态扫描 + 12 秒浏览器捕获
+spine-extract "https://act.mihoyo.com/ys/event/e20260520invite-19ccy4/index.html"
 
-## 实际验证
+# 快速扫描；静态网页无标题时可指定名称
+spine-extract "活动地址" --mode static --title "活动名称" -o outputs
 
-已验证提供的 2026 年茶会活动、2023 年 4.2 前瞻页及 RSS 中的新活动。详情和验证范围见 [测试记录](docs/validation.md)。离线测试使用自建素材与本地 HTTP 服务，不把网站素材提交到仓库。
+# 显示浏览器以手动触发场景
+spine-extract "活动地址" --headed --wait 120
 
-## 适用范围
+# 可选工程转换
+spine-extract "活动地址" --spine-cli "D:\Program Files\Spine\spine.com"
 
-工具能提取静态引用可发现的资源和本次浏览器会话加载的资源。**网页未透露地址的远端资源、未触发的懒加载分支、登录后才返回的内容，不能保证全部发现。** 缺失时增加捕获时长，在显示的浏览器中进入相关场景后重试。程序不自动登录、执行活动任务或处理验证码。
+# 新闻正文中的参与入口
+spine-extract "https://ys.mihoyo.com/main/news/detail/164277"
 
-动态表达式、加密/自定义封装数据、未知图集格式可能需要新增适配器。骨骼二进制会原样保存，不转换成 JSON。区域拆分保留原像素，包括原贴图的预乘 Alpha；不做自动反预乘或画质修复。
+# RSS 默认按源顺序处理前 3 个不同活动
+spine-extract "https://news-api.amarea.cn/news/feed/genshin.web_cn?whitelist=%E7%BD%91%E9%A1%B5%E6%B4%BB%E5%8A%A8" --feed-limit 3
 
-报告中的「资源齐全」表示骨骼、atlas、贴图及可检查的附件引用配套，**不表示已经用 Spine 运行时验证全部动画**。导入编辑器或播放器时仍需匹配资源版本。无 Spine 的网页会产生零资源报告，而不会把普通图片误报为骨骼。
+# 只列出 RSS 活动入口
+spine-extract "订阅地址" --list --feed-limit 10
 
-默认并发 6、超时 25 秒、失败重试 2 次；每活动最多 1500 个请求、单文件 48 MiB、总下载 512 MiB。上限会记录到诊断中，可用命令行调整。批量活动依次处理，避免同时占用多个浏览器和大量内存。提取素材的权利归原作者，仓库的 MIT 许可仅适用于本工具代码。
+# 批量地址文件；不拆图，只保存原始资源
+spine-extract --urls-file urls.txt --mode static --no-unpack --json
+```
 
-## 开发与构建
+未激活虚拟环境时用 `.venv\Scripts\python -m spine_extractor` 替代 `spine-extract`。更多设置见 `spine-extract --help`。CLI 配置来自命令参数，网页设置不会自动应用到独立的提取命令。
+
+返回码：`0` 已发现资源组配套完整；`2` 有失败入口、不完整组、无骨骼或工程转换失败；`130` 用户取消；`1` 启动错误。无关探测的 404 会记入清单，不会使已配套资源失败。
+
+## 发现与配对范围
+
+支持旧 `JSON.parse` / 字符串与现代 JavaScript 内嵌对象、独立 JSON/atlas/skel、可识别版本头的 bin/bytes、HTML/CSS/iframe/ESM、静态可求值的 webpack 懒加载文件名、浏览器实际收到的网络响应、CDN/相对路径和 data URI。入口支持 RSS、Atom、JSON Feed、新闻正文的「点击参与活动」。
+
+配对依靠文件名、附件路径、atlas 区域和附件尺寸；候选同样匹配时保留待核对。支持多页、新旧 atlas、90/180/270 度旋转、裁剪偏移和序列区域。
+
+**仅能发现网页公开引用以及本次浏览器会话加载的资源。** 未触发的远端分支、需要登录才返回的地址、加密或自定义封装可能需要手动进入场景或新增适配。程序不自动登录或完成活动任务。
+
+「资源齐全」表示骨骼、atlas 和贴图配套；具体动画是否可播放以播放器结果为准。默认并发 6、超时 25 秒、失败重试 2 次；每活动最多 1500 请求、单文件 48 MiB、总下载 512 MiB，命令行可调整。
+
+## 开发与验证
 
 ```powershell
 python -m pip install -e ".[dev]"
 python -m ruff check .
 python -m pytest -q
 
-# 可选浏览器集成测试（需 Chromium / Edge / Chrome）
+# 实际浏览器捕获和 WebGL 播放测试
 $env:SPINE_BROWSER_TEST = "1"
 python -m pytest -q
 
-# Windows 单文件 EXE；不把整套 Chromium 打包进去，默认复用 Edge/Chrome
-./scripts/build_windows.ps1
+# 打包仓库跟踪的网页源码与运行时
+python scripts/package_web.py
 ```
 
-模块职责：`resolve` 入口解析，`javascript` 安全的静态语法读取，`discovery` 资源发现，`browser` 网络捕获，`network` 有界并发下载，`matching` 配对，`atlas` 图集解析和裁切，`export` 导出与报告，`engine` 编排，`gui` / `cli` 两个入口。
+CI 在 Windows/Linux、Python 3.11/3.12 执行测试，并产生网页源码压缩包。真实活动、CLI 与网页验证记录见 [docs/validation.md](docs/validation.md)。
 
-格式依据：[Spine atlas 格式](https://esotericsoftware.com/spine-atlas-format)、[Spine JSON 格式](https://esotericsoftware.com/spine-json-format)。浏览器捕获使用 [Playwright 网络 API](https://playwright.dev/python/docs/network)，脚本语法读取使用 [Tree-sitter](https://github.com/tree-sitter/py-tree-sitter)。参考过用户提供的 AutoSpineProTools / SpineAuto 的功能需求，本实现重新编写，不依赖其中的 Spine 安装路径或代理配置。
+主要模块：`resolve` 入口解析，`javascript` 静态语法读取，`discovery` 发现，`browser` 网络捕获，`network` 有界下载，`matching` 配对，`atlas` 拆图，`export` 归档，`spine_cli` 工程转换，`server` 本地 API，`static` 网页界面与播放器。
+
+## 许可与参考
+
+本工具原创代码使用 MIT 许可；提取素材的权利归原作者。随包提供的 Spine Runtimes **不属于 MIT 许可**，使用与再分发须遵守其独立许可，详见 [第三方说明](THIRD_PARTY_NOTICES.md) 与 [运行时许可全文](src/spine_extractor/static/vendor/SPINE-RUNTIMES-LICENSE.txt)。
+
+格式参考：[Spine atlas](https://esotericsoftware.com/spine-atlas-format)、[Spine JSON](https://esotericsoftware.com/spine-json-format)、[Spine Player](https://esotericsoftware.com/spine-player)。网络捕获使用 [Playwright](https://playwright.dev/python/docs/network)，脚本分析使用 [Tree-sitter](https://github.com/tree-sitter/py-tree-sitter)。参考了用户提供的 AutoSpineProTools / SpineAuto 的功能，本实现重新编写。

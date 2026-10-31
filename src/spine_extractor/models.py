@@ -10,7 +10,7 @@ class Cancelled(Exception):
 
 @dataclass
 class Options:
-    output: Path = Path("downloads")
+    output: Path = Path("outputs")
     mode: str = "auto"
     browser: str = "auto"
     headed: bool = False
@@ -24,6 +24,10 @@ class Options:
     feed_limit: int = 3
     unpack: bool = True
     proxy: str | None = None
+    title: str = ""
+    spine_cli: str = ""
+    spine_version: str = ""
+    spine_timeout: float = 180
     cancel: Event = field(default_factory=Event, repr=False)
 
     def __post_init__(self):
@@ -32,7 +36,7 @@ class Options:
             raise ValueError("mode 必须是 auto、static 或 browser")
         if self.browser not in {"auto", "chromium", "msedge", "chrome"}:
             raise ValueError("browser 必须是 auto、chromium、msedge 或 chrome")
-        for key in ("concurrency", "timeout", "max_files", "max_file_mb", "max_total_mb", "feed_limit"):
+        for key in ("concurrency", "timeout", "max_files", "max_file_mb", "max_total_mb", "feed_limit", "spine_timeout"):
             if getattr(self, key) <= 0:
                 raise ValueError(f"{key} 必须大于 0")
         if self.wait < 0 or self.retries < 0:

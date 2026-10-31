@@ -1,10 +1,9 @@
 import asyncio
-import html
 import io
 import json
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import quote, urljoin, urlsplit
+from urllib.parse import urljoin, urlsplit
 
 from PIL import Image
 
@@ -12,7 +11,9 @@ from .atlas import numbers, parse_atlas, unpack_atlas
 from .discovery import Scanner, binary_version
 from .matching import attachments, pair_assets
 from .network import Fetcher
-from .urls import basename, digest, normalized_name, safe_name, safe_relative
+from .urls import basename, digest, normalized_name, safe_name, safe_relative, unique_directory
+from .report import render_report
+from .spine_cli import convert_group
 
 
 def image_info(data: bytes) -> tuple[int, int] | None:
@@ -87,11 +88,10 @@ async def export(scanner: Scanner, fetcher: Fetcher, folder: Path, metadata: dic
         fetcher.options.check()
         pages = parse_atlas(atlas.data.decode("utf-8")) if atlas else []
         name = normalized_name(skeleton.name if skeleton and skeleton.name else atlas.name if atlas and atlas.name else pages[0].name if pages else "skeleton")
-        group_id = digest((skeleton.data if skeleton else b"") + (atlas.data if atlas else b""), 8)
         category = "spine" if skeleton and atlas else "unpaired"
-        relative = Path(category) / f"{safe_name(name)}-{group_id}"
-        dest = folder / relative
-        dest.mkdir(parents=True, exist_ok=True)
+        dest = unique_directory(folder / category, name)
+        name = dest.name
+        relative = dest.relative_to(folder)
         warnings, files, textures = [], [], []
         missing_regions = []
         version = ""
@@ -128,7 +128,7 @@ async def export(scanner: Scanner, fetcher: Fetcher, folder: Path, metadata: dic
                     warnings.append(str(exc))
                 textures.append(row)
         crop_count = 0
-        if atlas and fetcher.options.unpack:
+        if atlas and (fetcher.options.unpack or fetcher.options.spine_cli):
             crop_count, crop_warnings = await asyncio.to_thread(unpack_atlas, pages, dest)
             warnings.extend(crop_warnings)
             if skeleton and skeleton.value and crop_count and not crop_warnings:
@@ -147,7 +147,18 @@ async def export(scanner: Scanner, fetcher: Fetcher, folder: Path, metadata: dic
             "atlas_sha256": digest(atlas.data, 64) if atlas else None,
             "files": files, "textures": textures, "region_images": crop_count,
             "missing_regions": missing_regions, "warnings": warnings,
+            "animations": list(skeleton.value.get("animations", {})) if skeleton and skeleton.value else [],
+            "skins": (list(skeleton.value.get("skins", {})) if isinstance(skeleton.value.get("skins", {}), dict)
+                      else [s.get("name", "default") for s in skeleton.value.get("skins", [])]) if skeleton and skeleton.value else [],
+            "premultiplied_alpha": any(p.props.get("pma", "false").lower() == "true" for p in pages),
+            "bounds": {key: val for key, val in (skeleton.value.get("skeleton", {}) if skeleton and skeleton.value else {}).items()
+                       if key in {"x", "y", "width", "height"}},
         }
+        if fetcher.options.spine_cli and complete:
+            group["spine_project"] = await convert_group(dest.resolve(), group, fetcher.options, fetcher.log)
+            if group["spine_project"]["status"] == "success":
+                files.append(group["spine_project"]["project"])
+                group["region_images"] = len(list((dest / "regions").rglob("*.png")))
         write_json(dest / "metadata.json", group)
         groups.append(group)
         fetcher.log(f"{'完整' if complete else '待补齐'} · {name} · Spine {version or '未知'} · {len(textures)} 张贴图")
@@ -160,7 +171,7 @@ async def export(scanner: Scanner, fetcher: Fetcher, folder: Path, metadata: dic
             path.write_bytes(asset.data)
             embedded.append({"file": path.relative_to(folder).as_posix(), "source": asset.source})
     manifest = {
-        "schema_version": 1, "created_at": datetime.now(timezone.utc).isoformat(),
+        "schema_version": 2, "created_at": datetime.now(timezone.utc).isoformat(),
         **metadata, "page_url": scanner.page_url, "title": scanner.title or metadata.get("title", ""),
         "skeleton_count": len(scanner.skeletons), "atlas_count": len(scanner.atlases),
         "complete_count": sum(g["status"] == "complete" for g in groups),
@@ -173,28 +184,3 @@ async def export(scanner: Scanner, fetcher: Fetcher, folder: Path, metadata: dic
     write_json(folder / "manifest.json", manifest)
     (folder / "report.html").write_text(render_report(manifest), encoding="utf-8")
     return manifest
-
-
-def render_report(manifest: dict) -> str:
-    esc = html.escape
-    cards = []
-    for group in manifest["groups"]:
-        links = " · ".join(f'<a href="{quote(group["directory"] + "/" + file)}">{esc(file)}</a>' for file in group["files"])
-        issues = "".join(f"<li>{esc(w)}</li>" for w in group["warnings"])
-        badge = "资源齐全" if group["status"] == "complete" else "需要补齐"
-        cards.append(f'<article><h2>{esc(group["name"])} <small>{badge}</small></h2>'
-                     f'<p>Spine {esc(group["version"] or "未知")} · {len(group["textures"])} 张贴图 · '
-                     f'{group["region_images"]} 张区域图片</p><p>{esc(group["pairing_reason"])}</p>'
-                     f'<p>{links}</p><ul>{issues}</ul></article>')
-    warnings = "".join(f"<li>{esc(w)}</li>" for w in manifest["warnings"])
-    return f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
-<title>Spine 提取报告</title><style>
-body{{font:16px/1.65 system-ui,sans-serif;max-width:1080px;margin:48px auto;padding:0 24px;background:#f3f5f7;color:#18242f}}
-h1{{font-size:32px}}article{{background:white;border:1px solid #dde3e8;border-radius:12px;margin:16px 0;padding:20px 24px}}
-h2{{margin:0;font-size:20px}}small{{font-size:13px;color:#267568;margin-left:12px}}a{{color:#1669b0;overflow-wrap:anywhere}}
-p{{margin:8px 0}}li{{color:#8a4b17}}footer{{color:#536575;margin-top:32px}}
-</style><h1>{esc(manifest["title"] or "Spine 提取报告")}</h1>
-<p>{manifest["skeleton_count"]} 份骨骼 · {manifest["atlas_count"]} 份图集 · {manifest["complete_count"]} 组资源齐全</p>
-<p><a href="manifest.json">查看完整清单与下载诊断</a> · <a href="{esc(manifest["page_url"], quote=True)}">活动页面</a></p>
-<ul>{warnings}</ul>{"".join(cards) or "<article>未识别到 Spine 资源。可增加等待时间，或打开浏览器进入活动后再提取。</article>"}
-<footer>{esc(manifest["scope"])}<br>“资源齐全”表示骨骼、图集与贴图已配套，不等同于已验证动画运行效果。</footer></html>'''

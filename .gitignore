@@ -7,5 +7,7 @@ __pycache__/
 build/
 dist/
 downloads/
+outputs/
+.spine-extractor/
 *.spec
 .DS_Store
