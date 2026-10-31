@@ -12,7 +12,19 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from .models import Cancelled, Options
+from .project_state import selection_candidate
 from .urls import safe_name
+
+EXTRA_EXPORT_NOTICE = "extra 飘动后处理仅支持网页预览，Spine 工程不包含此效果；原始骨骼文件已保留。"
+
+
+def json_export_settings(folder: Path) -> str:
+    # Explicit settings also work with 3.8, which does not accept `-e json`.
+    path = folder / "export-settings.json"
+    path.write_text(json.dumps({"class": "export-json", "extension": ".json", "format": "JSON",
+        "prettyPrint": True, "nonessential": True, "cleanUp": False, "packAtlas": None,
+        "warnings": True, "open": False}), encoding="utf-8")
+    return str(path)
 
 
 def editor_version(version: str) -> str:
@@ -89,6 +101,53 @@ async def run_command(args: list[str], cwd: Path, options: Options) -> str:
             await communication
 
 
+async def select_animation(project: Path, names: list[str], prefix: list[str], options: Options,
+                           runner, output_log: list[str]) -> dict:
+    """Validate a state-only candidate with the official reader before installing it."""
+    if not names:
+        return {}
+    original = project.read_bytes()
+    try:
+        candidate = selection_candidate(original, names)
+        with tempfile.TemporaryDirectory(prefix=".spine-selection-", dir=project.parent) as temp:
+            root = Path(temp)
+            settings = json_export_settings(root)
+            args = prefix.copy()
+            for label, content in [("before", original), ("after", candidate)]:
+                folder = root / label
+                folder.mkdir()
+                source = folder / "project.spine"
+                source.write_bytes(content)
+                args += ["-i", str(source), "-o", str(folder / "json"), "-e", settings]
+            output_log.append(await runner(args, project.parent, options))
+            exports = []
+            for label in ("before", "after"):
+                files = list((root / label / "json").glob("*.json"))
+                if len(files) != 1:
+                    raise ValueError("编辑器未返回唯一的校验骨骼")
+                value = json.loads(files[0].read_bytes())
+                # The two temporary directories change only this relative path.
+                value.get("skeleton", {}).pop("images", None)
+                value.get("skeleton", {}).pop("audio", None)
+                exports.append(value)
+            if exports[0] != exports[1]:
+                raise ValueError("默认动画候选未通过骨骼数据一致性校验")
+            options.check()
+            if project.read_bytes() != original:
+                raise ValueError("工程已被其他程序修改，保留当前文件")
+            pending = root / "selected.spine"
+            pending.write_bytes(candidate)
+            pending.replace(project)
+        output_log.append(f"已默认选中第一个动画：{names[0]}（官方 CLI 回读校验通过）")
+        return {"default_animation": names[0]}
+    except Cancelled:
+        raise
+    except Exception as exc:
+        warning = f"工程已生成，但默认动画未自动选择：{exc}。请在编辑器中手动选择。"
+        output_log.append(warning)
+        return {"selection_warning": warning}
+
+
 async def convert_group(folder: Path, group: dict, options: Options, log=print, runner=run_command) -> dict:
     """Import a complete group. A failed optional conversion never removes original assets."""
     info = {"status": "failed", "project": None, "editor_version": "", "log": "spine-cli.log"}
@@ -109,16 +168,29 @@ async def convert_group(folder: Path, group: dict, options: Options, log=print, 
             value = json.loads(json_path.read_bytes())
         else:
             with tempfile.TemporaryDirectory(prefix=".spine-import-", dir=folder) as temp:
-                output_log.append(await runner(prefix + ["-i", str(folder / "skeleton.skel"), "-o", temp, "-e", "json"], folder, options))
-                candidates = list(Path(temp).glob("*.json"))
+                target = Path(temp) / "json"
+                settings = json_export_settings(Path(temp))
+                output_log.append(await runner(prefix + ["-i", str(folder / "skeleton.skel"), "-o", str(target), "-e", settings], folder, options))
+                candidates = list(target.glob("*.json"))
                 if len(candidates) != 1:
                     raise RuntimeError("二进制骨骼导出 JSON 失败")
                 value = json.loads(candidates[0].read_bytes())
+        if "extra" in value:
+            info["extra_notice"] = EXTRA_EXPORT_NOTICE
+            log(EXTRA_EXPORT_NOTICE)
+            output_log.append(EXTRA_EXPORT_NOTICE)
+        for field in ("extra", "extraSlot", "extraConfig"):
+            value.pop(field, None)
         value.setdefault("skeleton", {})["images"] = "./regions/"
         import_path = folder / "import.json"
         import_path.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
         project = folder / (safe_name(group["name"], "project") + ".spine")
         if project.is_file() and project.stat().st_size and (folder / "regions").is_dir():
+            # Existing projects may have been edited by the user; never patch them.
+            previous = group.get("spine_project") or {}
+            for key in ("default_animation", "selection_warning"):
+                if key in previous:
+                    info[key] = previous[key]
             info.update(status="success", project=project.name)
             return info
         log(f"Spine {version}：拆分贴图并生成 {project.name}")
@@ -128,6 +200,10 @@ async def convert_group(folder: Path, group: dict, options: Options, log=print, 
         output_log.append(await runner(args, folder, options))
         if not project.is_file() or not project.stat().st_size:
             raise RuntimeError("CLI 没有生成工程文件，请检查正版激活状态、版本和 CLI 日志")
+        info.update(await select_animation(project, list(value.get("animations", {})), prefix, options,
+                                           runner, output_log))
+        if info.get("selection_warning"):
+            log(info["selection_warning"])
         info.update(status="success", project=project.name)
         log(f"已生成：{project.name}")
     except Cancelled:

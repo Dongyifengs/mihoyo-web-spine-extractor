@@ -4,7 +4,29 @@ import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 import pytest
+import httpx
 from PIL import Image
+
+from spine_extractor.server import Workbench, make_server
+
+
+@pytest.fixture
+def web(tmp_path):
+    state = Workbench(tmp_path / "state", tmp_path / "outputs")
+    httpd = make_server(state, 0)
+    thread = threading.Thread(target=httpd.serve_forever, daemon=True)
+    thread.start()
+    origin = f"http://127.0.0.1:{httpd.server_port}"
+    with httpx.Client(base_url=origin, timeout=20, trust_env=False,
+                      headers={"Origin": origin, "X-Spine-Token": state.csrf}) as client:
+        yield client, state
+    for options in state.job_options.values():
+        options.cancel.set()
+    if state.worker:
+        state.worker.join(10)
+    httpd.shutdown()
+    httpd.server_close()
+    thread.join()
 
 
 @pytest.fixture

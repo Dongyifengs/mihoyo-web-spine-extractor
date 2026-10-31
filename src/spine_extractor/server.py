@@ -21,7 +21,7 @@ from .engine import run
 from .export import write_json
 from .models import Cancelled, Options
 from .report import render_report
-from .spine_cli import convert_group, detect_cli, validate_cli
+from .spine_cli import convert_group, detect_cli, editor_version, validate_cli
 from .urls import digest, safe_relative
 
 STATIC = Path(__file__).with_name("static")
@@ -43,6 +43,20 @@ def open_local(path: Path):
         subprocess.Popen(["open", str(path)])
     else:
         subprocess.Popen(["xdg-open", str(path)])
+
+
+def open_project(path: Path, group: dict, settings: dict):
+    if not settings.get("spine_cli"):
+        return open_local(path)
+    cli = validate_cli(settings["spine_cli"])
+    version = editor_version(group.get("spine_project", {}).get("editor_version") or group.get("version", ""))
+    # Reusing another version's running editor can ignore both -u and animate mode.
+    args = [str(cli), "-u", version, "--no-reuse-instance", "--auto-start"]
+    if tuple(int(part) for part in version.split(".")[:2]) >= (4, 1):
+        args.append("--animate-mode")
+    args.append(str(path))
+    subprocess.Popen(args, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                     **({"creationflags": subprocess.CREATE_NO_WINDOW} if os.name == "nt" else {}))
 
 
 class Workbench:
@@ -135,10 +149,11 @@ class Workbench:
         group = deepcopy(original)
         directory = confined(folder, group["directory"])
         skeleton = "skeleton.json" if (directory / "skeleton.json").is_file() else "skeleton.skel"
-        if not group.get("animations") or not group.get("skins") or not group.get("bounds"):
+        if "has_extra" not in group or not group.get("animations") or not group.get("skins") or not group.get("bounds"):
             try:
                 source = directory / (skeleton if skeleton.endswith("json") else "import.json")
                 value = json.loads(source.read_bytes())
+                group["has_extra"] = "extra" in value
                 group["animations"] = list(value.get("animations", {}))
                 skins = value.get("skins", {})
                 group["skins"] = list(skins) if isinstance(skins, dict) else [s["name"] for s in skins]
@@ -375,7 +390,7 @@ def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
                         file = confined(folder, group["directory"] + "/" + project)
                         if file.suffix.lower() != ".spine" or not file.is_file():
                             raise ValueError("工程文件不存在")
-                        open_local(file)
+                        open_project(file, group, state.settings)
                         return self.send(200, {"opened": True})
                 raise FileNotFoundError("地址不存在")
             except FileNotFoundError as exc:

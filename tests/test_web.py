@@ -1,39 +1,34 @@
 import json
 import os
-import threading
 import time
 from pathlib import Path
 
-import httpx
 import pytest
 
-from spine_extractor.server import Workbench, make_server
+from spine_extractor.server import Workbench
 from spine_extractor.urls import unique_directory
 
 
-@pytest.fixture
-def web(tmp_path):
-    state = Workbench(tmp_path / "state", tmp_path / "outputs")
-    httpd = make_server(state, 0)
-    thread = threading.Thread(target=httpd.serve_forever, daemon=True)
-    thread.start()
-    origin = f"http://127.0.0.1:{httpd.server_port}"
-    with httpx.Client(base_url=origin, timeout=20, trust_env=False, headers={"Origin": origin, "X-Spine-Token": state.csrf}) as client:
-        yield client, state
-    for options in state.job_options.values():
-        options.cancel.set()
-    if state.worker:
-        state.worker.join(10)
-    httpd.shutdown()
-    httpd.server_close()
-    thread.join()
+@pytest.mark.parametrize("version, animated", [("4.2.43", True), ("4.1.17", True), ("3.8.99", False)])
+def test_open_project_uses_saved_editor_version(tmp_path, monkeypatch, version, animated):
+    from spine_extractor.server import open_project
+
+    cli = tmp_path / "spine.com"
+    cli.touch()
+    project = tmp_path / "测试 空格.spine"
+    called = []
+    monkeypatch.setattr("spine_extractor.server.subprocess.Popen", lambda args, **kwargs: called.append(args))
+    open_project(project, {"version": "4.0-from-4.1.17", "spine_project": {"editor_version": version}},
+                 {"spine_cli": str(cli)})
+    assert called == [[str(cli), "-u", version, "--no-reuse-instance", "--auto-start"]
+                      + (["--animate-mode"] if animated else []) + [str(project)]]
 
 
 def test_default_page_and_auth_guards(web):
     client, _ = web
     assert client.get("/").status_code == 200
     assert "正版" in client.get("/").text
-    assert client.get("/api/bootstrap").json()["version"] == "0.2.0"
+    assert client.get("/api/bootstrap").json()["version"] == "0.3.0"
     assert client.post("/api/settings", json={"spine_cli": ""}, headers={"Origin": "https://evil.test"}).status_code == 403
     assert client.post("/api/settings", json={}, headers={"X-Spine-Token": "wrong"}).status_code == 403
     assert client.get("/api/bootstrap", headers={"Host": "evil.test"}).status_code == 403
@@ -62,6 +57,7 @@ def test_job_to_library_and_report(web, server):
     assert group["directory"] == "spine/hero"
     assert group["animations"] == ["idle"]
     assert group["skins"] == ["default"]
+    assert group["has_extra"] is False
     assert client.get(group["skeleton_url"]).status_code == 200
     assert client.get(group["atlas_url"]).status_code == 200
     assert client.get(group["preview_url"]).status_code == 200
@@ -94,7 +90,7 @@ def test_sequential_names_without_hashes(tmp_path):
 
 @pytest.mark.skipif(not os.environ.get("SPINE_BROWSER_TEST"), reason="Set SPINE_BROWSER_TEST=1")
 @pytest.mark.parametrize("version", ["3.8.99", "4.0.64", "4.1.24", "4.2.43"])
-async def test_gallery_renders_controls_and_releases_offscreen_players(web, skeleton, atlas, png, version):
+async def test_gallery_renders_all_cards_and_interactive_details(web, skeleton, atlas, png, version):
     """Use real bundled runtimes and WebGL with synthetic assets, without internet access."""
     from copy import deepcopy
 
@@ -124,7 +120,7 @@ async def test_gallery_renders_controls_and_releases_offscreen_players(web, skel
     group = {"name": "hero", "directory": "spine/hero", "status": "complete", "version": version,
              "textures": [{"name": "hero.png"}], "files": ["skeleton.json", "skeleton.atlas", "hero.png"],
              "animations": list(value["animations"]), "skins": ["default", "alternate"]}
-    count = 30 if version.startswith("4.2") else 1
+    count = 70 if version.startswith("4.2") else 1
     manifest = {"title": "动画测试", "groups": [dict(group, name=f"hero-{i}") for i in range(count)],
                 "complete_count": count, "skeleton_count": count, "atlas_count": count, "page_url": "https://example.test/event/"}
     (folder / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
@@ -142,57 +138,75 @@ async def test_gallery_renders_controls_and_releases_offscreen_players(web, skel
         try:
             page = await browser.new_page(viewport={"width": 1400, "height": 960})
             page.on("pageerror", lambda error: errors.append(str(error)))
-            # Expose the real player instance only in the test response; do not mock playback.
-            script = (STATIC / "player.js").read_text("utf-8").replace(
-                "player = new spine.SpinePlayer", "window.__testPlayer = player = new spine.SpinePlayer")
-            await page.route("**/static/player.js", lambda route: route.fulfill(body=script, content_type="text/javascript"))
+            # Observe real runtime instances without adding test hooks to the shipped app.
+            script = (STATIC / "gallery.js").read_text("utf-8").replace(
+                "this.container = container;", "window.__testGallery = this; this.container = container;")
+            await page.route("**/static/gallery.js", lambda route: route.fulfill(body=script, content_type="text/javascript"))
             await page.goto(f"{client.base_url}#activity/{key}")
             card = page.locator(".asset-card").first
-            await card.locator("[title='播放 / 暂停']").wait_for()
-            await page.wait_for_function("document.querySelector('.asset-card').dataset.preview", timeout=30000)
-            assert await card.get_attribute("data-preview") == "ready", await card.inner_text()
+            await page.wait_for_function("document.querySelectorAll('.asset-card[data-preview=ready]').length === " + str(count), timeout=45000)
             assert not await card.locator(".placeholder").is_visible()
-            frame = await (await card.locator("iframe").element_handle()).content_frame()
-            await frame.wait_for_function("window.__testPlayer.animationState.getCurrent(0).trackTime > 0.05")
-            canvas = frame.locator("canvas").first
+            await page.evaluate("() => { window.surface = __testGallery.cards[0].surface; }")
+            await page.wait_for_function("surface.animationState.getCurrent(0).trackTime > 0.05")
+            canvas = card.locator("canvas")
             before = await canvas.screenshot()
             await page.wait_for_timeout(250)
             assert before != await canvas.screenshot(), "Animation pixels must change while playing"
             await card.get_by_title("播放 / 暂停", exact=True).click()
-            await frame.wait_for_function("window.__testPlayer.paused === true")
-            time_before = await frame.evaluate("__testPlayer.animationState.getCurrent(0).trackTime")
+            time_before = await page.evaluate("surface.animationState.getCurrent(0).trackTime")
             await page.wait_for_timeout(150)
-            assert await frame.evaluate("__testPlayer.animationState.getCurrent(0).trackTime") == time_before
+            assert await page.evaluate("surface.animationState.getCurrent(0).trackTime") == time_before
             await card.get_by_title("循环播放", exact=True).click()
-            await frame.wait_for_function("__testPlayer.animationState.getCurrent(0).loop === false")
+            assert await page.evaluate("surface.animationState.getCurrent(0).loop") is False
             await card.get_by_label("hero-0 皮肤", exact=True).select_option("default")
-            await frame.wait_for_function("__testPlayer.skeleton.skin.name === 'default'")
+            assert await page.evaluate("surface.skeleton.skin.name") == "default"
             await card.get_by_label("hero-0 皮肤", exact=True).select_option("alternate")
-            await frame.wait_for_function("__testPlayer.skeleton.skin.name === 'alternate'")
-            await card.get_by_label("hero-0 动作", exact=True).select_option("0")
-            await frame.wait_for_function("__testPlayer.animationState.getCurrent(0).animation.name === '0'")
+            assert await page.evaluate("surface.skeleton.skin.name") == "alternate"
+            assert await card.locator(".animation-buttons button").count() == 3
+            assert await card.get_by_label("hero-0 动作", exact=True).count() == 0
+            await card.locator('[data-animation="0"]').click()
+            assert await page.evaluate("surface.animationState.getCurrent(0).animation.name") == "0"
             assert await card.get_attribute("data-preview") == "ready"
-            await card.get_by_label("hero-0 动作", exact=True).select_option("still")
-            await frame.wait_for_function("__testPlayer.animationState.getCurrent(0).animation.name === 'still'")
+            await card.locator('[data-animation="still"]').click()
+            assert await page.evaluate("surface.animationState.getCurrent(0).animation.name") == "still"
             await card.get_by_role("button", name="详情 ↗").click()
             dialog = page.locator("dialog")
-            await dialog.wait_for(state="visible")
-            detail = await (await dialog.locator("iframe").element_handle()).content_frame()
-            await detail.wait_for_function("window.__testPlayer?.skeleton?.skin?.name === 'alternate'")
+            await page.wait_for_function("__testGallery.detailSurface?.ready")
+            assert await page.evaluate("__testGallery.detailSurface.skeleton.skin.name") == "alternate"
             await dialog.get_by_label("播放速度", exact=True).select_option("0.5")
-            await detail.wait_for_function("__testPlayer.speed === 0.5")
+            assert await page.evaluate("__testGallery.detailSurface.state.speed") == 0.5
+            await dialog.get_by_label("放大", exact=True).click()
+            assert await page.evaluate("__testGallery.detailSurface.view.zoom") > 1
+            view = dialog.locator('.detail-preview canvas')
+            box = await view.bounding_box()
+            await page.mouse.move(box['x'] + 100, box['y'] + 100)
+            await page.mouse.down()
+            await page.mouse.move(box['x'] + 170, box['y'] + 140, steps=5)
+            await page.mouse.up()
+            assert await page.evaluate("__testGallery.detailSurface.view.x") != 0
+            await page.mouse.wheel(0, -200)
+            await page.wait_for_function("__testGallery.detailSurface.view.zoom > 1.2")
+            await dialog.get_by_role('button', name='适应窗口').click()
+            assert await page.evaluate("__testGallery.detailSurface.view") == {"zoom": 1, "x": 0, "y": 0}
+            await dialog.get_by_label('骨骼', exact=True).check()
+            await page.wait_for_timeout(100)
+            assert await page.evaluate("__testGallery.detailSurface.pool.renderer.skeletonDebugRenderer.drawBones") is True
+            await dialog.get_by_label('全屏观看', exact=True).click()
+            await page.wait_for_function("document.fullscreenElement?.tagName === 'HTML'")
+            await dialog.get_by_label('全屏观看', exact=True).click()
+            await page.wait_for_function("!document.fullscreenElement")
             await dialog.get_by_label("关闭详情", exact=True).click()
-            await page.wait_for_function("document.querySelector('.asset-card').dataset.preview === 'ready'")
+            assert await page.locator('.asset-card[data-preview=ready]').count() == count
             if count > 1:
-                assert await page.locator(".asset-preview iframe").count() <= 8
+                # The last card is already running before scrolling to it, with only one WebGL pool.
+                assert await page.evaluate("__testGallery.cards.at(-1).surface.animationState.getCurrent(0).trackTime") > 0
+                assert await page.evaluate("__testGallery.hub.pools.size") == 1
                 await page.locator(".asset-card").last.scroll_into_view_if_needed()
-                await page.wait_for_function("!document.querySelector('.asset-card').querySelector('iframe')")
-                await page.wait_for_function("Array.from(document.querySelectorAll('.asset-card')).at(-1).dataset.preview === 'ready'")
-                assert await card.locator(".placeholder").evaluate("element => !element.hidden")
-                assert await page.locator(".asset-preview iframe").count() <= 8
+                assert await card.get_attribute("data-preview") == "ready"
+                assert await card.locator('canvas').count() == 1
             assert not errors, errors
             await page.goto(f"{client.base_url}/reports/{key}/report.html")
-            await page.wait_for_selector(".asset-card[data-preview=ready]")
+            await page.wait_for_function("document.querySelectorAll('.asset-card[data-preview=ready]').length === " + str(count), timeout=45000)
             assert await page.locator(".asset-card").count() == count
         finally:
             await browser.close()

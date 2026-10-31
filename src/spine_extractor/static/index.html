@@ -2,25 +2,24 @@
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spine 素材工作台</title><link rel="stylesheet" href="/static/app.css"></head>
 <body>
 <aside class="sidebar">
-  <a class="brand" href="#extract"><span class="brand-symbol">S</span><span>SPINE<span class="brand-sub">素材工作台</span></span></a>
-  <div class="nav-label">工作空间</div>
+  <a class="brand" href="#extract"><span>Spine 素材提取</span></a>
+
   <nav><a href="#extract" data-nav="extract">＋ <span>提取素材</span></a><a href="#library" data-nav="library">▦ <span>素材库</span><span id="library-count" class="nav-count">0</span></a><a href="#settings" data-nav="settings">⚙ <span>设置</span></a></nav>
   <div class="nav-label recent-label">最近的活动</div><div id="recent-activities" class="recent-list"></div>
   <div class="sidebar-foot"><span class="connection-dot"></span> 本地运行 <span id="app-version"></span><a href="/static/vendor/SPINE-RUNTIMES-LICENSE.txt" target="_blank">运行时许可</a></div>
 </aside>
 <main class="workspace">
-  <header class="topbar"><div><div class="eyebrow">MIHOYO WEB ASSETS</div><h1 id="page-title">提取素材</h1></div><a class="button subtle" href="#library">查看素材库 <span>↗</span></a></header>
+  <header class="topbar"><div><h1 id="page-title">提取素材</h1></div><a class="button subtle" href="#library">查看素材库 <span>↗</span></a></header>
   <section id="view-extract" class="view">
-    <div class="intro"><span class="tag">FROM WEB TO SPINE</span><h2>把网页里的动画，<br>整理成你的素材库。</h2><p>粘贴一个活动地址，提取骨骼与贴图。预览动作，切换皮肤，或生成 Spine 工程。</p></div>
     <form id="extract-form" class="panel extract-panel">
       <div class="panel-heading"><h3>新建提取</h3><span class="muted">活动页 / 新闻文章 / RSS 订阅</span></div>
       <label for="urls">网页地址</label><textarea id="urls" rows="3" placeholder="https://act.mihoyo.com/ys/event/...&#10;支持多个地址，每行一个" required></textarea>
       <div class="form-grid three"><div><label for="task-title">活动名称 <span class="muted">选填</span></label><input id="task-title" placeholder="自动读取网页标题"></div><div><label for="mode">扫描方式</label><select id="mode"><option value="auto">自动扫描 + 浏览器捕获</option><option value="static">仅静态扫描</option><option value="browser">浏览器捕获 + 静态补全</option></select></div><div class="form-grid two"><div><label for="wait">捕获秒数</label><input id="wait" type="number" min="0" max="1800" value="12"></div><div><label for="feed-limit">订阅处理数</label><input id="feed-limit" type="number" min="1" max="500" value="3"></div></div></div>
       <div class="check-row"><label class="check"><input id="headed" type="checkbox">显示浏览器，手动进入活动场景</label><label class="check"><input id="unpack" type="checkbox" checked>拆分素材图片</label></div>
       <div class="conversion-option"><label class="check"><input id="convert" type="checkbox">同时生成 .spine 工程</label><span id="convert-hint" class="muted">可在设置中配置正版 Spine CLI</span></div>
-      <div class="form-footer"><div class="save-location"><span class="muted">保存到</span><span id="output-label"></span><a href="#settings">更改</a></div><button class="button primary" id="start-task" type="submit">开始提取 <span>→</span></button></div>
+      <div class="form-footer"><div class="save-location"><span class="muted">保存到</span><span id="output-label"></span><a href="#settings">更改</a></div><button class="button primary" id="start-task" type="submit">开始提取</button></div>
     </form>
-    <div class="info-strip"><span>◌</span><p>资源按「活动标题 / Spine 项目名」整理；同名目录会依次添加 -1、-2。需要交互加载的场景，可以打开浏览器手动进入。</p></div>
+    <div class="info-strip"><p>资源按「活动标题 / Spine 项目名」整理；同名目录会依次添加 -1、-2。需要交互加载的场景，可以打开浏览器手动进入。</p></div>
     <section id="job-panel" class="panel job-panel" hidden><div class="panel-heading"><h3 id="job-title">正在提取</h3><button id="cancel-task" class="button danger small">停止任务</button></div><div class="job-progress"><span></span></div><p id="job-summary"></p><pre id="job-log" aria-live="polite"></pre><div id="job-results"></div></section>
   </section>
   <section id="view-library" class="view" hidden><div class="section-heading"><p class="muted">选择一个活动，浏览所有动画素材。</p><button id="refresh-library" class="button small">刷新</button></div><div id="library-grid" class="library-grid"></div></section>

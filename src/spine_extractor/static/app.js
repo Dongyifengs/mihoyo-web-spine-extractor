@@ -29,7 +29,7 @@ async function loadLibrary() {
   }
   for (const activity of activities) {
     const tile = node('a', 'activity-tile'); tile.href = '#activity/' + activity.id;
-    tile.append(node('div', 'tile-icon', '▧'), node('h3', '', activity.title));
+    tile.append(node('h3', '', activity.title));
     const stats = node('div', 'tile-stat');
     for (const [number, label] of [[activity.group_count, '组动画素材'], [activity.complete_count, '组配套完整'], [activity.project_count, '个工程']]) {
       const stat = node('span'); stat.append(node('strong', '', number), document.createTextNode(label)); stats.append(stat);

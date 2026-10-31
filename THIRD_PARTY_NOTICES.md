@@ -4,7 +4,7 @@ Original application code is MIT licensed. Website assets downloaded by users re
 
 ## Spine Runtimes
 
-The files in `src/spine_extractor/static/vendor/` are from Esoteric Software's official Spine Runtimes project. They are covered by the **Spine Runtimes License Agreement**, not this repository's MIT license. The complete agreement is included as `SPINE-RUNTIMES-LICENSE.txt`; copyright notices inside the distributed files are retained.
+The `spine-player-*.js` files in `src/spine_extractor/static/vendor/` are from Esoteric Software's official Spine Runtimes project. They are covered by the **Spine Runtimes License Agreement**, not this repository's MIT license. The complete agreement is included as `SPINE-RUNTIMES-LICENSE.txt`; copyright notices inside the distributed files are retained.
 
 | Local file | Upstream source |
 | --- | --- |
@@ -18,3 +18,9 @@ The license permits integration under Section 2 of the [Spine Editor License Agr
 The optional editor integration invokes a separately installed and licensed CLI. No editor binaries, activation details, user configuration, or extracted activity assets are distributed in the web source package.
 
 Other Python dependencies are installed from their upstream distributions using the package metadata, retaining their respective licenses.
+
+## Dayu extra reference
+
+`dayu-extra.js` and `dayu-debug.js` adapt the postprocessing algorithms and DOM debug panel from the user-supplied `spine_mirror.zip`. The original copyright notice identifies Dayu Network Technology (大于网络科技), 2024–2026. The archive does not contain a separate license grant. These reference files retain their original rights and are **not relicensed under this project's MIT license**. See `static/vendor/DAYU-NOTICE.txt`.
+
+The adapter excludes the reference application's model manager, hosting, and unrelated application bootstrap. The original algorithms and panel are used only for browser preview, never baked into generated editor projects.

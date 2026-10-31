@@ -5,3 +5,4 @@
 *.toml text eol=lf
 *.ps1 text eol=crlf
 *.bat text eol=crlf
+*.spine binary

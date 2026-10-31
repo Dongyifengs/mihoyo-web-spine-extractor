@@ -23,10 +23,14 @@ macOS/Linux 将 `.venv\Scripts\python` 换成 `.venv/bin/python`。安装后也�
 ## 网页操作
 
 1. **提取素材**：粘贴活动、新闻或 RSS 地址，每行一个。默认静态扫描结合浏览器捕获；需要交互的活动可勾选显示浏览器、增加等待时间，再进入相应场景。
-2. **素材库**：选择活动，在网格中直接观看动画。每张卡片都有动作、皮肤、播放/暂停、循环和重播控制，详情提供大预览、速度选择和文件入口。
+2. **素材库**：选择活动，在网格中直接观看动画。只有一个皮肤时隐藏皮肤框；单动作显示名称，2–4 个动作直接按按钮切换，更多动作使用下拉框。支持播放、暂停、循环和重播。
 3. **设置**：修改输出目录、代理，以及可选的 Spine CLI 路径。设置保存在本机 `.spine-extractor/settings.json`。
 
-预览按骨骼版本选择随包提供的 Spine 3.8 / 4.0 / 4.1 / 4.2 运行时，无需从 CDN 加载。当前视野最多启用 8 个卡片播放器，滚出视野后释放；详情使用独立播放器。其他版本或资源异常会显示具体错误，原始素材仍可下载。
+预览按骨骼版本选择随包提供的 Spine 3.8 / 4.0 / 4.1 / 4.2 运行时，无需从 CDN 加载。进入活动后立即加载并持续渲染全部卡片，滚动和筛选不会卸载动画。同版本共享 WebGL 上下文，分批绘制后复制到卡片，避免大量播放器耗尽浏览器上下文。
+
+详情支持拖拽平移、滚轮或按钮缩放、双击复位、全屏、速度和背景切换。调试显示直接使用官方运行时的骨骼、区域、网格、边界框、路径、裁剪和点附件叠加层。
+
+骨骼 JSON 含 `extra` 时标记「extra · 飘动」，在基础动画后应用参考代码的后处理。详情可打开参考压缩包同款调试面板，查看曲线、搜索骨骼、开关飘动和调整参数；调整仅作用于本次网页预览。格式不支持或骨骼缺失时显示具体提示并保留原素材。
 
 报告与素材库使用同样的动画卡片。从工作台打开报告；直接以 `file://` 双击 `report.html` 无法加载网页服务中的播放器和操作接口。
 
@@ -41,6 +45,12 @@ macOS/Linux 将 `.venv\Scripts\python` 换成 `.venv/bin/python`。安装后也�
 - 成功后点击「在 Spine 中打开工程」，或直接双击项目目录里的 `.spine` 文件（需要系统已关联 Spine 编辑器）。
 
 程序调用 CLI 解包 atlas，再导入骨骼；图片路径使用相对于工程的 `./regions/`。原始 JSON/二进制保持不变。二进制骨骼会先通过 CLI 转出用于导入的 JSON 副本。
+
+新建工程默认选中骨骼数据中的第一个动画。写入选择状态前，用官方 CLI 分别回读原工程和候选工程，确认骨骼与动画数据一致；不识别的工程结构会保留原工程并提示手动选择。已有工程可能经过用户编辑，因此不会覆盖其选择状态。
+
+Spine 编辑器双击打开工程时可能仍进入「设置」模式，切到「动画」模式即可显示已选动作。网页的「在 Spine 中打开」按保存版本启动独立编辑器窗口，对 4.1+ 传入 `--animate-mode`。这不修改系统文件关联或编辑器的全局设置。
+
+**extra 只在网页中渲染，不会烘焙或写入 `.spine`。** 转换前在网页提示，转换结果及日志保留说明。用于 CLI 的 `import.json` 会移除 `extra`、`extraSlot`、`extraConfig`；原始 `skeleton.json` 仍完整保留。
 
 默认按骨骼版本选择编辑器，`4.0-from-4.1.24` 使用其来源版本 `4.1.24` 导入。也可以在设置中指定版本。首次使用某个版本时 Spine 可能需要下载更新，必要时增大超时。版本、授权或数据不兼容时会保留素材并显示失败原因，详见该组 `spine-cli.log`。
 
@@ -138,6 +148,6 @@ CI 在 Windows/Linux、Python 3.11/3.12 执行测试，并产生网页源码压�
 
 ## 许可与参考
 
-本工具原创代码使用 MIT 许可；提取素材的权利归原作者。随包提供的 Spine Runtimes **不属于 MIT 许可**，使用与再分发须遵守其独立许可，详见 [第三方说明](THIRD_PARTY_NOTICES.md) 与 [运行时许可全文](src/spine_extractor/static/vendor/SPINE-RUNTIMES-LICENSE.txt)。
+本工具原创代码使用 MIT 许可；提取素材的权利归原作者。Spine Runtimes 与用户提供的 Dayu extra 参考代码 **不属于本项目 MIT 许可**，详见 [第三方说明](THIRD_PARTY_NOTICES.md)、[运行时许可全文](src/spine_extractor/static/vendor/SPINE-RUNTIMES-LICENSE.txt) 和 [extra 来源说明](src/spine_extractor/static/vendor/DAYU-NOTICE.txt)。
 
 格式参考：[Spine atlas](https://esotericsoftware.com/spine-atlas-format)、[Spine JSON](https://esotericsoftware.com/spine-json-format)、[Spine Player](https://esotericsoftware.com/spine-player)。网络捕获使用 [Playwright](https://playwright.dev/python/docs/network)，脚本分析使用 [Tree-sitter](https://github.com/tree-sitter/py-tree-sitter)。参考了用户提供的 AutoSpineProTools / SpineAuto 的功能，本实现重新编写。

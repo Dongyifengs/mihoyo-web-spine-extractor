@@ -24,6 +24,9 @@ async def test_cli_import_arguments_and_relative_images(tmp_path, skeleton, atla
     cli.touch()
     folder = tmp_path / "项目 空格"
     folder.mkdir()
+    skeleton["extra"] = {"root": {"animation": {"default": {"mode": 1}}, "rootBoneName": "root"}}
+    skeleton["extraConfig"] = {"timeScale": 1}
+    skeleton["extraSlot"] = {}
     (folder / "skeleton.json").write_text(json.dumps(skeleton), encoding="utf-8")
     (folder / "skeleton.atlas").write_text(atlas, encoding="utf-8")
     recorded = []
@@ -40,10 +43,14 @@ async def test_cli_import_arguments_and_relative_images(tmp_path, skeleton, atla
     info = await convert_group(folder, {"name": "角色", "version": "4.0-from-4.1.24", "status": "complete"}, options, lambda _: None, fake)
     assert info["status"] == "success"
     assert info["project"] == "角色.spine"
+    assert "不包含此效果" in info["extra_notice"]
     assert recorded[0][:3] == [str(cli), "-u", "4.1.24"]
     assert str(folder / "skeleton.atlas") in recorded[0]
     assert json.loads((folder / "import.json").read_text("utf-8"))["skeleton"]["images"] == "./regions/"
     assert json.loads((folder / "skeleton.json").read_text("utf-8"))["skeleton"]["images"] == "./source/"
+    imported = json.loads((folder / "import.json").read_text("utf-8"))
+    assert not {"extra", "extraSlot", "extraConfig"} & imported.keys()
+    assert "extra" in json.loads((folder / "skeleton.json").read_text("utf-8"))
     assert "private@example.com" not in (folder / "spine-cli.log").read_text("utf-8")
 
 

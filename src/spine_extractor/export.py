@@ -148,6 +148,7 @@ async def export(scanner: Scanner, fetcher: Fetcher, folder: Path, metadata: dic
             "files": files, "textures": textures, "region_images": crop_count,
             "missing_regions": missing_regions, "warnings": warnings,
             "animations": list(skeleton.value.get("animations", {})) if skeleton and skeleton.value else [],
+            "has_extra": "extra" in skeleton.value if skeleton and skeleton.value else False,
             "skins": (list(skeleton.value.get("skins", {})) if isinstance(skeleton.value.get("skins", {}), dict)
                       else [s.get("name", "default") for s in skeleton.value.get("skins", [])]) if skeleton and skeleton.value else [],
             "premultiplied_alpha": any(p.props.get("pma", "false").lower() == "true" for p in pages),
