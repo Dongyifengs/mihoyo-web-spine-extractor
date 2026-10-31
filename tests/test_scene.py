@@ -101,7 +101,7 @@ async def test_composition_local_render_position_controls_and_disposal(web, skel
             await page.set_viewport_size({'width': 390, 'height': 844})
             assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
             await page.get_by_role('link', name='返回素材', exact=True).click()
-            assert await page.evaluate('__composition.destroyed && __composition.hub.disposed')
+            await page.wait_for_function('__composition.destroyed && __composition.hub.disposed')
             assert not errors
         finally:
             await browser.close()
