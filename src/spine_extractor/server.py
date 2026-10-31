@@ -50,7 +50,8 @@ def open_project(path: Path, group: dict, settings: dict):
         return open_local(path)
     cli = validate_cli(settings["spine_cli"])
     version = editor_version(group.get("spine_project", {}).get("editor_version") or group.get("version", ""))
-    # Reusing another version's running editor can ignore both -u and animate mode.
+    # Request a separate editor. Older launchers may still forward to an existing
+    # window and ignore -u / animate mode; do not alter the user's global settings.
     args = [str(cli), "-u", version, "--no-reuse-instance", "--auto-start"]
     if tuple(int(part) for part in version.split(".")[:2]) >= (4, 1):
         args.append("--animate-mode")
