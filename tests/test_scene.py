@@ -88,7 +88,10 @@ async def test_composition_local_render_position_controls_and_disposal(web, skel
             await page.route('**/static/composition.js', lambda route: route.fulfill(body=script, content_type='text/javascript'))
             await page.goto(f'{client.base_url}#composition/{key}')
             await page.wait_for_function('window.__composition?.rows[0]?.surface?.ready')
-            await page.wait_for_function('__composition.context.getImageData(250,100,1,1).data[3] > 200')
+            # A loading fallback fills the stage; wait for the projected animation frame,
+            # not merely its data-ready callback or an opaque fallback pixel.
+            await page.wait_for_function('''__composition.context.getImageData(250,100,1,1).data[3] > 200 &&
+                __composition.context.getImageData(190,100,1,1).data[3] === 0''')
             # A skeleton at clip-space x=.25 belongs at x=250, not the center x=200.
             assert await page.evaluate('__composition.context.getImageData(190,100,1,1).data[3]') == 0
             assert await page.get_by_label('hero-instance 合并动作').input_value() == 'preLOOP_end'
