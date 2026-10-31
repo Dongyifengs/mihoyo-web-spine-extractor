@@ -22,7 +22,7 @@
     <div class="info-strip"><p>资源按「活动标题 / Spine 项目名」整理；同名目录会依次添加 -1、-2。需要交互加载的场景，可以打开浏览器手动进入。</p></div>
     <section id="job-panel" class="panel job-panel" hidden><div class="panel-heading"><h3 id="job-title">正在提取</h3><button id="cancel-task" class="button danger small">停止任务</button></div><div class="job-progress"><span></span></div><p id="job-summary"></p><pre id="job-log" aria-live="polite"></pre><div id="job-results"></div></section>
   </section>
-  <section id="view-library" class="view" hidden><div class="section-heading"><p class="muted">选择一个活动，浏览所有动画素材。</p><button id="refresh-library" class="button small">刷新</button></div><div id="library-grid" class="library-grid"></div></section>
+  <section id="view-library" class="view" hidden><div class="section-heading"><p class="muted">网页加载 20 秒后截取封面，自动隐藏进入活动、登录、分享等界面。</p><div class="section-actions"><button id="fill-covers" class="button small">补全封面</button><button id="refresh-library" class="button small">刷新</button></div></div><div id="library-grid" class="library-grid"></div></section>
   <section id="view-activity" class="view" hidden><div id="activity-gallery"></div></section>
   <section id="view-settings" class="view" hidden><form id="settings-form">
     <section class="panel settings-panel"><h3>文件保存</h3><label for="settings-output">输出目录</label><input id="settings-output" required><p class="field-note">直接在此目录下按活动标题创建文件夹，重复名称依次编号。</p></section>

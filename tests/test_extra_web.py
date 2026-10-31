@@ -70,9 +70,14 @@ async def test_extra_panel_and_animation_control_counts(web, skeleton, atlas, pn
             await page.wait_for_function('__gallery.detailSurface?.ready')
             await page.wait_for_function('Math.abs(__gallery.detailSurface.skeleton.findBone("flutter").rotation) > 1')
             assert await page.evaluate('__gallery.detailSurface.skeleton.findSlot("body").color.a') < 0.6
-            await page.get_by_role('button', name='extra 调试面板', exact=True).click()
+            await page.get_by_text('extra 飘动调试', exact=True).click()
             panel = page.locator('.dayu-panel')
             await panel.locator('.dayu-bone-section').wait_for()
+            assert await panel.evaluate("e => e.closest('.detail-side') !== null")
+            assert await panel.evaluate("e => getComputedStyle(e).position") == 'static'
+            side = await page.locator('.detail-side').bounding_box()
+            panel_box = await panel.bounding_box()
+            assert side['x'] <= panel_box['x'] and panel_box['x'] + panel_box['width'] <= side['x'] + side['width']
             assert await panel.locator('.dayu-sparkline').count() > 0
             await panel.locator('.dayu-toggle-btn').click()
             await page.wait_for_function('__gallery.detailSurface.skeleton.findBone("flutter").rotation === 0')

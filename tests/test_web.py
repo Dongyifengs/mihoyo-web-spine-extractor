@@ -28,7 +28,7 @@ def test_default_page_and_auth_guards(web):
     client, _ = web
     assert client.get("/").status_code == 200
     assert "正版" in client.get("/").text
-    assert client.get("/api/bootstrap").json()["version"] == "0.3.0"
+    assert client.get("/api/bootstrap").json()["version"] == "0.4.0"
     assert client.post("/api/settings", json={"spine_cli": ""}, headers={"Origin": "https://evil.test"}).status_code == 403
     assert client.post("/api/settings", json={}, headers={"X-Spine-Token": "wrong"}).status_code == 403
     assert client.get("/api/bootstrap", headers={"Host": "evil.test"}).status_code == 403
@@ -36,9 +36,16 @@ def test_default_page_and_auth_guards(web):
     assert client.get("/static/vendor/spine-player-4.2.120.js").status_code == 200
 
 
-def test_job_to_library_and_report(web, server):
+def test_job_to_library_and_report(web, server, monkeypatch):
+    from spine_extractor.cover import Cover
+
     client, state = web
     base, _, _ = server
+
+    async def cover(*args):
+        return Cover(b'cover-fixture', {'file': 'cover.jpg', 'wait_seconds': 20})
+
+    monkeypatch.setattr('spine_extractor.engine.capture_cover', cover)
     response = client.post("/api/jobs", json={"urls": [base + "/index.html"], "options": {"mode": "static"}})
     assert response.status_code == 202
     key = response.json()["id"]
@@ -52,6 +59,7 @@ def test_job_to_library_and_report(web, server):
     assert job["result"]["activities"][0]["complete"] == 1
     library = client.get("/api/activities").json()
     assert len(library) == 1 and library[0]["folder_name"] == "测试活动"
+    assert client.get(library[0]['cover_url']).content == b'cover-fixture'
     activity = client.get("/api/activities/" + library[0]["id"]).json()
     group = activity["groups"][0]
     assert group["directory"] == "spine/hero"

@@ -115,8 +115,9 @@ async def resolve_article(fetcher: Fetcher, url: str, title: str = "") -> list[T
         if fetcher.options.mode == "static":
             raise RuntimeError("文章为动态页面，请使用自动/浏览器模式，或直接粘贴“点击参与活动”的地址")
         fetcher.log("正在展开动态新闻页，查找“点击参与活动”入口")
-        final_url, markup = await capture(fetcher, url)
-        links = activity_links(markup, final_url)
+        captured_page = await capture(fetcher, url)
+        final_url = captured_page.url
+        links = activity_links(captured_page.html, final_url)
         if not links:
             for captured in list(fetcher.resources.values()):
                 if "json" in captured.content_type:

@@ -23,6 +23,7 @@ class Options:
     max_total_mb: int = 512
     feed_limit: int = 3
     unpack: bool = True
+    cover: bool = True
     proxy: str | None = None
     title: str = ""
     spine_cli: str = ""

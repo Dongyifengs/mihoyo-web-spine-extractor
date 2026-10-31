@@ -14,7 +14,7 @@ from spine_extractor.network import Fetcher
 
 async def test_static_pipeline_redirect_base_and_repeat_run(server, tmp_path):
     base, _, requests = server
-    options = Options(output=tmp_path, mode="static", retries=0)
+    options = Options(output=tmp_path, mode="static", retries=0, cover=False)
     result = await asyncio.wait_for(run([base + "/index.html"], options, lambda _: None), timeout=20)
     assert not result["errors"]
     item = result["activities"][0]
@@ -38,7 +38,7 @@ async def test_static_pipeline_redirect_base_and_repeat_run(server, tmp_path):
 async def test_missing_texture_has_partial_status(server, tmp_path):
     base, routes, _ = server
     del routes["/assets/hero.1234abcd..png"]
-    result = await run([base + "/index.html"], Options(output=tmp_path, mode="static", retries=0), lambda _: None)
+    result = await run([base + "/index.html"], Options(output=tmp_path, mode="static", retries=0, cover=False), lambda _: None)
     assert result["activities"][0]["partial"] == 1
     assert result["activities"][0]["complete"] == 0
 
@@ -58,11 +58,14 @@ async def test_limits_404_and_cancellation(server, tmp_path):
 
 
 @pytest.mark.skipif(not os.environ.get("SPINE_BROWSER_TEST"), reason="Set SPINE_BROWSER_TEST=1 with a browser installed")
-async def test_browser_captures_delayed_iframe_network(server, tmp_path):
+async def test_browser_captures_delayed_iframe_network(server, tmp_path, monkeypatch):
     base, _, _ = server
     options = Options(output=tmp_path, wait=2, retries=0)
+    monkeypatch.setattr('spine_extractor.cover.COVER_WAIT_SECONDS', 0.5)
     async with Fetcher(options, lambda _: None) as fetcher:
-        await capture(fetcher, base + "/dynamic.html")
+        captured = await capture(fetcher, base + "/dynamic.html", with_cover=True)
+        assert captured.cover and not captured.cover_error
+        assert captured.cover.metadata['source_url'] == base + '/dynamic.html'
         scanner = Scanner(base + "/dynamic.html")
         for resource in fetcher.resources.values():
             scanner.scan(resource)

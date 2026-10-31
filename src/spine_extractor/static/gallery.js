@@ -196,11 +196,15 @@ export class Gallery {
     for (const [value, text] of [['checker', '透明网格'], ['dark', '深色背景'], ['light', '浅色背景']]) { const option = node('option', '', text); option.value = value; background.append(option); }
     background.onchange = () => { preview.dataset.background = background.value; };
     debug.append(debugChecks, background); side.append(debug);
-    const extra = button('extra 调试面板', () => {
+    const extra = node('details', 'extra-settings');
+    extra.append(node('summary', '', 'extra 飘动调试'));
+    const extraHost = node('div', 'extra-panel-host'); extra.append(extraHost);
+    extra.hidden = !group.has_extra;
+    extra.ontoggle = () => {
       const motion = this.detailSurface?.extra; if (!motion) return;
-      if (motion.panel) motion.hidePanel(); else motion.showPanel(dialog);
-      extra.classList.toggle('active', !!motion.panel);
-    }, 'extra-panel-button'); extra.hidden = !group.has_extra; side.append(extra);
+      if (extra.open) motion.showPanel(extraHost); else motion.hidePanel();
+    };
+    side.append(extra);
     const warning = node('div', 'detail-warning'); warning.hidden = true; side.append(warning);
     if (group.spine_project?.status === 'success') side.append(button('在 Spine 中打开 ↗', () => this.action('open-project', {group: index}), 'primary'));
     else side.append(button('生成 .spine 工程', () => this.convert([index]), 'primary'), node('p', 'field-note', '可选，需要已激活的正版 Spine CLI。'));
@@ -245,6 +249,7 @@ export class Gallery {
         this.detailSurface = surface; loading.hidden = true; preview.dataset.preview = 'ready';
         this.detailControls.element.remove(); this.detailControls = this.controls(index, true); side.insertBefore(this.detailControls.element, debug);
         this.addExtraTag(title, group); extra.hidden = !surface.extra;
+        if (extra.open) surface.extra?.showPanel(extraHost);
         extraNotice.hidden = !surface.extra;
       },
       error: message => { loading.hidden = false; loading.textContent = message; loading.classList.add('preview-error'); },

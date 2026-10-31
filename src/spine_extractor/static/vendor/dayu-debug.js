@@ -1512,6 +1512,7 @@ class yt {
       initialOpacity: _0x184dc3 = 0.92,
 
       initialPosition: _0x1b3731,
+      embedded = false,
     } = _0x3db3b4;
 
     ((this["_provider"] = _0x35019b),
@@ -1530,6 +1531,7 @@ class yt {
       })(),
       (this["_root"] = ft("div", "dayu-panel")),
       (this["_root"]["style"]["opacity"] = String(this["_opacity"])));
+    this["_root"].classList.toggle("dayu-embedded", embedded);
 
     const _0x3b3a91 = ft("div", "dayu-header"),
       _0x18bca7 = ft("div", "dayu-header-left"),
@@ -1603,6 +1605,7 @@ class yt {
       }),
       _0x37259e["append"](_0x86389f, this["_opacitySlider"]),
       _0x396ff0["appendChild"](_0x37259e));
+    if (embedded) _0x396ff0.hidden = true;
 
     const _0x26ac94 = ft("div", "dayu-toolbar-row"),
       _0x53eec5 = ft("label", "dayu-slider-label"),
@@ -1671,7 +1674,7 @@ class yt {
         : window["innerWidth"] - 0x190,
       _0x53371d = (null == _0x1b3731 ? void 0x0 : _0x1b3731["y"]) ?? 0x10;
 
-    ((this["_drag"] = new j(this["_root"], _0x3b3a91, {
+    ((this["_drag"] = embedded ? null : new j(this["_root"], _0x3b3a91, {
       x: _0x27b2f1,
 
       y: _0x53371d,
@@ -1694,7 +1697,7 @@ class yt {
       cancelAnimationFrame(this["_rafId"]),
       this["_provider"]["setDebugMode"](!0x1),
       this["_provider"]["setHighlightedMesh"](null, -0x1),
-      this["_drag"]["destroy"](),
+      this["_drag"]?.destroy(),
       this["_paramEditor"]["destroy"](),
       null == (_0x4e250a = this["_modelManager"]) || _0x4e250a["destroy"](),
       null == (_0x43ce46 = this["_exportDialog"]) || _0x43ce46["destroy"](),

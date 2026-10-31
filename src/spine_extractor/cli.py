@@ -35,6 +35,7 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--max-total-mb", type=int, default=512)
     p.add_argument("--proxy", help="例如 http://127.0.0.1:7890；HTTP 下载也支持系统环境变量代理")
     p.add_argument("--no-unpack", action="store_true", help="只保存骨骼、图集和整张贴图，不拆分区域图片")
+    p.add_argument("--no-cover", action="store_true", help="不生成网页加载 20 秒后的活动封面")
     p.add_argument("--json", action="store_true", help="标准输出仅打印最终 JSON 摘要，日志输出到 stderr")
     return p
 
@@ -66,7 +67,7 @@ def main(argv: list[str] | None = None) -> int:
             output=args.output, mode=args.mode, browser=args.browser, headed=args.headed, wait=args.wait,
             feed_limit=args.feed_limit, concurrency=args.concurrency, timeout=args.timeout, retries=args.retries,
             max_files=args.max_files, max_file_mb=args.max_file_mb, max_total_mb=args.max_total_mb,
-            proxy=args.proxy, unpack=not args.no_unpack,
+            proxy=args.proxy, unpack=not args.no_unpack, cover=not args.no_cover,
             title=args.title, spine_cli=args.spine_cli, spine_version=args.spine_version, spine_timeout=args.spine_timeout,
         )
         if args.list:

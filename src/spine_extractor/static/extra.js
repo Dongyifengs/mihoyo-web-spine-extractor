@@ -79,8 +79,7 @@ export class ExtraMotion {
   showPanel(container) {
     if (this.panel) return;
     this.snapshot();
-    this.panel = new ExtraDebugPanel({provider: this.provider, container, initialOpacity: 0.97,
-      initialPosition: {x: Math.max(12, Math.min(36, innerWidth - 380)), y: 90}});
+    this.panel = new ExtraDebugPanel({provider: this.provider, container, embedded: true, initialOpacity: 1});
   }
   hidePanel() { this.panel?.destroy(); this.panel = null; }
   dispose() { this.hidePanel(); this.provider._skeletonMeshes.clear(); this.provider._frameData.clear(); }

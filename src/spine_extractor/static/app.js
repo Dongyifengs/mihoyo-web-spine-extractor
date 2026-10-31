@@ -27,16 +27,41 @@ async function loadLibrary() {
     const empty = node('div', 'empty-state'); empty.append(node('h3', '', '素材库还是空的'), node('p', '', '先提取一个活动，动画会出现在这里。'));
     const start = node('a', 'button primary', '开始提取 →'); start.href = '#extract'; empty.append(start); grid.append(empty);
   }
+  $('fill-covers').disabled = !activities.some(activity => !activity.cover_url);
   for (const activity of activities) {
-    const tile = node('a', 'activity-tile'); tile.href = '#activity/' + activity.id;
-    tile.append(node('h3', '', activity.title));
+    const tile = node('article', 'activity-tile');
+    const cover = node('a', 'activity-cover'); cover.href = '#activity/' + activity.id;
+    cover.setAttribute('aria-label', '查看 ' + activity.title);
+    const placeholder = () => {
+      const empty = node('div', 'cover-placeholder');
+      empty.append(node('span', '', '▧'), node('span', '', activity.cover_error ? '封面未生成，可重试' : '等待生成活动封面'));
+      empty.title = activity.cover_error || '加载活动网页 20 秒后截图'; cover.replaceChildren(empty);
+    };
+    if (activity.cover_url) {
+      const image = node('img'); image.src = activity.cover_url; image.alt = activity.title + ' 网页封面';
+      image.decoding = 'async'; image.onerror = placeholder; cover.append(image);
+    } else placeholder();
+    const info = node('a', 'activity-info'); info.href = cover.href;
+    info.append(node('h3', '', activity.title));
     const stats = node('div', 'tile-stat');
     for (const [number, label] of [[activity.group_count, '组动画素材'], [activity.complete_count, '组配套完整'], [activity.project_count, '个工程']]) {
       const stat = node('span'); stat.append(node('strong', '', number), document.createTextNode(label)); stats.append(stat);
     }
-    const foot = node('div', 'tile-footer'); foot.append(node('span', '', activity.created_at ? new Date(activity.created_at).toLocaleDateString('zh-CN') : ''), node('span', '', '查看全部 →'));
-    tile.append(stats, foot); grid.append(tile);
+    info.append(stats);
+    const foot = node('div', 'tile-footer');
+    const retake = node('button', '', activity.cover_url ? '重拍封面' : '生成封面'); retake.type = 'button';
+    retake.setAttribute('aria-label', activity.title + ' ' + retake.textContent);
+    retake.onclick = () => requestCover(`/api/activities/${activity.id}/cover`, retake);
+    foot.append(node('span', '', activity.created_at ? new Date(activity.created_at).toLocaleDateString('zh-CN') : ''), retake);
+    tile.append(cover, info, foot); grid.append(tile);
   }
+}
+
+async function requestCover(path, control) {
+  control.disabled = true;
+  try { await trackJob(await api(path, {})); }
+  catch (error) { toast(error.message); }
+  finally { control.disabled = false; }
 }
 
 async function route() {
@@ -63,6 +88,7 @@ function summarize(job) {
   if (job.status === 'failed') return '任务失败：' + job.error;
   if (job.status === 'cancelled') return '任务已停止，已经完成的文件保留。';
   const result = job.result;
+  if (result.kind === 'covers') return `封面截图结束：${result.captured} 个成功，${result.failed} 个失败。`;
   if ('converted' in result) return `工程转换结束：${result.converted} 个成功，${result.failed} 个失败。`;
   const complete = result.activities.reduce((n, a) => n + a.complete, 0);
   const partial = result.activities.reduce((n, a) => n + a.partial, 0);
@@ -118,6 +144,7 @@ $('settings-form').addEventListener('submit', async event => {
 $('detect-spine').onclick = () => { $('settings-spine').value = bootstrap.detected_spine || ''; toast('已填入检测到的路径，点击保存设置后生效'); };
 $('cancel-task').onclick = async () => { try { await api('/api/jobs/' + activeJob + '/cancel', {}); $('cancel-task').disabled = true; setTimeout(() => $('cancel-task').disabled = false, 1500); } catch (error) { toast(error.message); } };
 $('refresh-library').onclick = () => loadLibrary().then(() => toast('素材库已刷新'));
+$('fill-covers').onclick = () => requestCover('/api/covers', $('fill-covers'));
 window.addEventListener('hashchange', route);
 window.addEventListener('spine-job', event => trackJob(event.detail));
 window.addEventListener('spine-library-updated', () => loadLibrary());

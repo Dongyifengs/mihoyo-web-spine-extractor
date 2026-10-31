@@ -18,6 +18,8 @@ from urllib.parse import quote, unquote, urlsplit
 
 from . import __version__
 from .engine import run
+from .browser import capture_cover
+from .cover import save_cover
 from .export import write_json
 from .models import Cancelled, Options
 from .report import render_report
@@ -117,12 +119,19 @@ class Workbench:
                                     "skeleton_count": manifest.get("skeleton_count", 0), "group_count": len(manifest["groups"]),
                                     "complete_count": manifest.get("complete_count", 0),
                                     "project_count": sum(g.get("spine_project", {}).get("status") == "success" for g in manifest["groups"]),
-                                    "page_url": manifest.get("page_url", "")})
+                                    "page_url": manifest.get("page_url", ""),
+                                    "cover_url": self.cover_url(path.parent, key),
+                                    "cover_error": manifest.get("cover_error", "")})
                 except (ValueError, OSError, KeyError):
                     continue
         with self.lock:
             self.library = library
         return sorted(entries, key=lambda x: x["created_at"], reverse=True)
+
+    @staticmethod
+    def cover_url(folder: Path, key: str) -> str:
+        path = confined(folder, "cover.jpg")
+        return f"/files/{key}/cover.jpg?v={path.stat().st_mtime_ns}" if path.is_file() else ""
 
     def folder(self, key: str) -> Path:
         if key not in self.library:
@@ -142,7 +151,7 @@ class Workbench:
         result = deepcopy(manifest)
         result.pop("request_failures", None)
         result.pop("scanned_resources", None)
-        result.update(id=key, folder=str(folder), report_url=f"/reports/{key}/report.html")
+        result.update(id=key, folder=str(folder), report_url=f"/reports/{key}/report.html", cover_url=self.cover_url(folder, key))
         result["groups"] = [self.group_detail(folder, key, index, group) for index, group in enumerate(result["groups"])]
         return result
 
@@ -261,6 +270,43 @@ class Workbench:
             return counts
         return self.add_job(options, convert, "生成 Spine 工程")
 
+    def covers(self, key: str | None = None):
+        if key is not None:
+            self.activity(key)
+            keys = [key]
+        else:
+            keys = [entry["id"] for entry in self.refresh() if not entry["cover_url"]]
+        if not keys:
+            raise ValueError("所有活动已有封面，可以在卡片上单独重拍")
+        options = self.options()
+
+        async def generate(log):
+            result = {"kind": "covers", "captured": 0, "failed": 0, "cancelled": False}
+            try:
+                for activity_key in keys:
+                    options.check()
+                    folder, manifest = self.activity(activity_key)
+                    log(f"截取活动封面：{manifest.get('title') or folder.name}")
+                    try:
+                        cover = await capture_cover(manifest.get("page_url") or manifest.get("input_url", ""), options, log)
+                        options.check()
+                        # Reload the manifest so conversions completed elsewhere are retained.
+                        _, manifest = self.activity(activity_key)
+                        manifest["cover"] = save_cover(folder, cover)
+                        manifest.pop("cover_error", None)
+                        result["captured"] += 1
+                    except Cancelled:
+                        raise
+                    except Exception as exc:
+                        manifest["cover_error"] = str(exc).splitlines()[0]
+                        result["failed"] += 1
+                        log(f"封面失败：{manifest['cover_error']}")
+                    write_json(folder / "manifest.json", manifest)
+            except Cancelled:
+                result["cancelled"] = True
+            return result
+        return self.add_job(options, generate, "截取活动封面")
+
 
 def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
     class Handler(BaseHTTPRequestHandler):
@@ -366,6 +412,8 @@ def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
                     return self.send(200, state.save_settings(payload))
                 if path == "/api/jobs":
                     return self.send(202, state.extract(payload))
+                if path == "/api/covers":
+                    return self.send(202, state.covers())
                 if parts[:2] == ["api", "jobs"] and len(parts) == 4 and parts[3] == "cancel":
                     options = state.job_options.get(parts[2])
                     if not options:
@@ -374,6 +422,8 @@ def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
                     return self.send(200, {"cancelled": True})
                 if parts[:2] == ["api", "activities"] and len(parts) == 4:
                     key, action = parts[2:]
+                    if action == "cover":
+                        return self.send(202, state.covers(key))
                     if action == "convert":
                         return self.send(202, state.conversion(key, payload.get("groups")))
                     folder, manifest = state.activity(key)

@@ -2,7 +2,8 @@ import asyncio
 from datetime import datetime
 from pathlib import Path
 
-from .browser import capture
+from .browser import capture, capture_cover
+from .cover import save_cover
 from .discovery import Scanner
 from .export import export, write_json
 from .models import Cancelled, Log, Options
@@ -48,9 +49,13 @@ async def extract_target(target: Target, options: Options, log: Log, batch_folde
         elif options.mode == "static":
             raise RuntimeError(f"页面下载失败: {fetcher.failures.get(target.url, target.url)}")
         browser_ok = False
+        cover = None
+        cover_error = ""
         if options.mode in {"auto", "browser"}:
             try:
-                final_url, markup = await capture(fetcher, target.url)
+                captured_page = await capture(fetcher, target.url, with_cover=options.cover)
+                final_url, markup = captured_page.url, captured_page.html
+                cover, cover_error = captured_page.cover, captured_page.cover_error
                 scanner.page_url = final_url
                 if markup:
                     await asyncio.to_thread(scanner.scan_html, markup, final_url)
@@ -75,6 +80,20 @@ async def extract_target(target: Target, options: Options, log: Log, batch_folde
             "input_url": target.url, "article_url": target.article, "title": title,
             "mode": options.mode, "browser_capture": browser_ok,
         })
+        if options.cover:
+            try:
+                if cover is None and not browser_ok:
+                    cover = await capture_cover(scanner.page_url, options, log)
+                if cover:
+                    manifest["cover"] = save_cover(folder, cover)
+                else:
+                    raise RuntimeError(cover_error or "浏览器未返回封面")
+            except Cancelled:
+                raise
+            except Exception as exc:
+                manifest["cover_error"] = str(exc).splitlines()[0]
+                log(f"封面未生成，可在素材库重拍：{manifest['cover_error']}")
+            write_json(folder / "manifest.json", manifest)
         return {"url": target.url, "folder": str(folder.resolve()), "report": str((folder / "report.html").resolve()),
                 "skeletons": manifest["skeleton_count"], "atlases": manifest["atlas_count"],
                 "complete": manifest["complete_count"], "partial": sum(g["status"] != "complete" for g in manifest["groups"]),
