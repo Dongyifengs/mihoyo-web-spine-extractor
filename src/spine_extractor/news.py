@@ -4,6 +4,8 @@ import json
 import re
 from urllib.parse import quote, urlsplit
 
+from bs4 import BeautifulSoup
+
 API_BASE = 'https://news-api.amarea.cn'
 API_HOSTS = {'news-api.amarea.cn', 'news-api.hk4e.com'}
 TAGS = {'genshin': '网页活动', 'starrail': '版本专题展示页', 'zzz': '网页活动'}
@@ -13,12 +15,12 @@ GAMES = {
     'zzz': ('绝区零', 'https://zzz.mihoyo.com/news/{id}', 'zzz'),
 }
 SOURCES = {f'{game}.{channel}': f'{name} · {label}'
-           for game, (name, _, _) in GAMES.items() for channel, label in [('web_cn', '官网'), ('bbs_cn_all', '米游社')]}
+           for game, (name, _, _) in GAMES.items() for channel, label in [('web_cn', '官网')]}
 
 
 def validate_source(source: str) -> str:
     if source not in SOURCES:
-        raise ValueError('不支持的新闻来源，请选择原神、星穹铁道或绝区零的官网 / 米游社')
+        raise ValueError('不支持的新闻来源，请选择原神、星穹铁道或绝区零的官网')
     return source
 
 
@@ -100,7 +102,7 @@ async def list_events(fetcher, source='genshin.web_cn'):
 
 
 async def resolve_event(fetcher, key):
-    from .resolve import Target, activity_links
+    from .resolve import Target
 
     source = source_from_key(key)
     data = await payload(fetcher, '/news/detail/' + key)
@@ -110,13 +112,50 @@ async def resolve_event(fetcher, key):
     if data.get('key') != key:
         raise ValueError('HoyoNews 返回的新闻标识不匹配')
     article = article_url(source, data.get('remoteId') or key.partition('-')[2])
-    content = data.get('content')
-    if not isinstance(content, str):
-        raise ValueError('HoyoNews 新闻正文为空')
-    links = activity_links(content, article)
-    if not links:
-        raise ValueError(f'带有「{tag}」标签，但正文未找到活动入口：' + str(data.get('title') or key))
+    links = await official_links(fetcher, article, source.split('.')[0])
     return [Target(url, str(data.get('title') or ''), article) for url in links]
+
+
+ARTICLE_SELECTORS = {
+    'genshin': '.article__content',
+    'starrail': '.detail-content .main-wrap',
+    'zzz': '.news-detail__content',
+}
+
+
+def article_body_links(markup, article, game):
+    from .resolve import activity_links
+
+    soup = BeautifulSoup(markup, 'html.parser')
+    links = []
+    for body in soup.select(ARTICLE_SELECTORS[game]):
+        # Only real hyperlinks in the article body; exclude navigation and scripts.
+        anchors = ''.join(str(a) for a in body.select('a[href]'))
+        links.extend(activity_links(anchors, article))
+    return list(dict.fromkeys(links))
+
+
+async def official_links(fetcher, article, game):
+    from playwright.async_api import async_playwright
+    from .browser import launch_browser
+
+    resource = await fetcher.get(article)
+    links = article_body_links(resource.text, article, game) if resource else []
+    if links:
+        return links
+    fetcher.log('读取官方新闻正文：' + article)
+    async with async_playwright() as pw:
+        browser = await launch_browser(pw, fetcher.options, headed=False)
+        try:
+            page = await browser.new_page()
+            await page.goto(article, wait_until='domcontentloaded', timeout=fetcher.options.timeout * 1000)
+            await page.wait_for_function("selector => [...document.querySelectorAll(selector)].some(e => e.textContent.trim().length > 0)", arg=ARTICLE_SELECTORS[game], timeout=20000)
+            links = article_body_links(await page.content(), page.url, game)
+        finally:
+            await browser.close()
+    if not links:
+        raise ValueError('官方新闻正文中没有可识别的活动超链接：' + article)
+    return links
 
 
 async def resolve_news(fetcher, request):

@@ -49,7 +49,7 @@ macOS/Linux 将 `.venv\Scripts\python` 换成 `.venv/bin/python`。安装后也�
 
 ## HoyoNews 活动来源
 
-左侧「网页活动」对接 [HoyoNews](https://news.hk4e.com) 使用的公共 API（`https://news-api.amarea.cn/news/{source}` 和 `/news/detail/{key}`），可切换官网 / 米游社来源、搜索标题、勾选并加入提取。
+左侧「网页活动」对接 [HoyoNews](https://news.hk4e.com) 使用的公共 API（`https://news-api.amarea.cn/news/{source}` 和 `/news/detail/{key}`），仅接入三款游戏官网来源，支持搜索、勾选和拖动框选（Ctrl / Shift 追加选择）。点击加入提取后先读取官方新闻正文，只把正文中的实际活动超链接放入输入框；缺少公开入口时保留失败原因，不导入新闻地址。
 
 | 游戏 | 精确匹配的 tag |
 | --- | --- |
@@ -57,7 +57,7 @@ macOS/Linux 将 `.venv\Scripts\python` 换成 `.venv/bin/python`。安装后也�
 | 崩坏：星穹铁道 | 版本专题展示页 |
 | 绝区零 | 网页活动 |
 
-只以 API 的 `tags` 数组判断，标题中提到活动不算命中；解析正文前再次校验详情标签。正文中的活动链接自动进入原有提取流程，支持 `/event/` 和新的 `/puzzle/` 入口。同一活动链接去重。新闻列表缓存 5 分钟，每次最多加入 100 条，点击「开始提取」后才下载素材。
+只以 API 的 `tags` 数组判断，标题中提到活动不算命中；解析正文前再次校验详情标签；分别读取原神 `.article__content`、崩铁 `.detail-content .main-wrap`、绝区零 `.news-detail__content`，排除导航链接。正文中的活动链接进入原有提取流程，支持 `/event/` 和新的 `/puzzle/` 入口。同一活动链接去重。新闻列表缓存 5 分钟，每次最多加入 100 条，点击「开始提取」后才下载素材。
 
 也可在输入框或 CLI 输入 HoyoNews 网站地址（默认原神官网）、上述 API 的列表/详情地址或已有 RSS 地址。列表入口受「订阅条数」/ `--feed-limit` 限制，默认解析最新 3 条匹配记录；直接选择的详情地址逐条处理。
 

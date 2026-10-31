@@ -1,5 +1,5 @@
 let bootstrap;
-const clientVersion = '0.6.1';
+const clientVersion = '0.6.2';
 async function compatibleBoot() {
   const response = await fetch('/api/bootstrap');
   if (!response.ok) throw new Error('无法连接本地工作台，请重新运行启动网页.bat');

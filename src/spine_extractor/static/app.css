@@ -222,3 +222,7 @@ summary { cursor: pointer; font-size: 12px; font-weight: 500; padding: 3px 0; }
 .fps-number span:last-child { margin-left: auto; color: #7d8993; font-size: 10px; }
 .fps-monitor canvas { display: block; position: static; width: 100%; height: 34px; background: transparent; cursor: default; transform: none; touch-action: auto; }
 .fps-metrics { font-size: 10px; white-space: pre-line; margin-top: 3px; color: #697886; }
+
+.news-row.selected { border-color: #397da7; background: #eef5fb; }
+.news-list { user-select: none; }
+.news-selection-box { position: fixed; pointer-events: none; z-index: 9999; border: 1px solid #397da7; background: #397da725; }

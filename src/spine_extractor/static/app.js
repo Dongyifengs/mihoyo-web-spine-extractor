@@ -98,6 +98,7 @@ function summarize(job) {
   if (job.status === 'failed') return '任务失败：' + job.error;
   if (job.status === 'cancelled') return '任务已停止，已经完成的文件保留。';
   const result = job.result;
+  if (result.kind === 'news') return `已解析 ${result.urls.length} 个活动入口，${result.errors.length} 条新闻失败。`;
   if (result.kind === 'covers') return `封面截图结束：${result.captured} 个成功，${result.failed} 个失败。`;
   if (result.kind === 'composition') return `合并布局已生成：${result.scenes} 个场景，${result.layers} 个图层。`;
   if ('converted' in result) return `工程转换结束：${result.converted} 个成功，${result.failed} 个失败。`;

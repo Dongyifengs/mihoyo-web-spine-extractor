@@ -28,7 +28,7 @@ def test_default_page_and_auth_guards(web):
     client, _ = web
     assert client.get("/").status_code == 200
     assert "正版" in client.get("/").text
-    assert client.get("/api/bootstrap").json()["version"] == "0.6.1"
+    assert client.get("/api/bootstrap").json()["version"] == "0.6.2"
     instance = client.get('/api/instance', headers={'Origin': 'http://127.0.0.1:8766'})
     assert instance.status_code == 200 and instance.headers['access-control-allow-origin'] == 'http://127.0.0.1:8766'
     assert 'csrf' not in instance.json() and 'settings' not in instance.json()

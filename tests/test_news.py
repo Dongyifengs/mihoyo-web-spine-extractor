@@ -25,6 +25,10 @@ async def test_exact_game_tag_filter_and_detail_recheck(server, monkeypatch, gam
     ]
     routes['/news/'+source] = ('application/json', json.dumps({'code': 200, 'data': {'list': rows + [rows[1]]}}))
     url = 'https://act.mihoyo.com/puzzle/hkrpg/e20261024version_123/index.html?a=1'
+    async def official(fetcher, article, selected_game):
+        assert selected_game == game
+        return [url]
+    monkeypatch.setattr('spine_extractor.news.official_links', official)
     for key in [source+'-2', source+'-3']:
         routes['/news/detail/'+key] = ('application/json', json.dumps({'code': 200, 'data': {
             'key': key, 'title': key, 'tags': [tag], 'content': '<a href="'+url+'">点击前往</a>'}}))
@@ -69,6 +73,10 @@ async def test_news_ui_switches_tag_and_queues_only_selected_entries(web, monkey
             {'key': source+'-'+str(i), 'title': '测试活动 '+str(i), 'tags':[tag], 'published_at':'2026-10-31T00:00:00Z',
              'article_url':'https://example.test/article/'+str(i), 'input_url':'https://news-api.amarea.cn/news/detail/'+source+'-'+str(i)} for i in range(2)]}
 
+    async def official(fetcher, key):
+        from spine_extractor.resolve import Target
+        return [Target('https://act.mihoyo.com/puzzle/test/'+key+'/index.html')]
+    monkeypatch.setattr('spine_extractor.server.resolve_event', official)
     monkeypatch.setattr('spine_extractor.server.list_events', listing)
     client, state = web
     assert client.get('/api/news?source=../escape').status_code == 400
@@ -81,15 +89,38 @@ async def test_news_ui_switches_tag_and_queues_only_selected_entries(web, monkey
             assert await page.locator('.news-row .badge').all_text_contents() == ['网页活动'] * 2
             await page.get_by_label('新闻来源').select_option('starrail.web_cn')
             await page.wait_for_function('document.querySelector(".news-row .badge")?.textContent === "版本专题展示页"')
+            assert await page.get_by_label('新闻来源').locator('option').count() == 3
+            rows = page.locator('.news-row')
+            a, b = await rows.first.bounding_box(), await rows.last.bounding_box()
+            await page.mouse.move(a['x']+2,a['y']+2)
+            await page.mouse.down()
+            await page.mouse.move(b['x']+b['width']-2,b['y']+b['height']-2,steps=8)
+            await page.mouse.up()
+            assert await page.locator('.news-row input:checked').count() == 2
+            await page.get_by_role('button',name='清空选择').click()
             await page.get_by_label('搜索活动标题').fill('活动 1')
             assert await page.locator('.news-row').count() == 1
             await page.locator('.news-row input[type=checkbox]').check()
             await page.get_by_role('button', name='加入提取（1）', exact=True).click()
-            assert await page.locator('#urls').input_value() == 'https://news-api.amarea.cn/news/detail/starrail.web_cn-1'
-            assert state.active_job is None
+            await page.wait_for_function("document.querySelector('#urls').value.includes('https://act.mihoyo.com/puzzle/test/starrail.web_cn-1/index.html')")
+            assert await page.locator('#urls').input_value() == 'https://act.mihoyo.com/puzzle/test/starrail.web_cn-1/index.html'
+            assert not any(j['status'] == 'running' for j in state.jobs.values())
             await page.get_by_role('link', name='◷ 网页活动').click()
             await page.locator('.news-row').first.wait_for()
             await page.set_viewport_size({'width':390, 'height':844})
             assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
         finally:
             await browser.close()
+
+
+@pytest.mark.parametrize('game,body', [('genshin','<div class="article__content">{}</div>'),
+    ('starrail','<div class="detail-content"><div class="main-wrap">{}</div></div>'),
+    ('zzz','<div class="news-detail__content">{}</div>')])
+def test_official_article_body_excludes_navigation(game, body):
+    from spine_extractor.news import article_body_links, validate_source
+    url = 'https://act.mihoyo.com/ys/event/test/index.html?a=1&amp;b=2'
+    html = '<nav><a href="https://act.mihoyo.com/ys/event/wrong/index.html">点击参与</a></nav>'
+    html += body.format('<a href="'+url+'">网页链接</a>')
+    assert article_body_links(html,'https://ys.mihoyo.com/',game) == [url.replace('&amp;','&')]
+    with pytest.raises(ValueError):
+        validate_source(game+'.bbs_cn_all')

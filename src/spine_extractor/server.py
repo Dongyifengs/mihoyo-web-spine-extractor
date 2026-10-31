@@ -23,7 +23,7 @@ from .cover import save_cover
 from .export import write_json
 from .models import Cancelled, Options
 from .network import Fetcher
-from .news import SOURCES, list_events, validate_source
+from .news import SOURCES, list_events, validate_source, resolve_event, source_from_key
 from .report import render_report
 from .scene import capture_scene, save_scene
 from .spine_cli import convert_group, detect_cli, editor_version, validate_cli
@@ -339,6 +339,31 @@ class Workbench:
                     'layers': sum(len(scene['layers']) for scene in saved['scenes'])}
         return self.add_job(options, generate, '捕获原网页布局')
 
+    def resolve_news_selection(self, payload):
+        keys = payload.get('keys')
+        if not isinstance(keys, list) or not 1 <= len(keys) <= 100 or not all(isinstance(k, str) for k in keys):
+            raise ValueError('请选择 1–100 条官方新闻')
+        keys = list(dict.fromkeys(keys))
+        for key in keys:
+            source_from_key(key)
+        options = self.options()
+
+        async def work(log):
+            urls, errors = [], []
+            async with Fetcher(options, log) as fetcher:
+                for key in keys:
+                    options.check()
+                    try:
+                        targets = await resolve_event(fetcher, key)
+                        urls.extend(t.url for t in targets)
+                        log(f'已解析 {key}：{len(targets)} 个活动入口')
+                    except Exception as exc:
+                        options.check()
+                        errors.append({'key': key, 'error': str(exc)})
+                        log(f'{key} 解析失败：{exc}')
+            return {'kind': 'news', 'urls': list(dict.fromkeys(urls)), 'errors': errors}
+        return self.add_job(options, work, '解析官方新闻活动入口')
+
     def news(self, source):
         validate_source(source)
         with self.lock:
@@ -472,6 +497,8 @@ def make_server(state: Workbench, port: int = 8765) -> ThreadingHTTPServer:
                     raise ValueError("无效的请求")
                 path = unquote(urlsplit(self.path).path)
                 parts = path.strip("/").split("/")
+                if path == "/api/news/resolve":
+                    return self.send(202, state.resolve_news_selection(payload))
                 if path == "/api/settings":
                     return self.send(200, state.save_settings(payload))
                 if path == "/api/jobs":

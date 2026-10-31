@@ -1,5 +1,6 @@
 """Read JavaScript syntax, never eval it. Names/whitespace/minifier choices are irrelevant."""
 
+from bisect import bisect_right
 import json
 import re
 from dataclasses import dataclass, field
@@ -162,7 +163,65 @@ def scan_javascript(text: str) -> JSData:
                 if prop in {"u", "miniCssF"} and right.type in {"function_expression", "arrow_function"}:
                     result.chunks.extend(webpack_chunks(right, source))
         stack.extend(reversed(node.named_children))
+    hints = webpack_asset_hints(tree.root_node, source)
+    starts = sorted(hints)
+    def named(hint, offset):
+        i = bisect_right(starts, offset) - 1
+        if i >= 0:
+            end, names = hints[starts[i]]
+            if offset < end and len(names) == 1:
+                return next(iter(names))
+        return hint
+    result.strings = [(value, named(hint, offset), offset) for value, hint, offset in result.strings]
+    result.skeletons = [(value, named(hint, offset), offset) for value, hint, offset in result.skeletons]
     return result
+
+
+def webpack_asset_hints(root, source):
+    """Follow explicit {atlas: require(id), json: require(id)} registrations, without executing JS."""
+    hints, registries = {}, {}
+    stack = [root]
+    while stack:
+        node = stack.pop()
+        if node.type in {'string', 'template_string'}:
+            continue
+        if node.type == 'object':
+            pairs = {key_name(p.child_by_field_name('key'), source): p.child_by_field_name('value')
+                     for p in node.named_children if p.type == 'pair'}
+            parent = node.parent
+            if {'atlas', 'json'} <= pairs.keys() and parent and parent.type == 'pair':
+                name = key_name(parent.child_by_field_name('key'), source)
+                calls = [re.fullmatch(r'([\w$]+)\((\d+)\)', raw(pairs[k], source)) for k in ['atlas','json']]
+                fn = parent
+                while fn and fn.type not in {'function_expression','arrow_function'}:
+                    fn = fn.parent
+                params = fn.child_by_field_name('parameters') if fn else None
+                if all(calls) and params and len(params.named_children) >= 3 and all(m[1] == raw(params.named_children[2], source) for m in calls):
+                    table = fn.parent
+                    if table and table.type == 'pair':
+                        table = table.parent
+                    if table and table.type in {'array','object'}:
+                        key = table.start_byte
+                        if key not in registries:
+                            modules = {}
+                            if table.type == 'array':
+                                index = 0
+                                for child in table.children:
+                                    if child.type == ',':
+                                        index += 1
+                                    elif child.type in {'function_expression','arrow_function'}:
+                                        modules[str(index)] = child
+                            else:
+                                for pair in table.named_children:
+                                    if pair.type == 'pair':
+                                        modules[key_name(pair.child_by_field_name('key'),source)] = pair.child_by_field_name('value')
+                            registries[key] = modules
+                        for kind, match in zip(['atlas','json'], calls):
+                            module = registries[key].get(match[2])
+                            if module:
+                                hints.setdefault(module.start_byte, (module.end_byte, set()))[1].add(name+'.'+kind)
+        stack.extend(node.named_children)
+    return hints
 
 
 def webpack_chunks(function, source: bytes) -> list[str]:
