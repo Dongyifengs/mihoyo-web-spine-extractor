@@ -414,6 +414,8 @@ function _e(_0x234e32, _0x59e9ad) {
       row: _0x52fbd8,
 
       setValue: (_0x43b5db) => {
+        // Live sampling must not overwrite an edit before Enter or blur commits it.
+        if (document.activeElement === _0x191551 && !_0x191551.readOnly) return;
         ((_0x29b076 = _0x43b5db),
           (_0x191551["value"] = we(_0x43b5db)),
           (_0x110234["value"] = String(

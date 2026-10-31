@@ -82,8 +82,29 @@ async def test_extra_panel_and_animation_control_counts(web, skeleton, atlas, pn
             await panel.get_by_title('编辑参数', exact=True).first.click()
             rotation = panel.locator('.dayu-param-row').filter(has=page.get_by_text('旋转范围', exact=True))
             await rotation.locator('input[type=text]').fill('0')
+            # Let live parameter refreshes run while the user's edit is uncommitted.
+            await page.evaluate('''() => {
+                const provider = __gallery.detailSurface.extra.provider;
+                const original = provider.getExtraParams;
+                window.__paramRefreshes = 0;
+                provider.getExtraParams = function (...args) {
+                    window.__paramRefreshes++;
+                    return original.apply(this, args);
+                };
+            }''')
+            await page.wait_for_function('__paramRefreshes >= 2')
+            assert await rotation.locator('input[type=text]').input_value() == '0'
             await rotation.locator('input[type=text]').press('Enter')
             await page.wait_for_function('__gallery.detailSurface.skeleton.findBone("flutter").rotation === 0')
+            await rotation.locator('input[type=text]').fill('12')
+            await page.evaluate('window.__paramRefreshes = 0')
+            await page.wait_for_function('__paramRefreshes >= 2')
+            assert await rotation.locator('input[type=text]').input_value() == '12'
+            await rotation.locator('input[type=text]').press('Tab')
+            await page.wait_for_function('''
+                __gallery.detailSurface.extra.mesh.autoBone[0].currentAnimation.rotateRange === 12
+                && Math.abs(__gallery.detailSurface.skeleton.findBone("flutter").rotation) > 1
+            ''')
             await panel.get_by_placeholder('搜索骨骼名称...').fill('missing-bone')
             assert not await panel.locator('.dayu-bone-section').is_visible()
             await panel.get_by_placeholder('搜索骨骼名称...').fill('flutter')

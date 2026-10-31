@@ -5,7 +5,8 @@ Copyright (c) 2024-2026 Dayu Network Technology (大于网络科技).
 Adapted from the user-provided spine_mirror.zip, assets BVOn7u8o.js and Bw6jhhMb.js.
 Changes: isolated the extra bone/slot algorithms and DOM debug panel; decoded
 string tables; removed unrelated application bootstrap, model manager, and export
-UI; moved panel dialogs into the active viewer. Original algorithms, labels,
+UI; moved panel dialogs into the active viewer; preserved focused parameter edits
+during live sampling. Original algorithms, labels,
 parameter ranges, and attribution are retained.
 
 The archive did not include a separate license grant. These files are not covered
