@@ -1,6 +1,7 @@
 import {node, toast} from './ui.js';
 import {RenderHub, preferredAnimation} from './renderer.js';
 import {FrameMonitor} from './performance.js';
+import {loadImage} from './resources.js';
 
 const button = (label, action) => { const b = node('button', '', label); b.type = 'button'; b.onclick = action; return b; };
 
@@ -9,7 +10,7 @@ export class Composition {
     Object.assign(this, {container, activity, data}); this.playing = !matchMedia('(prefers-reduced-motion: reduce)').matches; this.loop = true; this.rows = [];
     this.render();
   }
-  destroy() { this.destroyed = true; this.monitor?.destroy(); this.hub?.dispose(); this.observer?.disconnect(); this.generation++; this.container.replaceChildren(); }
+  destroy() { this.destroyed = true; this.abort?.abort(); this.monitor?.destroy(); this.hub?.dispose(); this.observer?.disconnect(); this.generation++; this.container.replaceChildren(); }
   render() {
     const heading = node('div', 'activity-heading'), text = node('div');
     text.append(node('h2', '', this.activity.title + ' · 测试合并'), node('p', 'muted', '按原网页的位置、缩放和层级预览动画。'));
@@ -26,13 +27,15 @@ export class Composition {
     scenes.value = this.data.default_scene || 0; scenes.onchange = () => this.showScene(Number(scenes.value));
     const play = button(this.playing ? '暂停' : '播放', () => { this.playing = !this.playing; play.textContent = this.playing ? '暂停' : '播放'; this.sync(); });
     const loop = button('循环', () => { this.loop = !this.loop; loop.classList.toggle('active', this.loop); this.sync(); }); loop.classList.add('active');
+    this.referenceButton = button('对照原网页画面', () => { this.reference = !this.reference; this.referenceButton.classList.toggle('active', this.reference); this.referenceButton.setAttribute('aria-pressed', String(this.reference)); });
+    this.referenceButton.setAttribute('aria-pressed', 'false');
     const full = button('全屏', async () => { try { if (document.fullscreenElement) await document.exitFullscreen(); else await this.container.requestFullscreen(); } catch (e) { toast(e.message); } });
     this.status = node('span', 'muted');
-    tools.append(scenes, play, loop, button('重播', () => this.sync(true)), button('复位视图', () => this.fit()), full, this.status);
+    tools.append(scenes, play, loop, button('重播', () => this.sync(true)), this.referenceButton, button('复位视图', () => this.fit()), full, this.status);
     const body = node('div', 'composition-body'); this.viewport = node('div', 'composition-viewport'); this.canvas = node('canvas');
     this.canvas.width = this.data.width; this.canvas.height = this.data.height; this.canvas.setAttribute('aria-label', '合并动画预览'); this.viewport.append(this.canvas);
     this.side = node('aside', 'composition-side'); body.append(this.viewport, this.side); this.container.append(tools, body);
-    const notes = ['动画位置与图层来自原网页实测；静态背景、画面对照、粒子和原网页交互尚未收录。'];
+    const notes = ['静态图层与对照画面为原网页捕获时的画面；原网页的交互、镜头切换和粒子不在此处重演。'];
     this.container.append(node('p', 'field-note', notes.join('　')));
     this.context = this.canvas.getContext('2d'); this.view = {zoom: 1, x: 0, y: 0};
     let pointer;
@@ -51,13 +54,21 @@ export class Composition {
   }
   fit() { this.view = {zoom: 1, x: 0, y: 0}; this.place(); }
   showScene(index) {
+    this.abort?.abort(); this.abort = new AbortController();
     this.monitor?.destroy(); this.hub?.dispose(); this.reference = false; this.referenceImage = null; this.side.replaceChildren();
     this.rows = []; const generation = this.generation = (this.generation || 0) + 1, scene = this.data.scenes[index];
     this.hub = new RenderHub({detail: true, fps: 30, afterFrame: () => this.draw()});
     this.monitor = new FrameMonitor(this.hub, this.viewport); this.monitor.setVisible(false); this.tools.insertBefore(this.monitor.button, this.status);
+    this.referenceButton.disabled = true; this.referenceButton.classList.remove('active'); this.referenceButton.setAttribute('aria-pressed', 'false');
+    if (scene.reference_url) loadImage(scene.reference_url, this.abort.signal).then(image => {
+      if (this.generation === generation) { this.referenceImage = image; this.referenceButton.disabled = false; }
+    }).catch(error => { if (error.name !== 'AbortError' && this.generation === generation) toast('原画面对照加载失败'); });
     this.side.append(node('h3', '', '图层'), node('p', 'field-note', '从上到下为前景到背景；勾选控制显示。'));
     scene.layers.forEach(layer => {
       const row = {layer, visible: true, state: {playing: this.playing, loop: this.loop, speed: 1}}; this.rows.push(row);
+      if (layer.kind === 'image') loadImage(layer.image_url, this.abort.signal).then(image => {
+        if (this.generation === generation) row.image = image;
+      }).catch(error => { if (error.name !== 'AbortError' && this.generation === generation) { row.error = error.message; this.updateStatus(); } });
       if (layer.kind === 'spine' && this.activity.groups[layer.group]) {
         const group = this.activity.groups[layer.group]; row.state.animation = group.animations.includes(layer.animation) ? layer.animation : preferredAnimation(group.animations); row.state.skin = layer.skin || group.initial_skin || '';
         row.canvas = document.createElement('canvas'); row.canvas.width = Math.min(2048, this.data.width); row.canvas.height = Math.round(row.canvas.width * this.data.height / this.data.width);
@@ -97,6 +108,7 @@ export class Composition {
   }
   draw() {
     const ctx = this.context, {width, height} = this.canvas; ctx.clearRect(0, 0, width, height);
+    if (this.reference && this.referenceImage) { ctx.drawImage(this.referenceImage, 0, 0, width, height); return; }
     for (const row of this.rows) {
       if (!row.visible) continue;
       if (!row.surface?.ready) { if (row.image) ctx.drawImage(row.image, 0, 0, width, height); continue; }

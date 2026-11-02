@@ -51,6 +51,10 @@ test('composition references existing groups and finite projection matrices', ()
   assert.throws(() => validateComposition(composition, [{ id: 'other' }]), /必须匹配/);
   composition.scenes[0].layers[0].matrix[4] = Infinity;
   assert.throws(() => validateComposition(composition, [{ id: 'hero' }]), /场景矩阵无效/);
+  composition.scenes[0].layers = [{ kind: 'image', image_url: 'captures/layer-1.webp' }];
+  validateComposition(composition, [{ id: 'hero' }]);
+  composition.scenes[0].layers[0].image_url = '../outside.webp';
+  assert.throws(() => validateComposition(composition, [{ id: 'hero' }]), /场景截图路径无效/);
 });
 
 test('failed or cancelled image loads settle and detach browser handlers', async () => {

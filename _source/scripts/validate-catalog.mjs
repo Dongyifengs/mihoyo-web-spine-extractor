@@ -44,9 +44,14 @@ export function validateComposition(composition, items) {
   assert.ok(Number.isFinite(composition.height) && composition.height > 0);
   assert.ok(composition.scenes.length, '场景数据不能为空');
   const groupIds = new Set(items.map((item) => item.id));
-  for (const scene of composition.scenes) for (const layer of scene.layers) {
-    assert.ok(layer.kind === 'spine' && groupIds.has(layer.spine_id), '场景图层必须匹配已收录的 Spine');
-    assert.ok(Array.isArray(layer.matrix) && layer.matrix.length === 16 && layer.matrix.every(Number.isFinite), '场景矩阵无效');
+  const validCapture = (path) => /^captures\/(reference|layer-\d+)\.webp$/.test(path);
+  for (const scene of composition.scenes) {
+    if (scene.reference_url) assert.ok(validCapture(scene.reference_url), '原画面对照路径无效');
+    for (const layer of scene.layers) {
+      if (layer.kind === 'image') { assert.ok(validCapture(layer.image_url), '场景截图路径无效'); continue; }
+      assert.ok(layer.kind === 'spine' && groupIds.has(layer.spine_id), '场景图层必须匹配已收录的 Spine');
+      assert.ok(Array.isArray(layer.matrix) && layer.matrix.length === 16 && layer.matrix.every(Number.isFinite), '场景矩阵无效');
+    }
   }
 }
 
@@ -73,7 +78,15 @@ export async function validateCatalog() {
     assert.equal(manifest.textureCount, index.items.reduce((n, item) => n + item.textures.length, 0));
     if (manifest.composition) {
       assert.equal(manifest.composition, 'composition.json');
-      validateComposition(await json(`projects/${ref.id}/${manifest.composition}`), index.items);
+      const composition = await json(`projects/${ref.id}/${manifest.composition}`);
+      validateComposition(composition, index.items);
+      for (const scene of composition.scenes) {
+        const captures = [scene.reference_url, ...scene.layers.filter((layer) => layer.kind === 'image').map((layer) => layer.image_url)].filter(Boolean);
+        for (const capture of captures) {
+          const bytes = await readFile(resolve(root, `projects/${ref.id}/${capture}`));
+          assert.ok(bytes.length <= 1024 * 1024 && bytes.toString('ascii', 0, 4) === 'RIFF' && bytes.toString('ascii', 8, 12) === 'WEBP', '场景截图无效或超过 1 MiB');
+        }
+      }
     }
     const html = await readFile(resolve(root, `projects/${ref.id}/index.html`), 'utf8');
     assert.ok(html.includes(`data-project="${ref.id}"`));
@@ -82,13 +95,15 @@ export async function validateCatalog() {
   }
   assert.ok(ids.has(catalog.featuredProject));
   for (const path of await readdir(resolve(root, 'projects'), { recursive: true })) {
-    assert.ok(!/\.(?:png|jpe?g|webp|skel|atlas|spine)$/i.test(path), `项目目录不能保存活动资源：${path}`);
+    const normalized = path.replaceAll('\\', '/');
+    const capturedFrame = /^[a-zA-Z0-9_-]+\/captures\/(?:reference|layer-\d+)\.webp$/.test(normalized);
+    assert.ok(capturedFrame || !/\.(?:png|jpe?g|webp|skel|atlas|spine)$/i.test(path), `项目目录不能保存活动资源：${path}`);
     if (path.endsWith('.json')) {
       const content = await readFile(resolve(root, 'projects', path), 'utf8');
       assert.ok(!content.includes('data:image') && !content.includes('base64,'), '资源只能记录在线来源');
     }
   }
-  console.log(`目录验证通过：${ids.size} 个项目，${count} 组 Spine；活动资源仅存在线索引。`);
+  console.log(`目录验证通过：${ids.size} 个项目，${count} 组 Spine；Spine 素材仅存在线索引。`);
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) await validateCatalog();

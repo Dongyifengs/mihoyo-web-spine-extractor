@@ -105,8 +105,12 @@ async function renderProject(project) {
           project.composition ? getJson(new URL(project.composition, project.manifestUrl).href) : Promise.resolve({ scenes: [] }),
         ]);
         if (current !== navigation) return;
-        for (const scene of data.scenes) for (const layer of scene.layers) {
-          layer.group = groups.findIndex((group) => group.id === layer.spine_id);
+        for (const scene of data.scenes) {
+          if (scene.reference_url) scene.reference_url = new URL(scene.reference_url, project.manifestUrl).href;
+          for (const layer of scene.layers) {
+            if (layer.kind === 'image') layer.image_url = new URL(layer.image_url, project.manifestUrl).href;
+            else layer.group = groups.findIndex((group) => group.id === layer.spine_id);
+          }
         }
         composition = new Composition(host, { ...project, groups }, data);
       } catch (error) {
