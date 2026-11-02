@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [{
     name: 'project-catalog',
     generateBundle() {
-      const files = ['catalog.json', 'popularity.json', ...readdirSync('projects', { recursive: true })
+      const files = ['catalog.json', ...readdirSync('projects', { recursive: true })
         .filter((name) => name.endsWith('.json') || /[\\/]captures[\\/][^\\/]+\.webp$/.test(name))
         .map((name) => `projects/${name.replaceAll('\\', '/')}`)];
       for (const fileName of files) this.emitFile({ type: 'asset', fileName, source: readFileSync(fileName) });

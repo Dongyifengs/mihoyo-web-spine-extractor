@@ -14,7 +14,6 @@ let projects = [];
 let favorites;
 let gallery;
 let catalog;
-let popularity = { views: {} };
 try { const stored = JSON.parse(localStorage.getItem('spine-favorites') || '[]'); favorites = new Set(Array.isArray(stored) ? stored : []); }
 catch { favorites = new Set(); }
 
@@ -35,14 +34,10 @@ function siteLinks() {
 }
 
 function shell(title, content, active = 'library') {
-  const counts = popularity.views || {};
-  const count = (id) => Number.isSafeInteger(counts[id]) && counts[id] >= 0 ? counts[id] : -1;
-  const hasViews = popularity.updatedAt && projects.some((p) => count(p.id) >= 0);
-  const popular = [...projects].sort((a, b) => hasViews ? count(b.id) - count(a.id) : 0);
   return `<aside class="sidebar">
     <a class="brand" href="${root.href}"><span>Spine 素材库</span><span class="badge demo-badge">Demo</span></a>
     <nav aria-label="主导航"><a href="${root.href}" class="${active === 'library' ? 'active' : ''}" ${active === 'library' ? 'aria-current="page"' : ''}>▦ <span>素材库</span><span class="nav-count">${projects.length}</span></a><a href="${url('?view=favorites')}" class="${active === 'favorites' ? 'active' : ''}" ${active === 'favorites' ? 'aria-current="page"' : ''}>♡ <span>我的收藏</span><span class="nav-count" id="favorite-count">${projects.filter((p) => favorites.has(p.id)).length}</span></a><a href="${url('?view=about')}" class="${active === 'about' ? 'active' : ''}" ${active === 'about' ? 'aria-current="page"' : ''}>ⓘ <span>收录说明</span></a></nav>
-    <div class="nav-label recent-label">热门活动</div><div class="recent-list"><p class="popularity-note">${hasViews ? `百度统计 · ${escape(popularity.periodStart || '')} 至 ${escape(popularity.periodEnd || '')}` : '暂无浏览统计'}</p>${popular.map((p) => `<a href="${projectUrl(p.id)}" class="${document.documentElement.dataset.project === p.id ? 'active' : ''}" title="${escape(p.title)}"><span>${escape(p.title)}</span>${hasViews && count(p.id) >= 0 ? `<small>${count(p.id).toLocaleString()} 次</small>` : ''}</a>`).join('')}</div>
+    <div class="nav-label recent-label">已收录活动</div><div class="recent-list" role="navigation" aria-label="已收录活动">${projects.map((p) => `<a href="${projectUrl(p.id)}" class="${document.documentElement.dataset.project === p.id ? 'active' : ''}" ${document.documentElement.dataset.project === p.id ? 'aria-current="page"' : ''} title="${escape(p.title)}"><span>${escape(p.title)}</span></a>`).join('')}</div>
     <div class="sidebar-foot">${siteLinks()}</div>
     </aside><div class="workspace"><header class="topbar"><h1>${escape(title)}</h1><a class="button subtle" href="${root.href}">查看素材库 <span>↗</span></a></header><main class="view" id="main" tabindex="-1">${content}</main><footer class="site-footer"><div class="mobile-sidebar-links">${siteLinks()}</div><span>手动整理的网页活动与在线资源 · 素材版权归原作者所有 · 非官方项目</span></footer></div>`;
 }
@@ -98,7 +93,13 @@ function renderLibrary(onlyFavorites = false) {
     document.querySelector('.library-results').textContent = `${visible.length} 个活动`;
     document.querySelector('#library-grid').innerHTML = visible.length ? visible.map((p) => `<article class="activity-tile"><a class="activity-cover" href="${projectUrl(p.id)}" tabindex="-1" aria-hidden="true">${cover(p)}</a><a class="activity-info" href="${projectUrl(p.id)}"><h2>${escape(p.title)}</h2><p class="activity-description">${escape(p.subtitle)}</p><div class="tile-stat"><span><strong>${p.spineCount}</strong>组素材</span><span><strong>${p.textureCount}</strong>张贴图</span><span>${escape(p.game)}</span></div><span class="muted">活动日期 ${p.eventDate}</span></a><div class="tile-footer"><span>${escape(p.kind)}</span><button data-favorite="${escape(p.id)}" aria-label="${favorites.has(p.id) ? '取消收藏' : '收藏'}${escape(p.title)}" aria-pressed="${favorites.has(p.id)}">${favorites.has(p.id) ? '♥ 已收藏' : '♡ 收藏'}</button></div></article>`).join('')
       : `<div class="empty-state"><h2>${onlyFavorites && !favorites.size ? '还没有收藏活动' : '没有匹配的活动'}</h2><p>${onlyFavorites && !favorites.size ? '在素材库点击收藏，将活动添加到这里。' : '尝试其他关键词，或清空筛选条件。'}</p><a class="button" href="${root.href}">查看全部活动</a></div>`;
-    document.querySelectorAll('[data-favorite]').forEach((button) => button.onclick = () => { toggleFavorite(button.dataset.favorite); update(); });
+    document.querySelectorAll('[data-favorite]').forEach((button) => button.onclick = () => {
+      const id = button.dataset.favorite;
+      toggleFavorite(id);
+      update();
+      const replacement = [...document.querySelectorAll('[data-favorite]')].find((item) => item.dataset.favorite === id);
+      (replacement || document.querySelector('#library-search')).focus();
+    });
     bindImages();
   };
   document.querySelector('#library-search').oninput = update;
@@ -171,10 +172,7 @@ function renderAbout() {
 
 async function start() {
 try {
-  [catalog, popularity] = await Promise.all([
-    getJson(url('catalog.json')),
-    getJson(url('popularity.json')).catch(() => ({ views: {} })),
-  ]);
+  catalog = await getJson(url('catalog.json'));
   projects = await Promise.all(catalog.projects.map(async (ref) => {
     const manifestUrl = url(ref.manifest);
     return { ...await getJson(manifestUrl), manifestUrl };
