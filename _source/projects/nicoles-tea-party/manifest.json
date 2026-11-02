@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nicoles-tea-party",
+  "title": "魔女尼可的茶会",
+  "subtitle": "一封邀请，一场奇妙的茶会。",
+  "description": "在午后花园里赴一场魔女的约。浏览尼可、茶杯、花草与场景中的细微律动。",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2026-05-20",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://act.mihoyo.com/ys/event/e20260520invite-19ccy4/index.html",
+  "cover": {
+    "url": "https://fastcdn.mihoyo.com/mi18n/hk4e_cn/m20260420hy3fyccge8/upload/faa7eac7c1b79962cd2cc284b448429c_7807150298531647488.png",
+    "alt": "魔女尼可的茶会官方活动分享图",
+    "kind": "official-share-image",
+    "sourceUrl": "https://fastcdn.mihoyo.com/mi18n/hk4e_cn/m20260420hy3fyccge8/m20260420hy3fyccge8-zh-cn.json",
+    "sourceKey": "share-bg"
+  },
+  "accent": "#c7a1c8",
+  "featuredSpine": "main_nike",
+  "spineIndex": "spine/index.json",
+  "spineCount": 30,
+  "textureCount": 30,
+  "tags": [
+    "原神",
+    "网页活动",
+    "Spine 4.2"
+  ],
+  "notes": "手动整理的公开资源索引；JSON 与 atlas 存于官方脚本中。保留基础动画与 extra 飘动预览；未复刻原网页场景与自定义着色器。"
+}

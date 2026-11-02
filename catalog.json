@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "featuredProject": "nicoles-tea-party",
+  "projects": [
+    {
+      "id": "nicoles-tea-party",
+      "manifest": "projects/nicoles-tea-party/manifest.json"
+    },
+    {
+      "id": "snezhnaya-travel-guide",
+      "manifest": "projects/snezhnaya-travel-guide/manifest.json"
+    },
+    {
+      "id": "snezhnaya-is-coming",
+      "manifest": "projects/snezhnaya-is-coming/manifest.json"
+    }
+  ]
+}

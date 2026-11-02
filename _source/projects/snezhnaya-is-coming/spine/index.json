@@ -1,0 +1,1153 @@
+{
+  "schemaVersion": 1,
+  "projectId": "snezhnaya-is-coming",
+  "items": [
+    {
+      "id": "kv_jiguang",
+      "name": "kv_jiguang",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -1261.2,
+        "y": -491.7,
+        "width": 2596.22,
+        "height": 838.2
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/kv_jiguang.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/kv_jiguang.atlas"
+      },
+      "textures": [
+        {
+          "page": "kv_jiguang.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/kv_jiguang.3a05c5fe..png"
+        }
+      ]
+    },
+    {
+      "id": "DEFAULT_SPINE",
+      "name": "DEFAULT_SPINE",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -130.5,
+        "y": -130.5,
+        "width": 261,
+        "height": 261
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/DEFAULT_SPINE.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/DEFAULT_SPINE.atlas"
+      },
+      "textures": [
+        {
+          "page": "DEFAULT_SPINE.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/DEFAULT_SPINE.46368d5a..png"
+        }
+      ]
+    },
+    {
+      "id": "kv_star_a",
+      "name": "kv_star_a",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "a",
+        "b"
+      ],
+      "bounds": {
+        "x": -1116.85,
+        "y": -431.67,
+        "width": 2175.52,
+        "height": 863.34
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/kv_star_a.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/kv_star_a.atlas"
+      },
+      "textures": [
+        {
+          "page": "kv_star_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/kv_star_a.df9f8b8a..png"
+        }
+      ]
+    },
+    {
+      "id": "kv_yun",
+      "name": "kv_yun",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -1264,
+        "y": -173.5,
+        "width": 2528,
+        "height": 347
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/kv_yun.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/kv_yun.atlas"
+      },
+      "textures": [
+        {
+          "page": "kv_yun.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/kv_yun.f0641d7f..png"
+        }
+      ]
+    },
+    {
+      "id": "loading_bar",
+      "name": "loading_bar",
+      "version": "4.2.43",
+      "animations": [
+        "animation",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -474,
+        "y": -45.75,
+        "width": 896,
+        "height": 88
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/loading_bar.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/loading_bar.atlas"
+      },
+      "textures": [
+        {
+          "page": "loading_bar.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/loading_bar.eb173005..png"
+        }
+      ]
+    },
+    {
+      "id": "loading_logo_huan",
+      "name": "loading_logo_huan",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -316,
+        "y": -315,
+        "width": 631,
+        "height": 632
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/loading_logo_huan.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/loading_logo_huan.atlas"
+      },
+      "textures": [
+        {
+          "page": "loading_logo_huan.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/loading_logo_huan.09ea76e9..png"
+        }
+      ]
+    },
+    {
+      "id": "szx_bing",
+      "name": "szx_bing",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -95.3,
+        "y": -101.2,
+        "width": 190.6,
+        "height": 202.4
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx_bing.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx_bing.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx_bing.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_bing.fd16b2ec..png"
+        }
+      ]
+    },
+    {
+      "id": "szx_btn_end",
+      "name": "szx_btn_end",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -29.5,
+        "y": -29.5,
+        "width": 59,
+        "height": 59
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx_btn_end.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx_btn_end.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx_btn_end.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+          "format": "embedded-image",
+          "key": "/src/resources/images/effect/spine/szx_btn_end.png"
+        }
+      ]
+    },
+    {
+      "id": "szx_cao",
+      "name": "szx_cao",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -106.3,
+        "y": -128,
+        "width": 212.6,
+        "height": 256
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx_cao.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx_cao.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx_cao.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_cao.6548103c..png"
+        }
+      ]
+    },
+    {
+      "id": "szx_lei",
+      "name": "szx_lei",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -123.19,
+        "y": -116.5,
+        "width": 246.39,
+        "height": 233
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx_lei.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx_lei.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx_lei.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_lei.653f5cc9..png"
+        }
+      ]
+    },
+    {
+      "id": "szx_line",
+      "name": "szx_line",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -98.62,
+        "y": -9,
+        "width": 197.24,
+        "height": 18
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx_line.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx_line.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx_line.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+          "format": "embedded-image",
+          "key": "/src/resources/images/effect/spine/szx_line.png"
+        }
+      ]
+    },
+    {
+      "id": "szx_line_duan",
+      "name": "szx_line_duan",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -98.62,
+        "y": -9,
+        "width": 197.24,
+        "height": 18
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx_line_duan.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx_line_duan.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx_line_duan.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+          "format": "embedded-image",
+          "key": "/src/resources/images/effect/spine/szx_line_duan.png"
+        }
+      ]
+    },
+    {
+      "id": "szx_shui",
+      "name": "szx_shui",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -132.3,
+        "y": -188.7,
+        "width": 264.6,
+        "height": 377.4
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx_shui.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx_shui.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx_shui.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_shui.926802ef..png"
+        }
+      ]
+    },
+    {
+      "id": "szx_yan",
+      "name": "szx_yan",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -130.5,
+        "y": -191.1,
+        "width": 261,
+        "height": 382.2
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx_yan.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx_yan.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx_yan.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_yan.c06757d0..png"
+        }
+      ]
+    },
+    {
+      "id": "szx2_yan",
+      "name": "szx2_yan",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "nodate"
+      ],
+      "bounds": {
+        "x": -238,
+        "y": -348,
+        "width": 476,
+        "height": 696
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx2_yan.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx2_yan.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx2_yan.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx2_yan.4b7a38e7..png"
+        }
+      ]
+    },
+    {
+      "id": "szx3_lei",
+      "name": "szx3_lei",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "nodate"
+      ],
+      "bounds": {
+        "x": -267.5,
+        "y": -253,
+        "width": 535,
+        "height": 506
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx3_lei.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx3_lei.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx3_lei.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx3_lei.146d2379..png"
+        }
+      ]
+    },
+    {
+      "id": "szx4_cao",
+      "name": "szx4_cao",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "nodate"
+      ],
+      "bounds": {
+        "x": -272,
+        "y": -327.5,
+        "width": 544,
+        "height": 655
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx4_cao.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx4_cao.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx4_cao.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx4_cao.19c295f9..png"
+        }
+      ]
+    },
+    {
+      "id": "szx5_shui",
+      "name": "szx5_shui",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "nodate"
+      ],
+      "bounds": {
+        "x": -289,
+        "y": -306.5,
+        "width": 578,
+        "height": 613
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx5_shui.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx5_shui.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx5_shui.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx5_shui.d40ba08c..png"
+        }
+      ]
+    },
+    {
+      "id": "szx6_huo_light",
+      "name": "szx6_huo_light",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "a",
+        "light"
+      ],
+      "bounds": {
+        "x": -262.5,
+        "y": -352,
+        "width": 525,
+        "height": 704
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx6_huo_light.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx6_huo_light.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx6_huo_light.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx6_huo_light.f20da141..png"
+        }
+      ]
+    },
+    {
+      "id": "szx6_sp_a",
+      "name": "szx6_sp_a",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -110.5,
+        "y": -90,
+        "width": 221,
+        "height": 180
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx6_sp_a.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx6_sp_a.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx6_sp_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+          "format": "embedded-image",
+          "key": "/src/resources/images/effect/spine/szx6_sp_a.png"
+        }
+      ]
+    },
+    {
+      "id": "szx6_sp_b",
+      "name": "szx6_sp_b",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -232,
+        "y": -155.87,
+        "width": 464,
+        "height": 312.27
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szx6_sp_b.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szx6_sp_b.atlas"
+      },
+      "textures": [
+        {
+          "page": "szx6_sp_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx6_sp_b.71ecf584..png"
+        }
+      ]
+    },
+    {
+      "id": "szy1_feng",
+      "name": "szy1_feng",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "nodate"
+      ],
+      "bounds": {
+        "x": -282,
+        "y": -401.5,
+        "width": 564,
+        "height": 803
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/szy1_feng.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/szy1_feng.atlas"
+      },
+      "textures": [
+        {
+          "page": "szy1_feng.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szy1_feng.cfeb26de..png"
+        }
+      ]
+    },
+    {
+      "id": "yrz_choujue",
+      "name": "yrz_choujue",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -325,
+        "y": -481.7,
+        "width": 650,
+        "height": 963.4
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/yrz_choujue.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/yrz_choujue.atlas"
+      },
+      "textures": [
+        {
+          "page": "yrz_choujue.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_choujue.3dccbc63..png"
+        }
+      ]
+    },
+    {
+      "id": "yrz_furen",
+      "name": "yrz_furen",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -488.8,
+        "y": -440.9,
+        "width": 650.86,
+        "height": 880.69
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/yrz_furen.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/yrz_furen.atlas"
+      },
+      "textures": [
+        {
+          "page": "yrz_furen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_furen.0348240b..png"
+        }
+      ]
+    },
+    {
+      "id": "yrz_gongji",
+      "name": "yrz_gongji",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -240.8,
+        "y": -353,
+        "width": 479.6,
+        "height": 706
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/yrz_gongji.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/yrz_gongji.atlas"
+      },
+      "textures": [
+        {
+          "page": "yrz_gongji.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_gongji.14260f17..png"
+        }
+      ]
+    },
+    {
+      "id": "yrz_gongzhi",
+      "name": "yrz_gongzhi",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -371.7,
+        "y": -369.9,
+        "width": 691,
+        "height": 845.33
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/yrz_gongzhi.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/yrz_gongzhi.atlas"
+      },
+      "textures": [
+        {
+          "page": "yrz_gongzhi.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_gongzhi.f2531759..png"
+        }
+      ]
+    },
+    {
+      "id": "yrz_muer",
+      "name": "yrz_muer",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -411.7,
+        "y": -330.2,
+        "width": 531.89,
+        "height": 660.4
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/yrz_muer.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/yrz_muer.atlas"
+      },
+      "textures": [
+        {
+          "page": "yrz_muer.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_muer.aaddd049..png"
+        }
+      ]
+    },
+    {
+      "id": "yrz_puren",
+      "name": "yrz_puren",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -268.5,
+        "y": -375.2,
+        "width": 537,
+        "height": 750.4
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/yrz_puren.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/yrz_puren.atlas"
+      },
+      "textures": [
+        {
+          "page": "yrz_puren.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_puren.2230ac39..png"
+        }
+      ]
+    },
+    {
+      "id": "yy_dtree_l",
+      "name": "yy_dtree_l",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -327.5,
+        "y": -576.5,
+        "width": 655,
+        "height": 1153
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/yy_dtree_l.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/yy_dtree_l.atlas"
+      },
+      "textures": [
+        {
+          "page": "yy_dtree_l.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_dtree_l.0ef28ed6..png"
+        }
+      ]
+    },
+    {
+      "id": "yy_dtree_r",
+      "name": "yy_dtree_r",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -316,
+        "y": -522.5,
+        "width": 632,
+        "height": 1045
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/yy_dtree_r.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/yy_dtree_r.atlas"
+      },
+      "textures": [
+        {
+          "page": "yy_dtree_r.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_dtree_r.650f0f6c..png"
+        }
+      ]
+    },
+    {
+      "id": "yy_tree_l",
+      "name": "yy_tree_l",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/yy_tree_l.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/yy_tree_l.atlas"
+      },
+      "textures": [
+        {
+          "page": "yy_tree_l.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_tree_l.458ef73d..png"
+        }
+      ]
+    },
+    {
+      "id": "yy_tree_r",
+      "name": "yy_tree_r",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -206.5,
+        "y": -184,
+        "width": 413,
+        "height": 367.36
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/yy_tree_r.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/yy_tree_r.atlas"
+      },
+      "textures": [
+        {
+          "page": "yy_tree_r.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_tree_r.afe9331c..png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "snezhnaya-travel-guide",
+  "title": "至冬漫游手册",
+  "subtitle": "循着极光，走进冰雪的国度。",
+  "description": "打开至冬的旅行手册，探索冰雪、极光、宝箱与城市的动画切片。",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2026-08-12",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index.html",
+  "cover": {
+    "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/mian_pv.134d75fc..jpg",
+    "alt": "至冬漫游手册官方活动背景",
+    "kind": "official-image"
+  },
+  "accent": "#98bdd1",
+  "featuredSpine": "box",
+  "spineIndex": "spine/index.json",
+  "spineCount": 14,
+  "textureCount": 14,
+  "tags": [
+    "原神",
+    "网页活动",
+    "Spine 4.2"
+  ],
+  "notes": "手动整理的公开资源索引；JSON 与 atlas 存于官方脚本中。保留基础动画与 extra 飘动预览；未复刻原网页场景与自定义着色器。"
+}

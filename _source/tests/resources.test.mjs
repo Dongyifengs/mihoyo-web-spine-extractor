@@ -1,0 +1,71 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { decodeBundle, atlasPages } from '../src/source-decoder.js';
+import { remoteUrl, loadImage } from '../src/resources.js';
+import { validateItems, validateCatalog } from '../scripts/validate-catalog.mjs';
+
+test('extracts embedded data without executing bundle code', () => {
+  globalThis.bundleExecuted = false;
+  const script = 'globalThis.bundleExecuted=true;const data={"hero.json":{skeleton:{spine:"4.2.43",x:-1},bones:[],enabled:!0},"hero.atlas":"hero.png\\nsize:10,10\\n", "other.json": JSON.parse("{\\"bones\\":[]}")};';
+  const values = decodeBundle(script, ['hero.json', 'hero.atlas', 'other.json']);
+  assert.equal(globalThis.bundleExecuted, false);
+  assert.equal(values.get('hero.json').skeleton.x, -1);
+  assert.equal(values.get('hero.json').enabled, true);
+  assert.deepEqual(values.get('other.json'), { bones: [] });
+  assert.deepEqual(atlasPages(values.get('hero.atlas')), ['hero.png']);
+  delete globalThis.bundleExecuted;
+});
+
+test('rejects executable expressions, missing and ambiguous keys', () => {
+  assert.throws(() => decodeBundle('const data={"x.json":fetch("/execute")}', ['x.json']), /动态表达式/);
+  assert.throws(() => decodeBundle('const data={}', ['missing']), /未找到/);
+  assert.throws(() => decodeBundle('const a={"x":1},b={"x":2}', ['x']), /不唯一/);
+  assert.throws(() => decodeBundle('const data={"x":{get y(){return 1}}}', ['x']), /动态属性/);
+});
+
+test('preserves prototype-like data keys without prototype pollution', () => {
+  const value = decodeBundle('const x={"data":{"__proto__":{polluted:true}}}', ['data']).get('data');
+  assert.equal(Object.getPrototypeOf(value), null);
+  assert.equal({}.polluted, undefined);
+  assert.equal(value.__proto__.polluted, true);
+});
+
+test('supports multiple atlas pages and safe HTTPS links', () => {
+  assert.deepEqual(atlasPages('\nfirst.png\r\nsize:1,1\r\n\r\nsub/second.png\nsize:2,2\n'), ['first.png', 'sub/second.png']);
+  assert.equal(remoteUrl('https://act.mihoyo.com/a.png?v=1'), 'https://act.mihoyo.com/a.png?v=1');
+  for (const url of ['./local.png', 'file:///x', 'http://example.com/a', 'javascript:alert(1)', 'https://user:pass@example.com/a']) assert.throws(() => remoteUrl(url));
+});
+
+test('validates direct SKEL sources and rejects duplicate atlas pages', () => {
+  const item = { id: 'test', version: '4.2.43', animations: [], skins: [], skeleton: { url: 'https://example.com/a.skel', format: 'skel' }, atlas: { url: 'https://example.com/a.atlas', format: 'atlas' }, textures: [{ page: 'a.png', url: 'https://example.com/a.png' }] };
+  validateItems([item]);
+  item.textures.push({ ...item.textures[0] });
+  assert.throws(() => validateItems([item]), /重复/);
+});
+
+test('all checked-in project indexes satisfy the online-only contract', validateCatalog);
+
+test('failed or cancelled image loads settle and detach browser handlers', async () => {
+  const original = globalThis.Image;
+  const created = [];
+  globalThis.Image = class {
+    constructor() { created.push(this); }
+    removeAttribute(name) { delete this[name]; }
+  };
+  try {
+    const controller = new AbortController();
+    const failed = loadImage('https://example.com/missing.png', controller.signal);
+    created[0].onerror();
+    await assert.rejects(failed, /贴图加载失败/);
+    assert.equal(created[0].onload, null);
+    assert.equal(created[0].src, undefined);
+    const cancelled = loadImage('https://example.com/pending.png', controller.signal);
+    controller.abort();
+    await assert.rejects(cancelled, { name: 'AbortError' });
+    assert.equal(created[1].onerror, null);
+    const alreadyCancelled = loadImage('https://example.com/pending.png', controller.signal);
+    await assert.rejects(alreadyCancelled, { name: 'AbortError' });
+  } finally {
+    if (original) globalThis.Image = original; else delete globalThis.Image;
+  }
+});

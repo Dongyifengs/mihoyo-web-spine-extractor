@@ -1,0 +1,79 @@
+import { readFile, readdir } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import { resolve } from 'node:path';
+import assert from 'node:assert/strict';
+import { remoteUrl } from '../src/resources.js';
+
+const root = fileURLToPath(new URL('../', import.meta.url));
+const json = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const idPattern = /^[a-zA-Z0-9_-]+$/;
+
+export function validateSource(ref, formats) {
+  assert.ok(ref && typeof ref.url === 'string', '每个资源必须有 url');
+  remoteUrl(ref.url);
+  assert.ok(formats.includes(ref.format ?? 'image'), `不支持的资源格式：${ref.format}`);
+  if (ref.format?.startsWith('embedded-')) assert.ok(typeof ref.key === 'string' && ref.key.length, '内嵌资源必须有定位键');
+}
+
+export function validateItems(items) {
+  assert.ok(Array.isArray(items) && items.length, 'Spine 索引必须包含资源');
+  const ids = new Set();
+  for (const item of items) {
+    assert.ok(idPattern.test(item.id) && !ids.has(item.id), `资源 ID 无效或重复：${item.id}`);
+    ids.add(item.id);
+    assert.match(item.version, /^\d+\.\d+\.\d+/);
+    assert.ok(Array.isArray(item.animations) && item.animations.every((v) => typeof v === 'string'));
+    assert.ok(Array.isArray(item.skins) && item.skins.every((v) => typeof v === 'string'));
+    if (item.initialSkin) assert.ok(item.skins.includes(item.initialSkin), '默认皮肤必须存在');
+    validateSource(item.skeleton, ['json', 'skel', 'embedded-json']);
+    validateSource(item.atlas, ['atlas', 'embedded-atlas']);
+    assert.ok(item.textures.length, '每组资源至少包含一张贴图');
+    const pages = new Set();
+    for (const texture of item.textures) {
+      validateSource(texture, ['image', 'embedded-image']);
+      assert.ok(typeof texture.page === 'string' && !texture.page.startsWith('/')
+        && !texture.page.includes('\\') && !texture.page.split('/').includes('..') && !pages.has(texture.page), '图集页面名不合法或重复');
+      pages.add(texture.page);
+    }
+    assert.ok(!('bones' in item) && !('slots' in item), '索引不能存入骨骼内容');
+  }
+}
+
+export async function validateCatalog() {
+  const catalog = await json('catalog.json');
+  assert.equal(catalog.schemaVersion, 1);
+  const ids = new Set();
+  let count = 0;
+  for (const ref of catalog.projects) {
+    assert.ok(idPattern.test(ref.id) && !ids.has(ref.id), '项目 ID 无效或重复');
+    ids.add(ref.id);
+    assert.equal(ref.manifest, `projects/${ref.id}/manifest.json`);
+    const manifest = await json(ref.manifest);
+    assert.equal(manifest.id, ref.id);
+    assert.equal(manifest.schemaVersion, 1);
+    remoteUrl(manifest.sourceUrl); remoteUrl(manifest.cover.url);
+    assert.equal(manifest.spineIndex, 'spine/index.json');
+    assert.deepEqual(await json(`projects/${ref.id}/cover.json`), manifest.cover);
+    const index = await json(`projects/${ref.id}/spine/index.json`);
+    assert.equal(index.projectId, ref.id);
+    assert.equal(index.schemaVersion, 1);
+    validateItems(index.items);
+    assert.equal(manifest.spineCount, index.items.length);
+    assert.equal(manifest.textureCount, index.items.reduce((n, item) => n + item.textures.length, 0));
+    const html = await readFile(resolve(root, `projects/${ref.id}/index.html`), 'utf8');
+    assert.ok(html.includes(`data-project="${ref.id}"`));
+    assert.ok(html.includes('data-root="../../"'));
+    count += index.items.length;
+  }
+  assert.ok(ids.has(catalog.featuredProject));
+  for (const path of await readdir(resolve(root, 'projects'), { recursive: true })) {
+    assert.ok(!/\.(?:png|jpe?g|webp|skel|atlas|spine)$/i.test(path), `项目目录不能保存活动资源：${path}`);
+    if (path.endsWith('.json')) {
+      const content = await readFile(resolve(root, 'projects', path), 'utf8');
+      assert.ok(!content.includes('data:image') && !content.includes('base64,'), '资源只能记录在线来源');
+    }
+  }
+  console.log(`目录验证通过：${ids.size} 个项目，${count} 组 Spine；活动资源仅存在线索引。`);
+}
+
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) await validateCatalog();

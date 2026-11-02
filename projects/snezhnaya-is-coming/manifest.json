@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "snezhnaya-is-coming",
+  "title": "至冬将至",
+  "subtitle": "风雪彼端，新的旅途即将启程。",
+  "description": "从星空到极光，记录至冬主题网页里流动的光影与装饰动画。",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2026-07-31",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index.html",
+  "cover": {
+    "url": "https://fastcdn.mihoyo.com/mi18n/hk4e_cn/m20260703hy1gpgse0w/upload/e557d2ab28cf2019f2c5e614149d8d65_7933701696411548533.png",
+    "alt": "至冬将至官方活动分享图",
+    "kind": "official-share-image",
+    "sourceUrl": "https://fastcdn.mihoyo.com/mi18n/hk4e_cn/m20260703hy1gpgse0w/m20260703hy1gpgse0w-zh-cn.json",
+    "sourceKey": "share-img"
+  },
+  "accent": "#82b9b4",
+  "featuredSpine": "kv_jiguang",
+  "spineIndex": "spine/index.json",
+  "spineCount": 32,
+  "textureCount": 32,
+  "tags": [
+    "原神",
+    "网页活动",
+    "Spine 4.2"
+  ],
+  "notes": "手动整理的公开资源索引；JSON 与 atlas 存于官方脚本中。保留基础动画与 extra 飘动预览；未复刻原网页场景与自定义着色器。"
+}

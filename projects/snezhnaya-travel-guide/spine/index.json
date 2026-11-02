@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 1,
+  "projectId": "snezhnaya-travel-guide",
+  "items": [
+    {
+      "id": "box",
+      "name": "box",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "animation",
+        "end",
+        "in",
+        "levelup_0",
+        "levelup_1",
+        "levelup_back",
+        "light_close",
+        "loop",
+        "open",
+        "out"
+      ],
+      "skins": [
+        "a",
+        "b",
+        "c"
+      ],
+      "bounds": {
+        "x": -250.94,
+        "y": -224.31,
+        "width": 499.38,
+        "height": 463.28
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/box.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/box.atlas"
+      },
+      "textures": [
+        {
+          "page": "box.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/box.33dad031..png"
+        }
+      ]
+    },
+    {
+      "id": "box_click",
+      "name": "box_click",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "a",
+        "animation4",
+        "b",
+        "c"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -137,
+        "y": -137,
+        "width": 274,
+        "height": 274
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/box_click.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/box_click.atlas"
+      },
+      "textures": [
+        {
+          "page": "box_click.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/box_click.c7d3c91b..png"
+        }
+      ]
+    },
+    {
+      "id": "d_box_light",
+      "name": "d_box_light",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -414,
+        "y": -406,
+        "width": 846,
+        "height": 759
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/d_box_light.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/d_box_light.atlas"
+      },
+      "textures": [
+        {
+          "page": "d_box_light.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/d_box_light.57f0bded..png"
+        }
+      ]
+    },
+    {
+      "id": "d_snow_icon",
+      "name": "d_snow_icon",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -707,
+        "y": -300.5,
+        "width": 1668,
+        "height": 527
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/d_snow_icon.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/d_snow_icon.atlas"
+      },
+      "textures": [
+        {
+          "page": "d_snow_icon.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+          "format": "embedded-image",
+          "key": "/src/resources/images/effect/spine/d_snow_icon.png"
+        }
+      ]
+    },
+    {
+      "id": "d_tips_bg",
+      "name": "d_tips_bg",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -467.5,
+        "y": -76.5,
+        "width": 935,
+        "height": 153
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/d_tips_bg.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/d_tips_bg.atlas"
+      },
+      "textures": [
+        {
+          "page": "d_tips_bg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/d_tips_bg.0b6e95b9..png"
+        }
+      ]
+    },
+    {
+      "id": "loading_bar",
+      "name": "loading_bar",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "animation",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -419.75,
+        "y": -36,
+        "width": 829.25,
+        "height": 72
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/loading_bar.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/loading_bar.atlas"
+      },
+      "textures": [
+        {
+          "page": "loading_bar.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+          "format": "embedded-image",
+          "key": "/src/resources/images/effect/spine/loading_bar.png"
+        }
+      ]
+    },
+    {
+      "id": "loading_icon",
+      "name": "loading_icon",
+      "version": "4.2.43",
+      "animations": [
+        "animation",
+        "mail"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -228,
+        "y": -246.5,
+        "width": 456,
+        "height": 493
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/loading_icon.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/loading_icon.atlas"
+      },
+      "textures": [
+        {
+          "page": "loading_icon.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/loading_icon.c9a45c6c..png"
+        }
+      ]
+    },
+    {
+      "id": "loading_snow",
+      "name": "loading_snow",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -1052.5,
+        "y": -164,
+        "width": 2105,
+        "height": 328
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/loading_snow.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/loading_snow.atlas"
+      },
+      "textures": [
+        {
+          "page": "loading_snow.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/loading_snow.d1d7454d..png"
+        }
+      ]
+    },
+    {
+      "id": "main_btn",
+      "name": "main_btn",
+      "version": "4.2.43",
+      "animations": [
+        "animation",
+        "light"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -186.5,
+        "y": -181.5,
+        "width": 373,
+        "height": 363
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/main_btn.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/main_btn.atlas"
+      },
+      "textures": [
+        {
+          "page": "main_btn.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/main_btn.690f6f14..png"
+        }
+      ]
+    },
+    {
+      "id": "task_content_bg",
+      "name": "task_content_bg",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "ice",
+        "in",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -853,
+        "y": -472.5,
+        "width": 1706,
+        "height": 950
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/task_content_bg.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/task_content_bg.atlas"
+      },
+      "textures": [
+        {
+          "page": "task_content_bg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/task_content_bg.c3238544..png"
+        }
+      ]
+    },
+    {
+      "id": "task_ice_lizi",
+      "name": "task_ice_lizi",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -1196.5,
+        "y": -299.5,
+        "width": 2393,
+        "height": 615
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/task_ice_lizi.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/task_ice_lizi.atlas"
+      },
+      "textures": [
+        {
+          "page": "task_ice_lizi.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/task_ice_lizi.0a0d8eee..png"
+        }
+      ]
+    },
+    {
+      "id": "task_k_lizi",
+      "name": "task_k_lizi",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -845.5,
+        "y": -455,
+        "width": 1750,
+        "height": 882
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/task_k_lizi.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/task_k_lizi.atlas"
+      },
+      "textures": [
+        {
+          "page": "task_k_lizi.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+          "format": "embedded-image",
+          "key": "/src/resources/images/effect/spine/task_k_lizi.png"
+        }
+      ]
+    },
+    {
+      "id": "win_bg",
+      "name": "win_bg",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "end",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -1250.01,
+        "y": -266,
+        "width": 2499.51,
+        "height": 780
+      },
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/win_bg.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/win_bg.atlas"
+      },
+      "textures": [
+        {
+          "page": "win_bg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/images/win_bg.66be5d67..png"
+        }
+      ]
+    },
+    {
+      "id": "win_lizi",
+      "name": "win_lizi",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "bounds": {
+        "x": -977,
+        "y": -344.5,
+        "width": 1954,
+        "height": 689
+      },
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-json",
+        "key": "../../resources/images/effect/spine/win_lizi.json"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+        "format": "embedded-atlas",
+        "key": "../../resources/images/effect/spine/win_lizi.atlas"
+      },
+      "textures": [
+        {
+          "page": "win_lizi.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
+          "format": "embedded-image",
+          "key": "/src/resources/images/effect/spine/win_lizi.png"
+        }
+      ]
+    }
+  ]
+}
