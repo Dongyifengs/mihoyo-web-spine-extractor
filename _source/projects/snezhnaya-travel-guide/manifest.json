@@ -13,7 +13,8 @@
     "url": "https://fastcdn.mihoyo.com/content-v2/hk4e/165696/d083ebf9f2b4684b9527610426d313a0_6449008882433241956.jpg",
     "alt": "至冬漫游手册活动新闻封面",
     "kind": "official-news-cover",
-    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-165696"
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-165696",
+    "sizeBytes": 82820
   },
   "accent": "#98bdd1",
   "featuredSpine": "box",
@@ -25,5 +26,23 @@
     "网页活动",
     "Spine 4.2"
   ],
-  "notes": "手动整理的公开资源索引；JSON 与 atlas 存于官方脚本中。保留基础动画与 extra 飘动预览；未复刻原网页场景与自定义着色器。"
+  "notes": "手动整理的公开资源索引；JSON 与 atlas 存于官方脚本中。保留基础动画与 extra 飘动预览；未复刻原网页场景与自定义着色器。",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/165696",
+    "title": "【网页活动上线】「至冬漫游手册」网页活动限时开启",
+    "publishedAt": "2026-08-12T06:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-165696"
+  },
+  "activityPeriod": "2026年8月12日至2026年8月25日 23:59（UTC+8）",
+  "eligibility": "冒险等阶≥1级的旅行者即可参与活动",
+  "activitySummary": "活动期间，旅行者完成【雪域引途】、【雪域归程】（限回归旅行者）、【同行手册】任务，可获得原石和「冰之钥」，消耗「冰之钥」即可参与抽奖赢更多福利",
+  "sizeMeasuredOn": "2026-11-02",
+  "captureStats": {
+    "count": 0,
+    "sizeBytes": 0
+  },
+  "activityHighlights": [
+    "完成雪域引途、雪域归程和同行手册任务可获得原石与冰之钥，用于抽奖。",
+    "雪域归程仅限回归旅行者；邀请好友助力可获得额外冰之钥。"
+  ]
 }

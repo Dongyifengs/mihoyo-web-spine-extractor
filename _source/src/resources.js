@@ -18,8 +18,8 @@ export async function readSource(source, items) {
     return source.format === 'json' ? JSON.parse(data) : data;
   }
   if (!bundles.has(source.url)) {
-    const keys = [...new Set(items.flatMap((item) => [item.skeleton, item.atlas, ...item.textures])
-      .filter((ref) => ref.url === source.url && ref.key).map((ref) => ref.key))];
+    const keys = [...new Set(items.flatMap((item) => [item.skeleton, item.atlas, ...(item.textures || [])])
+      .filter((ref) => ref?.url === source.url && ref.key).map((ref) => ref.key))];
     const promise = Promise.all([fetchResource(source.url), import('./source-decoder.js')])
       .then(([text, { decodeBundle }]) => decodeBundle(text, keys));
     bundles.set(source.url, promise);

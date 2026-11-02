@@ -3,6 +3,9 @@ import assert from 'node:assert/strict';
 import { decodeBundle, atlasPages } from '../src/source-decoder.js';
 import { remoteUrl, loadImage } from '../src/resources.js';
 import { validateItems, validateCatalog, validateComposition } from '../scripts/validate-catalog.mjs';
+import { summarizeResources, formatBytes, formatMeasured } from '../src/project-info.js';
+import { missingResources, matchesResourceFilter } from '../src/filters.js';
+import { countProjectViews } from '../scripts/update-popularity.mjs';
 
 test('extracts embedded data without executing bundle code', () => {
   globalThis.bundleExecuted = false;
@@ -44,6 +47,38 @@ test('validates direct SKEL sources and rejects duplicate atlas pages', () => {
 });
 
 test('all checked-in project indexes satisfy the online-only contract', validateCatalog);
+
+test('resource sizes deduplicate identical references and report unknown values', () => {
+  const item = { version: '4.2.43', skeleton: { url: 'https://example.com/a.js', key: 'a.json', sizeBytes: 10 }, atlas: { url: 'https://example.com/a.js', key: 'a.atlas', sizeBytes: 20 }, textures: [{ url: 'https://example.com/a.png', sizeBytes: 2048 }] };
+  const stats = summarizeResources([item, item, { ...item, version: '4.2.42', textures: [{ url: 'https://example.com/b.png' }] }]);
+  assert.deepEqual(stats.total, { count: 4, bytes: 2078, unknown: 1 });
+  assert.deepEqual(stats.versions, ['4.2.42', '4.2.43']);
+  assert.equal(formatBytes(1048576), '1.00 MB');
+  assert.match(formatMeasured(stats.total), /至少.*1 项未知/);
+});
+
+test('resource filters distinguish versions, extra, errors, missing files and variants', () => {
+  const item = { id: 'x', status: 'partial', version: '', animations: ['a', 'b'], skins: ['default', 'a'], skeleton: null, atlas: null, textures: [] };
+  validateItems([item]);
+  assert.deepEqual(missingResources(item), ['skeleton', 'atlas', 'texture']);
+  assert.deepEqual(summarizeResources([item]).total, { count: 3, bytes: 0, unknown: 3 });
+  const group = { ...item, version: '4.2.43', has_extra: true, sourceItem: item };
+  const card = { element: { dataset: { preview: 'error' } } };
+  for (const key of ['version:4.2.43', 'extra', 'error', 'missing:skeleton', 'missing:atlas', 'missing:texture', 'multi-animation', 'multi-skin']) assert.equal(matchesResourceFilter(group, card, key), true, key);
+  assert.equal(matchesResourceFilter(group, card, 'version:4.2.42'), false);
+});
+
+test('Baidu page report is restricted to known project URLs and rejects invalid counts', () => {
+  const report = { result: { items: [
+    [[{ name: 'https://spine.moyijiangnan.cn/projects/a/index.html?x=1' }], [{ name: '/projects/a/' }], [{ name: 'https://other.example/projects/a/' }], [{ name: '/projects/b/index.html' }]],
+    [[3], [2], [500], [4]],
+  ] } };
+  assert.deepEqual(countProjectViews(report, ['a', 'b', 'c']), { a: 5, b: 4, c: 0 });
+  report.result.items[1][0] = ['--'];
+  assert.throws(() => countProjectViews(report, ['a']), /浏览量无效/);
+  assert.throws(() => countProjectViews({ error_code: 1 }, ['a']), /返回格式/);
+  assert.throws(() => countProjectViews({ result: { items: [[[ { name: '无法识别的页面' } ]], [[7]]] } }, ['a']), /无法识别/);
+});
 
 test('composition references existing groups and finite projection matrices', () => {
   const composition = { width: 1280, height: 720, scenes: [{ layers: [{ kind: 'spine', spine_id: 'hero', matrix: Array(16).fill(1) }] }] };

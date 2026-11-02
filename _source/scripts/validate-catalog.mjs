@@ -13,6 +13,7 @@ export function validateSource(ref, formats) {
   remoteUrl(ref.url);
   assert.ok(formats.includes(ref.format ?? 'image'), `不支持的资源格式：${ref.format}`);
   if (ref.format?.startsWith('embedded-')) assert.ok(typeof ref.key === 'string' && ref.key.length, '内嵌资源必须有定位键');
+  if (ref.sizeBytes != null) assert.ok(Number.isSafeInteger(ref.sizeBytes) && ref.sizeBytes >= 0, '资源大小必须是非负整数字节');
 }
 
 export function validateItems(items) {
@@ -21,16 +22,18 @@ export function validateItems(items) {
   for (const item of items) {
     assert.ok(idPattern.test(item.id) && !ids.has(item.id), `资源 ID 无效或重复：${item.id}`);
     ids.add(item.id);
-    assert.match(item.version, /^\d+\.\d+\.\d+/);
+    const partial = item.status === 'partial';
+    assert.ok(item.status === undefined || ['complete', 'partial'].includes(item.status), '资源状态无效');
+    assert.ok(partial && !item.version || /^\d+\.\d+\.\d+/.test(item.version), '骨骼版本无效');
     assert.ok(Array.isArray(item.animations) && item.animations.every((v) => typeof v === 'string'));
     assert.ok(Array.isArray(item.skins) && item.skins.every((v) => typeof v === 'string'));
     if (item.initialSkin) assert.ok(item.skins.includes(item.initialSkin), '默认皮肤必须存在');
-    validateSource(item.skeleton, ['json', 'skel', 'embedded-json']);
-    validateSource(item.atlas, ['atlas', 'embedded-atlas']);
-    assert.ok(item.textures.length, '每组资源至少包含一张贴图');
+    if (item.skeleton) validateSource(item.skeleton, ['json', 'skel', 'embedded-json']); else assert.ok(partial, '缺少骨骼的资源必须标为 partial');
+    if (item.atlas) validateSource(item.atlas, ['atlas', 'embedded-atlas']); else assert.ok(partial, '缺少 atlas 的资源必须标为 partial');
+    assert.ok(Array.isArray(item.textures) && (item.textures.length || partial), '每组资源至少包含一张贴图，缺失时标为 partial');
     const pages = new Set();
     for (const texture of item.textures) {
-      validateSource(texture, ['image', 'embedded-image']);
+      if (texture.url) validateSource(texture, ['image', 'embedded-image']); else assert.ok(partial && texture.status === 'missing', '缺失贴图必须标明 missing');
       assert.ok(typeof texture.page === 'string' && !texture.page.startsWith('/')
         && !texture.page.includes('\\') && !texture.page.split('/').includes('..') && !pages.has(texture.page), '图集页面名不合法或重复');
       pages.add(texture.page);
@@ -68,6 +71,7 @@ export async function validateCatalog() {
     assert.equal(manifest.id, ref.id);
     assert.equal(manifest.schemaVersion, 1);
     remoteUrl(manifest.sourceUrl); remoteUrl(manifest.cover.url);
+    if (manifest.cover.sizeBytes != null) assert.ok(Number.isSafeInteger(manifest.cover.sizeBytes) && manifest.cover.sizeBytes >= 0, '封面大小无效');
     assert.equal(manifest.spineIndex, 'spine/index.json');
     assert.deepEqual(await json(`projects/${ref.id}/cover.json`), manifest.cover);
     const index = await json(`projects/${ref.id}/spine/index.json`);

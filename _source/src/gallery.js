@@ -1,6 +1,7 @@
 import {node, toast} from './ui.js';
 import {RenderHub, debugOptions, preferredAnimation} from './renderer.js';
 import {FrameMonitor} from './performance.js';
+import {matchesResourceFilter} from './filters.js';
 
 const initialAnimation = group => preferredAnimation(group.animations);
 const button = (label, action, className = '') => {
@@ -44,7 +45,9 @@ export class Gallery {
     search.placeholder = '搜索名称、版本、动作'; search.setAttribute('aria-label', '搜索素材');
     search.oninput = () => { this.query = search.value.toLowerCase(); this.applyFilter(); };
     const filters = node('div', 'gallery-filters');
-    for (const [key, label] of [['all', '全部'], ['extra', 'extra']]) {
+    const versions = [...new Set(activity.groups.map((group) => group.version).filter(Boolean))].sort((a, b) => a.localeCompare(b, undefined, {numeric: true}));
+    const options = [['all', '全部'], ...versions.map((version) => [`version:${version}`, `Spine ${version}`]), ['extra', 'extra'], ['error', '异常'], ['missing:skeleton', '缺失骨骼'], ['missing:atlas', '缺失 atlas'], ['missing:texture', '缺失 PNG'], ['multi-animation', '多动画'], ['multi-skin', '多皮肤']];
+    for (const [key, label] of options) {
       const item = button(label, () => {
         this.filter = key;
         for (const other of filters.querySelectorAll('[data-filter]')) {
@@ -53,6 +56,7 @@ export class Gallery {
         this.applyFilter();
       }, key === 'all' ? 'active' : ''); item.dataset.filter = key; item.setAttribute('aria-pressed', String(key === 'all')); filters.append(item);
     }
+    this.filters = filters;
     const pauseAll = button('全部暂停', () => {
       const playing = pauseAll.dataset.paused === 'true'; pauseAll.dataset.paused = String(!playing);
       pauseAll.textContent = playing ? '全部暂停' : '全部播放';
@@ -68,6 +72,7 @@ export class Gallery {
     this.container.replaceChildren(heading, toolbar, this.grid);
     this.monitor = new FrameMonitor(this.hub, this.container, {floating: true}); this.monitor.setVisible(false); toolbar.append(this.monitor.button);
     this.empty = node('div', 'empty-state', '没有匹配的资源，请调整搜索词或筛选条件。'); this.empty.hidden = true; this.grid.append(this.empty);
+    this.applyFilter();
     // Start every preview now; scrolling and filtering never create or destroy renderers.
     this.cards.forEach((card, index) => {
       const group = activity.groups[index];
@@ -85,9 +90,9 @@ export class Gallery {
         },
         error: message => {
           card.element.dataset.preview = 'error'; card.placeholder.textContent = message;
-          card.placeholder.classList.add('preview-error'); card.placeholder.hidden = false; this.updateStatus();
+          card.placeholder.classList.add('preview-error'); card.placeholder.hidden = false; this.updateStatus(); this.applyFilter();
         },
-        warning: message => { if (message) { card.warning = message; card.element.title = message; } },
+        warning: message => { if (message) { card.warning = message; card.element.title = message; this.applyFilter(); } },
       });
     });
   }
@@ -163,9 +168,18 @@ export class Gallery {
     sync(); return {element, sync};
   }
   applyFilter() {
+    for (const filter of this.filters.querySelectorAll('[data-filter]')) {
+      if (filter.dataset.filter === 'error' || filter.dataset.filter.startsWith('missing:')) {
+        filter.hidden = !this.activity.groups.some((group, index) => matchesResourceFilter(group, this.cards[index], filter.dataset.filter));
+      }
+    }
+    if (this.filters.querySelector(`[data-filter="${this.filter}"]`)?.hidden) {
+      this.filter = 'all';
+      this.filters.querySelectorAll('[data-filter]').forEach((filter) => { const active = filter.dataset.filter === 'all'; filter.classList.toggle('active', active); filter.setAttribute('aria-pressed', String(active)); });
+    }
     this.activity.groups.forEach((group, index) => {
       const matches = !this.query || `${group.name} ${group.version} ${(group.animations || []).join(' ')}`.toLowerCase().includes(this.query);
-      const category = this.filter === 'all' || group.status === this.filter || this.filter === 'extra' && group.has_extra;
+      const category = matchesResourceFilter(group, this.cards[index], this.filter);
       this.cards[index].element.hidden = !(matches && category);
     });
     this.empty.hidden = this.cards.some(card => !card.element.hidden);
@@ -221,7 +235,8 @@ export class Gallery {
     const warning = node('div', 'detail-warning'); warning.hidden = true; side.append(warning);
     const files = node('details', 'detail-files'); files.append(node('summary', '', '在线资源'));
     const item = group.sourceItem;
-    for (const [type, ref] of [[item.skeleton.format === 'skel' ? 'SKEL' : 'JSON', item.skeleton], ['atlas', item.atlas], ...item.textures.map(t => ['PNG · ' + t.page, t])]) {
+    const sources = [[item.skeleton?.format === 'skel' ? 'SKEL' : 'JSON', item.skeleton], ['atlas', item.atlas], ...(item.textures || []).map(t => ['PNG · ' + t.page, t])];
+    for (const [type, ref] of sources.filter(([, ref]) => ref?.url)) {
       const embedded = !!ref.key;
       const copy = button('复制 ' + type, async () => {
         try { await navigator.clipboard.writeText(ref.url + (embedded ? '\n' + ref.key : '')); toast(embedded ? '已复制官方脚本地址及资源定位键' : '已复制官方资源地址'); }

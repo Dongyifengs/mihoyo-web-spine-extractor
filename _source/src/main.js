@@ -1,6 +1,9 @@
 import './styles.css';
 import { node, toast } from './ui.js';
 import { remoteUrl } from './resources.js';
+import { summarizeResources, formatBytes, formatMeasured } from './project-info.js';
+import { missingResources } from './filters.js';
+import { version as siteVersion } from '../package.json';
 
 const root = new URL(document.documentElement.dataset.root, location.href);
 const app = document.querySelector('#app');
@@ -10,6 +13,8 @@ const projectUrl = (id) => url(`projects/${encodeURIComponent(id)}/index.html`);
 let projects = [];
 let favorites;
 let gallery;
+let catalog;
+let popularity = { views: {} };
 try { const stored = JSON.parse(localStorage.getItem('spine-favorites') || '[]'); favorites = new Set(Array.isArray(stored) ? stored : []); }
 catch { favorites = new Set(); }
 
@@ -19,20 +24,34 @@ async function getJson(href) {
   return response.json();
 }
 
+function siteLinks() {
+  return `<a href="${url('SPINE-RUNTIMES-LICENSE.txt')}" target="_blank" rel="noopener">Spine 运行时许可 ↗</a>
+    <a href="https://github.com/Dongyifengs/mihoyo-web-spine-extractor" target="_blank" rel="noopener noreferrer">Github 源码仓库 ↗</a>
+    <a href="https://github.com/Dongyifengs/" target="_blank" rel="noopener noreferrer">作者 Github ↗</a>
+    <a href="https://space.bilibili.com/454717281" target="_blank" rel="noopener noreferrer">作者 Bilibili ↗</a>
+    <span>当前库的版本 ${escape(siteVersion)}</span><span>最后更新时间 ${escape(catalog.updatedAt || '未知')}</span>
+    <a href="https://news.hk4e.com/" target="_blank" rel="noopener noreferrer">数据来源 ↗</a>
+    <a href="https://spine.dayuweb.com/" target="_blank" rel="noopener noreferrer">Extra 技术支持 ↗</a>`;
+}
+
 function shell(title, content, active = 'library') {
+  const counts = popularity.views || {};
+  const count = (id) => Number.isSafeInteger(counts[id]) && counts[id] >= 0 ? counts[id] : -1;
+  const hasViews = popularity.updatedAt && projects.some((p) => count(p.id) >= 0);
+  const popular = [...projects].sort((a, b) => hasViews ? count(b.id) - count(a.id) : 0);
   return `<aside class="sidebar">
     <a class="brand" href="${root.href}"><span>Spine 素材库</span><span class="badge demo-badge">Demo</span></a>
     <nav aria-label="主导航"><a href="${root.href}" class="${active === 'library' ? 'active' : ''}" ${active === 'library' ? 'aria-current="page"' : ''}>▦ <span>素材库</span><span class="nav-count">${projects.length}</span></a><a href="${url('?view=favorites')}" class="${active === 'favorites' ? 'active' : ''}" ${active === 'favorites' ? 'aria-current="page"' : ''}>♡ <span>我的收藏</span><span class="nav-count" id="favorite-count">${projects.filter((p) => favorites.has(p.id)).length}</span></a><a href="${url('?view=about')}" class="${active === 'about' ? 'active' : ''}" ${active === 'about' ? 'aria-current="page"' : ''}>ⓘ <span>收录说明</span></a></nav>
-    <div class="nav-label recent-label">已收录的活动</div><div class="recent-list">${projects.map((p) => `<a href="${projectUrl(p.id)}" class="${document.documentElement.dataset.project === p.id ? 'active' : ''}" title="${escape(p.title)}">${escape(p.title)}</a>`).join('')}</div>
-    <div class="sidebar-foot"><span class="connection-dot"></span> 官方资源直连 · 0.1.0<a href="https://github.com/Dongyifengs/mihoyo-web-spine-extractor" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a><a href="${url('SPINE-RUNTIMES-LICENSE.txt')}" target="_blank" rel="noopener">运行时许可</a></div>
-    </aside><div class="workspace"><header class="topbar"><h1>${escape(title)}</h1><a class="button subtle" href="${root.href}">查看素材库 <span>↗</span></a></header><main class="view" id="main" tabindex="-1">${content}</main><footer class="site-footer">手动整理的网页活动与在线资源 · 素材版权归原作者所有 · 非官方项目</footer></div>`;
+    <div class="nav-label recent-label">热门活动</div><div class="recent-list"><p class="popularity-note">${hasViews ? `百度统计 · ${escape(popularity.periodStart || '')} 至 ${escape(popularity.periodEnd || '')}` : '暂无浏览统计'}</p>${popular.map((p) => `<a href="${projectUrl(p.id)}" class="${document.documentElement.dataset.project === p.id ? 'active' : ''}" title="${escape(p.title)}"><span>${escape(p.title)}</span>${hasViews && count(p.id) >= 0 ? `<small>${count(p.id).toLocaleString()} 次</small>` : ''}</a>`).join('')}</div>
+    <div class="sidebar-foot">${siteLinks()}</div>
+    </aside><div class="workspace"><header class="topbar"><h1>${escape(title)}</h1><a class="button subtle" href="${root.href}">查看素材库 <span>↗</span></a></header><main class="view" id="main" tabindex="-1">${content}</main><footer class="site-footer"><div class="mobile-sidebar-links">${siteLinks()}</div><span>手动整理的网页活动与在线资源 · 素材版权归原作者所有 · 非官方项目</span></footer></div>`;
 }
 
 function cover(project) {
   return `<img src="${escape(remoteUrl(project.cover.url))}" alt="${escape(project.cover.alt)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
 }
 function bindImages() {
-  document.querySelectorAll('.activity-cover img').forEach((img) => {
+  document.querySelectorAll('.activity-cover img, .project-info-cover img').forEach((img) => {
     img.onerror = () => { const fallback = node('div', 'cover-placeholder'); fallback.append(node('span', '', '▧'), node('span', '', '封面暂不可用')); img.replaceWith(fallback); };
   });
 }
@@ -41,6 +60,28 @@ function toggleFavorite(id) {
   try { localStorage.setItem('spine-favorites', JSON.stringify([...favorites])); }
   catch { toast('浏览器未允许保存，收藏仅在本次浏览有效'); }
   document.querySelector('#favorite-count').textContent = projects.filter((p) => favorites.has(p.id)).length;
+}
+
+function projectInformation(project, items) {
+  const stats = summarizeResources(items);
+  const extra = project.captureStats || { count: 0, sizeBytes: 0 };
+  const hasCoverSize = Number.isFinite(project.cover.sizeBytes);
+  const total = {
+    count: stats.total.count + extra.count + 1,
+    bytes: stats.total.bytes + (extra.sizeBytes || 0) + (hasCoverSize ? project.cover.sizeBytes : 0),
+    unknown: stats.total.unknown + (hasCoverSize ? 0 : 1),
+  };
+  const article = project.officialArticle;
+  const published = article?.publishedAt && Number.isFinite(Date.parse(article.publishedAt))
+    ? new Intl.DateTimeFormat('zh-CN', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Shanghai' }).format(new Date(article.publishedAt)) + '（北京时间）' : '未知';
+  const metric = (name, value) => `<div><dt>${name}</dt><dd>${escape(formatMeasured(value))}<small>${value.count} 个文件</small></dd></div>`;
+  return `<div class="project-information-heading"><div><span class="badge">${escape(project.game)} · ${escape(project.kind)}</span><h2>${escape(project.title)}</h2><p>${escape(project.subtitle)}</p></div></div>
+    <div class="project-info-layout"><div><h3>活动封面</h3><div class="project-info-cover">${cover(project)}</div><a href="${escape(remoteUrl(project.cover.url))}" target="_blank" rel="noopener noreferrer">查看原图 ↗</a></div>
+    <div><h3>活动信息</h3><dl class="project-meta"><dt>标题</dt><dd>${escape(project.title)}</dd><dt>副标题</dt><dd>${escape(project.subtitle || '暂无')}</dd><dt>活动时间</dt><dd>${escape(project.activityPeriod || '暂未收录')}</dd><dt>参与条件</dt><dd>${escape(project.eligibility || '暂未收录')}</dd><dt>活动介绍</dt><dd>${escape(project.activitySummary || project.description || '暂无')}${project.activityHighlights?.length ? `<ul class="activity-highlights">${project.activityHighlights.map((line) => `<li>${escape(line)}</li>`).join('')}</ul>` : ''}</dd><dt>收录日期</dt><dd>${escape(project.indexedAt)}</dd><dt>原网页</dt><dd><a href="${escape(remoteUrl(project.sourceUrl))}" target="_blank" rel="noopener noreferrer">打开活动网页 ↗</a></dd><dt>官方文章</dt><dd>${article ? `<a href="${escape(remoteUrl(article.url))}" target="_blank" rel="noopener noreferrer">${escape(article.title)} ↗</a><small class="info-note">发布于 ${escape(published)}</small>` : '暂未收录'}</dd></dl></div></div>
+    <section class="resource-summary"><h3>素材统计</h3><p class="field-note">${items.length} 组 Spine · 版本 ${escape(stats.versions.join('、') || '未知')} · 统计于 ${escape(project.sizeMeasuredOn || '未知')}</p><dl class="resource-metrics">
+    ${metric('JSON 骨骼', stats.json)}${stats.skel.count ? metric('SKEL 骨骼', stats.skel) : ''}${metric('atlas 图集', stats.atlas)}${metric('PNG 贴图', stats.texture)}
+    <div><dt>活动封面</dt><dd>${escape(formatBytes(project.cover.sizeBytes))}<small>1 个文件</small></dd></div><div><dt>场景截图</dt><dd>${escape(formatBytes(extra.sizeBytes))}<small>${extra.count} 个文件</small></dd></div><div class="total-metric"><dt>文件总大小</dt><dd>${escape(formatMeasured(total))}<small>${total.count} 个文件</small></dd></div></dl>
+    <p class="field-note">同一资源去重。总计包含已索引的骨骼、atlas、PNG、封面和场景截图，不含网页代码及清单。内嵌 JSON 按解析后重新序列化估算，atlas 按解码文本计算；PNG 和封面为测量时的字节数，源站文件可能变化。</p></section>`;
 }
 
 function renderLibrary(onlyFavorites = false) {
@@ -71,14 +112,15 @@ async function renderProject(project) {
   document.title = `${project.title} · Spine 素材工作台`;
   const indexUrl = new URL(project.spineIndex, project.manifestUrl).href;
   const index = await getJson(indexUrl);
-  app.innerHTML = shell(project.title, `<div class="project-navigation"><a href="${root.href}">← 返回素材库</a><div class="project-tabs" aria-label="项目内容"><button data-tab="spine" class="active" aria-pressed="true">Spine 资源</button><button data-tab="composition" aria-pressed="false">测试合并</button><button data-tab="manifest" aria-pressed="false">项目信息</button></div></div><section id="activity-gallery" aria-label="活动动画素材"><p class="muted" role="status">正在加载播放器…</p></section><section id="composition-view" hidden aria-label="测试合并"></section><section id="project-information" class="panel" hidden><h2>项目基本信息</h2><p class="settings-description">${escape(project.description)}</p><dl class="project-meta"><dt>原网页</dt><dd><a href="${escape(remoteUrl(project.sourceUrl))}" target="_blank" rel="noopener noreferrer">${escape(project.sourceUrl)} ↗</a></dd><dt>封面</dt><dd><a href="${escape(remoteUrl(project.cover.url))}" target="_blank" rel="noopener noreferrer">查看官方封面 ↗</a></dd><dt>收录日期</dt><dd>${project.indexedAt}</dd></dl></section>`, '');
+  app.innerHTML = shell(project.title, `<div class="project-navigation"><a href="${root.href}">← 返回素材库</a><div class="project-tabs" aria-label="项目内容"><button data-tab="spine" class="active" aria-pressed="true">Spine 资源</button><button data-tab="composition" aria-pressed="false">测试合并</button><button data-tab="manifest" aria-pressed="false">项目信息</button></div></div><section id="activity-gallery" aria-label="活动动画素材"><p class="muted" role="status">正在加载播放器…</p></section><section id="composition-view" hidden aria-label="测试合并"></section><section id="project-information" class="panel" hidden>${projectInformation(project, index.items)}</section>`, '');
+  bindImages();
   const { Gallery } = await import('./gallery.js');
   const groups = index.items.map((item) => ({
     ...item,
-    status: 'complete',
+    status: item.status === 'partial' || missingResources(item).length ? 'partial' : 'complete',
     has_extra: item.hasExtra,
     premultiplied_alpha: item.premultipliedAlpha,
-    initial_skin: item.initialSkin || item.skins.find((skin) => skin !== 'default') || item.skins[0],
+    initial_skin: item.initialSkin || item.skins?.find((skin) => skin !== 'default') || item.skins?.[0],
     sourceItem: item,
     sourceItems: index.items,
   }));
@@ -129,7 +171,10 @@ function renderAbout() {
 
 async function start() {
 try {
-  const catalog = await getJson(url('catalog.json'));
+  [catalog, popularity] = await Promise.all([
+    getJson(url('catalog.json')),
+    getJson(url('popularity.json')).catch(() => ({ views: {} })),
+  ]);
   projects = await Promise.all(catalog.projects.map(async (ref) => {
     const manifestUrl = url(ref.manifest);
     return { ...await getJson(manifestUrl), manifestUrl };

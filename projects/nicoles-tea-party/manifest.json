@@ -13,7 +13,8 @@
     "url": "https://fastcdn.mihoyo.com/content-v2/hk4e/164277/53a15ee96b6c2d70db42bc214e97090b_2738405601344857470.jpg",
     "alt": "魔女尼可的茶会活动新闻封面",
     "kind": "official-news-cover",
-    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-164277"
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-164277",
+    "sizeBytes": 76242
   },
   "accent": "#c7a1c8",
   "featuredSpine": "main_nike",
@@ -26,5 +27,23 @@
     "Spine 4.2"
   ],
   "notes": "手动整理的公开资源索引；JSON 与 atlas 存于官方脚本中。保留基础动画与 extra 飘动预览；未复刻原网页场景与自定义着色器。",
-  "composition": "composition.json"
+  "composition": "composition.json",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/164277",
+    "title": "【网页活动上线】魔女尼可的茶会——参与活动必得原石及抽奖好礼！",
+    "publishedAt": "2026-05-20T04:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-164277"
+  },
+  "activityPeriod": "2026年5月20日至2026年6月2日 23:59:59（UTC+8）",
+  "eligibility": "冒险等阶≥1级的旅行者即可参与活动",
+  "activitySummary": "活动期间，旅行者完成网页活动任务，可获得原石和「方糖」，消耗「方糖」即可参与抽奖赢更多福利",
+  "sizeMeasuredOn": "2026-11-02",
+  "captureStats": {
+    "count": 10,
+    "sizeBytes": 426260
+  },
+  "activityHighlights": [
+    "完成页面任务可获得原石和方糖，方糖可用于抽奖。",
+    "邀请助力与绑定任务可获得额外方糖，具体任务以官方页面为准。"
+  ]
 }

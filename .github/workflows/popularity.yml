@@ -1,0 +1,41 @@
+name: 更新百度统计排行
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: baidu-popularity
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 读取百度统计
+        env:
+          BAIDU_TONGJI_ACCESS_TOKEN: ${{ secrets.BAIDU_TONGJI_ACCESS_TOKEN }}
+          BAIDU_TONGJI_SITE_ID: ${{ secrets.BAIDU_TONGJI_SITE_ID }}
+        run: |
+          if [ -z "$BAIDU_TONGJI_ACCESS_TOKEN" ] || [ -z "$BAIDU_TONGJI_SITE_ID" ]; then
+            echo '尚未配置百度统计授权，跳过更新。'
+            exit 0
+          fi
+          node _source/scripts/update-popularity.mjs
+      - name: 提交统计汇总
+        run: |
+          if git diff --quiet -- popularity.json; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          cp popularity.json _source/popularity.json
+          git add popularity.json _source/popularity.json
+          git commit -m 'chore(analytics): 更新活动浏览量'
+          git pull --rebase origin main
+          git push origin HEAD:main

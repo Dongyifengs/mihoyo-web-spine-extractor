@@ -23,17 +23,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/kv_jiguang.json"
+        "key": "../../resources/images/effect/spine/kv_jiguang.json",
+        "sizeBytes": 21812
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/kv_jiguang.atlas"
+        "key": "../../resources/images/effect/spine/kv_jiguang.atlas",
+        "sizeBytes": 245
       },
       "textures": [
         {
           "page": "kv_jiguang.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/kv_jiguang.3a05c5fe..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/kv_jiguang.3a05c5fe..png",
+          "sizeBytes": 4645659
         }
       ]
     },
@@ -58,17 +61,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/DEFAULT_SPINE.json"
+        "key": "../../resources/images/effect/spine/DEFAULT_SPINE.json",
+        "sizeBytes": 3726
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/DEFAULT_SPINE.atlas"
+        "key": "../../resources/images/effect/spine/DEFAULT_SPINE.atlas",
+        "sizeBytes": 262
       },
       "textures": [
         {
           "page": "DEFAULT_SPINE.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/DEFAULT_SPINE.46368d5a..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/DEFAULT_SPINE.46368d5a..png",
+          "sizeBytes": 15484
         }
       ]
     },
@@ -94,17 +100,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/kv_star_a.json"
+        "key": "../../resources/images/effect/spine/kv_star_a.json",
+        "sizeBytes": 20619
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/kv_star_a.atlas"
+        "key": "../../resources/images/effect/spine/kv_star_a.atlas",
+        "sizeBytes": 523
       },
       "textures": [
         {
           "page": "kv_star_a.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/kv_star_a.df9f8b8a..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/kv_star_a.df9f8b8a..png",
+          "sizeBytes": 62257
         }
       ]
     },
@@ -129,17 +138,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/kv_yun.json"
+        "key": "../../resources/images/effect/spine/kv_yun.json",
+        "sizeBytes": 3480
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/kv_yun.atlas"
+        "key": "../../resources/images/effect/spine/kv_yun.atlas",
+        "sizeBytes": 382
       },
       "textures": [
         {
           "page": "kv_yun.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/kv_yun.f0641d7f..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/kv_yun.f0641d7f..png",
+          "sizeBytes": 325216
         }
       ]
     },
@@ -165,17 +177,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/loading_bar.json"
+        "key": "../../resources/images/effect/spine/loading_bar.json",
+        "sizeBytes": 5572
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/loading_bar.atlas"
+        "key": "../../resources/images/effect/spine/loading_bar.atlas",
+        "sizeBytes": 463
       },
       "textures": [
         {
           "page": "loading_bar.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/loading_bar.eb173005..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/loading_bar.eb173005..png",
+          "sizeBytes": 27182
         }
       ]
     },
@@ -200,17 +215,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/loading_logo_huan.json"
+        "key": "../../resources/images/effect/spine/loading_logo_huan.json",
+        "sizeBytes": 5205
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/loading_logo_huan.atlas"
+        "key": "../../resources/images/effect/spine/loading_logo_huan.atlas",
+        "sizeBytes": 515
       },
       "textures": [
         {
           "page": "loading_logo_huan.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/loading_logo_huan.09ea76e9..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/loading_logo_huan.09ea76e9..png",
+          "sizeBytes": 355804
         }
       ]
     },
@@ -235,17 +253,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx_bing.json"
+        "key": "../../resources/images/effect/spine/szx_bing.json",
+        "sizeBytes": 1385
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx_bing.atlas"
+        "key": "../../resources/images/effect/spine/szx_bing.atlas",
+        "sizeBytes": 157
       },
       "textures": [
         {
           "page": "szx_bing.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_bing.fd16b2ec..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_bing.fd16b2ec..png",
+          "sizeBytes": 102378
         }
       ]
     },
@@ -270,19 +291,22 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx_btn_end.json"
+        "key": "../../resources/images/effect/spine/szx_btn_end.json",
+        "sizeBytes": 1390
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx_btn_end.atlas"
+        "key": "../../resources/images/effect/spine/szx_btn_end.atlas",
+        "sizeBytes": 168
       },
       "textures": [
         {
           "page": "szx_btn_end.png",
           "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
           "format": "embedded-image",
-          "key": "/src/resources/images/effect/spine/szx_btn_end.png"
+          "key": "/src/resources/images/effect/spine/szx_btn_end.png",
+          "sizeBytes": 1640
         }
       ]
     },
@@ -307,17 +331,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx_cao.json"
+        "key": "../../resources/images/effect/spine/szx_cao.json",
+        "sizeBytes": 1383
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx_cao.atlas"
+        "key": "../../resources/images/effect/spine/szx_cao.atlas",
+        "sizeBytes": 156
       },
       "textures": [
         {
           "page": "szx_cao.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_cao.6548103c..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_cao.6548103c..png",
+          "sizeBytes": 104759
         }
       ]
     },
@@ -342,17 +369,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx_lei.json"
+        "key": "../../resources/images/effect/spine/szx_lei.json",
+        "sizeBytes": 1409
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx_lei.atlas"
+        "key": "../../resources/images/effect/spine/szx_lei.atlas",
+        "sizeBytes": 146
       },
       "textures": [
         {
           "page": "szx_lei.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_lei.653f5cc9..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_lei.653f5cc9..png",
+          "sizeBytes": 128780
         }
       ]
     },
@@ -380,19 +410,22 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx_line.json"
+        "key": "../../resources/images/effect/spine/szx_line.json",
+        "sizeBytes": 1558
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx_line.atlas"
+        "key": "../../resources/images/effect/spine/szx_line.atlas",
+        "sizeBytes": 76
       },
       "textures": [
         {
           "page": "szx_line.png",
           "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
           "format": "embedded-image",
-          "key": "/src/resources/images/effect/spine/szx_line.png"
+          "key": "/src/resources/images/effect/spine/szx_line.png",
+          "sizeBytes": 1221
         }
       ]
     },
@@ -420,19 +453,22 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx_line_duan.json"
+        "key": "../../resources/images/effect/spine/szx_line_duan.json",
+        "sizeBytes": 1597
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx_line_duan.atlas"
+        "key": "../../resources/images/effect/spine/szx_line_duan.atlas",
+        "sizeBytes": 81
       },
       "textures": [
         {
           "page": "szx_line_duan.png",
           "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
           "format": "embedded-image",
-          "key": "/src/resources/images/effect/spine/szx_line_duan.png"
+          "key": "/src/resources/images/effect/spine/szx_line_duan.png",
+          "sizeBytes": 1221
         }
       ]
     },
@@ -457,17 +493,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx_shui.json"
+        "key": "../../resources/images/effect/spine/szx_shui.json",
+        "sizeBytes": 1396
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx_shui.atlas"
+        "key": "../../resources/images/effect/spine/szx_shui.atlas",
+        "sizeBytes": 157
       },
       "textures": [
         {
           "page": "szx_shui.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_shui.926802ef..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_shui.926802ef..png",
+          "sizeBytes": 165101
         }
       ]
     },
@@ -492,17 +531,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx_yan.json"
+        "key": "../../resources/images/effect/spine/szx_yan.json",
+        "sizeBytes": 1382
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx_yan.atlas"
+        "key": "../../resources/images/effect/spine/szx_yan.atlas",
+        "sizeBytes": 155
       },
       "textures": [
         {
           "page": "szx_yan.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_yan.c06757d0..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx_yan.c06757d0..png",
+          "sizeBytes": 223758
         }
       ]
     },
@@ -529,17 +571,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx2_yan.json"
+        "key": "../../resources/images/effect/spine/szx2_yan.json",
+        "sizeBytes": 1507
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx2_yan.atlas"
+        "key": "../../resources/images/effect/spine/szx2_yan.atlas",
+        "sizeBytes": 194
       },
       "textures": [
         {
           "page": "szx2_yan.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx2_yan.4b7a38e7..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx2_yan.4b7a38e7..png",
+          "sizeBytes": 637372
         }
       ]
     },
@@ -566,17 +611,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx3_lei.json"
+        "key": "../../resources/images/effect/spine/szx3_lei.json",
+        "sizeBytes": 1535
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx3_lei.atlas"
+        "key": "../../resources/images/effect/spine/szx3_lei.atlas",
+        "sizeBytes": 187
       },
       "textures": [
         {
           "page": "szx3_lei.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx3_lei.146d2379..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx3_lei.146d2379..png",
+          "sizeBytes": 509999
         }
       ]
     },
@@ -603,17 +651,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx4_cao.json"
+        "key": "../../resources/images/effect/spine/szx4_cao.json",
+        "sizeBytes": 1508
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx4_cao.atlas"
+        "key": "../../resources/images/effect/spine/szx4_cao.atlas",
+        "sizeBytes": 195
       },
       "textures": [
         {
           "page": "szx4_cao.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx4_cao.19c295f9..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx4_cao.19c295f9..png",
+          "sizeBytes": 575475
         }
       ]
     },
@@ -640,17 +691,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx5_shui.json"
+        "key": "../../resources/images/effect/spine/szx5_shui.json",
+        "sizeBytes": 1502
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx5_shui.atlas"
+        "key": "../../resources/images/effect/spine/szx5_shui.atlas",
+        "sizeBytes": 196
       },
       "textures": [
         {
           "page": "szx5_shui.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx5_shui.d40ba08c..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx5_shui.d40ba08c..png",
+          "sizeBytes": 778171
         }
       ]
     },
@@ -676,17 +730,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx6_huo_light.json"
+        "key": "../../resources/images/effect/spine/szx6_huo_light.json",
+        "sizeBytes": 926
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx6_huo_light.atlas"
+        "key": "../../resources/images/effect/spine/szx6_huo_light.atlas",
+        "sizeBytes": 107
       },
       "textures": [
         {
           "page": "szx6_huo_light.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx6_huo_light.f20da141..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx6_huo_light.f20da141..png",
+          "sizeBytes": 303604
         }
       ]
     },
@@ -711,19 +768,22 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx6_sp_a.json"
+        "key": "../../resources/images/effect/spine/szx6_sp_a.json",
+        "sizeBytes": 4664
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx6_sp_a.atlas"
+        "key": "../../resources/images/effect/spine/szx6_sp_a.atlas",
+        "sizeBytes": 72
       },
       "textures": [
         {
           "page": "szx6_sp_a.png",
           "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
           "format": "embedded-image",
-          "key": "/src/resources/images/effect/spine/szx6_sp_a.png"
+          "key": "/src/resources/images/effect/spine/szx6_sp_a.png",
+          "sizeBytes": 13391
         }
       ]
     },
@@ -748,17 +808,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szx6_sp_b.json"
+        "key": "../../resources/images/effect/spine/szx6_sp_b.json",
+        "sizeBytes": 9221
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szx6_sp_b.atlas"
+        "key": "../../resources/images/effect/spine/szx6_sp_b.atlas",
+        "sizeBytes": 179
       },
       "textures": [
         {
           "page": "szx6_sp_b.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx6_sp_b.71ecf584..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szx6_sp_b.71ecf584..png",
+          "sizeBytes": 44263
         }
       ]
     },
@@ -785,17 +848,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/szy1_feng.json"
+        "key": "../../resources/images/effect/spine/szy1_feng.json",
+        "sizeBytes": 1471
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/szy1_feng.atlas"
+        "key": "../../resources/images/effect/spine/szy1_feng.atlas",
+        "sizeBytes": 212
       },
       "textures": [
         {
           "page": "szy1_feng.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szy1_feng.cfeb26de..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/szy1_feng.cfeb26de..png",
+          "sizeBytes": 593202
         }
       ]
     },
@@ -820,17 +886,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/yrz_choujue.json"
+        "key": "../../resources/images/effect/spine/yrz_choujue.json",
+        "sizeBytes": 140977
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/yrz_choujue.atlas"
+        "key": "../../resources/images/effect/spine/yrz_choujue.atlas",
+        "sizeBytes": 1359
       },
       "textures": [
         {
           "page": "yrz_choujue.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_choujue.3dccbc63..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_choujue.3dccbc63..png",
+          "sizeBytes": 945704
         }
       ]
     },
@@ -855,17 +924,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/yrz_furen.json"
+        "key": "../../resources/images/effect/spine/yrz_furen.json",
+        "sizeBytes": 169554
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/yrz_furen.atlas"
+        "key": "../../resources/images/effect/spine/yrz_furen.atlas",
+        "sizeBytes": 1731
       },
       "textures": [
         {
           "page": "yrz_furen.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_furen.0348240b..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_furen.0348240b..png",
+          "sizeBytes": 1025662
         }
       ]
     },
@@ -890,17 +962,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/yrz_gongji.json"
+        "key": "../../resources/images/effect/spine/yrz_gongji.json",
+        "sizeBytes": 106287
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/yrz_gongji.atlas"
+        "key": "../../resources/images/effect/spine/yrz_gongji.atlas",
+        "sizeBytes": 2149
       },
       "textures": [
         {
           "page": "yrz_gongji.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_gongji.14260f17..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_gongji.14260f17..png",
+          "sizeBytes": 612741
         }
       ]
     },
@@ -925,17 +1000,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/yrz_gongzhi.json"
+        "key": "../../resources/images/effect/spine/yrz_gongzhi.json",
+        "sizeBytes": 176570
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/yrz_gongzhi.atlas"
+        "key": "../../resources/images/effect/spine/yrz_gongzhi.atlas",
+        "sizeBytes": 2473
       },
       "textures": [
         {
           "page": "yrz_gongzhi.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_gongzhi.f2531759..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_gongzhi.f2531759..png",
+          "sizeBytes": 1014683
         }
       ]
     },
@@ -960,17 +1038,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/yrz_muer.json"
+        "key": "../../resources/images/effect/spine/yrz_muer.json",
+        "sizeBytes": 233391
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/yrz_muer.atlas"
+        "key": "../../resources/images/effect/spine/yrz_muer.atlas",
+        "sizeBytes": 2941
       },
       "textures": [
         {
           "page": "yrz_muer.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_muer.aaddd049..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_muer.aaddd049..png",
+          "sizeBytes": 773597
         }
       ]
     },
@@ -995,17 +1076,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/yrz_puren.json"
+        "key": "../../resources/images/effect/spine/yrz_puren.json",
+        "sizeBytes": 155179
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/yrz_puren.atlas"
+        "key": "../../resources/images/effect/spine/yrz_puren.atlas",
+        "sizeBytes": 1412
       },
       "textures": [
         {
           "page": "yrz_puren.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_puren.2230ac39..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yrz_puren.2230ac39..png",
+          "sizeBytes": 574177
         }
       ]
     },
@@ -1030,17 +1114,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/yy_dtree_l.json"
+        "key": "../../resources/images/effect/spine/yy_dtree_l.json",
+        "sizeBytes": 5611
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/yy_dtree_l.atlas"
+        "key": "../../resources/images/effect/spine/yy_dtree_l.atlas",
+        "sizeBytes": 81
       },
       "textures": [
         {
           "page": "yy_dtree_l.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_dtree_l.0ef28ed6..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_dtree_l.0ef28ed6..png",
+          "sizeBytes": 1534778
         }
       ]
     },
@@ -1065,17 +1152,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/yy_dtree_r.json"
+        "key": "../../resources/images/effect/spine/yy_dtree_r.json",
+        "sizeBytes": 4611
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/yy_dtree_r.atlas"
+        "key": "../../resources/images/effect/spine/yy_dtree_r.atlas",
+        "sizeBytes": 81
       },
       "textures": [
         {
           "page": "yy_dtree_r.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_dtree_r.650f0f6c..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_dtree_r.650f0f6c..png",
+          "sizeBytes": 773604
         }
       ]
     },
@@ -1100,17 +1190,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/yy_tree_l.json"
+        "key": "../../resources/images/effect/spine/yy_tree_l.json",
+        "sizeBytes": 7601
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/yy_tree_l.atlas"
+        "key": "../../resources/images/effect/spine/yy_tree_l.atlas",
+        "sizeBytes": 127
       },
       "textures": [
         {
           "page": "yy_tree_l.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_tree_l.458ef73d..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_tree_l.458ef73d..png",
+          "sizeBytes": 162263
         }
       ]
     },
@@ -1135,17 +1228,20 @@
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/yy_tree_r.json"
+        "key": "../../resources/images/effect/spine/yy_tree_r.json",
+        "sizeBytes": 10930
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/index_d7ff9eccdcaf8f25d57f.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/yy_tree_r.atlas"
+        "key": "../../resources/images/effect/spine/yy_tree_r.atlas",
+        "sizeBytes": 218
       },
       "textures": [
         {
           "page": "yy_tree_r.png",
-          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_tree_r.afe9331c..png"
+          "url": "https://act.mihoyo.com/ys/event/e20260731reserve-y2xckt/images/yy_tree_r.afe9331c..png",
+          "sizeBytes": 168141
         }
       ]
     }
