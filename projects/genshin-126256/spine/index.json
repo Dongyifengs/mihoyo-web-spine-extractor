@@ -1,0 +1,1161 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-126256",
+  "items": [
+    {
+      "id": "chuizi",
+      "name": "chuizi",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 1616,
+        "key": "@byte:1346881",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 148,
+        "key": "@byte:1320534",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "chuizi.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/chuizi.045ec0b9..png",
+          "sizeBytes": 38062
+        }
+      ]
+    },
+    {
+      "id": "dadietai",
+      "name": "dadietai",
+      "version": "4.2.36",
+      "animations": [
+        "actionloop",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 2368,
+        "key": "@byte:1348535",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 276,
+        "key": "@byte:1320719",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "dadietai.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/dadietai.ea4c5a66..png",
+          "sizeBytes": 195396
+        }
+      ]
+    },
+    {
+      "id": "hua2",
+      "name": "hua2",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 12166,
+        "key": "@byte:1350941",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 89,
+        "key": "@byte:1321040",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "hua2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/hua2.30a572be..png",
+          "sizeBytes": 15711
+        }
+      ]
+    },
+    {
+      "id": "jzt",
+      "name": "jzt",
+      "version": "4.2.36",
+      "animations": [
+        "1-100",
+        "hong",
+        "kong"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 14142,
+        "key": "@byte:1363161",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 226,
+        "key": "@byte:1321163",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "jzt.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/jzt.00520e50..png",
+          "sizeBytes": 222197
+        }
+      ]
+    },
+    {
+      "id": "shu2",
+      "name": "shu2",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 13408,
+        "key": "@byte:1377343",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 91,
+        "key": "@byte:1321432",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "shu2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/shu2.c9e4d1e4..png",
+          "sizeBytes": 151032
+        }
+      ]
+    },
+    {
+      "id": "tc1",
+      "name": "tc1",
+      "version": "4.2.36",
+      "animations": [
+        "chuizi,gaozi",
+        "chuizi,gaoziloop",
+        "maozi",
+        "maoziloop",
+        "tc2",
+        "tc2loop",
+        "tc3",
+        "tc3loop"
+      ],
+      "skins": [
+        "default",
+        "chuizi",
+        "gaozi",
+        "maozi"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 42970,
+        "key": "@byte:1390819",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 862,
+        "key": "@byte:1321557",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "tc1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/tc1.77a84438..png",
+          "sizeBytes": 1002011
+        }
+      ]
+    },
+    {
+      "id": "tiaoyintiao",
+      "name": "tiaoyintiao",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 3083,
+        "key": "@byte:1433827",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 272,
+        "key": "@byte:1322502",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "tiaoyintiao.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/tiaoyintiao.fe25823d..png",
+          "sizeBytes": 304786
+        }
+      ]
+    },
+    {
+      "id": "tulong",
+      "name": "tulong",
+      "version": "4.2.36",
+      "animations": [
+        "action",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 37028,
+        "key": "@byte:1436948",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 978,
+        "key": "@byte:1322819",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "tulong.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/tulong.c83df2fe..png",
+          "sizeBytes": 141501
+        }
+      ]
+    },
+    {
+      "id": "xnnbm",
+      "name": "xnnbm",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 66124,
+        "key": "@byte:1474026",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 664,
+        "key": "@byte:1323894",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "xnnbm.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnbm.eea7c6d0..png",
+          "sizeBytes": 452474
+        }
+      ]
+    },
+    {
+      "id": "xnnkv",
+      "name": "xnnkv",
+      "version": "4.2.36",
+      "animations": [
+        "eye",
+        "in",
+        "loop1"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 440128,
+        "key": "@byte:1540230",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2885,
+        "key": "@byte:1324634",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "xnnkv.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnkv.12698bcd..png",
+          "sizeBytes": 5374347
+        },
+        {
+          "page": "xnnkv_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnkv_2.dfb6dfb5..png",
+          "sizeBytes": 2395832
+        }
+      ]
+    },
+    {
+      "id": "xnnkvzhiwu",
+      "name": "xnnkvzhiwu",
+      "version": "4.2.36",
+      "animations": [
+        "eye",
+        "in",
+        "loop1"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 20709,
+        "key": "@byte:1980532",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 350,
+        "key": "@byte:1327719",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "xnnkvzhiwu.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnkvzhiwu.8409b5bb..png",
+          "sizeBytes": 1559852
+        }
+      ]
+    },
+    {
+      "id": "xnnpa",
+      "name": "xnnpa",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 61843,
+        "key": "@byte:2001289",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1038,
+        "key": "@byte:1328118",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "xnnpa.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnpa.a4f5cf12..png",
+          "sizeBytes": 415801
+        }
+      ]
+    },
+    {
+      "id": "xnnxr",
+      "name": "xnnxr",
+      "version": "4.2.36",
+      "animations": [
+        "eye",
+        "loop",
+        "walk",
+        "介绍香水瓶x",
+        "双手举手",
+        "双手举手2",
+        "回忆x",
+        "微笑",
+        "思考x",
+        "抬手示意",
+        "拍手",
+        "拿试管x",
+        "泡水",
+        "闻花x",
+        "震惊"
+      ],
+      "skins": [
+        "default",
+        "left",
+        "right"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 372420,
+        "key": "@byte:2063222",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2578,
+        "key": "@byte:1329254",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "xnnxr.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnxr.599fd8e9..png",
+          "sizeBytes": 778128
+        }
+      ]
+    },
+    {
+      "id": "yinbo",
+      "name": "yinbo",
+      "version": "4.2.36",
+      "animations": [
+        "1-100",
+        "end"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 1390,
+        "key": "@byte:2435804",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 97,
+        "key": "@byte:1332029",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "yinbo.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/yinbo.67c699e6..png",
+          "sizeBytes": 60106
+        }
+      ]
+    },
+    {
+      "id": "ylt2hou",
+      "name": "ylt2hou",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 7527,
+        "key": "@byte:2437232",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 313,
+        "key": "@byte:1332160",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "ylt2hou.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/ylt2hou.a507f7ae..png",
+          "sizeBytes": 1111020
+        }
+      ]
+    },
+    {
+      "id": "yltqian",
+      "name": "yltqian",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 7047,
+        "key": "@byte:2444797",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 253,
+        "key": "@byte:1332519",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "yltqian.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/yltqian.67b9afac..png",
+          "sizeBytes": 511481
+        }
+      ]
+    },
+    {
+      "id": "yt",
+      "name": "yt",
+      "version": "4.2.36",
+      "animations": [
+        "null",
+        "奔跑预备",
+        "开心loop",
+        "开心奔跑",
+        "搔痒",
+        "生气loop",
+        "生气奔跑",
+        "花掉",
+        "花掉loop",
+        "跺脚",
+        "跺脚loop",
+        "跺脚切换"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 112604,
+        "key": "@byte:2451882",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2712,
+        "key": "@byte:1332815",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "yt.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/yt.9666bdc2..png",
+          "sizeBytes": 477650
+        }
+      ]
+    },
+    {
+      "id": "ytyanwu",
+      "name": "ytyanwu",
+      "version": "4.2.36",
+      "animations": [
+        "开心烟雾",
+        "生气烟雾"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 18473,
+        "key": "@byte:2564550",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 739,
+        "key": "@byte:1335730",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "ytyanwu.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/ytyanwu.bc0fb424..png",
+          "sizeBytes": 257572
+        }
+      ]
+    },
+    {
+      "id": "zhiwu1",
+      "name": "zhiwu1",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 13435,
+        "key": "@byte:2583061",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 73,
+        "key": "@byte:1336536",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "zhiwu1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/zhiwu1.7d66ed28..png",
+          "sizeBytes": 80724
+        }
+      ]
+    },
+    {
+      "id": "zhiwu2",
+      "name": "zhiwu2",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-json",
+        "sizeBytes": 19519,
+        "key": "@byte:2596548",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 75,
+        "key": "@byte:1336642",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "zhiwu2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/zhiwu2.d7edc604..png",
+          "sizeBytes": 233179
+        }
+      ]
+    },
+    {
+      "id": "hua2-8240e49f",
+      "name": "hua2",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/hua2.a418163a.json",
+        "format": "json",
+        "sizeBytes": 12182
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 89,
+        "key": "@byte:1321040",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "hua2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/hua2.30a572be..png",
+          "sizeBytes": 15711
+        }
+      ]
+    },
+    {
+      "id": "jzt-07adcf10",
+      "name": "jzt",
+      "version": "4.2.36",
+      "animations": [
+        "1-100",
+        "hong",
+        "kong"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/jzt.32658882.json",
+        "format": "json",
+        "sizeBytes": 14144
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 226,
+        "key": "@byte:1321163",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "jzt.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/jzt.00520e50..png",
+          "sizeBytes": 222197
+        }
+      ]
+    },
+    {
+      "id": "shu2-42a3822f",
+      "name": "shu2",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/shu2.36ac3d21.json",
+        "format": "json",
+        "sizeBytes": 13438
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 91,
+        "key": "@byte:1321432",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "shu2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/shu2.c9e4d1e4..png",
+          "sizeBytes": 151032
+        }
+      ]
+    },
+    {
+      "id": "tulong-20e1e23c",
+      "name": "tulong",
+      "version": "4.2.36",
+      "animations": [
+        "action",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/tulong.f4656c75.json",
+        "format": "json",
+        "sizeBytes": 37040
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 978,
+        "key": "@byte:1322819",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "tulong.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/tulong.c83df2fe..png",
+          "sizeBytes": 141501
+        }
+      ]
+    },
+    {
+      "id": "xnnbm-e70440e9",
+      "name": "xnnbm",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/xnnbm.99b129cd.json",
+        "format": "json",
+        "sizeBytes": 66166
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 664,
+        "key": "@byte:1323894",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "xnnbm.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnbm.eea7c6d0..png",
+          "sizeBytes": 452474
+        }
+      ]
+    },
+    {
+      "id": "xnnkv-ecbb7e1b",
+      "name": "xnnkv",
+      "version": "4.2.36",
+      "animations": [
+        "eye",
+        "in",
+        "loop1"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/xnnkv.3499f80b.json",
+        "format": "json",
+        "sizeBytes": 440264
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2885,
+        "key": "@byte:1324634",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "xnnkv.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnkv.12698bcd..png",
+          "sizeBytes": 5374347
+        },
+        {
+          "page": "xnnkv_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnkv_2.dfb6dfb5..png",
+          "sizeBytes": 2395832
+        }
+      ]
+    },
+    {
+      "id": "xnnkvzhiwu-c75953f8",
+      "name": "xnnkvzhiwu",
+      "version": "4.2.36",
+      "animations": [
+        "eye",
+        "in",
+        "loop1"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/xnnkvzhiwu.3d0a074d.json",
+        "format": "json",
+        "sizeBytes": 20719
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 350,
+        "key": "@byte:1327719",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "xnnkvzhiwu.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnkvzhiwu.8409b5bb..png",
+          "sizeBytes": 1559852
+        }
+      ]
+    },
+    {
+      "id": "xnnpa-eab6a4a6",
+      "name": "xnnpa",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/xnnpa.2654b902.json",
+        "format": "json",
+        "sizeBytes": 61895
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1038,
+        "key": "@byte:1328118",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "xnnpa.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnpa.a4f5cf12..png",
+          "sizeBytes": 415801
+        }
+      ]
+    },
+    {
+      "id": "xnnxr-c58073b6",
+      "name": "xnnxr",
+      "version": "4.2.36",
+      "animations": [
+        "eye",
+        "loop",
+        "walk",
+        "介绍香水瓶x",
+        "双手举手",
+        "双手举手2",
+        "回忆x",
+        "微笑",
+        "思考x",
+        "抬手示意",
+        "拍手",
+        "拿试管x",
+        "泡水",
+        "闻花x",
+        "震惊"
+      ],
+      "skins": [
+        "default",
+        "left",
+        "right"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/xnnxr.b7cded90.json",
+        "format": "json",
+        "sizeBytes": 372544
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2578,
+        "key": "@byte:1329254",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "xnnxr.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/xnnxr.599fd8e9..png",
+          "sizeBytes": 778128
+        }
+      ]
+    },
+    {
+      "id": "yt-e489fa09",
+      "name": "yt",
+      "version": "4.2.36",
+      "animations": [
+        "null",
+        "奔跑预备",
+        "开心loop",
+        "开心奔跑",
+        "搔痒",
+        "生气loop",
+        "生气奔跑",
+        "花掉",
+        "花掉loop",
+        "跺脚",
+        "跺脚loop",
+        "跺脚切换"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/yt.e69b18f2.json",
+        "format": "json",
+        "sizeBytes": 112630
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2712,
+        "key": "@byte:1332815",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "yt.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/yt.9666bdc2..png",
+          "sizeBytes": 477650
+        }
+      ]
+    },
+    {
+      "id": "zhiwu1-8c479500",
+      "name": "zhiwu1",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/zhiwu1.d2d9404a.json",
+        "format": "json",
+        "sizeBytes": 13449
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 73,
+        "key": "@byte:1336536",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "zhiwu1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/zhiwu1.7d66ed28..png",
+          "sizeBytes": 80724
+        }
+      ]
+    },
+    {
+      "id": "zhiwu2-cdd1866d",
+      "name": "zhiwu2",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/node_modules/@effect/hk4e-20241004-xilonen/dist/effect/spine/zhiwu2.14fb6812.json",
+        "format": "json",
+        "sizeBytes": 19583
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/vendors_05a92a192e36b86955d3.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 75,
+        "key": "@byte:1336642",
+        "sourceSha256": "b752f075b2ac56437a538c2096597f3ccfefd0d02a851e889690c7b2aecab48f"
+      },
+      "textures": [
+        {
+          "page": "zhiwu2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20241004xilonen-aevsua/images/zhiwu2.d7edc604..png",
+          "sizeBytes": 233179
+        }
+      ]
+    }
+  ]
+}

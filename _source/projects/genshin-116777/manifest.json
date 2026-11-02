@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-116777",
+  "title": "《原神》「神秘的远航」网页活动现已开启",
+  "subtitle": "《原神》「神秘的远航」网页活动现已开启",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2021-07-13",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://webstatic.mihoyo.com/ys/event/e20210713warm/index.html",
+  "cover": {
+    "url": "https://uploadstatic.mihoyo.com/contentweb/20210713/2021071311353520942.jpg",
+    "alt": "《原神》「神秘的远航」网页活动现已开启",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-116777",
+    "kind": "official-news-cover",
+    "sizeBytes": 165397
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 3,
+  "textureCount": 3,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/116777",
+    "title": "《原神》「神秘的远航」网页活动现已开启",
+    "publishedAt": "2021-07-13T04:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-116777"
+  },
+  "articleText": "揭开一本不知从何处获得的航海手册，与「最好的伙伴」派蒙同行，开启神秘的远航之旅！\n>>点击前往「神秘的远航」网页活动<<\n〓活动时间〓\n活动时间：2021/07/13 -2021/07/20 23:59\n〓参与条件〓\n冒险等阶≥10级的旅行者可参与本活动。\n〓活动介绍〓\n活动中，旅行者被一本神秘的航海手册引向某个未知的海域，是时候做出选择，开始你的航海之旅了！请注意，你的每个选择都可能会影响旅行的进程，请谨慎选择哦。\n>>立即起航<<\n〓活动奖励〓\n1-每次解锁新远航情报，可获得15000摩拉奖励，部分情报还有额外小礼物掉落；\n2-累计解锁区域8/15/25/35个时，可以在区域解锁进度弹窗中领取原石等奖励。\n*「绯樱饼」与「三彩团子」将于2.0版本开启后三天内，分批发放至旅行者游戏内邮箱中。\n（更多规则详情请至活动页面-规则弹窗内了解。）\n关于《原神》\n《原神》是由米哈游自研的一款全新开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端与PC端数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 11,
+    "skeletons": 3,
+    "atlases": 3
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "冒险等阶≥10级的旅行者可参与本活动。",
+  "activitySummary": "揭开一本不知从何处获得的航海手册，与「最好的伙伴」派蒙同行，开启神秘的远航之旅！\n>>点击前往「神秘的远航」网页活动<<\n〓活动时间〓\n活动时间：2021/07/13 -2021/07/20 23:59\n〓参与条件〓\n冒险等阶≥10级的旅行者可参与本活动。"
+}

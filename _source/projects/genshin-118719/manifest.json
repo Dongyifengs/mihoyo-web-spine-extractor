@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-118719",
+  "title": "原神×三星堆博物馆联动H5「开山览物」已上线",
+  "subtitle": "原神×三星堆博物馆联动H5「开山览物」已上线",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2023-12-20",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://act.mihoyo.com/ys/event/e20231220sanxingdui/index.html",
+  "cover": {
+    "url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/69c4517306ae1f0cb284824a3e5f32f1_1294084966511766844.jpg",
+    "alt": "原神×三星堆博物馆联动H5「开山览物」已上线",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-118719",
+    "kind": "official-news-cover",
+    "sizeBytes": 290893
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 43,
+  "textureCount": 44,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/118719",
+    "title": "原神×三星堆博物馆联动H5「开山览物」已上线",
+    "publishedAt": "2023-12-20T10:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-118719"
+  },
+  "articleText": "原神×三星堆博物馆联动H5「开山览物」已上线\n点击\n网页链接\n或扫描图中二维码参与「开山览物」H5活动\n“若你有空，不妨许我一日空闲，四处走走。”\n近日田铁嘴新作了一段说书，不如与钟离一起小坐片刻，听书看画、挑选古物，聊作消遣。\n〓活动时间〓\n2023/12/20 18:00 至 2024/1/2 23:59\n〓活动简介〓\n活动期间，点击翻开查看古物的描述，找出最符合描述的古物。四件古物全部找到后，分享本活动即可领取原石等游戏内道具奖励。\n〓活动奖励〓\n原石×40 摩拉×20000 冒险家的经验×3\n〓温馨提示〓\n1.玩家角色冒险等阶≥10级，方可参与活动领取奖励；\n2.四件古物全部找到并分享本活动后，奖励通过游戏内邮件发放，邮件有效期为30天，请及时领取。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 13,
+    "skeletons": 43,
+    "atlases": 43
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "1.玩家角色冒险等阶≥10级，方可参与活动领取奖励；",
+  "activitySummary": "原神×三星堆博物馆联动H5「开山览物」已上线\n点击\n网页链接\n或扫描图中二维码参与「开山览物」H5活动\n“若你有空，不妨许我一日空闲，四处走走。”\n近日田铁嘴新作了一段说书，不如与钟离一起小坐片刻，听书看画、挑选古物，聊作消遣。"
+}

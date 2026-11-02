@@ -1,12 +1,17 @@
 import {ExtraMotion} from './extra.js';
 import {FrameStats} from './performance.js';
 import {prepareAssets, loadImage} from './resources.js';
+import {createLoadQueue} from './load-queue.js';
 
 export const runtimeVersion = group => (group.version || '').match(/^\d+\.\d+/)?.[0];
 export const preferredAnimation = names => names?.find(name => /loop/i.test(name)) || names?.[0] || '';
 export async function loadRuntime(version) {
-  if (!/^4\.2\./.test(version)) throw new Error(`Demo 暂不支持 Spine ${version}，可查看官方资源链接`);
-  return import('@esotericsoftware/spine-webgl');
+  if (runtimeVersion({version}) === '4.2') return import('@esotericsoftware/spine-webgl');
+  const versions = { '3.8': '3.8', '4.0': '4.0.31', '4.1': '4.1.56' };
+  const exact = versions[String(version).match(/^\d+\.\d+/)?.[0]];
+  if (!exact) throw new Error(`暂不支持 Spine ${version} 的预览，可复制官方资源链接`);
+  const root = new URL(document.documentElement.dataset.root, location.href);
+  return (await import(/* @vite-ignore */ new URL(`runtimes/spine-${exact}.js`, root).href)).default;
 }
 
 export const debugOptions = [
@@ -28,8 +33,16 @@ class Surface {
     const {runtime: r, webgl: w, context} = this.pool;
     const config = await prepareAssets(this.group.sourceItem, this.group.sourceItems);
     if (this.disposed) return;
-    const atlas = this.atlas = new r.TextureAtlas(config.atlas);
-    const results = await Promise.allSettled(atlas.pages.map(async page => {
+    if (runtimeVersion(this.group) === '3.8') {
+      const loaded = await Promise.allSettled([...config.textures].map(async ([name, url]) => [name, await loadImage(url, this.abort.signal)]));
+      if (this.disposed) return;
+      const failed = loaded.find((result) => result.status === 'rejected');
+      if (failed) throw failed.reason;
+      const images = new Map(loaded.map((result) => result.value));
+      this.atlas = new r.TextureAtlas(config.atlas, (name) => new w.GLTexture(context, images.get(name)));
+    } else this.atlas = new r.TextureAtlas(config.atlas);
+    const atlas = this.atlas;
+    const results = await Promise.allSettled(atlas.pages.filter((page) => typeof page.setTexture === 'function').map(async page => {
       const url = config.textures.get(page.name);
       if (!url) throw new Error(`图集缺少在线贴图映射：${page.name}`);
       const image = await loadImage(url, this.abort.signal);
@@ -213,6 +226,7 @@ export class RenderHub {
   constructor({detail = false, fps = detail ? 60 : 30, afterFrame = null} = {}) {
     this.detail = detail; this.pools = new Map(); this.disposed = false; this.lastTime = 0;
     this.stats = new FrameStats(); this.frameListeners = new Set();
+    this.loads = createLoadQueue();
     const frame = this.frame = time => {
       if (this.disposed || this.suspended) return;
       this.raf = requestAnimationFrame(frame);
@@ -235,7 +249,10 @@ export class RenderHub {
     this.stats.reset();
     if (!suspended) this.raf = requestAnimationFrame(this.frame);
   }
-  async add(group, canvas, state, callbacks = {}) {
+  add(group, canvas, state, callbacks = {}) {
+    return this.loads.add(() => this.load(group, canvas, state, callbacks));
+  }
+  async load(group, canvas, state, callbacks = {}) {
     const version = runtimeVersion(group);
     let surface;
     try {
@@ -256,6 +273,7 @@ export class RenderHub {
   }
   dispose() {
     this.disposed = true; cancelAnimationFrame(this.raf);
+    this.loads.close();
     this.frameListeners.clear();
     for (const pending of this.pools.values()) pending.pool?.dispose();
     this.pools.clear();

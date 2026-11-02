@@ -1,4 +1,4 @@
-import { parse } from 'acorn';
+import { parse, parseExpressionAt } from 'acorn';
 
 // Decode data literals only. Never execute a remote activity script.
 export function literal(node) {
@@ -31,6 +31,24 @@ export function literal(node) {
 export function decodeBundle(source, keys) {
   const wanted = new Set(keys);
   const values = new Map();
+  // Convert UTF-8 locators to JS string positions in one pass, even for large bundles.
+  let bytePosition = 0, position = 0;
+  for (const key of [...wanted].filter(key => /^@byte:\d+$/.test(key)).sort((a, b) => Number(a.slice(6)) - Number(b.slice(6)))) {
+    const offset = Number(key.slice(6));
+    if (!Number.isSafeInteger(offset)) throw new Error('资源定位超出脚本范围');
+    while (bytePosition < offset && position < source.length) {
+      const code = source.codePointAt(position);
+      bytePosition += code < 0x80 ? 1 : code < 0x800 ? 2 : code < 0x10000 ? 3 : 4;
+      position += code > 0xffff ? 2 : 1;
+    }
+    if (bytePosition !== offset || position >= source.length) throw new Error('资源定位超出脚本范围');
+    let value = literal(parseExpressionAt(source, position, { ecmaVersion: 'latest' }));
+    if (typeof value === 'string' && value.trimStart().startsWith('{')) {
+      try { value = JSON.parse(value); } catch { /* Atlas and image strings stay strings. */ }
+    }
+    values.set(key, value);
+  }
+  if (values.size === wanted.size) return values;
   const stack = [parse(source, { ecmaVersion: 'latest', sourceType: 'script' })];
   while (stack.length) {
     const node = stack.pop();

@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117756",
+  "items": [
+    {
+      "id": "dog",
+      "name": "dog",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-json",
+        "sizeBytes": 41835,
+        "key": "@byte:1971175",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 386,
+        "key": "@byte:1970724",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "textures": [
+        {
+          "page": "dog.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/images/dog.bbf272e0..png",
+          "sizeBytes": 88240
+        }
+      ]
+    },
+    {
+      "id": "girl_npc",
+      "name": "girl_npc",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-json",
+        "sizeBytes": 49546,
+        "key": "@byte:2013991",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 795,
+        "key": "@byte:2013099",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "textures": [
+        {
+          "page": "girl_npc.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/images/girl_npc.e93e5e38..png",
+          "sizeBytes": 144701
+        }
+      ]
+    },
+    {
+      "id": "nilu_q",
+      "name": "nilu_q",
+      "version": "4.0.33",
+      "animations": [
+        "L_walk",
+        "R_stand",
+        "R_stand_talk_in",
+        "R_stand_talk_loop",
+        "R_walk",
+        "shenshou_in",
+        "shenshou_loop",
+        "stand",
+        "WALK"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-json",
+        "sizeBytes": 121974,
+        "key": "@byte:2066240",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2427,
+        "key": "@byte:2063608",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "textures": [
+        {
+          "page": "nilu_Q.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/images/nilu_Q.552d5cb9..png",
+          "sizeBytes": 97470
+        }
+      ]
+    },
+    {
+      "id": "nilu_shouye",
+      "name": "nilu_shouye",
+      "version": "4.0.33",
+      "animations": [
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-json",
+        "sizeBytes": 162685,
+        "key": "@byte:2192018",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3434,
+        "key": "@byte:2188339",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "textures": [
+        {
+          "page": "nilu_shouye.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/images/nilu_shouye.e9887405..png",
+          "sizeBytes": 3334717
+        },
+        {
+          "page": "nilu_shouye_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/images/nilu_shouye_2.9847d27b..png",
+          "sizeBytes": 2631155
+        }
+      ]
+    },
+    {
+      "id": "paimon",
+      "name": "paimon",
+      "version": "4.0.33",
+      "animations": [
+        "L_stop",
+        "R_fly",
+        "R_stop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-json",
+        "sizeBytes": 59231,
+        "key": "@byte:2356262",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1313,
+        "key": "@byte:2354820",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "textures": [
+        {
+          "page": "paimon.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/images/paimon.ac863e9c..png",
+          "sizeBytes": 364424
+        }
+      ]
+    },
+    {
+      "id": "scene_1",
+      "name": "scene_1",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-json",
+        "sizeBytes": 46457,
+        "key": "@byte:2416169",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 527,
+        "key": "@byte:2415572",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "textures": [
+        {
+          "page": "scene_1.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/images/scene_1.1fd052e4..png",
+          "sizeBytes": 389839
+        }
+      ]
+    },
+    {
+      "id": "traveler_boy",
+      "name": "traveler_boy",
+      "version": "4.0.33",
+      "animations": [
+        "L_stand",
+        "L_walk",
+        "R_stand",
+        "R_walk"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-json",
+        "sizeBytes": 110506,
+        "key": "@byte:2465294",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2387,
+        "key": "@byte:2462709",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "textures": [
+        {
+          "page": "traveler_boy.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/images/traveler_boy.c929ec64..png",
+          "sizeBytes": 82482
+        }
+      ]
+    },
+    {
+      "id": "traveler_girl",
+      "name": "traveler_girl",
+      "version": "4.0.33",
+      "animations": [
+        "L_stand",
+        "L_walk",
+        "R_stand",
+        "R_walk"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-json",
+        "sizeBytes": 80038,
+        "key": "@byte:2577561",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/vendors_17a4b967466314c188c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1511,
+        "key": "@byte:2575905",
+        "sourceSha256": "3abc786df1deef6974c8c7335f85bc353490079a54f43e3bb100d4396e5931f4"
+      },
+      "textures": [
+        {
+          "page": "traveler_girl.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221008nilou/images/traveler_girl.fc493083..png",
+          "sizeBytes": 74305
+        }
+      ]
+    }
+  ]
+}

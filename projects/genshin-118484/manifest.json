@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-118484",
+  "title": "「倏忽雨止」",
+  "subtitle": "「倏忽雨止」——《原神》新角色：那维莱特分享H5正式上线",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2023-09-22",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://act.mihoyo.com/ys/event/e20230922neuvillette/index.html",
+  "cover": {
+    "url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/20ec999164666de544ecec44658ba164_8127803189455305669.jpg",
+    "alt": "「倏忽雨止」",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-118484",
+    "kind": "official-news-cover",
+    "sizeBytes": 277743
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 17,
+  "textureCount": 18,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/118484",
+    "title": "「倏忽雨止」——《原神》新角色：那维莱特分享H5正式上线",
+    "publishedAt": "2023-09-22T04:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-118484"
+  },
+  "articleText": "骤然雨落，行人匆匆。倏忽雨止，怅然空空。\n「倏忽雨止」——《原神》新角色：那维莱特分享H5正式上线。\n点击\n>>网页链接<<\n或扫描图中二维码参与活动\n〓活动时间〓\n2023/9/22 12:00 至 2023/9/27 23:59\n〓参与条件〓\n冒险等阶≥10级\n〓活动简介〓\n活动期间，帮助美露莘艾菲向那维莱特汇报事件，即可领取游戏内道具奖励。\n〓活动玩法说明〓\n1.活动期间，向那维莱特汇报近期发生的事件，即可领取游戏内道具奖励。\n2.汇报事件时，需要根据美露莘的提示，选择合适的词语模块放入空白处。汇报内容通顺且符合事实，即为汇报成功。\n3.完成活动内指定任务，可解锁更多可汇报事件。\n〓游戏奖励〓\n完成事件汇报，即可领取原石、角色突破材料等游戏奖励。\n〓活动注意事项〓\n1、请各位旅行者登录米哈游通行证并绑定《原神》中的游戏角色参与活动，以保证活动奖励的正常发放与领取。\n2、本次活动壁纸在活动结束后暂无获取途径，请旅行者及时领取。\n3、完成事件汇报后，奖励将通过游戏内邮件发放，邮件有效期为30天，请注意查收。\n4、版本更新维护期间网页活动无法访问，版本更新完成后即可正常访问，请旅行者注意。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 12,
+    "skeletons": 17,
+    "atlases": 17
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "冒险等阶≥10级",
+  "activitySummary": "骤然雨落，行人匆匆。倏忽雨止，怅然空空。\n「倏忽雨止」——《原神》新角色：那维莱特分享H5正式上线。\n点击\n>>网页链接<<\n或扫描图中二维码参与活动\n〓活动时间〓"
+}

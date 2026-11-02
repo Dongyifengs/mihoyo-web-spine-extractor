@@ -1,0 +1,1704 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-123535",
+  "items": [
+    {
+      "id": "adjunct",
+      "name": "adjunct",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "a",
+        "click"
+      ],
+      "skins": [
+        "default",
+        "adjunct_0",
+        "adjunct_1",
+        "adjunct_2",
+        "adjunct_3",
+        "adjunct_4"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 5783,
+        "key": "@byte:3540936",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 278,
+        "key": "@byte:3540544",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "adjunct.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/adjunct.a6edda5c..png",
+          "sizeBytes": 294953
+        }
+      ]
+    },
+    {
+      "id": "base_1",
+      "name": "base_1",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "a",
+        "click",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 23989,
+        "key": "@byte:3546783",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 279,
+        "key": "@byte:3546390",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "base_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/base_1.25a36f56..png",
+          "sizeBytes": 176809
+        }
+      ]
+    },
+    {
+      "id": "base_2",
+      "name": "base_2",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "a",
+        "click"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 1821,
+        "key": "@byte:3568200",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 125,
+        "key": "@byte:3567973",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "base_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/base_2.24080f9e..png",
+          "sizeBytes": 175518
+        }
+      ]
+    },
+    {
+      "id": "condiment_mask_click",
+      "name": "condiment_mask_click",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "a",
+        "a2b",
+        "b",
+        "click"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 1878,
+        "key": "@byte:3570198",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 130,
+        "key": "@byte:3569953",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "condiment_mask_click.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/condiment_mask_click.a4a8fcfb..png",
+          "sizeBytes": 18042
+        }
+      ]
+    },
+    {
+      "id": "game_beizi",
+      "name": "game_beizi",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "a",
+        "a2b",
+        "b",
+        "c",
+        "可可酱",
+        "史莱姆",
+        "咖啡",
+        "巧克力",
+        "杏仁",
+        "枫达",
+        "气泡水",
+        "水果",
+        "牛奶",
+        "番茄汁",
+        "糖",
+        "纯净水",
+        "花蜜",
+        "茶",
+        "薄荷"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 115601,
+        "key": "@byte:3573449",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1327,
+        "key": "@byte:3571937",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "game_beizi.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/game_beizi.d5d999c8..png",
+          "sizeBytes": 243157
+        }
+      ]
+    },
+    {
+      "id": "game_boom",
+      "name": "game_boom",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation",
+        "boom"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 22880,
+        "key": "@byte:3676674",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 318,
+        "key": "@byte:3676238",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "game_boom.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/game_boom.69126cd1..png",
+          "sizeBytes": 195958
+        }
+      ]
+    },
+    {
+      "id": "guke01",
+      "name": "guke01",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心in",
+        "动作_待机",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 77527,
+        "key": "@byte:3698039",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1588,
+        "key": "@byte:3696255",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke01.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke01.748707c5..png",
+          "sizeBytes": 214866
+        }
+      ]
+    },
+    {
+      "id": "guke02",
+      "name": "guke02",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心in",
+        "动作_待机",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 99103,
+        "key": "@byte:3769900",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1440,
+        "key": "@byte:3768268",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke02.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke02.8de8c035..png",
+          "sizeBytes": 246620
+        }
+      ]
+    },
+    {
+      "id": "guke03",
+      "name": "guke03",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心in",
+        "动作_开心out",
+        "动作_待机",
+        "动作_生气",
+        "动作_生气in",
+        "动作_生气out",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 92290,
+        "key": "@byte:3860804",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1478,
+        "key": "@byte:3859134",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke03.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke03.867f60e9..png",
+          "sizeBytes": 239849
+        }
+      ]
+    },
+    {
+      "id": "guke04",
+      "name": "guke04",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心in",
+        "动作_待机",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 75846,
+        "key": "@byte:3946073",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1416,
+        "key": "@byte:3944472",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke04.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke04.b7809761..png",
+          "sizeBytes": 293878
+        }
+      ]
+    },
+    {
+      "id": "guke05",
+      "name": "guke05",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心in",
+        "动作_待机",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 96821,
+        "key": "@byte:4015281",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1405,
+        "key": "@byte:4013690",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke05.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke05.cd1e9076..png",
+          "sizeBytes": 206663
+        }
+      ]
+    },
+    {
+      "id": "guke06",
+      "name": "guke06",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心in",
+        "动作_待机",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 57471,
+        "key": "@byte:4103866",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1099,
+        "key": "@byte:4102600",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke06.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke06.9622855d..png",
+          "sizeBytes": 316029
+        }
+      ]
+    },
+    {
+      "id": "guke07",
+      "name": "guke07",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心in",
+        "动作_待机",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 81808,
+        "key": "@byte:4157387",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1588,
+        "key": "@byte:4155601",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke07.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke07.029ecd40..png",
+          "sizeBytes": 263724
+        }
+      ]
+    },
+    {
+      "id": "guke08",
+      "name": "guke08",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心in",
+        "动作_待机",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 89111,
+        "key": "@byte:4231958",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1258,
+        "key": "@byte:4230517",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke08.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke08.a77af2ed..png",
+          "sizeBytes": 241424
+        }
+      ]
+    },
+    {
+      "id": "guke09",
+      "name": "guke09",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心2走路",
+        "动作_开心in",
+        "动作_待机",
+        "动作_待机in",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 111433,
+        "key": "@byte:4314069",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1665,
+        "key": "@byte:4312205",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke09.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke09.381ab64e..png",
+          "sizeBytes": 437226
+        }
+      ]
+    },
+    {
+      "id": "guke10",
+      "name": "guke10",
+      "version": "4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心in",
+        "动作_待机",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 107488,
+        "key": "@byte:4417148",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1453,
+        "key": "@byte:4415507",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke10.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke10.069b4ded..png",
+          "sizeBytes": 403703
+        }
+      ]
+    },
+    {
+      "id": "guke11",
+      "name": "guke11",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心2走路",
+        "动作_开心in",
+        "动作_待机",
+        "动作_待机in",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 121832,
+        "key": "@byte:4515539",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1619,
+        "key": "@byte:4513725",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke11.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke11.667e8644..png",
+          "sizeBytes": 421179
+        }
+      ]
+    },
+    {
+      "id": "guke12",
+      "name": "guke12",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_开心",
+        "动作_开心in",
+        "动作_待机",
+        "动作_待机2走路",
+        "动作_待机in",
+        "动作_生气",
+        "动作_生气in",
+        "动作_走路",
+        "表情_开心",
+        "表情_正常",
+        "表情_生气"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 92998,
+        "key": "@byte:4627455",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1180,
+        "key": "@byte:4626099",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "guke12.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/guke12.7ee6ab17..png",
+          "sizeBytes": 288246
+        }
+      ]
+    },
+    {
+      "id": "index_bg_hua_l",
+      "name": "index_bg_hua_l",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 10666,
+        "key": "@byte:4712328",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 358,
+        "key": "@byte:4711842",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_bg_hua_l.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/index_bg_hua_l.36bee9d4..png",
+          "sizeBytes": 105663
+        }
+      ]
+    },
+    {
+      "id": "index_bg_hua_r",
+      "name": "index_bg_hua_r",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 9798,
+        "key": "@byte:4722646",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 340,
+        "key": "@byte:4722179",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_bg_hua_r.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/index_bg_hua_r.ad4047a8..png",
+          "sizeBytes": 94236
+        }
+      ]
+    },
+    {
+      "id": "index_btn_mouseover",
+      "name": "index_btn_mouseover",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 10359,
+        "key": "@byte:4732132",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 248,
+        "key": "@byte:4731762",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_btn_mouseover.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/index_btn_mouseover.cfe1be94..png",
+          "sizeBytes": 36140
+        }
+      ]
+    },
+    {
+      "id": "index_dm_cao",
+      "name": "index_dm_cao",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "a",
+        "b",
+        "c"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 5454,
+        "key": "@byte:4741546",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 160,
+        "key": "@byte:4741277",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_dm_cao.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+          "format": "embedded-image",
+          "sizeBytes": 7806,
+          "key": "@byte:3512467",
+          "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+        }
+      ]
+    },
+    {
+      "id": "index_hudie",
+      "name": "index_hudie",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 10053,
+        "key": "@byte:4746931",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 198,
+        "key": "@byte:4746618",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_hudie.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+          "format": "embedded-image",
+          "sizeBytes": 5201,
+          "key": "@byte:3523025",
+          "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+        }
+      ]
+    },
+    {
+      "id": "index_kong",
+      "name": "index_kong",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_干杯",
+        "动作_惊醒",
+        "动作_招揽",
+        "动作_沉思",
+        "动作_点头",
+        "符号_无",
+        "表情_开心",
+        "表情_思考",
+        "表情_正常"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 155324,
+        "key": "@byte:4758048",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1974,
+        "key": "@byte:4755847",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_kong.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/index_kong.804e76ed..png",
+          "sizeBytes": 326426
+        }
+      ]
+    },
+    {
+      "id": "index_niao",
+      "name": "index_niao",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "a",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 38171,
+        "key": "@byte:4898981",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 397,
+        "key": "@byte:4898456",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_niao.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/index_niao.4228eaa8..png",
+          "sizeBytes": 30723
+        }
+      ]
+    },
+    {
+      "id": "index_paimen",
+      "name": "index_paimen",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_干杯",
+        "动作_待机",
+        "动作_拍气球",
+        "动作_挥手",
+        "动作_睡觉",
+        "动作_睡觉点头",
+        "符号_开心",
+        "符号_打招呼",
+        "符号_没有",
+        "符号_睡觉",
+        "表情_干杯",
+        "表情_星星",
+        "表情_正常",
+        "表情_睡觉"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 97193,
+        "key": "@byte:4936351",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2107,
+        "key": "@byte:4934006",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_paimen.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/index_paimen.251a5763..png",
+          "sizeBytes": 250159
+        }
+      ]
+    },
+    {
+      "id": "index_qiqiu_l",
+      "name": "index_qiqiu_l",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 7283,
+        "key": "@byte:5024454",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 153,
+        "key": "@byte:5024190",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_qiqiu_l.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/index_qiqiu_l.eccf4c66..png",
+          "sizeBytes": 87966
+        }
+      ]
+    },
+    {
+      "id": "index_qiqiu_r",
+      "name": "index_qiqiu_r",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation",
+        "loop",
+        "弹开"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 7302,
+        "key": "@byte:5031604",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 183,
+        "key": "@byte:5031306",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_qiqiu_r.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/index_qiqiu_r.16a806a6..png",
+          "sizeBytes": 87108
+        }
+      ]
+    },
+    {
+      "id": "index_shu",
+      "name": "index_shu",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "a",
+        "b",
+        "c",
+        "e",
+        "f"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 16986,
+        "key": "@byte:5038727",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 266,
+        "key": "@byte:5038348",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_shu.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/index_shu.3b060d7a..png",
+          "sizeBytes": 142740
+        }
+      ]
+    },
+    {
+      "id": "index_ying",
+      "name": "index_ying",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "动作_干杯",
+        "动作_惊醒",
+        "动作_招揽",
+        "动作_沉思",
+        "动作_点头",
+        "符号_无",
+        "表情_开心",
+        "表情_思考",
+        "表情_正常"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 162590,
+        "key": "@byte:5056539",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1867,
+        "key": "@byte:5054452",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "index_ying.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/index_ying.ebc99ab6..png",
+          "sizeBytes": 362763
+        }
+      ]
+    },
+    {
+      "id": "loading_huatang_l",
+      "name": "loading_huatang_l",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 7679,
+        "key": "@byte:5204524",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 307,
+        "key": "@byte:5204088",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "loading_huatang_l.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/loading_huatang_l.32be2984..png",
+          "sizeBytes": 51726
+        }
+      ]
+    },
+    {
+      "id": "loading_huatang_r",
+      "name": "loading_huatang_r",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 5602,
+        "key": "@byte:5211904",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 205,
+        "key": "@byte:5211578",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "loading_huatang_r.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/loading_huatang_r.be385e0b..png",
+          "sizeBytes": 39788
+        }
+      ]
+    },
+    {
+      "id": "loading_peimen",
+      "name": "loading_peimen",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 37345,
+        "key": "@byte:5217888",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 636,
+        "key": "@byte:5217102",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "loading_peimen.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/loading_peimen.b55f1a2a..png",
+          "sizeBytes": 46534
+        }
+      ]
+    },
+    {
+      "id": "loading_qian_hua",
+      "name": "loading_qian_hua",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 27531,
+        "key": "@byte:5252934",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 805,
+        "key": "@byte:5251968",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "loading_qian_hua.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/loading_qian_hua.66e71895..png",
+          "sizeBytes": 231924
+        }
+      ]
+    },
+    {
+      "id": "loading_shu_l",
+      "name": "loading_shu_l",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 6771,
+        "key": "@byte:5278423",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 130,
+        "key": "@byte:5278184",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "loading_shu_l.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/loading_shu_l.7a9634fe..png",
+          "sizeBytes": 256036
+        }
+      ]
+    },
+    {
+      "id": "loading_shu_r",
+      "name": "loading_shu_r",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 6884,
+        "key": "@byte:5285068",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 129,
+        "key": "@byte:5284830",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "loading_shu_r.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/loading_shu_r.b2a08dd8..png",
+          "sizeBytes": 282760
+        }
+      ]
+    },
+    {
+      "id": "loading_tree",
+      "name": "loading_tree",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "a",
+        "b",
+        "c",
+        "e",
+        "g"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 15546,
+        "key": "@byte:5291957",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 259,
+        "key": "@byte:5291583",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "loading_tree.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/loading_tree.861d9c36..png",
+          "sizeBytes": 140249
+        }
+      ]
+    },
+    {
+      "id": "loading_user",
+      "name": "loading_user",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default",
+        "kong",
+        "ying"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 99301,
+        "key": "@byte:5308510",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1894,
+        "key": "@byte:5306386",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "loading_user.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/loading_user.74ceaaa4..png",
+          "sizeBytes": 268286
+        }
+      ]
+    },
+    {
+      "id": "loading_yun",
+      "name": "loading_yun",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "a",
+        "b",
+        "c"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 7210,
+        "key": "@byte:5399975",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 176,
+        "key": "@byte:5399690",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "loading_yun.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/loading_yun.73972bb6..png",
+          "sizeBytes": 40918
+        }
+      ]
+    },
+    {
+      "id": "special_material_11",
+      "name": "special_material_11",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "click",
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 3360,
+        "key": "@byte:5406986",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 164,
+        "key": "@byte:5406705",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "special_material_11.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/special_material_11.571649c7..png",
+          "sizeBytes": 86193
+        }
+      ]
+    },
+    {
+      "id": "special_material_12",
+      "name": "special_material_12",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "click",
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 3549,
+        "key": "@byte:5410319",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 191,
+        "key": "@byte:5410009",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "special_material_12.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/special_material_12.dcf5e101..png",
+          "sizeBytes": 104212
+        }
+      ]
+    },
+    {
+      "id": "special_material_13",
+      "name": "special_material_13",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "click",
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 3633,
+        "key": "@byte:5413858",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 205,
+        "key": "@byte:5413533",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "special_material_13.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/special_material_13.b1fcdfeb..png",
+          "sizeBytes": 100269
+        }
+      ]
+    },
+    {
+      "id": "special_material_14",
+      "name": "special_material_14",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "click",
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 3382,
+        "key": "@byte:5417438",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 172,
+        "key": "@byte:5417148",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "special_material_14.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/images/special_material_14.a45ba5c4..png",
+          "sizeBytes": 88131
+        }
+      ]
+    },
+    {
+      "id": "xingxing",
+      "name": "xingxing",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-json",
+        "sizeBytes": 4535,
+        "key": "@byte:5420789",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 210,
+        "key": "@byte:5420470",
+        "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+      },
+      "textures": [
+        {
+          "page": "xingxing.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240429business-ad4okq/vendors_8b679805acb6859de911.js",
+          "format": "embedded-image",
+          "sizeBytes": 6610,
+          "key": "@byte:3531568",
+          "sourceSha256": "fc747ed809931e016eaa02ebc6e3972aee4f06a8904641c3f350b345dca22c97"
+        }
+      ]
+    }
+  ]
+}

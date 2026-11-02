@@ -1,0 +1,5112 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-159931",
+  "items": [
+    {
+      "id": "101a_bg",
+      "name": "101a_bg",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2169,
+        "key": "@byte:800109",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 283,
+        "key": "@byte:799770",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "101a_bg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/101a_bg.2d70fa88..png",
+          "sizeBytes": 157781
+        }
+      ]
+    },
+    {
+      "id": "101a_input",
+      "name": "101a_input",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "input",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2588,
+        "key": "@byte:802640",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 277,
+        "key": "@byte:802307",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "101a_input.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+          "format": "embedded-image",
+          "sizeBytes": 9917,
+          "key": "@byte:8093294",
+          "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+        }
+      ]
+    },
+    {
+      "id": "101a_yun",
+      "name": "101a_yun",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "f"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2196,
+        "key": "@byte:805573",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 262,
+        "key": "@byte:805257",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "101a_yun.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/101a_yun.48402472..png",
+          "sizeBytes": 183738
+        }
+      ]
+    },
+    {
+      "id": "101a_yun_e",
+      "name": "101a_yun_e",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 1178,
+        "key": "@byte:807981",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 137,
+        "key": "@byte:807798",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "101a_yun_e.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/101a_yun_e.dbc33131..png",
+          "sizeBytes": 47644
+        }
+      ]
+    },
+    {
+      "id": "101b_hua_l",
+      "name": "101b_hua_l",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 17026,
+        "key": "@byte:809919",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 647,
+        "key": "@byte:809188",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "101b_hua_l.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/101b_hua_l.77a48614..png",
+          "sizeBytes": 108668
+        }
+      ]
+    },
+    {
+      "id": "101b_hua_r",
+      "name": "101b_hua_r",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 10388,
+        "key": "@byte:827365",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 329,
+        "key": "@byte:826974",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "101b_hua_r.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/101b_hua_r.1190c0c6..png",
+          "sizeBytes": 24178
+        }
+      ]
+    },
+    {
+      "id": "101b_kong_ying",
+      "name": "101b_kong_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "eye_kong",
+        "eye_ying"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 135231,
+        "key": "@byte:842162",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 4093,
+        "key": "@byte:837782",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "101b_kong_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/101b_kong_ying.6d0303f0..png",
+          "sizeBytes": 860922
+        }
+      ]
+    },
+    {
+      "id": "101b_kuang",
+      "name": "101b_kuang",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 17077,
+        "key": "@byte:978149",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 526,
+        "key": "@byte:977548",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "101b_kuang.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/101b_kuang.ac94ae05..png",
+          "sizeBytes": 291459
+        }
+      ]
+    },
+    {
+      "id": "103_card_kuang",
+      "name": "103_card_kuang",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "bg",
+        "top"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 7819,
+        "key": "@byte:995638",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 321,
+        "key": "@byte:995261",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "103_card_kuang.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/103_card_kuang.508d719d..png",
+          "sizeBytes": 374734
+        }
+      ]
+    },
+    {
+      "id": "103_kong",
+      "name": "103_kong",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 66504,
+        "key": "@byte:1004725",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1130,
+        "key": "@byte:1003486",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "103_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/103_kong.93a4b3f2..png",
+          "sizeBytes": 801678
+        }
+      ]
+    },
+    {
+      "id": "103_ying",
+      "name": "103_ying",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 96013,
+        "key": "@byte:1072499",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1100,
+        "key": "@byte:1071296",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "103_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/103_ying.7900f299..png",
+          "sizeBytes": 859548
+        }
+      ]
+    },
+    {
+      "id": "103_yinhua",
+      "name": "103_yinhua",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "b",
+        "c"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 12129,
+        "key": "@byte:1169551",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 231,
+        "key": "@byte:1169269",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "103_yinhua.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/103_yinhua.00e547bf..png",
+          "sizeBytes": 32417
+        }
+      ]
+    },
+    {
+      "id": "104_kong_npc",
+      "name": "104_kong_npc",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "loop",
+        "play"
+      ],
+      "skins": [
+        "kong",
+        "kong_tk",
+        "npc",
+        "npc_tk"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 9886,
+        "key": "@byte:1182410",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 625,
+        "key": "@byte:1181709",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "104_kong_npc.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/104_kong_npc.def30acf..png",
+          "sizeBytes": 299855
+        }
+      ]
+    },
+    {
+      "id": "104_ying_npc",
+      "name": "104_ying_npc",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "loop",
+        "play"
+      ],
+      "skins": [
+        "kong",
+        "kong_tk",
+        "npc",
+        "npc_tk"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 8304,
+        "key": "@byte:1193063",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 650,
+        "key": "@byte:1192335",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "104_ying_npc.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/104_ying_npc.9ff7caf8..png",
+          "sizeBytes": 303787
+        }
+      ]
+    },
+    {
+      "id": "105_jieming",
+      "name": "105_jieming",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "a2b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 1990,
+        "key": "@byte:1201658",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 201,
+        "key": "@byte:1201406",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "105_jieming.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/105_jieming.60cf2b0f..png",
+          "sizeBytes": 54761
+        }
+      ]
+    },
+    {
+      "id": "105_jinbang",
+      "name": "105_jinbang",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 7576,
+        "key": "@byte:1203800",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 81,
+        "key": "@byte:1203677",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "105_jinbang.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/105_jinbang.9cdfd8f0..png",
+          "sizeBytes": 51069
+        }
+      ]
+    },
+    {
+      "id": "105_kong",
+      "name": "105_kong",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "a2b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 63758,
+        "key": "@byte:1212541",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1011,
+        "key": "@byte:1211425",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "105_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/105_kong.0b2415ec..png",
+          "sizeBytes": 293013
+        }
+      ]
+    },
+    {
+      "id": "105_ying",
+      "name": "105_ying",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "a2b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 49677,
+        "key": "@byte:1277705",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1187,
+        "key": "@byte:1276406",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "105_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/105_ying.a8646721..png",
+          "sizeBytes": 271786
+        }
+      ]
+    },
+    {
+      "id": "105b_kong",
+      "name": "105b_kong",
+      "version": "4.2.42",
+      "animations": [
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 61422,
+        "key": "@byte:1328224",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 691,
+        "key": "@byte:1327449",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "105b_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/105b_kong.cd74a654..png",
+          "sizeBytes": 262257
+        }
+      ]
+    },
+    {
+      "id": "105b_sky",
+      "name": "105b_sky",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 7155,
+        "key": "@byte:1389885",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 112,
+        "key": "@byte:1389729",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "105b_sky.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/105b_sky.12a163c7..png",
+          "sizeBytes": 502537
+        }
+      ]
+    },
+    {
+      "id": "105b_ying",
+      "name": "105b_ying",
+      "version": "4.2.42",
+      "animations": [
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 62036,
+        "key": "@byte:1398085",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 919,
+        "key": "@byte:1397071",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "105b_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/105b_ying.47eb7a41..png",
+          "sizeBytes": 263999
+        }
+      ]
+    },
+    {
+      "id": "106_icon_bg",
+      "name": "106_icon_bg",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 962,
+        "key": "@byte:1460360",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 116,
+        "key": "@byte:1460200",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "106_icon_bg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/106_icon_bg.ae3ef924..png",
+          "sizeBytes": 121978
+        }
+      ]
+    },
+    {
+      "id": "106_kong",
+      "name": "106_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 54597,
+        "key": "@byte:1462282",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 840,
+        "key": "@byte:1461351",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "106_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/106_kong.72f7a38a..png",
+          "sizeBytes": 286583
+        }
+      ]
+    },
+    {
+      "id": "106_kvbg",
+      "name": "106_kvbg",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 21556,
+        "key": "@byte:1518018",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 961,
+        "key": "@byte:1516948",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "106_kvbg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/106_kvbg.5374257a..png",
+          "sizeBytes": 100599
+        }
+      ]
+    },
+    {
+      "id": "106_xing",
+      "name": "106_xing",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 71348,
+        "key": "@byte:1541354",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1600,
+        "key": "@byte:1539603",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "106_xing.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/106_xing.aa6a193f..png",
+          "sizeBytes": 683714
+        }
+      ]
+    },
+    {
+      "id": "106_ying",
+      "name": "106_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 51618,
+        "key": "@byte:1614003",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1136,
+        "key": "@byte:1612761",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "106_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/106_ying.eca39889..png",
+          "sizeBytes": 307474
+        }
+      ]
+    },
+    {
+      "id": "107_kong",
+      "name": "107_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 43976,
+        "key": "@byte:1666632",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 853,
+        "key": "@byte:1665684",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "107_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/107_kong.c7c6c9ed..png",
+          "sizeBytes": 222743
+        }
+      ]
+    },
+    {
+      "id": "107_ying",
+      "name": "107_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 49221,
+        "key": "@byte:1711820",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1050,
+        "key": "@byte:1710669",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "107_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/107_ying.6f225ad8..png",
+          "sizeBytes": 195515
+        }
+      ]
+    },
+    {
+      "id": "108_diaozhui",
+      "name": "108_diaozhui",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 5111,
+        "key": "@byte:1761484",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 341,
+        "key": "@byte:1761082",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "108_diaozhui.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/108_diaozhui.bd7024b3..png",
+          "sizeBytes": 30736
+        }
+      ]
+    },
+    {
+      "id": "108_icon",
+      "name": "108_icon",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 9162,
+        "key": "@byte:1767239",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 539,
+        "key": "@byte:1766624",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "108_icon.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/108_icon.07d9348c..png",
+          "sizeBytes": 94099
+        }
+      ]
+    },
+    {
+      "id": "108_kong",
+      "name": "108_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 33098,
+        "key": "@byte:1777261",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 742,
+        "key": "@byte:1776430",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "108_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/108_kong.fa8a0584..png",
+          "sizeBytes": 150234
+        }
+      ]
+    },
+    {
+      "id": "108_ying",
+      "name": "108_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 37776,
+        "key": "@byte:1811330",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 826,
+        "key": "@byte:1810410",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "108_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/108_ying.6fc6d0da..png",
+          "sizeBytes": 148069
+        }
+      ]
+    },
+    {
+      "id": "108_yinguancheng",
+      "name": "108_yinguancheng",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2490,
+        "key": "@byte:1849445",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 228,
+        "key": "@byte:1849165",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "108_yinguancheng.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/108_yinguancheng.8c7e437a..png",
+          "sizeBytes": 106432
+        }
+      ]
+    },
+    {
+      "id": "109_biaoqing",
+      "name": "109_biaoqing",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2195,
+        "key": "@byte:1852240",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 222,
+        "key": "@byte:1851964",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "109_biaoqing.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+          "format": "embedded-image",
+          "sizeBytes": 5176,
+          "key": "@byte:57419",
+          "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+        }
+      ]
+    },
+    {
+      "id": "109_kong",
+      "name": "109_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 44345,
+        "key": "@byte:1855163",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 620,
+        "key": "@byte:1854464",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "109_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/109_kong.e0f5a71d..png",
+          "sizeBytes": 116000
+        }
+      ]
+    },
+    {
+      "id": "109_ying",
+      "name": "109_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 47406,
+        "key": "@byte:1900440",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 769,
+        "key": "@byte:1899583",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "109_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/109_ying.d7b07cd5..png",
+          "sizeBytes": 128096
+        }
+      ]
+    },
+    {
+      "id": "201_yin",
+      "name": "201_yin",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 12476,
+        "key": "@byte:1948150",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 207,
+        "key": "@byte:1947895",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "201_yin.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/201_yin.705cb86a..png",
+          "sizeBytes": 82698
+        }
+      ]
+    },
+    {
+      "id": "202_kong",
+      "name": "202_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 3803,
+        "key": "@byte:1960794",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 94,
+        "key": "@byte:1960657",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "202_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/202_kong.9e16eb45..png",
+          "sizeBytes": 270410
+        }
+      ]
+    },
+    {
+      "id": "202_paimeng",
+      "name": "202_paimeng",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 3292,
+        "key": "@byte:1964813",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 139,
+        "key": "@byte:1964628",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "202_paimeng.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/202_paimeng.df466ddf..png",
+          "sizeBytes": 134298
+        }
+      ]
+    },
+    {
+      "id": "202_ying",
+      "name": "202_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 3262,
+        "key": "@byte:1968271",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 94,
+        "key": "@byte:1968134",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "202_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/202_ying.f42a1801..png",
+          "sizeBytes": 268104
+        }
+      ]
+    },
+    {
+      "id": "203_kong",
+      "name": "203_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 10427,
+        "key": "@byte:1971979",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 353,
+        "key": "@byte:1971564",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "203_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/203_kong.cb5058b3..png",
+          "sizeBytes": 277342
+        }
+      ]
+    },
+    {
+      "id": "203_paimen",
+      "name": "203_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 757,
+        "key": "@byte:1982564",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 79,
+        "key": "@byte:1982443",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "203_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/203_paimen.6e95c554..png",
+          "sizeBytes": 134010
+        }
+      ]
+    },
+    {
+      "id": "203_ying",
+      "name": "203_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 6974,
+        "key": "@byte:1983788",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 376,
+        "key": "@byte:1983350",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "203_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/203_ying.bbd54d10..png",
+          "sizeBytes": 247942
+        }
+      ]
+    },
+    {
+      "id": "204_bg",
+      "name": "204_bg",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 20000,
+        "key": "@byte:1991219",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 357,
+        "key": "@byte:1990797",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "204_bg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/204_bg.98bb9701..png",
+          "sizeBytes": 263240
+        }
+      ]
+    },
+    {
+      "id": "204_cao",
+      "name": "204_cao",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 9548,
+        "key": "@byte:2011685",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 363,
+        "key": "@byte:2011258",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "204_cao.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/204_cao.43573761..png",
+          "sizeBytes": 52584
+        }
+      ]
+    },
+    {
+      "id": "204_cat",
+      "name": "204_cat",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "animation",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 1430,
+        "key": "@byte:2021457",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 142,
+        "key": "@byte:2021268",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "204_cat.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/204_cat.b56a75c9..png",
+          "sizeBytes": 28852
+        }
+      ]
+    },
+    {
+      "id": "204_kong",
+      "name": "204_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 44676,
+        "key": "@byte:2023659",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 660,
+        "key": "@byte:2022916",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "204_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/204_kong.e865f2a9..png",
+          "sizeBytes": 169382
+        }
+      ]
+    },
+    {
+      "id": "204_paimen",
+      "name": "204_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 54378,
+        "key": "@byte:2069031",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 556,
+        "key": "@byte:2068400",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "204_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/204_paimen.8ba76816..png",
+          "sizeBytes": 357300
+        }
+      ]
+    },
+    {
+      "id": "204_ying",
+      "name": "204_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 50513,
+        "key": "@byte:2124279",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 698,
+        "key": "@byte:2123498",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "204_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/204_ying.c73b3286..png",
+          "sizeBytes": 138127
+        }
+      ]
+    },
+    {
+      "id": "204fox",
+      "name": "204fox",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "animation",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 13428,
+        "key": "@byte:2175043",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 134,
+        "key": "@byte:2174863",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "204fox.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/204fox.4c06a202..png",
+          "sizeBytes": 70277
+        }
+      ]
+    },
+    {
+      "id": "205_paimen",
+      "name": "205_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 1376,
+        "key": "@byte:2188702",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 135,
+        "key": "@byte:2188522",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "205_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/205_paimen.a594142f..png",
+          "sizeBytes": 185205
+        }
+      ]
+    },
+    {
+      "id": "206_kong",
+      "name": "206_kong",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "animation",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 68772,
+        "key": "@byte:2191210",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 996,
+        "key": "@byte:2190107",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "206_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/206_kong.ca4710b2..png",
+          "sizeBytes": 451728
+        }
+      ]
+    },
+    {
+      "id": "206_ying",
+      "name": "206_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 76717,
+        "key": "@byte:2261297",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1118,
+        "key": "@byte:2260069",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "206_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/206_ying.28a6f5ec..png",
+          "sizeBytes": 435593
+        }
+      ]
+    },
+    {
+      "id": "206_yun",
+      "name": "206_yun",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 3970,
+        "key": "@byte:2338548",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 384,
+        "key": "@byte:2338101",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "206_yun.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/206_yun.d1d92b59..png",
+          "sizeBytes": 124556
+        }
+      ]
+    },
+    {
+      "id": "207_kong",
+      "name": "207_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 11009,
+        "key": "@byte:2343070",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 456,
+        "key": "@byte:2342547",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "207_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/207_kong.b81dc082..png",
+          "sizeBytes": 416816
+        }
+      ]
+    },
+    {
+      "id": "207_paimen",
+      "name": "207_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2908,
+        "key": "@byte:2354359",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 198,
+        "key": "@byte:2354110",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "207_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/207_paimen.3854a1bc..png",
+          "sizeBytes": 168488
+        }
+      ]
+    },
+    {
+      "id": "207_ying",
+      "name": "207_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 10299,
+        "key": "@byte:2357825",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 462,
+        "key": "@byte:2357296",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "207_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/207_ying.ce73e95c..png",
+          "sizeBytes": 444960
+        }
+      ]
+    },
+    {
+      "id": "208_kong",
+      "name": "208_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 4841,
+        "key": "@byte:2368270",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 75,
+        "key": "@byte:2368153",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "208_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/208_kong.682d43d8..png",
+          "sizeBytes": 229626
+        }
+      ]
+    },
+    {
+      "id": "208_paimen",
+      "name": "208_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 3312,
+        "key": "@byte:2373501",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 302,
+        "key": "@byte:2373140",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "208_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/208_paimen.e08ee885..png",
+          "sizeBytes": 88932
+        }
+      ]
+    },
+    {
+      "id": "208_ying",
+      "name": "208_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 4398,
+        "key": "@byte:2376959",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 75,
+        "key": "@byte:2376842",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "208_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/208_ying.2ebc3e45..png",
+          "sizeBytes": 259283
+        }
+      ]
+    },
+    {
+      "id": "209_kong",
+      "name": "209_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 8369,
+        "key": "@byte:2381718",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 274,
+        "key": "@byte:2381388",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "209_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/209_kong.e7a6c884..png",
+          "sizeBytes": 266227
+        }
+      ]
+    },
+    {
+      "id": "209_paimen",
+      "name": "209_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 4473,
+        "key": "@byte:2390413",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 241,
+        "key": "@byte:2390118",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "209_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/209_paimen.2f5f439c..png",
+          "sizeBytes": 185807
+        }
+      ]
+    },
+    {
+      "id": "209_ying",
+      "name": "209_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 12977,
+        "key": "@byte:2395184",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 217,
+        "key": "@byte:2394915",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "209_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/209_ying.e25786e0..png",
+          "sizeBytes": 265956
+        }
+      ]
+    },
+    {
+      "id": "210_kong",
+      "name": "210_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 9773,
+        "key": "@byte:2408340",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 95,
+        "key": "@byte:2408202",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "210_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/210_kong.e958d540..png",
+          "sizeBytes": 215613
+        }
+      ]
+    },
+    {
+      "id": "210_paimen",
+      "name": "210_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 6956,
+        "key": "@byte:2418537",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 327,
+        "key": "@byte:2418150",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "210_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/210_paimen.3ec796ef..png",
+          "sizeBytes": 124190
+        }
+      ]
+    },
+    {
+      "id": "210_ying",
+      "name": "210_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 8831,
+        "key": "@byte:2425639",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 75,
+        "key": "@byte:2425522",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "210_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/210_ying.95cc76bb..png",
+          "sizeBytes": 186226
+        }
+      ]
+    },
+    {
+      "id": "211_spine",
+      "name": "211_spine",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 13871,
+        "key": "@byte:2434887",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 315,
+        "key": "@byte:2434513",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "211_spine.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/211_spine.4f492638..png",
+          "sizeBytes": 698226
+        }
+      ]
+    },
+    {
+      "id": "212_icon",
+      "name": "212_icon",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 4581,
+        "key": "@byte:2449082",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 232,
+        "key": "@byte:2448797",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "212_icon.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/212_icon.c0fe2efc..png",
+          "sizeBytes": 382209
+        }
+      ]
+    },
+    {
+      "id": "214_er",
+      "name": "214_er",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 14541,
+        "key": "@byte:2453832",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 91,
+        "key": "@byte:2453698",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "214_er.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/214_er.2e6c7a41..png",
+          "sizeBytes": 267226
+        }
+      ]
+    },
+    {
+      "id": "214_paimen",
+      "name": "214_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 10475,
+        "key": "@byte:2468606",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 152,
+        "key": "@byte:2468408",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "214_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/214_paimen.f5190630..png",
+          "sizeBytes": 238432
+        }
+      ]
+    },
+    {
+      "id": "215_kong",
+      "name": "215_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 15512,
+        "key": "@byte:2479384",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 213,
+        "key": "@byte:2479118",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "215_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/215_kong.554b90a2..png",
+          "sizeBytes": 537662
+        }
+      ]
+    },
+    {
+      "id": "215_paimen",
+      "name": "215_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 11116,
+        "key": "@byte:2495277",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 286,
+        "key": "@byte:2494935",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "215_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/215_paimen.dd1e9f96..png",
+          "sizeBytes": 245403
+        }
+      ]
+    },
+    {
+      "id": "215_slime",
+      "name": "215_slime",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 5401,
+        "key": "@byte:2506835",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 344,
+        "key": "@byte:2506430",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "215_slime.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/215_slime.c6767049..png",
+          "sizeBytes": 40905
+        }
+      ]
+    },
+    {
+      "id": "215_ying",
+      "name": "215_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 30927,
+        "key": "@byte:2512645",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 321,
+        "key": "@byte:2512265",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "215_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/215_ying.7262dcf9..png",
+          "sizeBytes": 327733
+        }
+      ]
+    },
+    {
+      "id": "216_ksl",
+      "name": "216_ksl",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 33424,
+        "key": "@byte:2543934",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 263,
+        "key": "@byte:2543615",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "216_ksl.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/216_ksl.c873ff36..png",
+          "sizeBytes": 512131
+        }
+      ]
+    },
+    {
+      "id": "217_bg",
+      "name": "217_bg",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 4002,
+        "key": "@byte:2577612",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 135,
+        "key": "@byte:2577429",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "217_bg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/217_bg.51c593a7..png",
+          "sizeBytes": 419505
+        }
+      ]
+    },
+    {
+      "id": "217_paimen",
+      "name": "217_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 5768,
+        "key": "@byte:2581869",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 175,
+        "key": "@byte:2581643",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "217_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/217_paimen.2145c7e0..png",
+          "sizeBytes": 373823
+        }
+      ]
+    },
+    {
+      "id": "218_paimen",
+      "name": "218_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 1271,
+        "key": "@byte:2587854",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 142,
+        "key": "@byte:2587666",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "218_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/218_paimen.ca05c90e..png",
+          "sizeBytes": 111444
+        }
+      ]
+    },
+    {
+      "id": "219_hun",
+      "name": "219_hun",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2709,
+        "key": "@byte:2589269",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 73,
+        "key": "@byte:2589154",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "219_hun.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/219_hun.e22b64c0..png",
+          "sizeBytes": 15689
+        }
+      ]
+    },
+    {
+      "id": "219_kong",
+      "name": "219_kong",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "a2b",
+        "animation",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 33714,
+        "key": "@byte:2592893",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 798,
+        "key": "@byte:2592007",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "219_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/219_kong.8b272d1b..png",
+          "sizeBytes": 448798
+        }
+      ]
+    },
+    {
+      "id": "219_pig",
+      "name": "219_pig",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "a2b",
+        "b",
+        "c"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 9457,
+        "key": "@byte:2626989",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 282,
+        "key": "@byte:2626652",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "219_pig.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/219_pig.df917519..png",
+          "sizeBytes": 155581
+        }
+      ]
+    },
+    {
+      "id": "219_ying",
+      "name": "219_ying",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "a2b",
+        "animation",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 56308,
+        "key": "@byte:2637624",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1044,
+        "key": "@byte:2636475",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "219_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/219_ying.eab63dcb..png",
+          "sizeBytes": 498726
+        }
+      ]
+    },
+    {
+      "id": "220_icon",
+      "name": "220_icon",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 5290,
+        "key": "@byte:2694446",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 374,
+        "key": "@byte:2694009",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "220_icon.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/220_icon.108f1017..png",
+          "sizeBytes": 44374
+        }
+      ]
+    },
+    {
+      "id": "220_kong",
+      "name": "220_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 28536,
+        "key": "@byte:2700324",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 489,
+        "key": "@byte:2699765",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "220_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/220_kong.5383e500..png",
+          "sizeBytes": 232453
+        }
+      ]
+    },
+    {
+      "id": "220_ying",
+      "name": "220_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 22427,
+        "key": "@byte:2729550",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 548,
+        "key": "@byte:2728929",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "220_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/220_ying.5135e236..png",
+          "sizeBytes": 246282
+        }
+      ]
+    },
+    {
+      "id": "222_paimen",
+      "name": "222_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 758,
+        "key": "@byte:2752147",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 79,
+        "key": "@byte:2752026",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "222_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/222_paimen.03ca705b..png",
+          "sizeBytes": 74644
+        }
+      ]
+    },
+    {
+      "id": "223_paimen",
+      "name": "223_paimen",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 790,
+        "key": "@byte:2753055",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 79,
+        "key": "@byte:2752934",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "223_paimen.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/223_paimen.6c9d4bff..png",
+          "sizeBytes": 173910
+        }
+      ]
+    },
+    {
+      "id": "225_bg",
+      "name": "225_bg",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 4314,
+        "key": "@byte:2754336",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 397,
+        "key": "@byte:2753874",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "225_bg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/225_bg.fb0804dd..png",
+          "sizeBytes": 62011
+        }
+      ]
+    },
+    {
+      "id": "225_kong",
+      "name": "225_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "kongying",
+        "syw"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 30918,
+        "key": "@byte:2759824",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1043,
+        "key": "@byte:2758679",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "225_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/225_kong.3203d93e..png",
+          "sizeBytes": 471397
+        }
+      ]
+    },
+    {
+      "id": "225_ying",
+      "name": "225_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "kongying",
+        "syw"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 29128,
+        "key": "@byte:2791887",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 993,
+        "key": "@byte:2790793",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "225_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/225_ying.c45ab1c2..png",
+          "sizeBytes": 434926
+        }
+      ]
+    },
+    {
+      "id": "226_kong",
+      "name": "226_kong",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "a2b",
+        "animation",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 69863,
+        "key": "@byte:2822247",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1097,
+        "key": "@byte:2821050",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "226_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/226_kong.1f1bb1e3..png",
+          "sizeBytes": 731974
+        }
+      ]
+    },
+    {
+      "id": "226_ying",
+      "name": "226_ying",
+      "version": "4.2.42",
+      "animations": [
+        "a",
+        "a2b",
+        "animation",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 64141,
+        "key": "@byte:2893208",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 959,
+        "key": "@byte:2892157",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "226_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/226_ying.b523a9ab..png",
+          "sizeBytes": 692327
+        }
+      ]
+    },
+    {
+      "id": "227_kong",
+      "name": "227_kong",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "animation",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 44549,
+        "key": "@byte:2958093",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 614,
+        "key": "@byte:2957402",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "227_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/227_kong.193c8262..png",
+          "sizeBytes": 362104
+        }
+      ]
+    },
+    {
+      "id": "227_ying",
+      "name": "227_ying",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "animation",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 58676,
+        "key": "@byte:3003668",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 884,
+        "key": "@byte:3002691",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "227_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/227_ying.59ca13f2..png",
+          "sizeBytes": 337924
+        }
+      ]
+    },
+    {
+      "id": "229_cat",
+      "name": "229_cat",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 12257,
+        "key": "@byte:3062689",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 213,
+        "key": "@byte:3062425",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "229_cat.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/229_cat.7bc5677b..png",
+          "sizeBytes": 196820
+        }
+      ]
+    },
+    {
+      "id": "230_kong",
+      "name": "230_kong",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 44968,
+        "key": "@byte:3076034",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 952,
+        "key": "@byte:3074985",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "230_kong.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/230_kong.0c6eae6c..png",
+          "sizeBytes": 297397
+        }
+      ]
+    },
+    {
+      "id": "230_kong_huan_a",
+      "name": "230_kong_huan_a",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2401,
+        "key": "@byte:3121386",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 226,
+        "key": "@byte:3121107",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "230_kong_huan_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/230_kong_huan_a.3540a46c..png",
+          "sizeBytes": 26292
+        }
+      ]
+    },
+    {
+      "id": "230_ying",
+      "name": "230_ying",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 61527,
+        "key": "@byte:3125160",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1228,
+        "key": "@byte:3123816",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "230_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/230_ying.e25372c8..png",
+          "sizeBytes": 277376
+        }
+      ]
+    },
+    {
+      "id": "bg25d_an_a",
+      "name": "bg25d_an_a",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "di",
+        "lan"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 19205,
+        "key": "@byte:3187203",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 394,
+        "key": "@byte:3186742",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "bg25d_an_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/bg25d_an_a.8a513e79..png",
+          "sizeBytes": 213708
+        }
+      ]
+    },
+    {
+      "id": "bg25d_an_b",
+      "name": "bg25d_an_b",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "di",
+        "lan"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 17525,
+        "key": "@byte:3206833",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 332,
+        "key": "@byte:3206439",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "bg25d_an_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/bg25d_an_b.13775d1b..png",
+          "sizeBytes": 67239
+        }
+      ]
+    },
+    {
+      "id": "bg25d_bird",
+      "name": "bg25d_bird",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 1345,
+        "key": "@byte:3224499",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 68,
+        "key": "@byte:3224389",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "bg25d_bird.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+          "format": "embedded-image",
+          "sizeBytes": 2215,
+          "key": "@byte:8142735",
+          "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+        }
+      ]
+    },
+    {
+      "id": "bg25d_lan",
+      "name": "bg25d_lan",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 8416,
+        "key": "@byte:3226035",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 116,
+        "key": "@byte:3225873",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "bg25d_lan.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/bg25d_lan.922d7d81..png",
+          "sizeBytes": 56274
+        }
+      ]
+    },
+    {
+      "id": "bg25d_shuibo",
+      "name": "bg25d_shuibo",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 28354,
+        "key": "@byte:3234929",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 385,
+        "key": "@byte:3234480",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "bg25d_shuibo.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/bg25d_shuibo.aa2f9354..png",
+          "sizeBytes": 86359
+        }
+      ]
+    },
+    {
+      "id": "bg25d_xingxing",
+      "name": "bg25d_xingxing",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 61227,
+        "key": "@byte:3264339",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 930,
+        "key": "@byte:3263312",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "bg25d_xingxing.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/bg25d_xingxing.c3ec4f45..png",
+          "sizeBytes": 490053
+        }
+      ]
+    },
+    {
+      "id": "dangao_cd_a",
+      "name": "dangao_cd_a",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 7000,
+        "key": "@byte:3325953",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 272,
+        "key": "@byte:3325625",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "dangao_cd_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/dangao_cd_a.1ad3bce7..png",
+          "sizeBytes": 53035
+        }
+      ]
+    },
+    {
+      "id": "dangao_cd_b",
+      "name": "dangao_cd_b",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 5104,
+        "key": "@byte:3333206",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 173,
+        "key": "@byte:3332984",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "dangao_cd_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/dangao_cd_b.55a76020..png",
+          "sizeBytes": 65386
+        }
+      ]
+    },
+    {
+      "id": "dangao_daxingixng",
+      "name": "dangao_daxingixng",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 8517,
+        "key": "@byte:3338950",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 535,
+        "key": "@byte:3338339",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "dangao_daxingixng.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/dangao_daxingixng.1cc2f45a..png",
+          "sizeBytes": 114469
+        }
+      ]
+    },
+    {
+      "id": "dangao_pd_a",
+      "name": "dangao_pd_a",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 10956,
+        "key": "@byte:3348370",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 779,
+        "key": "@byte:3347496",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "dangao_pd_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/dangao_pd_a.0cfce2f0..png",
+          "sizeBytes": 47146
+        }
+      ]
+    },
+    {
+      "id": "dangao_pd_b",
+      "name": "dangao_pd_b",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 7381,
+        "key": "@byte:3359591",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 186,
+        "key": "@byte:3359355",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "dangao_pd_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/dangao_pd_b.2324349d..png",
+          "sizeBytes": 75989
+        }
+      ]
+    },
+    {
+      "id": "dangao_qiqiu",
+      "name": "dangao_qiqiu",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "animation",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 7725,
+        "key": "@byte:3367239",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 188,
+        "key": "@byte:3367001",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "dangao_qiqiu.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/dangao_qiqiu.2a112f30..png",
+          "sizeBytes": 74841
+        }
+      ]
+    },
+    {
+      "id": "dangao_xingixng",
+      "name": "dangao_xingixng",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 6438,
+        "key": "@byte:3375801",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 718,
+        "key": "@byte:3374993",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "dangao_xingixng.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/dangao_xingixng.0b7101c7..png",
+          "sizeBytes": 40083
+        }
+      ]
+    },
+    {
+      "id": "dango_bg_boom",
+      "name": "dango_bg_boom",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 4786,
+        "key": "@byte:3382467",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 152,
+        "key": "@byte:3382268",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "dango_bg_boom.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/dango_bg_boom.a68cf88d..png",
+          "sizeBytes": 159577
+        }
+      ]
+    },
+    {
+      "id": "index_mail",
+      "name": "index_mail",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "xf",
+        "xz"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 10059,
+        "key": "@byte:3387592",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 256,
+        "key": "@byte:3387282",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "index_mail.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/index_mail.5bd5b9f0..png",
+          "sizeBytes": 143797
+        }
+      ]
+    },
+    {
+      "id": "loading_bar",
+      "name": "loading_bar",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 837,
+        "key": "@byte:3397840",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 115,
+        "key": "@byte:3397680",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "loading_bar.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+          "format": "embedded-image",
+          "sizeBytes": 7737,
+          "key": "@byte:7832689",
+          "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+        }
+      ]
+    },
+    {
+      "id": "loading_btn",
+      "name": "loading_btn",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 657,
+        "key": "@byte:3398823",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 73,
+        "key": "@byte:3398708",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "loading_btn.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+          "format": "embedded-image",
+          "sizeBytes": 888,
+          "key": "@byte:7736991",
+          "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+        }
+      ]
+    },
+    {
+      "id": "loading_pmbg",
+      "name": "loading_pmbg",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 30804,
+        "key": "@byte:3400297",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 706,
+        "key": "@byte:3399509",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "loading_pmbg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/loading_pmbg.106ed679..png",
+          "sizeBytes": 430292
+        }
+      ]
+    },
+    {
+      "id": "main_gz_line_a",
+      "name": "main_gz_line_a",
+      "version": "4.2.42",
+      "animations": [
+        "line",
+        "xx"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 57737,
+        "key": "@byte:3431805",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 593,
+        "key": "@byte:3431136",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_gz_line_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_gz_line_a.d127c23f..png",
+          "sizeBytes": 340908
+        }
+      ]
+    },
+    {
+      "id": "main_gz_line_b",
+      "name": "main_gz_line_b",
+      "version": "4.2.42",
+      "animations": [
+        "line",
+        "xx"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 5007,
+        "key": "@byte:3489790",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 159,
+        "key": "@byte:3489583",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_gz_line_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_gz_line_b.64e3fa5b..png",
+          "sizeBytes": 65506
+        }
+      ]
+    },
+    {
+      "id": "main_gz_line_g",
+      "name": "main_gz_line_g",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 3554,
+        "key": "@byte:3495097",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 216,
+        "key": "@byte:3494828",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_gz_line_g.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_gz_line_g.dc58ca0c..png",
+          "sizeBytes": 243322
+        }
+      ]
+    },
+    {
+      "id": "main_gz_qiliu_a",
+      "name": "main_gz_qiliu_a",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "animation2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 10363,
+        "key": "@byte:3498808",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 85,
+        "key": "@byte:3498680",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_gz_qiliu_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_gz_qiliu_a.968aa873..png",
+          "sizeBytes": 32838
+        }
+      ]
+    },
+    {
+      "id": "main_liuxing",
+      "name": "main_liuxing",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2968,
+        "key": "@byte:3509333",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 90,
+        "key": "@byte:3509200",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_liuxing.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+          "format": "embedded-image",
+          "sizeBytes": 13302,
+          "key": "@byte:65556",
+          "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+        }
+      ]
+    },
+    {
+      "id": "main_qiliu_a",
+      "name": "main_qiliu_a",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 7350,
+        "key": "@byte:3512466",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 93,
+        "key": "@byte:3512330",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiliu_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiliu_a.5a27a998..png",
+          "sizeBytes": 21420
+        }
+      ]
+    },
+    {
+      "id": "main_qiliu_b",
+      "name": "main_qiliu_b",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "animation_ct"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 432699,
+        "key": "@byte:3520072",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 178,
+        "key": "@byte:3519847",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiliu_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiliu_b.abd34678..png",
+          "sizeBytes": 77202
+        }
+      ]
+    },
+    {
+      "id": "main_qiliu_c",
+      "name": "main_qiliu_c",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 5349,
+        "key": "@byte:3953006",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 114,
+        "key": "@byte:3952848",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiliu_c.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+          "format": "embedded-image",
+          "sizeBytes": 14862,
+          "key": "@byte:8218833",
+          "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+        }
+      ]
+    },
+    {
+      "id": "main_qiliu_d",
+      "name": "main_qiliu_d",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 81803,
+        "key": "@byte:3958550",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 116,
+        "key": "@byte:3958390",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiliu_d.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiliu_d.b8efe693..png",
+          "sizeBytes": 58048
+        }
+      ]
+    },
+    {
+      "id": "main_qiliu_e",
+      "name": "main_qiliu_e",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 12359,
+        "key": "@byte:4040526",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 95,
+        "key": "@byte:4040388",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiliu_e.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiliu_e.425f8f79..png",
+          "sizeBytes": 61739
+        }
+      ]
+    },
+    {
+      "id": "main_qiliu_f",
+      "name": "main_qiliu_f",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 37242,
+        "key": "@byte:4053083",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 113,
+        "key": "@byte:4052926",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiliu_f.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiliu_f.9b39cf53..png",
+          "sizeBytes": 63592
+        }
+      ]
+    },
+    {
+      "id": "main_qiliu_g",
+      "name": "main_qiliu_g",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "animation_ct"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 149539,
+        "key": "@byte:4090603",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 189,
+        "key": "@byte:4090366",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiliu_g.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiliu_g.81f2f58b..png",
+          "sizeBytes": 140102
+        }
+      ]
+    },
+    {
+      "id": "main_qiliu_i",
+      "name": "main_qiliu_i",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 47129,
+        "key": "@byte:4240352",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 113,
+        "key": "@byte:4240195",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiliu_i.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiliu_i.087ce743..png",
+          "sizeBytes": 24601
+        }
+      ]
+    },
+    {
+      "id": "main_qiliu_j",
+      "name": "main_qiliu_j",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 73108,
+        "key": "@byte:4287667",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 113,
+        "key": "@byte:4287510",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiliu_j.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiliu_j.ca1346c1..png",
+          "sizeBytes": 30577
+        }
+      ]
+    },
+    {
+      "id": "main_qiliu_l",
+      "name": "main_qiliu_l",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "wiggle"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 83877,
+        "key": "@byte:4361236",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 324,
+        "key": "@byte:4360852",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiliu_l.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiliu_l.7c873c2d..png",
+          "sizeBytes": 39967
+        }
+      ]
+    },
+    {
+      "id": "main_qiqiu_a",
+      "name": "main_qiqiu_a",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 5712,
+        "key": "@byte:4445406",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 195,
+        "key": "@byte:4445160",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiqiu_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiqiu_a.4a246ddd..png",
+          "sizeBytes": 26141
+        }
+      ]
+    },
+    {
+      "id": "main_qiqiu_b",
+      "name": "main_qiqiu_b",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 5958,
+        "key": "@byte:4451393",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 192,
+        "key": "@byte:4451151",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiqiu_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiqiu_b.b155e5d2..png",
+          "sizeBytes": 202591
+        }
+      ]
+    },
+    {
+      "id": "main_qiqiu_c",
+      "name": "main_qiqiu_c",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 4974,
+        "key": "@byte:4457614",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 184,
+        "key": "@byte:4457380",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiqiu_c.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_qiqiu_c.da82e6e9..png",
+          "sizeBytes": 31635
+        }
+      ]
+    },
+    {
+      "id": "main_qiqiu_d",
+      "name": "main_qiqiu_d",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 4249,
+        "key": "@byte:4462846",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 179,
+        "key": "@byte:4462617",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_qiqiu_d.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+          "format": "embedded-image",
+          "sizeBytes": 10910,
+          "key": "@byte:7738242",
+          "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+        }
+      ]
+    },
+    {
+      "id": "main_xinxin",
+      "name": "main_xinxin",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 4172,
+        "key": "@byte:4467544",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 358,
+        "key": "@byte:4467124",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_xinxin.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_xinxin.617d228b..png",
+          "sizeBytes": 50997
+        }
+      ]
+    },
+    {
+      "id": "main_yuan_yun_a",
+      "name": "main_yuan_yun_a",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 62113,
+        "key": "@byte:4472023",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 222,
+        "key": "@byte:4471749",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yuan_yun_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_yuan_yun_a.ad41284f..png",
+          "sizeBytes": 32461
+        }
+      ]
+    },
+    {
+      "id": "main_yuan_yun_b",
+      "name": "main_yuan_yun_b",
+      "version": "4.2.42",
+      "animations": [
+        "animation",
+        "temp"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 64184,
+        "key": "@byte:4534478",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 255,
+        "key": "@byte:4534171",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yuan_yun_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_yuan_yun_b.c4b63862..png",
+          "sizeBytes": 42197
+        }
+      ]
+    },
+    {
+      "id": "main_yuan_yun_c",
+      "name": "main_yuan_yun_c",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 40202,
+        "key": "@byte:4598839",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 99,
+        "key": "@byte:4598697",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yuan_yun_c.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_yuan_yun_c.c8026986..png",
+          "sizeBytes": 23278
+        }
+      ]
+    },
+    {
+      "id": "main_yuan_yun_d",
+      "name": "main_yuan_yun_d",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 49880,
+        "key": "@byte:4639461",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 320,
+        "key": "@byte:4639082",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yuan_yun_d.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_yuan_yun_d.56fbffc3..png",
+          "sizeBytes": 96594
+        }
+      ]
+    },
+    {
+      "id": "main_yuan_yun_e",
+      "name": "main_yuan_yun_e",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 61754,
+        "key": "@byte:4689973",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 517,
+        "key": "@byte:4689382",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yuan_yun_e.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_yuan_yun_e.09912dce..png",
+          "sizeBytes": 147886
+        }
+      ]
+    },
+    {
+      "id": "main_yuan_yun_f_a",
+      "name": "main_yuan_yun_f_a",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 9556,
+        "key": "@byte:4751947",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 104,
+        "key": "@byte:4751800",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yuan_yun_f_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+          "format": "embedded-image",
+          "sizeBytes": 15182,
+          "key": "@byte:7706101",
+          "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+        }
+      ]
+    },
+    {
+      "id": "main_yuan_yun_f_b",
+      "name": "main_yuan_yun_f_b",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2025,
+        "key": "@byte:4761679",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 104,
+        "key": "@byte:4761532",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yuan_yun_f_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_yuan_yun_f_b.b0b8e4b5..png",
+          "sizeBytes": 25542
+        }
+      ]
+    },
+    {
+      "id": "main_yuan_yun_f_c",
+      "name": "main_yuan_yun_f_c",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2036,
+        "key": "@byte:4763880",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 104,
+        "key": "@byte:4763733",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yuan_yun_f_c.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_yuan_yun_f_c.6e9c482c..png",
+          "sizeBytes": 19445
+        }
+      ]
+    },
+    {
+      "id": "main_yun_a",
+      "name": "main_yun_a",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 2559,
+        "key": "@byte:4766077",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 89,
+        "key": "@byte:4765945",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yun_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_yun_a.b3c9fb24..png",
+          "sizeBytes": 34139
+        }
+      ]
+    },
+    {
+      "id": "main_yun_b",
+      "name": "main_yun_b",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 14146,
+        "key": "@byte:4768823",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 114,
+        "key": "@byte:4768665",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yun_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_yun_b.feeeab58..png",
+          "sizeBytes": 110914
+        }
+      ]
+    },
+    {
+      "id": "main_yun_daquan",
+      "name": "main_yun_daquan",
+      "version": "4.2.42",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-json",
+        "sizeBytes": 64606,
+        "key": "@byte:4783433",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/effect-pkg_9a0653539aa58ce8934d.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 375,
+        "key": "@byte:4782998",
+        "sourceSha256": "fa035a1cf00818fab8efce1b59dd39cf4268171c28062617a6bcdc6357de286e"
+      },
+      "textures": [
+        {
+          "page": "main_yun_daquan.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250928review-u3t1cg/images/main_yun_daquan.c60b4ef6..png",
+          "sizeBytes": 175335
+        }
+      ]
+    }
+  ]
+}

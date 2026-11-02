@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-163482",
+  "items": [
+    {
+      "id": "loading_jindu",
+      "name": "loading_jindu",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "100",
+        "0-100"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 3353,
+        "key": "@byte:1042225",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 244,
+        "key": "@byte:239224",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "loading_jindu.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/loading_jindu.967f003e..png",
+          "sizeBytes": 97984
+        }
+      ]
+    },
+    {
+      "id": "loading_main",
+      "name": "loading_main",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 29868,
+        "key": "@byte:1045634",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 954,
+        "key": "@byte:239522",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "loading_main.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/loading_main.7680df19..png",
+          "sizeBytes": 1680386
+        }
+      ]
+    },
+    {
+      "id": "loading_pass",
+      "name": "loading_pass",
+      "version": "4.2.43",
+      "animations": [
+        "animation",
+        "animation2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 4416,
+        "key": "@byte:1075571",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 201,
+        "key": "@byte:240595",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "loading_pass.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+          "format": "embedded-image",
+          "sizeBytes": 13051,
+          "key": "@byte:390100",
+          "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+        }
+      ]
+    },
+    {
+      "id": "loading_yumao",
+      "name": "loading_yumao",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 2847,
+        "key": "@byte:1080044",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 202,
+        "key": "@byte:240845",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "loading_yumao.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+          "format": "embedded-image",
+          "sizeBytes": 13051,
+          "key": "@byte:390100",
+          "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+        }
+      ]
+    },
+    {
+      "id": "luopan",
+      "name": "luopan",
+      "version": "4.2.43",
+      "animations": [
+        "0_hide",
+        "1_in_out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 2778,
+        "key": "@byte:1082948",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 293,
+        "key": "@byte:241097",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "luopan.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/luopan.2b9db53c..png",
+          "sizeBytes": 204903
+        }
+      ]
+    },
+    {
+      "id": "sy_map1",
+      "name": "sy_map1",
+      "version": "4.2.43",
+      "animations": [
+        "0_outside",
+        "1_in",
+        "2_loop",
+        "3_out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 2098,
+        "key": "@byte:1085783",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 135,
+        "key": "@byte:241449",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_map1.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_map1.a3d89403..png",
+          "sizeBytes": 311346
+        }
+      ]
+    },
+    {
+      "id": "sy_map2",
+      "name": "sy_map2",
+      "version": "4.2.43",
+      "animations": [
+        "0_outside",
+        "1_in",
+        "2_loop",
+        "3_out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 2250,
+        "key": "@byte:1087938",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 135,
+        "key": "@byte:241629",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_map2.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_map2.41917fa8..png",
+          "sizeBytes": 293080
+        }
+      ]
+    },
+    {
+      "id": "sy_map3",
+      "name": "sy_map3",
+      "version": "4.2.43",
+      "animations": [
+        "0_outside",
+        "1_in",
+        "2_loop",
+        "3_out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 2208,
+        "key": "@byte:1090245",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 160,
+        "key": "@byte:241809",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_map3.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_map3.59f7dd55..png",
+          "sizeBytes": 250286
+        }
+      ]
+    },
+    {
+      "id": "sy_map4",
+      "name": "sy_map4",
+      "version": "4.2.43",
+      "animations": [
+        "0_outside",
+        "1_in",
+        "2_loop",
+        "3_out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 2249,
+        "key": "@byte:1092510",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 160,
+        "key": "@byte:242016",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_map4.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_map4.bb0c87e9..png",
+          "sizeBytes": 269704
+        }
+      ]
+    },
+    {
+      "id": "sy_paimon",
+      "name": "sy_paimon",
+      "version": "4.2.43",
+      "animations": [
+        "0_outside",
+        "1_in",
+        "2_loop",
+        "3_out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 100728,
+        "key": "@byte:1094816",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3501,
+        "key": "@byte:242223",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_paimon.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_paimon.8e952d95..png",
+          "sizeBytes": 949396
+        }
+      ]
+    },
+    {
+      "id": "sy_--_1",
+      "name": "sy_地标_1",
+      "version": "4.2.43",
+      "animations": [
+        "1_in_off",
+        "1_in_on",
+        "2_loop_off",
+        "2_loop_on",
+        "3_change_on",
+        "4_shake_off",
+        "4_shake_on"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 10828,
+        "key": "@byte:1195697",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 392,
+        "key": "@byte:246076",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_地标_1.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_%E5%9C%B0%E6%A0%87_1.42f9d582..png",
+          "sizeBytes": 289133
+        }
+      ]
+    },
+    {
+      "id": "sy_--_2",
+      "name": "sy_地标_2",
+      "version": "4.2.43",
+      "animations": [
+        "1_in_off",
+        "1_in_on",
+        "2_loop_off",
+        "2_loop_on",
+        "3_change_on",
+        "4_shake_off",
+        "4_shake_on"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 10392,
+        "key": "@byte:1206582",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 454,
+        "key": "@byte:246538",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_地标_2.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_%E5%9C%B0%E6%A0%87_2.f0273045..png",
+          "sizeBytes": 293654
+        }
+      ]
+    },
+    {
+      "id": "sy_--_3",
+      "name": "sy_地标_3",
+      "version": "4.2.43",
+      "animations": [
+        "1_in_off",
+        "1_in_on",
+        "2_loop_off",
+        "2_loop_on",
+        "3_change_on",
+        "4_shake_off",
+        "4_shake_on"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 26366,
+        "key": "@byte:1217031",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1350,
+        "key": "@byte:247064",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_地标_3.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_%E5%9C%B0%E6%A0%87_3.d3e948da..png",
+          "sizeBytes": 269002
+        }
+      ]
+    },
+    {
+      "id": "sy_--_4",
+      "name": "sy_地标_4",
+      "version": "4.2.43",
+      "animations": [
+        "1_in_off",
+        "1_in_on",
+        "2_loop_off",
+        "2_loop_on",
+        "3_change_on",
+        "4_shake_off",
+        "4_shake_on"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 6419,
+        "key": "@byte:1243462",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 233,
+        "key": "@byte:248576",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_地标_4.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_%E5%9C%B0%E6%A0%87_4.bc0fbfbd..png",
+          "sizeBytes": 182894
+        }
+      ]
+    },
+    {
+      "id": "sy_",
+      "name": "sy_羽毛笔",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 3811,
+        "key": "@byte:1249938",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 94,
+        "key": "@byte:248863",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_羽毛笔.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_%E7%BE%BD%E6%AF%9B%E7%AC%94.c302fbac..png",
+          "sizeBytes": 104063
+        }
+      ]
+    },
+    {
+      "id": "sy_-65d1f0ad",
+      "name": "sy_羽毛阴影",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-json",
+        "sizeBytes": 3642,
+        "key": "@byte:1253811",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index_6abbffa0297677350242.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 101,
+        "key": "@byte:248997",
+        "sourceSha256": "d48c9227220bd984fadd55e6b71ca5f5daa236dd50f58b6f307dede94c9f3ea6"
+      },
+      "textures": [
+        {
+          "page": "sy_羽毛阴影.png",
+          "url": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/images/sy_%E7%BE%BD%E6%AF%9B%E9%98%B4%E5%BD%B1.c945e11a..png",
+          "sizeBytes": 62095
+        }
+      ]
+    }
+  ]
+}

@@ -25,6 +25,19 @@ test('rejects executable expressions, missing and ambiguous keys', () => {
   assert.throws(() => decodeBundle('const data={"x":{get y(){return 1}}}', ['x']), /动态属性/);
 });
 
+test('byte locators decode UTF-8 data without executing surrounding activity scripts', () => {
+  const prefix = 'throw new Error("禁止执行"); const x=';
+  const source = prefix + '{skeleton:{spine:"4.2.43"},bones:[{name:"root"}]}';
+  const key = '@byte:' + new TextEncoder().encode(prefix).length;
+  assert.equal(decodeBundle(source, [key]).get(key).bones[0].name, 'root');
+  assert.throws(() => decodeBundle('fetch("/execute")', ['@byte:0']), /动态表达式/);
+  assert.throws(() => decodeBundle('1', ['@byte:999']), /超出/);
+  const prefix2 = 'const x="中文😀",y=';
+  const key2 = '@byte:' + Buffer.byteLength(prefix2);
+  assert.equal(decodeBundle(prefix2 + '42', [key2]).get(key2), 42);
+  assert.throws(() => decodeBundle('"😀"', ['@byte:2']), /超出/);
+});
+
 test('preserves prototype-like data keys without prototype pollution', () => {
   const value = decodeBundle('const x={"data":{"__proto__":{polluted:true}}}', ['data']).get('data');
   assert.equal(Object.getPrototypeOf(value), null);
@@ -41,6 +54,7 @@ test('supports multiple atlas pages and safe HTTPS links', () => {
 test('validates direct SKEL sources and rejects duplicate atlas pages', () => {
   const item = { id: 'test', version: '4.2.43', animations: [], skins: [], skeleton: { url: 'https://example.com/a.skel', format: 'skel' }, atlas: { url: 'https://example.com/a.atlas', format: 'atlas' }, textures: [{ page: 'a.png', url: 'https://example.com/a.png' }] };
   validateItems([item]);
+  validateItems([{ ...item, version: '4.0-from-4.1-from-4.2.26' }]);
   item.textures.push({ ...item.textures[0] });
   assert.throws(() => validateItems([item]), /重复/);
 });

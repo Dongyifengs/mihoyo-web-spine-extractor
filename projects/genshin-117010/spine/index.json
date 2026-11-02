@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117010",
+  "items": [
+    {
+      "id": "aloy",
+      "name": "aloy",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20211013-aloy/vendors.1808a14f4e.js",
+        "format": "embedded-json",
+        "sizeBytes": 172207,
+        "key": "@byte:458130",
+        "sourceSha256": "14030197f49e159ddb0d2315f9a506e9aa87b4d26810e61b8ea602cce5454ac5"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20211013-aloy/vendors.1808a14f4e.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3124,
+        "key": "@byte:454789",
+        "sourceSha256": "14030197f49e159ddb0d2315f9a506e9aa87b4d26810e61b8ea602cce5454ac5"
+      },
+      "textures": [
+        {
+          "page": "aloy.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20211013-aloy/images/aloy.e20b1ef2.png",
+          "sizeBytes": 4230016
+        },
+        {
+          "page": "aloy_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20211013-aloy/images/aloy_2.bcf537bd.png",
+          "sizeBytes": 1029513
+        }
+      ]
+    }
+  ]
+}

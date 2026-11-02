@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117798",
+  "items": [
+    {
+      "id": "blue_boy",
+      "name": "blue_boy",
+      "version": "4.0.33",
+      "animations": [
+        "get_zhi",
+        "speak",
+        "stand"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 35295,
+        "key": "@byte:336378",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 717,
+        "key": "@byte:2744944",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "blue_boy.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/blue_boy.9a7b7faa..png",
+          "sizeBytes": 196497
+        }
+      ]
+    },
+    {
+      "id": "dog",
+      "name": "dog",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 15166,
+        "key": "@byte:371740",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 248,
+        "key": "@byte:2745738",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "dog.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/dog.f4be11c0..png",
+          "sizeBytes": 64552
+        }
+      ]
+    },
+    {
+      "id": "girl",
+      "name": "girl",
+      "version": "4.0.33",
+      "animations": [
+        "get_tang",
+        "stand"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 37184,
+        "key": "@byte:386967",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 797,
+        "key": "@byte:2746033",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "girl.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/girl.72b7e641..png",
+          "sizeBytes": 209495
+        }
+      ]
+    },
+    {
+      "id": "little_boy",
+      "name": "little_boy",
+      "version": "4.0.33",
+      "animations": [
+        "get_tang",
+        "stand"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 26622,
+        "key": "@byte:424220",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 449,
+        "key": "@byte:2746917",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "little_boy.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/little_boy.4f573b2b..png",
+          "sizeBytes": 115717
+        }
+      ]
+    },
+    {
+      "id": "little_girl",
+      "name": "little_girl",
+      "version": "4.0.33",
+      "animations": [
+        "get_tang",
+        "stand"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 23187,
+        "key": "@byte:450917",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 375,
+        "key": "@byte:2747428",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "little_girl.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/little_girl.f07e6094..png",
+          "sizeBytes": 132660
+        }
+      ]
+    },
+    {
+      "id": "loading",
+      "name": "loading",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 2238,
+        "key": "@byte:474167",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 247,
+        "key": "@byte:2747857",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "loading.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/loading.3188e129..png",
+          "sizeBytes": 102047
+        }
+      ]
+    },
+    {
+      "id": "naxida_sleep",
+      "name": "naxida_sleep",
+      "version": "4.0.33",
+      "animations": [
+        "sleeping"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 38862,
+        "key": "@byte:476462",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1020,
+        "key": "@byte:2748148",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "naxida_sleep.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/naxida_sleep.a68c6839..png",
+          "sizeBytes": 1282347
+        }
+      ]
+    },
+    {
+      "id": "naxitan_q",
+      "name": "naxitan_q",
+      "version": "4.0.33",
+      "animations": [
+        "biaoqing_jingya",
+        "give_caipu",
+        "give_tang_L",
+        "give_tang_R",
+        "give_zhi",
+        "L_stand_smile_openeye",
+        "L_walk",
+        "R_stand",
+        "R_walk",
+        "R_walk_smile",
+        "smile_closeeye",
+        "smile_happy",
+        "smile_openeye",
+        "speak"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 159158,
+        "key": "@byte:515395",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2618,
+        "key": "@byte:2749265",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "naxitan_Q.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/naxitan_Q.2a631cbc..png",
+          "sizeBytes": 1201320
+        }
+      ]
+    },
+    {
+      "id": "naxitan_shouye",
+      "name": "naxitan_shouye",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 146433,
+        "key": "@byte:674666",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3000,
+        "key": "@byte:2752088",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "naxitan_shouye.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/naxitan_shouye.47dc140e..png",
+          "sizeBytes": 2954144
+        },
+        {
+          "page": "naxitan_shouye_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/naxitan_shouye_2.8227bb64..png",
+          "sizeBytes": 1951451
+        }
+      ]
+    },
+    {
+      "id": "scene_1",
+      "name": "scene_1",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 80098,
+        "key": "@byte:821318",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2095,
+        "key": "@byte:2755305",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "scene_1.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/scene_1.982436ad..png",
+          "sizeBytes": 2927985
+        }
+      ]
+    },
+    {
+      "id": "scene_2",
+      "name": "scene_2",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 81734,
+        "key": "@byte:901527",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2009,
+        "key": "@byte:2757562",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "scene_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/scene_2.34e3f528..png",
+          "sizeBytes": 1745972
+        }
+      ]
+    },
+    {
+      "id": "scene_2_grass",
+      "name": "scene_2_grass",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 19929,
+        "key": "@byte:983360",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 264,
+        "key": "@byte:2759734",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "scene_2_grass.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/scene_2_grass.4bb1803c..png",
+          "sizeBytes": 52047
+        }
+      ]
+    },
+    {
+      "id": "scene_3",
+      "name": "scene_3",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 91564,
+        "key": "@byte:1003360",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2588,
+        "key": "@byte:2760044",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "scene_3.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/scene_3.67ecefcf..png",
+          "sizeBytes": 2239501
+        },
+        {
+          "page": "scene_3_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/scene_3_2.0c8b1830..png",
+          "sizeBytes": 714447
+        }
+      ]
+    },
+    {
+      "id": "walk_boy",
+      "name": "walk_boy",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 25566,
+        "key": "@byte:1095014",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 323,
+        "key": "@byte:2762830",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "walk_boy.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/walk_boy.bfb4377e..png",
+          "sizeBytes": 178107
+        }
+      ]
+    },
+    {
+      "id": "walk_girl",
+      "name": "walk_girl",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 21607,
+        "key": "@byte:1120667",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 304,
+        "key": "@byte:2763203",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "walk_girl.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/walk_girl.09dd6cc5..png",
+          "sizeBytes": 178019
+        }
+      ]
+    },
+    {
+      "id": "yelliow_boy",
+      "name": "yelliow_boy",
+      "version": "4.0.33",
+      "animations": [
+        "get_caipu",
+        "speak",
+        "stand"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/index_3ee8891e7a332e3e1401.js",
+        "format": "embedded-json",
+        "sizeBytes": 41530,
+        "key": "@byte:1142342",
+        "sourceSha256": "391a22dba5e07cafcc7530a410cd1c80a55b5ad656381db034b8f26848d1912e"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/vendors_d22f188050e9b1bdb959.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 656,
+        "key": "@byte:2763557",
+        "sourceSha256": "e7c5f11d10811c7533480e042aa4751af9d0f5486d93236492839cd783dd6273"
+      },
+      "textures": [
+        {
+          "page": "yelliow_boy.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221028nahida/images/yelliow_boy.1e472522..png",
+          "sizeBytes": 220655
+        }
+      ]
+    }
+  ]
+}

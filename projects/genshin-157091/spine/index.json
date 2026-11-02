@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-157091",
+  "items": [
+    {
+      "id": "bg",
+      "name": "bg",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/effect-pkg_a09721e39ea6284ed6e7.js",
+        "format": "embedded-json",
+        "sizeBytes": 241375,
+        "key": "@byte:1114570",
+        "sourceSha256": "6b2a40a1f7583f784640f9cd0c31977d5df2080a6d327703312ab17c2871736f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/effect-pkg_a09721e39ea6284ed6e7.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 5558,
+        "key": "@byte:1108626",
+        "sourceSha256": "6b2a40a1f7583f784640f9cd0c31977d5df2080a6d327703312ab17c2871736f"
+      },
+      "textures": [
+        {
+          "page": "bg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/images/bg.fcb45680..png",
+          "sizeBytes": 1273129
+        },
+        {
+          "page": "bg_2.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/images/bg_2.aa5a6080..png",
+          "sizeBytes": 2643572
+        },
+        {
+          "page": "bg_3.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/images/bg_3.a0ee09d7..png",
+          "sizeBytes": 766102
+        },
+        {
+          "page": "bg_4.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/images/bg_4.a1109837..png",
+          "sizeBytes": 271555
+        }
+      ]
+    },
+    {
+      "id": "ju",
+      "name": "ju",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/effect-pkg_a09721e39ea6284ed6e7.js",
+        "format": "embedded-json",
+        "sizeBytes": 727849,
+        "key": "@byte:1367432",
+        "sourceSha256": "6b2a40a1f7583f784640f9cd0c31977d5df2080a6d327703312ab17c2871736f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/effect-pkg_a09721e39ea6284ed6e7.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 10734,
+        "key": "@byte:1355974",
+        "sourceSha256": "6b2a40a1f7583f784640f9cd0c31977d5df2080a6d327703312ab17c2871736f"
+      },
+      "textures": [
+        {
+          "page": "ju.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/images/ju.dc5da528..png",
+          "sizeBytes": 2283033
+        },
+        {
+          "page": "ju_2.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/images/ju_2.68fd5c84..png",
+          "sizeBytes": 902276
+        }
+      ]
+    },
+    {
+      "id": "kong_ying",
+      "name": "kong_ying",
+      "version": "4.2.43",
+      "animations": [
+        "kong",
+        "ying"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/effect-pkg_a09721e39ea6284ed6e7.js",
+        "format": "embedded-json",
+        "sizeBytes": 1041581,
+        "key": "@byte:2107987",
+        "sourceSha256": "6b2a40a1f7583f784640f9cd0c31977d5df2080a6d327703312ab17c2871736f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/effect-pkg_a09721e39ea6284ed6e7.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 11606,
+        "key": "@byte:2095594",
+        "sourceSha256": "6b2a40a1f7583f784640f9cd0c31977d5df2080a6d327703312ab17c2871736f"
+      },
+      "textures": [
+        {
+          "page": "kong_ying.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/images/kong_ying.2d5d57bc..png",
+          "sizeBytes": 1970049
+        },
+        {
+          "page": "kong_ying_2.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/images/kong_ying_2.45565a9a..png",
+          "sizeBytes": 1467716
+        },
+        {
+          "page": "kong_ying_3.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/images/kong_ying_3.b580704f..png",
+          "sizeBytes": 21145
+        }
+      ]
+    },
+    {
+      "id": "loading_icon",
+      "name": "loading_icon",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/effect-pkg_a09721e39ea6284ed6e7.js",
+        "format": "embedded-json",
+        "sizeBytes": 8919,
+        "key": "@byte:3154089",
+        "sourceSha256": "6b2a40a1f7583f784640f9cd0c31977d5df2080a6d327703312ab17c2871736f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/effect-pkg_a09721e39ea6284ed6e7.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3939,
+        "key": "@byte:3149881",
+        "sourceSha256": "6b2a40a1f7583f784640f9cd0c31977d5df2080a6d327703312ab17c2871736f"
+      },
+      "textures": [
+        {
+          "page": "loading_icon.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250618return-lw5jy8/images/loading_icon.12682723..png",
+          "sizeBytes": 652925
+        }
+      ]
+    }
+  ]
+}

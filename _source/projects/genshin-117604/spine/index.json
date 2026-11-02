@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117604",
+  "items": [
+    {
+      "id": "fengmian",
+      "name": "fengmian",
+      "version": "4.0.33",
+      "animations": [
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/index_8de31db8afa24be019f7.js",
+        "format": "embedded-json",
+        "sizeBytes": 132117,
+        "key": "@byte:431795",
+        "sourceSha256": "19610e5322ad2b233cc1e974350577dbc389f24ebb97494728486565a46aa94f"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/vendors_bd81b3c93ebd783896b9.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3330,
+        "key": "@byte:2122896",
+        "sourceSha256": "105b0c6d5aeef7cbe8a5168237a42e3561058b061754d530aa8951bc15442f49"
+      },
+      "textures": [
+        {
+          "page": "fengmian.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/images/fengmian.c1de2f0b..png",
+          "sizeBytes": 3653871
+        },
+        {
+          "page": "fengmian_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/images/fengmian_2.f1b2e280..png",
+          "sizeBytes": 488219
+        },
+        {
+          "page": "fengmian_3.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/images/fengmian_3.0b568192..png",
+          "sizeBytes": 192024
+        }
+      ]
+    },
+    {
+      "id": "kelin",
+      "name": "kelin",
+      "version": "4.0.33",
+      "animations": [
+        "bdaiji",
+        "bzoulu",
+        "cedx",
+        "cejibiji",
+        "cerenzheng",
+        "ceyun",
+        "cezhaoji"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/index_8de31db8afa24be019f7.js",
+        "format": "embedded-json",
+        "sizeBytes": 220852,
+        "key": "@byte:564017",
+        "sourceSha256": "19610e5322ad2b233cc1e974350577dbc389f24ebb97494728486565a46aa94f"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/vendors_bd81b3c93ebd783896b9.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2656,
+        "key": "@byte:2126471",
+        "sourceSha256": "105b0c6d5aeef7cbe8a5168237a42e3561058b061754d530aa8951bc15442f49"
+      },
+      "textures": [
+        {
+          "page": "kelin.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/images/kelin.223bd35e..png",
+          "sizeBytes": 268845
+        }
+      ]
+    },
+    {
+      "id": "loadingn",
+      "name": "loadingn",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/index_8de31db8afa24be019f7.js",
+        "format": "embedded-json",
+        "sizeBytes": 48161,
+        "key": "@byte:785124",
+        "sourceSha256": "19610e5322ad2b233cc1e974350577dbc389f24ebb97494728486565a46aa94f"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/vendors_bd81b3c93ebd783896b9.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 314,
+        "key": "@byte:2129332",
+        "sourceSha256": "105b0c6d5aeef7cbe8a5168237a42e3561058b061754d530aa8951bc15442f49"
+      },
+      "textures": [
+        {
+          "page": "loadingn.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/images/loadingn.e63a5165..png",
+          "sizeBytes": 335530
+        }
+      ]
+    },
+    {
+      "id": "mxj",
+      "name": "mxj",
+      "version": "4.0.33",
+      "animations": [
+        "daodaiji",
+        "shuaidao",
+        "zdaiji",
+        "zzoulu"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/index_8de31db8afa24be019f7.js",
+        "format": "embedded-json",
+        "sizeBytes": 109512,
+        "key": "@byte:833388",
+        "sourceSha256": "19610e5322ad2b233cc1e974350577dbc389f24ebb97494728486565a46aa94f"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/vendors_bd81b3c93ebd783896b9.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1606,
+        "key": "@byte:2129696",
+        "sourceSha256": "105b0c6d5aeef7cbe8a5168237a42e3561058b061754d530aa8951bc15442f49"
+      },
+      "textures": [
+        {
+          "page": "mxj.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/images/mxj.afef97ee..png",
+          "sizeBytes": 225487
+        }
+      ]
+    },
+    {
+      "id": "tinali",
+      "name": "tinali",
+      "version": "4.0.33",
+      "animations": [
+        "bdaiji",
+        "bzoulu",
+        "zdaiji",
+        "zdaiji遮罩",
+        "zdengdai",
+        "zwunai",
+        "zwuyu",
+        "zyansu",
+        "下蹲治疗",
+        "治疗待机"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/index_8de31db8afa24be019f7.js",
+        "format": "embedded-json",
+        "sizeBytes": 217891,
+        "key": "@byte:943046",
+        "sourceSha256": "19610e5322ad2b233cc1e974350577dbc389f24ebb97494728486565a46aa94f"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/vendors_bd81b3c93ebd783896b9.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3219,
+        "key": "@byte:2131432",
+        "sourceSha256": "105b0c6d5aeef7cbe8a5168237a42e3561058b061754d530aa8951bc15442f49"
+      },
+      "textures": [
+        {
+          "page": "tinali.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/images/tinali.a9d16094..png",
+          "sizeBytes": 352086
+        },
+        {
+          "page": "tinali_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/images/tinali_2.e0970ed7..png",
+          "sizeBytes": 83632
+        }
+      ]
+    },
+    {
+      "id": "xulinguan",
+      "name": "xulinguan",
+      "version": "4.0.33",
+      "animations": [
+        "bdaiji",
+        "bqipao",
+        "bzoulu",
+        "zdaiji"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/index_8de31db8afa24be019f7.js",
+        "format": "embedded-json",
+        "sizeBytes": 67410,
+        "key": "@byte:1161206",
+        "sourceSha256": "19610e5322ad2b233cc1e974350577dbc389f24ebb97494728486565a46aa94f"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/vendors_bd81b3c93ebd783896b9.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1167,
+        "key": "@byte:2134885",
+        "sourceSha256": "105b0c6d5aeef7cbe8a5168237a42e3561058b061754d530aa8951bc15442f49"
+      },
+      "textures": [
+        {
+          "page": "xulinguan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/images/xulinguan.94710b5d..png",
+          "sizeBytes": 723348
+        }
+      ]
+    },
+    {
+      "id": "yezi",
+      "name": "yezi",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/index_8de31db8afa24be019f7.js",
+        "format": "embedded-json",
+        "sizeBytes": 8876,
+        "key": "@byte:1228764",
+        "sourceSha256": "19610e5322ad2b233cc1e974350577dbc389f24ebb97494728486565a46aa94f"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/vendors_bd81b3c93ebd783896b9.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 108,
+        "key": "@byte:2136154",
+        "sourceSha256": "105b0c6d5aeef7cbe8a5168237a42e3561058b061754d530aa8951bc15442f49"
+      },
+      "textures": [
+        {
+          "page": "yezi.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220819tighnari-wmke/images/yezi.8d249ab2..png",
+          "sizeBytes": 541644
+        }
+      ]
+    }
+  ]
+}

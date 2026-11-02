@@ -1,0 +1,1301 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-124193",
+  "items": [
+    {
+      "id": "adn",
+      "name": "adn",
+      "version": "4.2.29",
+      "animations": [
+        "dd",
+        "eye",
+        "loop",
+        "walk",
+        "叉腰loop",
+        "叉腰loop星星眼",
+        "双手叉腰",
+        "双手叉腰星星眼",
+        "合掌loop",
+        "张开loop",
+        "思考loop",
+        "拿贴纸"
+      ],
+      "skins": [
+        "default",
+        "you",
+        "zuo"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 193837,
+        "key": "@byte:1284831",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2297,
+        "key": "@byte:1254753",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "adn.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/adn.3bc0d48d..png",
+          "sizeBytes": 922256
+        }
+      ]
+    },
+    {
+      "id": "end_gg",
+      "name": "end_gg",
+      "version": "4.2.20",
+      "animations": [
+        "0",
+        "animation",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 3761,
+        "key": "@byte:1478748",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 126,
+        "key": "@byte:1257221",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "end_gg.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/end_gg.7f31cf5e..png",
+          "sizeBytes": 50753
+        }
+      ]
+    },
+    {
+      "id": "game_end_bg",
+      "name": "game_end_bg",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 6402,
+        "key": "@byte:1482547",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 170,
+        "key": "@byte:1257383",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "game_end_bg.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/game_end_bg.341be53a..png",
+          "sizeBytes": 147595
+        }
+      ]
+    },
+    {
+      "id": "game_end_bi",
+      "name": "game_end_bi",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 910,
+        "key": "@byte:1488991",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 77,
+        "key": "@byte:1257591",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "game_end_bi.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+          "format": "embedded-image",
+          "sizeBytes": 8892,
+          "key": "@byte:5881617",
+          "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+        }
+      ]
+    },
+    {
+      "id": "game_huabang",
+      "name": "game_huabang",
+      "version": "4.2.20",
+      "animations": [
+        "a",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 10368,
+        "key": "@byte:1489939",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 313,
+        "key": "@byte:1257701",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "game_huabang.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/game_huabang.cb20c6a4..png",
+          "sizeBytes": 225143
+        }
+      ]
+    },
+    {
+      "id": "game_light",
+      "name": "game_light",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 2226,
+        "key": "@byte:1500349",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 80,
+        "key": "@byte:1258063",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "game_light.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/game_light.6bceeb74..png",
+          "sizeBytes": 73216
+        }
+      ]
+    },
+    {
+      "id": "game_xingxing",
+      "name": "game_xingxing",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 4998,
+        "key": "@byte:1502615",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 346,
+        "key": "@byte:1258176",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "game_xingxing.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/game_xingxing.fc869790..png",
+          "sizeBytes": 26824
+        }
+      ]
+    },
+    {
+      "id": "index_cao_a",
+      "name": "index_cao_a",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 76792,
+        "key": "@byte:1507651",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 99,
+        "key": "@byte:1258575",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "index_cao_a.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/index_cao_a.ae28f40f..png",
+          "sizeBytes": 77937
+        }
+      ]
+    },
+    {
+      "id": "index_cao_b",
+      "name": "index_cao_b",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 7395,
+        "key": "@byte:1584573",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 98,
+        "key": "@byte:1258708",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "index_cao_b.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/index_cao_b.d1c68538..png",
+          "sizeBytes": 26658
+        }
+      ]
+    },
+    {
+      "id": "index_cao_c",
+      "name": "index_cao_c",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 5052,
+        "key": "@byte:1592016",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 95,
+        "key": "@byte:1258840",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "index_cao_c.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+          "format": "embedded-image",
+          "sizeBytes": 6709,
+          "key": "@byte:5893967",
+          "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+        }
+      ]
+    },
+    {
+      "id": "index_cao_d",
+      "name": "index_cao_d",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 9876,
+        "key": "@byte:1597108",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 99,
+        "key": "@byte:1258969",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "index_cao_d.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/index_cao_d.fc690d31..png",
+          "sizeBytes": 29317
+        }
+      ]
+    },
+    {
+      "id": "index_guan",
+      "name": "index_guan",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 10764,
+        "key": "@byte:1607032",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 116,
+        "key": "@byte:1259102",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "index_guan.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/index_guan.b64c52c5..png",
+          "sizeBytes": 288401
+        }
+      ]
+    },
+    {
+      "id": "index_hua",
+      "name": "index_hua",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 33658,
+        "key": "@byte:1617838",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 571,
+        "key": "@byte:1259253",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "index_hua.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/index_hua.690fa8aa..png",
+          "sizeBytes": 373389
+        }
+      ]
+    },
+    {
+      "id": "index_yuquan_a",
+      "name": "index_yuquan_a",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 14649,
+        "key": "@byte:1651552",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 101,
+        "key": "@byte:1259889",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "index_yuquan_a.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/index_yuquan_a.048bd95d..png",
+          "sizeBytes": 51045
+        }
+      ]
+    },
+    {
+      "id": "loading_bar",
+      "name": "loading_bar",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 964,
+        "key": "@byte:1666245",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 115,
+        "key": "@byte:1260024",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "loading_bar.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+          "format": "embedded-image",
+          "sizeBytes": 1720,
+          "key": "@byte:5903321",
+          "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+        }
+      ]
+    },
+    {
+      "id": "loading_bg",
+      "name": "loading_bg",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 9823,
+        "key": "@byte:1667247",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 134,
+        "key": "@byte:1260175",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "loading_bg.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/loading_bg.39715de9..png",
+          "sizeBytes": 23521
+        }
+      ]
+    },
+    {
+      "id": "loading_cp",
+      "name": "loading_cp",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 6154,
+        "key": "@byte:1677108",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 117,
+        "key": "@byte:1260347",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "loading_cp.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+          "format": "embedded-image",
+          "sizeBytes": 11465,
+          "key": "@byte:5905766",
+          "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+        }
+      ]
+    },
+    {
+      "id": "loading_shuihua",
+      "name": "loading_shuihua",
+      "version": "4.2.20",
+      "animations": [
+        "0",
+        "animation"
+      ],
+      "skins": [
+        "a",
+        "b"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 29237,
+        "key": "@byte:1683302",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 480,
+        "key": "@byte:1260500",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "loading_shuihua.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/loading_shuihua.4db1ec7b..png",
+          "sizeBytes": 48996
+        }
+      ]
+    },
+    {
+      "id": "loading_tupaopao",
+      "name": "loading_tupaopao",
+      "version": "4.2.20",
+      "animations": [
+        "0",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 14441,
+        "key": "@byte:1712577",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 76,
+        "key": "@byte:1261043",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "loading_tupaopao.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/loading_tupaopao.c075cd00..png",
+          "sizeBytes": 57602
+        }
+      ]
+    },
+    {
+      "id": "loading_xx",
+      "name": "loading_xx",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 2824,
+        "key": "@byte:1727084",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 233,
+        "key": "@byte:1261152",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "loading_xx.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/loading_xx.d322910d..png",
+          "sizeBytes": 24720
+        }
+      ]
+    },
+    {
+      "id": "main_huabi",
+      "name": "main_huabi",
+      "version": "4.2.20",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 3427,
+        "key": "@byte:1729946",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 206,
+        "key": "@byte:1261430",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "main_huabi.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/main_huabi.0940d0d7..png",
+          "sizeBytes": 40265
+        }
+      ]
+    },
+    {
+      "id": "main_labi",
+      "name": "main_labi",
+      "version": "4.2.20",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 4946,
+        "key": "@byte:1733411",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 209,
+        "key": "@byte:1261677",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "main_labi.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/main_labi.7ccff402..png",
+          "sizeBytes": 44546
+        }
+      ]
+    },
+    {
+      "id": "main_yu_a",
+      "name": "main_yu_a",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 50300,
+        "key": "@byte:1738397",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 85,
+        "key": "@byte:1261929",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "main_yu_a.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+          "format": "embedded-image",
+          "sizeBytes": 1481,
+          "key": "@byte:5921551",
+          "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+        }
+      ]
+    },
+    {
+      "id": "main_yu_b",
+      "name": "main_yu_b",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 59729,
+        "key": "@byte:1788735",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 87,
+        "key": "@byte:1262048",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "main_yu_b.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+          "format": "embedded-image",
+          "sizeBytes": 1152,
+          "key": "@byte:5923594",
+          "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+        }
+      ]
+    },
+    {
+      "id": "main_yu_c",
+      "name": "main_yu_c",
+      "version": "4.2.20",
+      "animations": [
+        "animation",
+        "temp"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 104115,
+        "key": "@byte:1848502",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 156,
+        "key": "@byte:1262169",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "main_yu_c.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+          "format": "embedded-image",
+          "sizeBytes": 8371,
+          "key": "@byte:5925197",
+          "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+        }
+      ]
+    },
+    {
+      "id": "main_yu_d",
+      "name": "main_yu_d",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 46692,
+        "key": "@byte:1952655",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 89,
+        "key": "@byte:1262364",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "main_yu_d.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+          "format": "embedded-image",
+          "sizeBytes": 3225,
+          "key": "@byte:5936428",
+          "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+        }
+      ]
+    },
+    {
+      "id": "main_yu_e",
+      "name": "main_yu_e",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 123376,
+        "key": "@byte:1999405",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 88,
+        "key": "@byte:1262487",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "main_yu_e.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+          "format": "embedded-image",
+          "sizeBytes": 2947,
+          "key": "@byte:5940795",
+          "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+        }
+      ]
+    },
+    {
+      "id": "main_zhusheqi",
+      "name": "main_zhusheqi",
+      "version": "4.2.20",
+      "animations": [
+        "in",
+        "loop",
+        "paopao"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 61709,
+        "key": "@byte:2122819",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 385,
+        "key": "@byte:1262609",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "main_zhusheqi.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/main_zhusheqi.65f02b73..png",
+          "sizeBytes": 194221
+        }
+      ]
+    },
+    {
+      "id": "main_zj_huajia",
+      "name": "main_zj_huajia",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 13718,
+        "key": "@byte:2184612",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 324,
+        "key": "@byte:1263045",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "main_zj_huajia.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/main_zj_huajia.242db0a4..png",
+          "sizeBytes": 1094148
+        }
+      ]
+    },
+    {
+      "id": "main_zj_huapeng",
+      "name": "main_zj_huapeng",
+      "version": "4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 12440,
+        "key": "@byte:2198372",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 296,
+        "key": "@byte:1263420",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "main_zj_huapeng.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/main_zj_huapeng.73dae0cf..png",
+          "sizeBytes": 246825
+        }
+      ]
+    },
+    {
+      "id": "page_pass",
+      "name": "page_pass",
+      "version": "4.2.20",
+      "animations": [
+        "0",
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 12319,
+        "key": "@byte:2210856",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 114,
+        "key": "@byte:1263765",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "page_pass.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/page_pass.64470043..png",
+          "sizeBytes": 15468
+        }
+      ]
+    },
+    {
+      "id": "xgw",
+      "name": "xgw",
+      "version": "4.2.29",
+      "animations": [
+        "1233",
+        "eye",
+        "loop",
+        "run",
+        "walk",
+        "举手",
+        "双手举手",
+        "思考",
+        "思考腹黑",
+        "思考认真",
+        "惊讶",
+        "画画in",
+        "画画loop",
+        "画画out",
+        "递贴纸"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 469666,
+        "key": "@byte:2223213",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2044,
+        "key": "@byte:1263915",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "xgw.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/xgw.9a0f9d5a..png",
+          "sizeBytes": 427359
+        }
+      ]
+    },
+    {
+      "id": "xgwkv",
+      "name": "xgwkv",
+      "version": "4.2.29",
+      "animations": [
+        "animation",
+        "eye"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 536855,
+        "key": "@byte:2693045",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2806,
+        "key": "@byte:1266127",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "xgwkv.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/xgwkv.d6abcf5a..png",
+          "sizeBytes": 576449
+        }
+      ]
+    },
+    {
+      "id": "xhy",
+      "name": "xhy",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 41636,
+        "key": "@byte:3230152",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 611,
+        "key": "@byte:1269137",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "xhy.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/xhy.9c14accf..png",
+          "sizeBytes": 64151
+        }
+      ]
+    },
+    {
+      "id": "yuqun",
+      "name": "yuqun",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 34043,
+        "key": "@byte:3271872",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 346,
+        "key": "@byte:1269816",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "yuqun.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/images/yuqun.8e8083fc..png",
+          "sizeBytes": 32253
+        }
+      ]
+    },
+    {
+      "id": "yuqun2",
+      "name": "yuqun2",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-json",
+        "sizeBytes": 22570,
+        "key": "@byte:3305967",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 187,
+        "key": "@byte:1270215",
+        "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+      },
+      "textures": [
+        {
+          "page": "yuqun2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240620sigewinne-ktlz9u/vendors_11d739e1f34a2ec578c5.js",
+          "format": "embedded-image",
+          "sizeBytes": 8959,
+          "key": "@byte:5945453",
+          "sourceSha256": "61a1b9dbaa02b19e7aa5da13eca324fab349e0bd219f1dce79890523f958848f"
+        }
+      ]
+    }
+  ]
+}

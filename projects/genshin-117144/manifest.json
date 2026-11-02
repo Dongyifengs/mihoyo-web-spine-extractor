@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-117144",
+  "title": "「雪峰胜景 星耀奇旅」网页活动现已上线",
+  "subtitle": "「雪峰胜景 星耀奇旅」网页活动现已上线",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2021-12-29",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://webstatic.mihoyo.com/ys/event/e20211229-snow/index.html",
+  "cover": {
+    "url": "https://uploadstatic.mihoyo.com/contentweb/20211229/2021122914085072990.png",
+    "alt": "「雪峰胜景 星耀奇旅」网页活动现已上线",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117144",
+    "kind": "official-news-cover",
+    "sizeBytes": 430721
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 11,
+  "textureCount": 11,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/117144",
+    "title": "「雪峰胜景 星耀奇旅」网页活动现已上线",
+    "publishedAt": "2021-12-29T06:08:36.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117144"
+  },
+  "articleText": "亲爱的旅行者，「雪峰胜景 星耀奇旅」网页活动现已上线，参与点亮雪山活动赢取原石。\n点击\n【网页链接】\n参与活动~\n〓活动时间〓\n凝聚星光：2021/12/29 11:00-2022/01/09 23:59\n〓活动规则〓\n1. 活动期间登录网页，参与点亮，旅行者即可获得定制点亮纪念卡。参与活动的玩家数量达成30万、60万、100万三个里程碑，即可依次解锁稠汁蔬菜炖肉×3、 摩拉×20000 、原石×30 的三种道具礼包。全体达成100万参与后，所有参与活动的旅行者均领取全部道具礼包（每种道具礼包限量300万份）。\n2. 达成100万玩家参与，官方将举办锚点点亮仪式线下活动。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 9,
+    "skeletons": 11,
+    "atlases": 11
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "以官方活动页面为准",
+  "activitySummary": "亲爱的旅行者，「雪峰胜景 星耀奇旅」网页活动现已上线，参与点亮雪山活动赢取原石。\n点击\n【网页链接】\n参与活动~\n〓活动时间〓\n凝聚星光：2021/12/29 11:00-2022/01/09 23:59"
+}

@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-125829",
+  "items": [
+    {
+      "id": "aq",
+      "name": "aq",
+      "version": "4.2.35",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 3434,
+        "key": "@byte:1412527",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 178,
+        "key": "@byte:1389052",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "aq.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/aq.665002b4..png",
+          "sizeBytes": 74748
+        }
+      ]
+    },
+    {
+      "id": "bgliuspine",
+      "name": "bgliuspine",
+      "version": "4.2.35",
+      "animations": [
+        "animation",
+        "animation2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 30792,
+        "key": "@byte:1415999",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 237,
+        "key": "@byte:1389271",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "BGliuspine.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/BGliuspine.f6557256..png",
+          "sizeBytes": 132805
+        }
+      ]
+    },
+    {
+      "id": "dan12324565",
+      "name": "dan12324565",
+      "version": "4.2.36",
+      "animations": [
+        "三色蛋爱心",
+        "三色蛋破壳",
+        "三色蛋音符",
+        "书籍",
+        "擦三色蛋",
+        "擦鳄鱼蛋",
+        "擦鸽蛋",
+        "盖三色蛋",
+        "盖鳄鱼蛋",
+        "盖鸽蛋",
+        "破壳loop",
+        "硬币",
+        "蛋loop共用",
+        "鳄鱼蛋loop",
+        "鳄鱼蛋爱心",
+        "鳄鱼蛋破壳",
+        "鳄鱼蛋破壳loop",
+        "鳄鱼蛋音符",
+        "鸽蛋loop",
+        "鸽蛋爱心",
+        "鸽蛋破壳",
+        "鸽蛋破壳loop",
+        "鸽蛋音符"
+      ],
+      "skins": [
+        "default",
+        "绿蛋",
+        "蓝蛋",
+        "褐蛋",
+        "鳄鱼蛋",
+        "鸽蛋"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 119323,
+        "key": "@byte:1446829",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2009,
+        "key": "@byte:1389552",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "dan12324565.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/dan12324565.9e28187a..png",
+          "sizeBytes": 152766
+        }
+      ]
+    },
+    {
+      "id": "danzu",
+      "name": "danzu",
+      "version": "4.2.35",
+      "animations": [
+        "action1",
+        "action2",
+        "action3",
+        "null"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 3864,
+        "key": "@byte:1566226",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 260,
+        "key": "@byte:1391720",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "danzu.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+          "format": "embedded-image",
+          "sizeBytes": 9437,
+          "key": "@byte:5084544",
+          "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+        }
+      ]
+    },
+    {
+      "id": "deng",
+      "name": "deng",
+      "version": "4.2.35",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 1816,
+        "key": "@byte:1570128",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 325,
+        "key": "@byte:1392024",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "deng.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/deng.2e99b543..png",
+          "sizeBytes": 38274
+        }
+      ]
+    },
+    {
+      "id": "dibuspine",
+      "name": "dibuspine",
+      "version": "4.2.35",
+      "animations": [
+        "aq",
+        "di",
+        "loading",
+        "loading0-100"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 12474,
+        "key": "@byte:1571982",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 818,
+        "key": "@byte:1392396",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "dibuspine.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/dibuspine.7b7fc438..png",
+          "sizeBytes": 101158
+        }
+      ]
+    },
+    {
+      "id": "fuhuabg",
+      "name": "fuhuabg",
+      "version": "4.2.35",
+      "animations": [
+        "animation",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 52249,
+        "key": "@byte:1584494",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 527,
+        "key": "@byte:1393294",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "fuhuaBG.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/fuhuaBG.ea8a1f8c..png",
+          "sizeBytes": 241432
+        }
+      ]
+    },
+    {
+      "id": "guang",
+      "name": "guang",
+      "version": "4.2.35",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 9725,
+        "key": "@byte:1636795",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 83,
+        "key": "@byte:1393882",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "guang.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/guang.1c8b3e14..png",
+          "sizeBytes": 428762
+        }
+      ]
+    },
+    {
+      "id": "jnqkv",
+      "name": "jnqkv",
+      "version": "4.2.35",
+      "animations": [
+        "eye",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 354363,
+        "key": "@byte:1646558",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2794,
+        "key": "@byte:1393999",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "jnqkv.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/jnqkv.b9ec906f..png",
+          "sizeBytes": 2609003
+        }
+      ]
+    },
+    {
+      "id": "leidianzc",
+      "name": "leidianzc",
+      "version": "4.2.35",
+      "animations": [
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 12066,
+        "key": "@byte:2001069",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 166,
+        "key": "@byte:1397008",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "leidianzc.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/leidianzc.93dbcff5..png",
+          "sizeBytes": 154532
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "name": "light",
+      "version": "4.2.35",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 1949,
+        "key": "@byte:2013173",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 96,
+        "key": "@byte:1397213",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "light.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/light.e59f9459..png",
+          "sizeBytes": 140491
+        }
+      ]
+    },
+    {
+      "id": "neiyuan1spine",
+      "name": "neiyuan1spine",
+      "version": "4.2.36",
+      "animations": [
+        "G",
+        "liziin",
+        "liziloop",
+        "loop1",
+        "loop2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 18028,
+        "key": "@byte:2015160",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 890,
+        "key": "@byte:1397343",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "neiyuan1spine.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/neiyuan1spine.ce727819..png",
+          "sizeBytes": 197965
+        }
+      ]
+    },
+    {
+      "id": "neiyuan1spinewq",
+      "name": "neiyuan1spinewq",
+      "version": "4.2.36",
+      "animations": [
+        "G",
+        "liziin",
+        "liziloop",
+        "loop1",
+        "loop2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 6110,
+        "key": "@byte:2033226",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 159,
+        "key": "@byte:1398311",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "neiyuan1spinewq.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/neiyuan1spinewq.c7335046..png",
+          "sizeBytes": 86152
+        }
+      ]
+    },
+    {
+      "id": "star",
+      "name": "star",
+      "version": "4.2.35",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 2907,
+        "key": "@byte:2039374",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 280,
+        "key": "@byte:1398507",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "star.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+          "format": "embedded-image",
+          "sizeBytes": 1981,
+          "key": "@byte:5097933",
+          "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+        }
+      ]
+    },
+    {
+      "id": "tis1",
+      "name": "tis1",
+      "version": "4.2.35",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 2175,
+        "key": "@byte:2042319",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 148,
+        "key": "@byte:1398833",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "tis1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/tis1.bbdfde10..png",
+          "sizeBytes": 26378
+        }
+      ]
+    },
+    {
+      "id": "tis2",
+      "name": "tis2",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 2340,
+        "key": "@byte:2044532",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 261,
+        "key": "@byte:1399019",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "tis2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/tis2.0e38b270..png",
+          "sizeBytes": 60674
+        }
+      ]
+    },
+    {
+      "id": "waiyuanspine",
+      "name": "waiyuanspine",
+      "version": "4.2.36",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-json",
+        "sizeBytes": 533,
+        "key": "@byte:2046910",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 156,
+        "key": "@byte:1399325",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "waiyuanspine.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/waiyuanspine.f34a9343..png",
+          "sizeBytes": 16260
+        }
+      ]
+    },
+    {
+      "id": "dan12324565-d63c19f7",
+      "name": "dan12324565",
+      "version": "4.2.36",
+      "animations": [
+        "三色蛋爱心",
+        "三色蛋破壳",
+        "三色蛋音符",
+        "书籍",
+        "擦三色蛋",
+        "擦鳄鱼蛋",
+        "擦鸽蛋",
+        "盖三色蛋",
+        "盖鳄鱼蛋",
+        "盖鸽蛋",
+        "破壳loop",
+        "硬币",
+        "蛋loop共用",
+        "鳄鱼蛋loop",
+        "鳄鱼蛋爱心",
+        "鳄鱼蛋破壳",
+        "鳄鱼蛋破壳loop",
+        "鳄鱼蛋音符",
+        "鸽蛋loop",
+        "鸽蛋爱心",
+        "鸽蛋破壳",
+        "鸽蛋破壳loop",
+        "鸽蛋音符"
+      ],
+      "skins": [
+        "default",
+        "绿蛋",
+        "蓝蛋",
+        "褐蛋",
+        "鳄鱼蛋",
+        "鸽蛋"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/node_modules/@effect/hk4e-20240912-kinich/dist/effect/spine/dan12324565.2436f1dd.json",
+        "format": "json",
+        "sizeBytes": 119359
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2009,
+        "key": "@byte:1389552",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "dan12324565.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/dan12324565.9e28187a..png",
+          "sizeBytes": 152766
+        }
+      ]
+    },
+    {
+      "id": "fuhuabg-b04c9abb",
+      "name": "fuhuabg",
+      "version": "4.2.35",
+      "animations": [
+        "animation",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/node_modules/@effect/hk4e-20240912-kinich/dist/effect/spine/fuhuaBG.a651c91a.json",
+        "format": "json",
+        "sizeBytes": 52263
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 527,
+        "key": "@byte:1393294",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "fuhuaBG.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/fuhuaBG.ea8a1f8c..png",
+          "sizeBytes": 241432
+        }
+      ]
+    },
+    {
+      "id": "jnqkv-105562b1",
+      "name": "jnqkv",
+      "version": "4.2.35",
+      "animations": [
+        "eye",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/node_modules/@effect/hk4e-20240912-kinich/dist/effect/spine/jnqkv.0a7472c5.json",
+        "format": "json",
+        "sizeBytes": 354473
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/vendors_92b52fa7a6858f85490c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2794,
+        "key": "@byte:1393999",
+        "sourceSha256": "f6c45a548c46a35652624f44a2696ed480fe9d2d3657a7af698fe5c35d0758d2"
+      },
+      "textures": [
+        {
+          "page": "jnqkv.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240912kinich-c8eubx/images/jnqkv.b9ec906f..png",
+          "sizeBytes": 2609003
+        }
+      ]
+    }
+  ]
+}

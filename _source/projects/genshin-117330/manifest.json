@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-117330",
+  "title": "「花开有时」",
+  "subtitle": "「花开有时」——《原神》新角色：神里绫人分享H5正式上线",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2022-03-25",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://webstatic.mihoyo.com/ys/event/e20220325-ayato-c0xp/index.html",
+  "cover": {
+    "url": "https://webstatic.mihoyo.com/upload/contentweb/2022/03/25/ed2e31a40ac458ec83d9ef90a8a32b99_2916206075090610693.png",
+    "alt": "「花开有时」",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117330",
+    "kind": "official-news-cover",
+    "sizeBytes": 383748
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 17,
+  "textureCount": 18,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/117330",
+    "title": "「花开有时」——《原神》新角色：神里绫人分享H5正式上线",
+    "publishedAt": "2022-03-25T04:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117330"
+  },
+  "articleText": "要让花朵在阳光下绽放，就需要有人在暗处除净杂草。\n「花开有时」——《原神》新角色：神里绫人分享H5正式上线。\n点击\n>>网页链接<<\n或 扫描图中二维码立即参与。\n〓活动时间〓\n2022/3/25 12:00 至 2022/3/30 23:59\n〓参与条件〓\n冒险等阶≥10级\n〓活动简介〓\n活动期间，完成活动内指定任务，帮助社奉行家仆种植花朵，即可领取游戏内道具奖励。\n〓活动玩法说明〓\n1、活动期间，完成活动内任务，帮助社奉行家仆种植花朵。花朵完全绽放后，即可领取游戏内道具奖励；\n2、完成活动内对应任务即可增加花朵成长度，成长度达到9即可领取原石等游戏内奖励。\n〓游戏奖励〓\n旅行者帮助帮助社奉行家仆种植花朵，即可领取原石、角色突破材料等游戏奖励。\n〓活动注意事项〓\n1、请各位旅行者登录米哈游通行证并绑定《原神》中的游戏角色参与活动，以保证活动奖励的正常发放与领取；\n2、花朵的成长状态会记录至成长进度中，成长进度达到9即可领取原石等游戏内奖励；\n3、完成活动所获得的游戏内奖励需手动领取，活动结束后不可领取奖励，请及时领取。\n4、奖励领取后将通过游戏内邮件发放，邮件有效期为30天，请注意查收。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 11,
+    "skeletons": 17,
+    "atlases": 17
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "冒险等阶≥10级",
+  "activitySummary": "要让花朵在阳光下绽放，就需要有人在暗处除净杂草。\n「花开有时」——《原神》新角色：神里绫人分享H5正式上线。\n点击\n>>网页链接<<\n或 扫描图中二维码立即参与。\n〓活动时间〓"
+}

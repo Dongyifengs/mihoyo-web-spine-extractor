@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-157821",
+  "title": "「空月之歌」- 挪德卡莱概念站上线",
+  "subtitle": "「空月之歌」- 挪德卡莱概念站上线",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2025-07-23",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://act.mihoyo.com/ys/event/e20250723light-uowufz/index.html",
+  "cover": {
+    "url": "https://fastcdn.mihoyo.com/content-v2/hk4e/157821/1161667779cf83b99875f25adc41d46e_1682676140307061771.png",
+    "alt": "「空月之歌」- 挪德卡莱概念站上线",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-157821",
+    "kind": "official-news-cover",
+    "sizeBytes": 327489
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 19,
+  "textureCount": 19,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/157821",
+    "title": "「空月之歌」- 挪德卡莱概念站上线",
+    "publishedAt": "2025-07-23T01:10:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-157821"
+  },
+  "articleText": "空月之歌」\n「新月」已经升起，命运的纺轮缓缓转动。\n>> 点击（网页链接）\n，浏览挪德卡莱概念站。\n浏览和分享挪德卡莱概念站，可领取游戏内道具奖励。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 13,
+    "skeletons": 19,
+    "atlases": 19
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "以官方活动页面为准",
+  "activitySummary": "空月之歌」\n「新月」已经升起，命运的纺轮缓缓转动。\n>> 点击（网页链接）\n，浏览挪德卡莱概念站。\n浏览和分享挪德卡莱概念站，可领取游戏内道具奖励。\n关于《原神》"
+}

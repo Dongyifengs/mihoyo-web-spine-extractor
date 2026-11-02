@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-163482",
+  "title": "履迹寻路",
+  "subtitle": "【网页活动上线】履迹寻路——参与可得原石等奖励！  ",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2026-04-08",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://act.mihoyo.com/ys/event/e20260408land-gmdt0n/index.html",
+  "cover": {
+    "url": "https://fastcdn.mihoyo.com/content-v2/hk4e/163482/d630d581aad6e0a5bff70622a95d920f_2677374267500454018.jpg",
+    "alt": "履迹寻路",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-163482",
+    "kind": "official-news-cover",
+    "sizeBytes": 54408
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 16,
+  "textureCount": 16,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/163482",
+    "title": "【网页活动上线】履迹寻路——参与可得原石等奖励！  ",
+    "publishedAt": "2026-04-08T04:05:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-163482"
+  },
+  "articleText": "「履迹寻路」网页活动上线，快来「月之六」版本新区域继续冒险吧~\n>>点击参与活动<<\n〓活动时间〓\n2026年4月8日至2026年4月21日 23:59:59（UTC+8）\n*活动结束后不可领取奖励，请旅行者及时领取*\n〓参与条件〓\n冒险等阶≥1级的旅行者即可参与活动\n〓活动介绍〓\n活动期间，旅行者完成网页任务可以领取原石、游戏场景壁纸等奖励，具体任务详情请见页面。\n※数据统计可能存在1-2小时延迟，若任务进度未更新，请旅行者刷新页面或耐心等待。\n〓活动注意事项〓\n1、请各位旅行者登录米游社通行证并绑定《原神》中的游戏角色参与活动，以保证活动奖励的正常发放与领取。\n2、活动结束后将无法参与活动与领取奖励，请旅行者及时参与。\n3、游戏内奖励将通过游戏内邮件发放，邮件有效期为30天，请及时领取。\n4、该网页活动仅供娱乐，不代表游戏内实际剧情与设定，与游戏内实际情况无关。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 13,
+    "skeletons": 16,
+    "atlases": 16
+  },
+  "activityPeriod": "2026年4月8日至2026年4月21日 23:59:59（UTC+8）",
+  "eligibility": "冒险等阶≥1级的旅行者即可参与活动",
+  "activitySummary": "「履迹寻路」网页活动上线，快来「月之六」版本新区域继续冒险吧~\n>>点击参与活动<<\n〓活动时间〓\n2026年4月8日至2026年4月21日 23:59:59（UTC+8）\n*活动结束后不可领取奖励，请旅行者及时领取*\n〓参与条件〓"
+}

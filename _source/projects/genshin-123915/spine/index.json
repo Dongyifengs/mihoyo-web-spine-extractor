@@ -1,0 +1,1073 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-123915",
+  "items": [
+    {
+      "id": "a_bg_yun",
+      "name": "a_bg_yun",
+      "version": "4.0-from-4.1-from-4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 4725,
+        "key": "@byte:1245371",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 293,
+        "key": "@byte:1180036",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "a_bg_yun.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/a_bg_yun.1ac9c842..png",
+          "sizeBytes": 261553
+        }
+      ]
+    },
+    {
+      "id": "a_end_photo",
+      "name": "a_end_photo",
+      "version": "4.0-from-4.1-from-4.2.20",
+      "animations": [
+        "a",
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 1288,
+        "key": "@byte:1250134",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 188,
+        "key": "@byte:1180379",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "a_end_photo.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/a_end_photo.4f5650e2..png",
+          "sizeBytes": 951619
+        }
+      ]
+    },
+    {
+      "id": "b_end_photo",
+      "name": "b_end_photo",
+      "version": "4.0-from-4.1-from-4.2.20",
+      "animations": [
+        "a",
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 1201,
+        "key": "@byte:1251460",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 151,
+        "key": "@byte:1180606",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "b_end_photo.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/b_end_photo.d335f1d1..png",
+          "sizeBytes": 241539
+        }
+      ]
+    },
+    {
+      "id": "c_end_photo",
+      "name": "c_end_photo",
+      "version": "4.0-from-4.1-from-4.2.23",
+      "animations": [
+        "a",
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 1372,
+        "key": "@byte:1252699",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 137,
+        "key": "@byte:1180795",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "c_end_photo.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/c_end_photo.8d699364..png",
+          "sizeBytes": 841419
+        }
+      ]
+    },
+    {
+      "id": "gou",
+      "name": "gou",
+      "version": "4.0-from-4.1-from-4.2.20",
+      "animations": [
+        "jiao",
+        "loop",
+        "loop2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 41149,
+        "key": "@byte:1254109",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 613,
+        "key": "@byte:1180969",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "gou.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/gou.5f3bd427..png",
+          "sizeBytes": 79306
+        }
+      ]
+    },
+    {
+      "id": "haiou",
+      "name": "haiou",
+      "version": "4.0-from-4.1-from-4.2.22",
+      "animations": [
+        "鸟1吃朝右飞",
+        "鸟1吃朝左飞",
+        "鸟1飞",
+        "鸟2飞"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 85162,
+        "key": "@byte:1295308",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1133,
+        "key": "@byte:1181649",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "haiou.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/haiou.c13bec30..png",
+          "sizeBytes": 785372
+        }
+      ]
+    },
+    {
+      "id": "klld",
+      "name": "klld",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "eye",
+        "loading_loop2",
+        "loading_loop3",
+        "loading_loop4",
+        "loop",
+        "walk",
+        "walk2",
+        "walk3",
+        "walk4",
+        "walk5",
+        "丢薯条(丢空)",
+        "丢薯条(丢空)2",
+        "丢薯条(吃掉)",
+        "交互",
+        "思考",
+        "拍手",
+        "拿气球",
+        "拿气球2",
+        "摆摆手",
+        "撩头发",
+        "空"
+      ],
+      "skins": [
+        "default",
+        "left",
+        "right"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 449172,
+        "key": "@byte:1380532",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2329,
+        "key": "@byte:1182884",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "klld.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/klld.362a6e70..png",
+          "sizeBytes": 479953
+        }
+      ]
+    },
+    {
+      "id": "klld_tx",
+      "name": "klld_tx",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "eye",
+        "loop",
+        "walk",
+        "walk2",
+        "walk3",
+        "walk4",
+        "丢薯条(丢空)",
+        "丢薯条(丢空)2",
+        "丢薯条(吃掉)",
+        "交互",
+        "思考",
+        "拿气球"
+      ],
+      "skins": [
+        "default",
+        "left",
+        "right"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 317845,
+        "key": "@byte:1829848",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1842,
+        "key": "@byte:1185392",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "klld_tx.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/klld_tx.06c7f24e..png",
+          "sizeBytes": 458134
+        }
+      ]
+    },
+    {
+      "id": "klldzuo",
+      "name": "klldzuo",
+      "version": "4.0-from-4.1-from-4.2.20",
+      "animations": [
+        "eye",
+        "loop",
+        "ts",
+        "吃马卡龙",
+        "喝咖啡",
+        "喝咖啡loop",
+        "喝枫达",
+        "挥手"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 272633,
+        "key": "@byte:2147825",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1964,
+        "key": "@byte:1187387",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "klldzuo.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/klldzuo.402d953f..png",
+          "sizeBytes": 424559
+        }
+      ]
+    },
+    {
+      "id": "main_bg_hai",
+      "name": "main_bg_hai",
+      "version": "4.0-from-4.1-from-4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 9079,
+        "key": "@byte:2420684",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 128,
+        "key": "@byte:1189506",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "main_bg_hai.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/main_bg_hai.73e58a0c..png",
+          "sizeBytes": 452706
+        }
+      ]
+    },
+    {
+      "id": "main_chibang",
+      "name": "main_chibang",
+      "version": "4.0-from-4.1-from-4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 7802,
+        "key": "@byte:2429801",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 106,
+        "key": "@byte:1189670",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "main_chibang.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/main_chibang.a7c7f46b..png",
+          "sizeBytes": 931070
+        }
+      ]
+    },
+    {
+      "id": "main_keluolinde",
+      "name": "main_keluolinde",
+      "version": "4.0-from-4.1-from-4.2.22",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 460136,
+        "key": "@byte:2437641",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 4269,
+        "key": "@byte:1189810",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "main_keluolinde.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/main_keluolinde.241c72cd..png",
+          "sizeBytes": 2838929
+        }
+      ]
+    },
+    {
+      "id": "main_keluolinde_bird",
+      "name": "main_keluolinde_bird",
+      "version": "4.2.22",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 170327,
+        "key": "@byte:2898181",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 793,
+        "key": "@byte:1194379",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "main_keluolinde_bird.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/main_keluolinde_bird.e86c8c52..png",
+          "sizeBytes": 565742
+        }
+      ]
+    },
+    {
+      "id": "main_keluolinde_bird_hou",
+      "name": "main_keluolinde_bird_hou",
+      "version": "4.2.22",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 73839,
+        "key": "@byte:3068698",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 175,
+        "key": "@byte:1195258",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "main_keluolinde_bird_hou.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/main_keluolinde_bird_hou.19bd0269..png",
+          "sizeBytes": 103809
+        }
+      ]
+    },
+    {
+      "id": "main_niao_a",
+      "name": "main_niao_a",
+      "version": "4.1-from-4.2.21",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 5255,
+        "key": "@byte:3142577",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 98,
+        "key": "@byte:1195471",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "main_niao_a.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 5703,
+          "key": "@byte:7554467",
+          "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+        }
+      ]
+    },
+    {
+      "id": "main_niao_b",
+      "name": "main_niao_b",
+      "version": "4.1-from-4.2.21",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 4660,
+        "key": "@byte:3147870",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 79,
+        "key": "@byte:1195603",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "main_niao_b.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 2238,
+          "key": "@byte:7562138",
+          "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+        }
+      ]
+    },
+    {
+      "id": "main_niao_c",
+      "name": "main_niao_c",
+      "version": "4.1-from-4.2.21",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 6248,
+        "key": "@byte:3152570",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 98,
+        "key": "@byte:1195715",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "main_niao_c.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 4222,
+          "key": "@byte:7565188",
+          "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+        }
+      ]
+    },
+    {
+      "id": "nanjizhe",
+      "name": "nanjizhe",
+      "version": "4.0-from-4.1-from-4.2.20",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 39277,
+        "key": "@byte:3158856",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 881,
+        "key": "@byte:1195847",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "nanjizhe.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/nanjizhe.947ee399..png",
+          "sizeBytes": 212759
+        }
+      ]
+    },
+    {
+      "id": "ngkxc",
+      "name": "ngkxc",
+      "version": "4.0-from-4.1-from-4.2.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 53505,
+        "key": "@byte:3198193",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 955,
+        "key": "@byte:1196818",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "ngkxc.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/ngkxc.0bbb1647..png",
+          "sizeBytes": 136868
+        }
+      ]
+    },
+    {
+      "id": "nwlt",
+      "name": "nwlt",
+      "version": "4.0-from-4.1-from-4.2.23",
+      "animations": [
+        "angry",
+        "break",
+        "heshui",
+        "heshuiloop",
+        "hetong",
+        "loop",
+        "loop2",
+        "rain",
+        "trust",
+        "walk",
+        "wunai",
+        "wunaiin"
+      ],
+      "skins": [
+        "default",
+        "left",
+        "right"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 193264,
+        "key": "@byte:3251764",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2661,
+        "key": "@byte:1197866",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "nwlt.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/nwlt.ba65fdf1..png",
+          "sizeBytes": 923020
+        }
+      ]
+    },
+    {
+      "id": "nwlt_ts",
+      "name": "nwlt_ts",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "angry",
+        "break",
+        "heshui",
+        "heshuiloop",
+        "hetong",
+        "loop",
+        "loop2",
+        "sikao",
+        "trust",
+        "walk",
+        "wunai",
+        "wunaiin"
+      ],
+      "skins": [
+        "default",
+        "left",
+        "right"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 188454,
+        "key": "@byte:3445112",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2540,
+        "key": "@byte:1200789",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "nwlt_ts.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/nwlt_ts.35955f3f..png",
+          "sizeBytes": 564661
+        }
+      ]
+    },
+    {
+      "id": "nwyxr",
+      "name": "nwyxr",
+      "version": "4.0-from-4.1-from-4.2.23",
+      "animations": [
+        "eye",
+        "loop",
+        "loop严肃",
+        "walk",
+        "交互",
+        "思考",
+        "思考严肃",
+        "打蛋清",
+        "研磨",
+        "礼物",
+        "礼物loop",
+        "端盘",
+        "糖罐",
+        "糖罐2",
+        "裱花"
+      ],
+      "skins": [
+        "default",
+        "you",
+        "zuo"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 527282,
+        "key": "@byte:3633650",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 4235,
+        "key": "@byte:1203582",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "nwyxr.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/nwyxr.0b9554e7..png",
+          "sizeBytes": 610480
+        }
+      ]
+    },
+    {
+      "id": "nwyxr_tx",
+      "name": "nwyxr_tx",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "eye",
+        "loop",
+        "loop严肃",
+        "walk",
+        "交互",
+        "思考",
+        "思考严肃",
+        "打蛋清",
+        "研磨",
+        "礼物",
+        "礼物loop",
+        "端盘",
+        "糖罐",
+        "裱花"
+      ],
+      "skins": [
+        "default",
+        "you",
+        "zuo"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 505720,
+        "key": "@byte:4161122",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 4247,
+        "key": "@byte:1208120",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "nwyxr_tx.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/nwyxr_tx.877b71c4..png",
+          "sizeBytes": 652706
+        }
+      ]
+    },
+    {
+      "id": "nyk",
+      "name": "nyk",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "eye",
+        "loop",
+        "walk",
+        "惊吓"
+      ],
+      "skins": [
+        "default",
+        "zuo"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 89048,
+        "key": "@byte:4667032",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1498,
+        "key": "@byte:1212669",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "nyk.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/nyk.359bd488..png",
+          "sizeBytes": 334399
+        }
+      ]
+    },
+    {
+      "id": "xld",
+      "name": "xld",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "eye",
+        "loop",
+        "loop2",
+        "loop3",
+        "loop严肃",
+        "loop拍照",
+        "loop拍照2",
+        "walk",
+        "思考"
+      ],
+      "skins": [
+        "default",
+        "you",
+        "zuo"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 170458,
+        "key": "@byte:4756142",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1699,
+        "key": "@byte:1214298",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "xld.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/xld.fc41ffbd..png",
+          "sizeBytes": 390570
+        }
+      ]
+    },
+    {
+      "id": "xld_tx",
+      "name": "xld_tx",
+      "version": "4.0-from-4.1-from-4.2.26",
+      "animations": [
+        "eye",
+        "loop",
+        "loop严肃",
+        "loop拍照",
+        "walk",
+        "思考"
+      ],
+      "skins": [
+        "default",
+        "you",
+        "zuo"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 141418,
+        "key": "@byte:4926708",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1740,
+        "key": "@byte:1216141",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "xld_tx.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/xld_tx.a1ff06cf..png",
+          "sizeBytes": 424650
+        }
+      ]
+    },
+    {
+      "id": "xnh",
+      "name": "xnh",
+      "version": "4.0-from-4.1-from-4.2.25",
+      "animations": [
+        "eye",
+        "loop",
+        "na",
+        "na2",
+        "na2_203",
+        "walk"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-json",
+        "sizeBytes": 99559,
+        "key": "@byte:5068234",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/vendors_126f0303b6cfd23134e0.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1567,
+        "key": "@byte:1218027",
+        "sourceSha256": "4c4caf217085293d5551824ac663a3a7f304e3069389ece013ea505c9ce622bd"
+      },
+      "textures": [
+        {
+          "page": "xnh.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240531clorinde-5k96dd/images/xnh.e8b5100f..png",
+          "sizeBytes": 169358
+        }
+      ]
+    }
+  ]
+}

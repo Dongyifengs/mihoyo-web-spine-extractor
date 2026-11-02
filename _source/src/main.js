@@ -3,6 +3,7 @@ import { node, toast } from './ui.js';
 import { remoteUrl } from './resources.js';
 import { summarizeResources, formatBytes, formatMeasured } from './project-info.js';
 import { missingResources } from './filters.js';
+import { watchSync } from './sync-view.js';
 import { version as siteVersion } from '../package.json';
 
 const root = new URL(document.documentElement.dataset.root, location.href);
@@ -24,7 +25,7 @@ async function getJson(href) {
 }
 
 function siteLinks() {
-  return `<a href="${url('SPINE-RUNTIMES-LICENSE.txt')}" target="_blank" rel="noopener">Spine 运行时许可 ↗</a>
+  return `<a href="${url('?view=sync')}">收录进度 →</a><a href="${url('SPINE-RUNTIMES-LICENSE.txt')}" target="_blank" rel="noopener">Spine 运行时许可 ↗</a>
     <a href="https://github.com/Dongyifengs/mihoyo-web-spine-extractor" target="_blank" rel="noopener noreferrer">Github 源码仓库 ↗</a>
     <a href="https://github.com/Dongyifengs/" target="_blank" rel="noopener noreferrer">作者 Github ↗</a>
     <a href="https://space.bilibili.com/454717281" target="_blank" rel="noopener noreferrer">作者 Bilibili ↗</a>
@@ -184,7 +185,11 @@ try {
     await renderProject(project);
   } else {
     const view = new URLSearchParams(location.search).get('view');
-    if (view === 'about') renderAbout(); else renderLibrary(view === 'favorites');
+    if (view === 'sync') {
+      document.title = '收录进度 · Spine 素材工作台';
+      app.innerHTML = shell('收录进度', '<section class="panel" id="sync-progress">正在读取同步记录…</section>', '');
+      watchSync(document.querySelector('#sync-progress'), url('sync-status.json'));
+    } else if (view === 'about') renderAbout(); else renderLibrary(view === 'favorites');
   }
 } catch (error) {
   app.innerHTML = `<main class="startup-error panel"><h1>素材库暂时无法打开</h1><p>${escape(error.message)}</p><button class="button primary" id="retry-app">重新加载</button> <a href="${root.href}">返回首页</a></main>`;

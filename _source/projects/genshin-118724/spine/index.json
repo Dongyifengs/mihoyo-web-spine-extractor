@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-118724",
+  "items": [
+    {
+      "id": "abe",
+      "name": "abe",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "abeloop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-json",
+        "sizeBytes": 235496,
+        "key": "@byte:1069828",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2246,
+        "key": "@byte:1067421",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "textures": [
+        {
+          "page": "abe.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/abe.17688f50..png",
+          "sizeBytes": 1285194
+        }
+      ]
+    },
+    {
+      "id": "desk2",
+      "name": "desk2",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "eye",
+        "oaction1",
+        "oaction2",
+        "oloop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-json",
+        "sizeBytes": 45887,
+        "key": "@byte:1306717",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1174,
+        "key": "@byte:1305433",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "textures": [
+        {
+          "page": "desk2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/desk2.e6a37720..png",
+          "sizeBytes": 973782
+        },
+        {
+          "page": "desk2_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/desk2_2.3d64ddcb..png",
+          "sizeBytes": 273289
+        }
+      ]
+    },
+    {
+      "id": "dt",
+      "name": "dt",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-json",
+        "sizeBytes": 2415,
+        "key": "@byte:1352955",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 253,
+        "key": "@byte:1352647",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "textures": [
+        {
+          "page": "dt.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/dt.3a8c50a7..png",
+          "sizeBytes": 543867
+        }
+      ]
+    },
+    {
+      "id": "loading_pass",
+      "name": "loading_pass",
+      "version": "4.0-from-4.1.23",
+      "animations": [
+        "animation",
+        "boom"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-json",
+        "sizeBytes": 7201,
+        "key": "@byte:1355761",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 307,
+        "key": "@byte:1355399",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "textures": [
+        {
+          "page": "loading_pass.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/loading_pass.507c9989..png",
+          "sizeBytes": 47673
+        }
+      ]
+    },
+    {
+      "id": "ofn",
+      "name": "ofn",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "eye",
+        "jump",
+        "oaction1",
+        "oaction2",
+        "oloop",
+        "oloop2",
+        "oloop3"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-json",
+        "sizeBytes": 601646,
+        "key": "@byte:1365167",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2026,
+        "key": "@byte:1362991",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "textures": [
+        {
+          "page": "ofn.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/ofn.1e90452f..png",
+          "sizeBytes": 990492
+        }
+      ]
+    },
+    {
+      "id": "tyg",
+      "name": "tyg",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "eye",
+        "oaction1",
+        "oaction2",
+        "oloop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-json",
+        "sizeBytes": 42744,
+        "key": "@byte:1968241",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1084,
+        "key": "@byte:1967052",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "textures": [
+        {
+          "page": "tyg.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/tyg.e326d8c1..png",
+          "sizeBytes": 949747
+        },
+        {
+          "page": "tyg_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/tyg_2.3d64ddcb..png",
+          "sizeBytes": 273289
+        }
+      ]
+    },
+    {
+      "id": "xinfeng",
+      "name": "xinfeng",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default",
+        "dq",
+        "fd",
+        "ly",
+        "md",
+        "xm"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-json",
+        "sizeBytes": 12630,
+        "key": "@byte:2012096",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 968,
+        "key": "@byte:2011028",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "textures": [
+        {
+          "page": "xinfeng.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/xinfeng.1f109468..png",
+          "sizeBytes": 417764
+        },
+        {
+          "page": "xinfeng_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/xinfeng_2.3c96b033..png",
+          "sizeBytes": 5257412
+        },
+        {
+          "page": "xinfeng_3.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/xinfeng_3.0c24610a..png",
+          "sizeBytes": 1052317
+        },
+        {
+          "page": "xinfeng_4.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/xinfeng_4.1e3a4301..png",
+          "sizeBytes": 246810
+        }
+      ]
+    },
+    {
+      "id": "zuohua",
+      "name": "zuohua",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-json",
+        "sizeBytes": 31831,
+        "key": "@byte:2024990",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/vendors_bcfe731f65cc4cdfb464.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 171,
+        "key": "@byte:2024771",
+        "sourceSha256": "fc2f24a8d89b8b6b82f99fc372670712e8308f356c331008c34b7dee005a8a77"
+      },
+      "textures": [
+        {
+          "page": "zuohua.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231225melusine-questionnaire/images/zuohua.8b1d4455..png",
+          "sizeBytes": 260527
+        }
+      ]
+    }
+  ]
+}

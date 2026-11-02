@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-125088",
+  "items": [
+    {
+      "id": "amla",
+      "name": "amla",
+      "version": "4.2.33",
+      "animations": [
+        "eye",
+        "loop",
+        "walk",
+        "介绍香水瓶",
+        "回忆",
+        "思考x",
+        "扶眼镜",
+        "抬手示意",
+        "拍手",
+        "拿试管",
+        "闻花"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-json",
+        "sizeBytes": 349562,
+        "key": "@byte:1820457",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2693,
+        "key": "@byte:1146074",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "amla.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/amla.f0ae24a4..png",
+          "sizeBytes": 789953
+        }
+      ]
+    },
+    {
+      "id": "amlakv",
+      "name": "amlakv",
+      "version": "4.2.33",
+      "animations": [
+        "eye",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-json",
+        "sizeBytes": 698000,
+        "key": "@byte:2170387",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2108,
+        "key": "@byte:1148966",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "amlakv.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/amlakv.f86f111f..png",
+          "sizeBytes": 5059311
+        }
+      ]
+    },
+    {
+      "id": "hua",
+      "name": "hua",
+      "version": "4.2.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-json",
+        "sizeBytes": 64135,
+        "key": "@byte:2868811",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 451,
+        "key": "@byte:1151236",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "hua.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/hua.70118423..png",
+          "sizeBytes": 223921
+        }
+      ]
+    },
+    {
+      "id": "kvbg",
+      "name": "kvbg",
+      "version": "4.2.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-json",
+        "sizeBytes": 13316,
+        "key": "@byte:2933046",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 139,
+        "key": "@byte:1151747",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "kvbg.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/kvbg.6bfadf41..png",
+          "sizeBytes": 2188936
+        }
+      ]
+    },
+    {
+      "id": "logodi",
+      "name": "logodi",
+      "version": "4.2.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-json",
+        "sizeBytes": 2055,
+        "key": "@byte:2946414",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 93,
+        "key": "@byte:1151924",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "logodi.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/logodi.53c36f37..png",
+          "sizeBytes": 18245
+        }
+      ]
+    },
+    {
+      "id": "pingzi",
+      "name": "pingzi",
+      "version": "4.2.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-json",
+        "sizeBytes": 5420,
+        "key": "@byte:2948507",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 603,
+        "key": "@byte:1152051",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "pingzi.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/pingzi.5c4f1d77..png",
+          "sizeBytes": 1114282
+        }
+      ]
+    },
+    {
+      "id": "xsp",
+      "name": "xsp",
+      "version": "4.2.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-json",
+        "sizeBytes": 7033,
+        "key": "@byte:2953965",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 425,
+        "key": "@byte:1152725",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "xsp.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/xsp.18bb570a..png",
+          "sizeBytes": 72162
+        }
+      ]
+    },
+    {
+      "id": "zch",
+      "name": "zch",
+      "version": "4.2.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default",
+        "1",
+        "2",
+        "3"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-json",
+        "sizeBytes": 178942,
+        "key": "@byte:2961038",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 645,
+        "key": "@byte:1153207",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "zch.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/zch.1f821883..png",
+          "sizeBytes": 4896630
+        }
+      ]
+    },
+    {
+      "id": "amla-acb5b336",
+      "name": "amla",
+      "version": "4.2.33",
+      "animations": [
+        "eye",
+        "loop",
+        "walk",
+        "介绍香水瓶",
+        "回忆",
+        "思考x",
+        "扶眼镜",
+        "抬手示意",
+        "拍手",
+        "拿试管",
+        "闻花"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/node_modules/@effect/hk4e-20240801-emilie/dist/effect/spine/amla.cc7a1bb3.json",
+        "format": "json",
+        "sizeBytes": 349892
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2693,
+        "key": "@byte:1146074",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "amla.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/amla.f0ae24a4..png",
+          "sizeBytes": 789953
+        }
+      ]
+    },
+    {
+      "id": "amlakv-484126cd",
+      "name": "amlakv",
+      "version": "4.2.33",
+      "animations": [
+        "eye",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/node_modules/@effect/hk4e-20240801-emilie/dist/effect/spine/amlakv.30000204.json",
+        "format": "json",
+        "sizeBytes": 698386
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2108,
+        "key": "@byte:1148966",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "amlakv.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/amlakv.f86f111f..png",
+          "sizeBytes": 5059311
+        }
+      ]
+    },
+    {
+      "id": "hua-804e8daa",
+      "name": "hua",
+      "version": "4.2.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/node_modules/@effect/hk4e-20240801-emilie/dist/effect/spine/hua.834c70aa.json",
+        "format": "json",
+        "sizeBytes": 64197
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 451,
+        "key": "@byte:1151236",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "hua.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/hua.70118423..png",
+          "sizeBytes": 223921
+        }
+      ]
+    },
+    {
+      "id": "kvbg-a69229af",
+      "name": "kvbg",
+      "version": "4.2.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/node_modules/@effect/hk4e-20240801-emilie/dist/effect/spine/kvbg.e45a0f9a.json",
+        "format": "json",
+        "sizeBytes": 13330
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 139,
+        "key": "@byte:1151747",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "kvbg.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/kvbg.6bfadf41..png",
+          "sizeBytes": 2188936
+        }
+      ]
+    },
+    {
+      "id": "xsp-8eb2cb78",
+      "name": "xsp",
+      "version": "4.2.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/node_modules/@effect/hk4e-20240801-emilie/dist/effect/spine/xsp.965498e9.json",
+        "format": "json",
+        "sizeBytes": 7035
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 425,
+        "key": "@byte:1152725",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "xsp.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/xsp.18bb570a..png",
+          "sizeBytes": 72162
+        }
+      ]
+    },
+    {
+      "id": "zch-6a127f4a",
+      "name": "zch",
+      "version": "4.2.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default",
+        "1",
+        "2",
+        "3"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/node_modules/@effect/hk4e-20240801-emilie/dist/effect/spine/zch.58939771.json",
+        "format": "json",
+        "sizeBytes": 179374
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/vendors_58164823d99135101014.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 645,
+        "key": "@byte:1153207",
+        "sourceSha256": "4248e492f6a98896ac1e41e5f55c33b907510b73ed085f5329d85a5fe00da3f7"
+      },
+      "textures": [
+        {
+          "page": "zch.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240801emilie-kryavl/images/zch.1f821883..png",
+          "sizeBytes": 4896630
+        }
+      ]
+    }
+  ]
+}

@@ -24,7 +24,7 @@ export function validateItems(items) {
     ids.add(item.id);
     const partial = item.status === 'partial';
     assert.ok(item.status === undefined || ['complete', 'partial'].includes(item.status), '资源状态无效');
-    assert.ok(partial && !item.version || /^\d+\.\d+\.\d+/.test(item.version), '骨骼版本无效');
+    assert.ok(partial && !item.version || /^[34]\.\d+(?:\.\d+|(?:-from-[34]\.\d+)+)/.test(item.version), '骨骼版本无效');
     assert.ok(Array.isArray(item.animations) && item.animations.every((v) => typeof v === 'string'));
     assert.ok(Array.isArray(item.skins) && item.skins.every((v) => typeof v === 'string'));
     if (item.initialSkin) assert.ok(item.skins.includes(item.initialSkin), '默认皮肤必须存在');

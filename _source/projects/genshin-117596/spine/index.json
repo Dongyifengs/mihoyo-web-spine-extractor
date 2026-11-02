@@ -1,0 +1,1686 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117596",
+  "items": [
+    {
+      "id": "icon_1",
+      "name": "icon_1",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2616,
+        "key": "@byte:2824778",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 203,
+        "key": "@byte:2824525",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_1.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_1.2a335535..png",
+          "sizeBytes": 22462
+        }
+      ]
+    },
+    {
+      "id": "icon_10",
+      "name": "icon_10",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2928,
+        "key": "@byte:2827676",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 203,
+        "key": "@byte:2827423",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_10.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_10.ae9dc424..png",
+          "sizeBytes": 25142
+        }
+      ]
+    },
+    {
+      "id": "icon_11",
+      "name": "icon_11",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 3099,
+        "key": "@byte:2830903",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 221,
+        "key": "@byte:2830633",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_11.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_11.feef570a..png",
+          "sizeBytes": 30602
+        }
+      ]
+    },
+    {
+      "id": "icon_12",
+      "name": "icon_12",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 3097,
+        "key": "@byte:2834327",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 245,
+        "key": "@byte:2834031",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_12.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_12.93ab5f15..png",
+          "sizeBytes": 18701
+        }
+      ]
+    },
+    {
+      "id": "icon_13",
+      "name": "icon_13",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2925,
+        "key": "@byte:2837689",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 187,
+        "key": "@byte:2837453",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_13.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_13.9cdcf763..png",
+          "sizeBytes": 20601
+        }
+      ]
+    },
+    {
+      "id": "icon_2",
+      "name": "icon_2",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2945,
+        "key": "@byte:2840901",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 208,
+        "key": "@byte:2840643",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_2.4c79a64a..png",
+          "sizeBytes": 24693
+        }
+      ]
+    },
+    {
+      "id": "icon_3",
+      "name": "icon_3",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2940,
+        "key": "@byte:2844152",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 227,
+        "key": "@byte:2843875",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_3.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_3.26a375b3..png",
+          "sizeBytes": 27367
+        }
+      ]
+    },
+    {
+      "id": "icon_4",
+      "name": "icon_4",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2976,
+        "key": "@byte:2847377",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 207,
+        "key": "@byte:2847121",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_4.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_4.380b7cff..png",
+          "sizeBytes": 22203
+        }
+      ]
+    },
+    {
+      "id": "icon_5",
+      "name": "icon_5",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2971,
+        "key": "@byte:2850635",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 204,
+        "key": "@byte:2850382",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_5.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_5.88800c1f..png",
+          "sizeBytes": 17966
+        }
+      ]
+    },
+    {
+      "id": "icon_6",
+      "name": "icon_6",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2920,
+        "key": "@byte:2853887",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 202,
+        "key": "@byte:2853635",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_6.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_6.4c761046..png",
+          "sizeBytes": 21055
+        }
+      ]
+    },
+    {
+      "id": "icon_7",
+      "name": "icon_7",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2973,
+        "key": "@byte:2857101",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 215,
+        "key": "@byte:2856836",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_7.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_7.9b6e9cd0..png",
+          "sizeBytes": 24638
+        }
+      ]
+    },
+    {
+      "id": "icon_8",
+      "name": "icon_8",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2922,
+        "key": "@byte:2860356",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 203,
+        "key": "@byte:2860103",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_8.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_8.8c92f347..png",
+          "sizeBytes": 21686
+        }
+      ]
+    },
+    {
+      "id": "icon_9",
+      "name": "icon_9",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "in_a",
+        "in_b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2907,
+        "key": "@byte:2863549",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 193,
+        "key": "@byte:2863307",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_9.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_9.46fb4936..png",
+          "sizeBytes": 19663
+        }
+      ]
+    },
+    {
+      "id": "icon_user",
+      "name": "icon_user",
+      "version": "4.0.33",
+      "animations": [
+        "kong",
+        "ying"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2787,
+        "key": "@byte:2866724",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 190,
+        "key": "@byte:2866485",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_user.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/icon_user.f2b3f1dd..png",
+          "sizeBytes": 87812
+        }
+      ]
+    },
+    {
+      "id": "icon_wait",
+      "name": "icon_wait",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 1466,
+        "key": "@byte:2869746",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 159,
+        "key": "@byte:2869540",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "icon_wait.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/index_94fdbc63755e38f71b85.js",
+          "format": "embedded-image",
+          "sizeBytes": 3002,
+          "key": "@byte:551200",
+          "sourceSha256": "8e4ca8b64968ae141277a0c6bd2246b583dbace9092d90d7588c6c8ee4587309"
+        }
+      ]
+    },
+    {
+      "id": "index_btn",
+      "name": "index_btn",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 4128,
+        "key": "@byte:2871411",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 124,
+        "key": "@byte:2871241",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "index_btn.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/index_94fdbc63755e38f71b85.js",
+          "format": "embedded-image",
+          "sizeBytes": 3618,
+          "key": "@byte:555263",
+          "sourceSha256": "8e4ca8b64968ae141277a0c6bd2246b583dbace9092d90d7588c6c8ee4587309"
+        }
+      ]
+    },
+    {
+      "id": "index_desk",
+      "name": "index_desk",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 48804,
+        "key": "@byte:2876246",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 596,
+        "key": "@byte:2875568",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "index_desk.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/index_desk.2691a34a..png",
+          "sizeBytes": 1115171
+        }
+      ]
+    },
+    {
+      "id": "index_kong",
+      "name": "index_kong",
+      "version": "4.0.33",
+      "animations": [
+        "01惊讶",
+        "02干劲",
+        "03思考",
+        "04烦恼",
+        "05大悟"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 112197,
+        "key": "@byte:2927556",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2247,
+        "key": "@byte:2925135",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "index_kong.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/index_kong.5d348160..png",
+          "sizeBytes": 1415494
+        }
+      ]
+    },
+    {
+      "id": "index_light",
+      "name": "index_light",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 1049,
+        "key": "@byte:3040027",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 81,
+        "key": "@byte:3039904",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "index_light.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/index_light.cc4501cf..png",
+          "sizeBytes": 272522
+        }
+      ]
+    },
+    {
+      "id": "index_page",
+      "name": "index_page",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 31436,
+        "key": "@byte:3041331",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 175,
+        "key": "@byte:3041105",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "index_page.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/index_page.c9c898fe..png",
+          "sizeBytes": 88915
+        }
+      ]
+    },
+    {
+      "id": "index_paimon",
+      "name": "index_paimon",
+      "version": "4.0.33",
+      "animations": [
+        "01惊讶",
+        "02干劲",
+        "03思考",
+        "04烦恼",
+        "05大悟"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 109234,
+        "key": "@byte:3075466",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2467,
+        "key": "@byte:3072812",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "index_paimon.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/index_paimon.1c8c3b2a..png",
+          "sizeBytes": 1117654
+        }
+      ]
+    },
+    {
+      "id": "index_yan",
+      "name": "index_yan",
+      "version": "4.0.33",
+      "animations": [
+        "01惊讶",
+        "02干劲",
+        "03思考",
+        "04烦恼",
+        "05大悟"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 103785,
+        "key": "@byte:3187580",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2574,
+        "key": "@byte:3184809",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "index_yan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/index_yan.a833c53c..png",
+          "sizeBytes": 1268616
+        }
+      ]
+    },
+    {
+      "id": "kong",
+      "name": "kong",
+      "version": "4.0.33",
+      "animations": [
+        "交互",
+        "尴尬",
+        "待机",
+        "惊恐",
+        "惊恐in",
+        "攻击",
+        "跑"
+      ],
+      "skins": [
+        "default",
+        "右",
+        "左"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 120322,
+        "key": "@byte:3293175",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1553,
+        "key": "@byte:3291476",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "kong.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/kong.119fabb0..png",
+          "sizeBytes": 238553
+        }
+      ]
+    },
+    {
+      "id": "loading_icon",
+      "name": "loading_icon",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 2609,
+        "key": "@byte:3415354",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1583,
+        "key": "@byte:3413644",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "loading_icon.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/loading_icon.7ad322a4..png",
+          "sizeBytes": 594751
+        }
+      ]
+    },
+    {
+      "id": "loading_pgy",
+      "name": "loading_pgy",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 11851,
+        "key": "@byte:3418206",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 167,
+        "key": "@byte:3417992",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "loading_pgy.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/loading_pgy.1bc52067..png",
+          "sizeBytes": 332806
+        }
+      ]
+    },
+    {
+      "id": "map_daoqi_cat",
+      "name": "map_daoqi_cat",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 60126,
+        "key": "@byte:3431278",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1086,
+        "key": "@byte:3430088",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_daoqi_cat.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_daoqi_cat.54ef2dc4..png",
+          "sizeBytes": 224267
+        }
+      ]
+    },
+    {
+      "id": "map_daoqi_guidouchong_a",
+      "name": "map_daoqi_guidouchong_a",
+      "version": "4.0.64",
+      "animations": [
+        "a",
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 32214,
+        "key": "@byte:3491925",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 400,
+        "key": "@byte:3491461",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_daoqi_guidouchong_a.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_daoqi_guidouchong_a.9d151cb2..png",
+          "sizeBytes": 426422
+        }
+      ]
+    },
+    {
+      "id": "map_daoqi_guidouchong_b",
+      "name": "map_daoqi_guidouchong_b",
+      "version": "4.0.64",
+      "animations": [
+        "a",
+        "a2b",
+        "b",
+        "chong"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 38186,
+        "key": "@byte:3524623",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 390,
+        "key": "@byte:3524170",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_daoqi_guidouchong_b.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_daoqi_guidouchong_b.00ed0209..png",
+          "sizeBytes": 282522
+        }
+      ]
+    },
+    {
+      "id": "map_daoqi_guidouchong_c",
+      "name": "map_daoqi_guidouchong_c",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 32386,
+        "key": "@byte:3563468",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 553,
+        "key": "@byte:3562840",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_daoqi_guidouchong_c.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_daoqi_guidouchong_c.7cb4568f..png",
+          "sizeBytes": 100784
+        }
+      ]
+    },
+    {
+      "id": "map_daoqi_limao",
+      "name": "map_daoqi_limao",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 70136,
+        "key": "@byte:3597645",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1629,
+        "key": "@byte:3595885",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_daoqi_limao.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_daoqi_limao.cac46573..png",
+          "sizeBytes": 307359
+        }
+      ]
+    },
+    {
+      "id": "map_liyue_baoxiang",
+      "name": "map_liyue_baoxiang",
+      "version": "4.0.64",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 9408,
+        "key": "@byte:3668675",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 764,
+        "key": "@byte:3667832",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_liyue_baoxiang.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_liyue_baoxiang.888b23c5..png",
+          "sizeBytes": 283902
+        }
+      ]
+    },
+    {
+      "id": "map_liyue_guoba",
+      "name": "map_liyue_guoba",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 77711,
+        "key": "@byte:3680462",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2181,
+        "key": "@byte:3678116",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_liyue_guoba.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_liyue_guoba.5cfb9a98..png",
+          "sizeBytes": 382605
+        }
+      ]
+    },
+    {
+      "id": "map_liyue_shideng",
+      "name": "map_liyue_shideng",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "a2b",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 6494,
+        "key": "@byte:3759460",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1130,
+        "key": "@byte:3758218",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_liyue_shideng.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_liyue_shideng.ba5e5f1b..png",
+          "sizeBytes": 183146
+        }
+      ]
+    },
+    {
+      "id": "map_liyue_yanzhongzi",
+      "name": "map_liyue_yanzhongzi",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "a2b",
+        "b",
+        "b2a"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 11221,
+        "key": "@byte:3766605",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 545,
+        "key": "@byte:3765983",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_liyue_yanzhongzi.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_liyue_yanzhongzi.64eb4bcc..png",
+          "sizeBytes": 195587
+        }
+      ]
+    },
+    {
+      "id": "map_liyue_yezhu",
+      "name": "map_liyue_yezhu",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "a2b",
+        "b",
+        "c",
+        "受击"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 44057,
+        "key": "@byte:3778893",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 939,
+        "key": "@byte:3777855",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_liyue_yezhu.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_liyue_yezhu.b2dd933d..png",
+          "sizeBytes": 656378
+        }
+      ]
+    },
+    {
+      "id": "map_mengde_duduke",
+      "name": "map_mengde_duduke",
+      "version": "4.0.64",
+      "animations": [
+        "a",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 49373,
+        "key": "@byte:3823873",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 794,
+        "key": "@byte:3822987",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_mengde_duduke.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_mengde_duduke.5e950357..png",
+          "sizeBytes": 74052
+        }
+      ]
+    },
+    {
+      "id": "map_mengde_fengsilaimu",
+      "name": "map_mengde_fengsilaimu",
+      "version": "4.0.64",
+      "animations": [
+        "a",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 66395,
+        "key": "@byte:3873767",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 413,
+        "key": "@byte:3873289",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_mengde_fengsilaimu.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_mengde_fengsilaimu.0eecc891..png",
+          "sizeBytes": 47196
+        }
+      ]
+    },
+    {
+      "id": "map_mengde_qqer",
+      "name": "map_mengde_qqer",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "a2b",
+        "b",
+        "b2a"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 56810,
+        "key": "@byte:3940784",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 512,
+        "key": "@byte:3940197",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_mengde_qqer.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_mengde_qqer.fc9b2d98..png",
+          "sizeBytes": 149507
+        }
+      ]
+    },
+    {
+      "id": "map_mengde_yu",
+      "name": "map_mengde_yu",
+      "version": "4.0.33",
+      "animations": [
+        "animation",
+        "animation2",
+        "animation3",
+        "animation4"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 118588,
+        "key": "@byte:3998327",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 580,
+        "key": "@byte:3997673",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_mengde_yu.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_mengde_yu.3625e84b..png",
+          "sizeBytes": 206475
+        }
+      ]
+    },
+    {
+      "id": "map_xumi_caosaman",
+      "name": "map_xumi_caosaman",
+      "version": "4.0.64",
+      "animations": [
+        "a",
+        "a2b",
+        "b",
+        "b2a"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 145865,
+        "key": "@byte:4118464",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1363,
+        "key": "@byte:4116974",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_xumi_caosaman.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_xumi_caosaman.80ef55fd..png",
+          "sizeBytes": 1269586
+        }
+      ]
+    },
+    {
+      "id": "map_xumi_caosilemu",
+      "name": "map_xumi_caosilemu",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "a2b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 46677,
+        "key": "@byte:4265155",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 632,
+        "key": "@byte:4264442",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_xumi_caosilemu.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_xumi_caosilemu.8c29514f..png",
+          "sizeBytes": 97156
+        }
+      ]
+    },
+    {
+      "id": "map_xumi_caozhongzi",
+      "name": "map_xumi_caozhongzi",
+      "version": "4.0.64",
+      "animations": [
+        "a",
+        "a2b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 11760,
+        "key": "@byte:4312214",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 268,
+        "key": "@byte:4311893",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_xumi_caozhongzi.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_xumi_caozhongzi.a1126e80..png",
+          "sizeBytes": 66998
+        }
+      ]
+    },
+    {
+      "id": "map_xumi_shuisilemu",
+      "name": "map_xumi_shuisilemu",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "a2b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 21878,
+        "key": "@byte:4324415",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 352,
+        "key": "@byte:4324003",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_xumi_shuisilemu.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_xumi_shuisilemu.6f98046d..png",
+          "sizeBytes": 45572
+        }
+      ]
+    },
+    {
+      "id": "map_xumi_xuezhe",
+      "name": "map_xumi_xuezhe",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 26864,
+        "key": "@byte:4347196",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 777,
+        "key": "@byte:4346326",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "map_xumi_xuezhe.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/map_xumi_xuezhe.f3a88249..png",
+          "sizeBytes": 257064
+        }
+      ]
+    },
+    {
+      "id": "paiman",
+      "name": "paiman",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 63414,
+        "key": "@byte:4375074",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 867,
+        "key": "@byte:4374107",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "paiman.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/paiman.cdbcc24b..png",
+          "sizeBytes": 201032
+        }
+      ]
+    },
+    {
+      "id": "ying",
+      "name": "ying",
+      "version": "4.0.33",
+      "animations": [
+        "交互",
+        "尴尬",
+        "待机",
+        "惊恐",
+        "惊恐in",
+        "攻击",
+        "疑问",
+        "跑"
+      ],
+      "skins": [
+        "default",
+        "右",
+        "左"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-json",
+        "sizeBytes": 135330,
+        "key": "@byte:4440183",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/vendors_36a40ca4d46e32bc2038.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1448,
+        "key": "@byte:4438601",
+        "sourceSha256": "65f3d780865895be55857a133bc3210e2e6663331bab2df8b3b0f55dec11fb5c"
+      },
+      "textures": [
+        {
+          "page": "ying.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/images/ying.c8c240c7..png",
+          "sizeBytes": 280960
+        }
+      ]
+    }
+  ]
+}

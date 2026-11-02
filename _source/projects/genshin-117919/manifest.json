@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-117919",
+  "title": "「来自提瓦特的祝福」网页活动现已开启",
+  "subtitle": "「来自提瓦特的祝福」网页活动现已开启",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2022-12-20",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://webstatic.mihoyo.com/ys/event/e20221220-wish-f9somk/index.html",
+  "cover": {
+    "url": "https://webstatic.mihoyo.com/upload/contentweb/2022/12/19/806344341ebf8c5813c85eb6de6e4c4a_2471348498109850451.jpg",
+    "alt": "「来自提瓦特的祝福」网页活动现已开启",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117919",
+    "kind": "official-news-cover",
+    "sizeBytes": 221417
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 1,
+  "textureCount": 1,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/117919",
+    "title": "「来自提瓦特的祝福」网页活动现已开启",
+    "publishedAt": "2022-12-20T05:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117919"
+  },
+  "articleText": "亲爱的旅行者，「来自提瓦特的祝福」网页活动现已开启~\n感谢你这一年的努力和付出，和你在一起的每一个美好瞬间即为旅行的意义。请你收下这份来自提瓦特的祝福，和派蒙一起，继续开启新的冒险吧！\n点击\n【网页链接】\n参与活动，获得并送出专属于你的冬日祝福，即可获得摩拉奖励~\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 10,
+    "skeletons": 1,
+    "atlases": 1
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "以官方活动页面为准",
+  "activitySummary": "亲爱的旅行者，「来自提瓦特的祝福」网页活动现已开启~\n感谢你这一年的努力和付出，和你在一起的每一个美好瞬间即为旅行的意义。请你收下这份来自提瓦特的祝福，和派蒙一起，继续开启新的冒险吧！\n点击\n【网页链接】\n参与活动，获得并送出专属于你的冬日祝福，即可获得摩拉奖励~\n关于《原神》"
+}

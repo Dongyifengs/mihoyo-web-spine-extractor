@@ -6,8 +6,8 @@ export function remoteUrl(value) {
   return url.href;
 }
 
-export async function fetchResource(url, kind = 'text') {
-  const response = await fetch(remoteUrl(url), { signal: AbortSignal.timeout(25000), credentials: 'omit' });
+export async function fetchResource(url, kind = 'text', timeout = 25000) {
+  const response = await fetch(remoteUrl(url), { signal: AbortSignal.timeout(timeout), credentials: 'omit' });
   if (!response.ok) throw new Error(`官方资源读取失败（HTTP ${response.status}）`);
   return kind === 'binary' ? response.arrayBuffer() : response.text();
 }
@@ -20,8 +20,18 @@ export async function readSource(source, items) {
   if (!bundles.has(source.url)) {
     const keys = [...new Set(items.flatMap((item) => [item.skeleton, item.atlas, ...(item.textures || [])])
       .filter((ref) => ref?.url === source.url && ref.key).map((ref) => ref.key))];
-    const promise = Promise.all([fetchResource(source.url), import('./source-decoder.js')])
-      .then(([text, { decodeBundle }]) => decodeBundle(text, keys));
+    // Official bundles can exceed 16 MB. Allow a cold CDN fetch to finish;
+    // every skeleton in this bundle still shares the same request and decoder.
+    const promise = Promise.all([fetchResource(source.url, 'text', 90000), import('./source-decoder.js')])
+      .then(async ([text, { decodeBundle }]) => {
+        const hashes = new Set(items.flatMap((item) => [item.skeleton, item.atlas, ...(item.textures || [])])
+          .filter((ref) => ref?.url === source.url && ref.sourceSha256).map((ref) => ref.sourceSha256));
+        if (hashes.size) {
+          const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text)))].map((b) => b.toString(16).padStart(2, '0')).join('');
+          if (hashes.size !== 1 || !hashes.has(hash)) throw new Error('官方脚本已更新，等待重新同步索引');
+        }
+        return decodeBundle(text, keys);
+      });
     bundles.set(source.url, promise);
     promise.catch(() => bundles.delete(source.url));
   }

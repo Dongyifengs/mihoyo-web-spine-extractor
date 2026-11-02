@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-126154",
+  "title": "《原神》四周年「提瓦特心意速递」网页活动已开启，参与得原石奖励！",
+  "subtitle": "《原神》四周年「提瓦特心意速递」网页活动已开启，参与得原石奖励！",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2024-09-27",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://act.mihoyo.com/ys/event/20240927gift-delivery-xmyq9b/index.html",
+  "cover": {
+    "url": "https://fastcdn.mihoyo.com/content-v2/hk4e/126154/6f4a893dcebe46007b1f32188bc55893_9040240446571272685.jpg",
+    "alt": "《原神》四周年「提瓦特心意速递」网页活动已开启，参与得原石奖励！",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-126154",
+    "kind": "official-news-cover",
+    "sizeBytes": 271552
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 50,
+  "textureCount": 51,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/126154",
+    "title": "《原神》四周年「提瓦特心意速递」网页活动已开启，参与得原石奖励！",
+    "publishedAt": "2024-09-27T09:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-126154"
+  },
+  "articleText": "亲爱的旅行者，\n叮~您有一份周年快递等待领取！快来帮绮良良派送快递，为大家传递珍贵的心意吧！\n>>点击参与活动<<\n〓活动时间〓\n2024/09/27 - 2024/10/07 23:59:59\n*活动结束后不可领取奖励，请旅行者及时领取*\n〓参与条件〓\n冒险等阶≥10级的旅行者即可参与活动。\n〓活动介绍〓\n旅行者可以通过完成任务获取快递，并选择对应的收件人，即可前往不同区域派送快递。将快递送达时，还可获得收件人的礼物。\n完成所有快递的派送，即可开启属于你的周年礼物，获得40原石奖励和四周年限定食谱！\n〓注意事项〓\n游戏内奖励将通过游戏内邮件发放，邮件有效期为30天，请及时领取。\n更多活动细则详见活动页面-活动规则。\n*该网页活动仅供娱乐，与游戏内实际情况无关。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 13,
+    "skeletons": 50,
+    "atlases": 50
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "冒险等阶≥10级的旅行者即可参与活动。",
+  "activitySummary": "亲爱的旅行者，\n叮~您有一份周年快递等待领取！快来帮绮良良派送快递，为大家传递珍贵的心意吧！\n>>点击参与活动<<\n〓活动时间〓\n2024/09/27 - 2024/10/07 23:59:59\n*活动结束后不可领取奖励，请旅行者及时领取*"
+}

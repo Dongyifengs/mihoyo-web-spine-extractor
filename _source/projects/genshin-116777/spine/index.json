@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-116777",
+  "items": [
+    {
+      "id": "chuan",
+      "name": "chuan",
+      "version": "3.8.99",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "damage",
+        "day",
+        "lighting",
+        "night"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20210713warm/vendors.e2f7c75d3e.js",
+        "format": "embedded-json",
+        "sizeBytes": 52438,
+        "key": "@byte:1247257",
+        "sourceSha256": "4b5bb092dc25765fd9668a93f94c8fd6a89e68237489c36b66fb779548c3c966"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20210713warm/vendors.e2f7c75d3e.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3365,
+        "key": "@byte:1299754",
+        "sourceSha256": "4b5bb092dc25765fd9668a93f94c8fd6a89e68237489c36b66fb779548c3c966"
+      },
+      "textures": [
+        {
+          "page": "chuan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20210713warm/images/chuan.2e5188fa.png",
+          "sizeBytes": 643276
+        }
+      ]
+    },
+    {
+      "id": "sky_qing",
+      "name": "sky_qing",
+      "version": "3.8.99",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default",
+        "day",
+        "night"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20210713warm/vendors.e2f7c75d3e.js",
+        "format": "embedded-json",
+        "sizeBytes": 1960,
+        "key": "@byte:1303386",
+        "sourceSha256": "4b5bb092dc25765fd9668a93f94c8fd6a89e68237489c36b66fb779548c3c966"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20210713warm/vendors.e2f7c75d3e.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 370,
+        "key": "@byte:1305375",
+        "sourceSha256": "4b5bb092dc25765fd9668a93f94c8fd6a89e68237489c36b66fb779548c3c966"
+      },
+      "textures": [
+        {
+          "page": "sky_qing.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20210713warm/images/sky_qing.55c125b4.png",
+          "sizeBytes": 137900
+        }
+      ]
+    },
+    {
+      "id": "flash",
+      "name": "flash",
+      "version": "3.8.99",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20210713warm/vendors.e2f7c75d3e.js",
+        "format": "embedded-json",
+        "sizeBytes": 9645,
+        "key": "@byte:1305809",
+        "sourceSha256": "4b5bb092dc25765fd9668a93f94c8fd6a89e68237489c36b66fb779548c3c966"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20210713warm/vendors.e2f7c75d3e.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2823,
+        "key": "@byte:1315483",
+        "sourceSha256": "4b5bb092dc25765fd9668a93f94c8fd6a89e68237489c36b66fb779548c3c966"
+      },
+      "textures": [
+        {
+          "page": "flash.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20210713warm/images/flash.cdb68cb3.png",
+          "sizeBytes": 164803
+        }
+      ]
+    }
+  ]
+}

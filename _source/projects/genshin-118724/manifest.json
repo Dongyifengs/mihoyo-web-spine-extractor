@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-118724",
+  "title": "「美露莘的调查问卷」网页活动上线",
+  "subtitle": "「美露莘的调查问卷」网页活动上线",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2023-12-25",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://act.mihoyo.com/ys/event/e20231225melusine-questionnaire/index.html",
+  "cover": {
+    "url": "https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/8d6f85c7e1d16b4136ba34a6c84f7f09_8840468372021776962.jpg",
+    "alt": "「美露莘的调查问卷」网页活动上线",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-118724",
+    "kind": "official-news-cover",
+    "sizeBytes": 312090
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 8,
+  "textureCount": 13,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/118724",
+    "title": "「美露莘的调查问卷」网页活动上线",
+    "publishedAt": "2023-12-25T04:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-118724"
+  },
+  "articleText": "在枫丹负责巡轨船导览工作的欧菲妮和爱贝尔接到了一份旅客的调研工作，会分发问卷给来到枫丹的旅行者。来帮助欧菲妮和爱贝尔完成调研工作吧~\n「美露莘的调查问卷」网页活动上线，参与即可获得原石！\n点击\n网页链接\n参与活动，帮助美露莘们完成问卷，赢取原石等游戏内奖励！\n〓活动规则〓\n●活动参与时间：2023/12/25 12:00 ~ 2024/1/7 23:59\n●原石奖励领取时间：收到邮件后有效期30日内\n〓活动奖励〓\n问卷填写完成即可获得40原石、大英雄的经验等游戏内奖励\n*更多活动细则详见活动页面-活动规则。\n*该网页活动与游戏内实际情况无关。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 13,
+    "skeletons": 8,
+    "atlases": 8
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "以官方活动页面为准",
+  "activitySummary": "在枫丹负责巡轨船导览工作的欧菲妮和爱贝尔接到了一份旅客的调研工作，会分发问卷给来到枫丹的旅行者。来帮助欧菲妮和爱贝尔完成调研工作吧~\n「美露莘的调查问卷」网页活动上线，参与即可获得原石！\n点击\n网页链接\n参与活动，帮助美露莘们完成问卷，赢取原石等游戏内奖励！\n〓活动规则〓"
+}

@@ -1,0 +1,2331 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-118725",
+  "items": [
+    {
+      "id": "land",
+      "name": "land",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 119226,
+        "key": "@byte:1276589",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1578,
+        "key": "@byte:1274871",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "land.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/land.95b7a881..png",
+          "sizeBytes": 973523
+        }
+      ]
+    },
+    {
+      "id": "lo_dog",
+      "name": "lo_dog",
+      "version": "4.1.24",
+      "animations": [
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 30754,
+        "key": "@byte:1397505",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1486,
+        "key": "@byte:1395888",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "lo_dog.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/lo_dog.7352240f..png",
+          "sizeBytes": 235550
+        }
+      ]
+    },
+    {
+      "id": "lo_jiaopian_a",
+      "name": "lo_jiaopian_a",
+      "version": "4.1.24",
+      "animations": [
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 15561,
+        "key": "@byte:1428491",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 154,
+        "key": "@byte:1428290",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "lo_jiaopian_a.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/lo_jiaopian_a.8578063c..png",
+          "sizeBytes": 62735
+        }
+      ]
+    },
+    {
+      "id": "lo_jiaopian_b",
+      "name": "lo_jiaopian_b",
+      "version": "4.1.24",
+      "animations": [
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 22006,
+        "key": "@byte:1444243",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 117,
+        "key": "@byte:1444081",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "lo_jiaopian_b.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/lo_jiaopian_b.dd5fe347..png",
+          "sizeBytes": 24482
+        }
+      ]
+    },
+    {
+      "id": "lo_tree",
+      "name": "lo_tree",
+      "version": "4.1.24",
+      "animations": [
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 14662,
+        "key": "@byte:1467007",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 646,
+        "key": "@byte:1466278",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "lo_tree.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/lo_tree.54b52cc3..png",
+          "sizeBytes": 125609
+        }
+      ]
+    },
+    {
+      "id": "map_1",
+      "name": "map_1",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 32466,
+        "key": "@byte:1483030",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1207,
+        "key": "@byte:1481704",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "map_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/map_1.d8c5c4fd..png",
+          "sizeBytes": 733383
+        }
+      ]
+    },
+    {
+      "id": "map_2",
+      "name": "map_2",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 26263,
+        "key": "@byte:1516504",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 856,
+        "key": "@byte:1515549",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "map_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/map_2.5633b087..png",
+          "sizeBytes": 837207
+        }
+      ]
+    },
+    {
+      "id": "map_3",
+      "name": "map_3",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 24222,
+        "key": "@byte:1543691",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 801,
+        "key": "@byte:1542798",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "map_3.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/map_3.784b9da4..png",
+          "sizeBytes": 728960
+        }
+      ]
+    },
+    {
+      "id": "map_4",
+      "name": "map_4",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 42900,
+        "key": "@byte:1568947",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 879,
+        "key": "@byte:1567974",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "map_4.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/map_4.b0a0e023..png",
+          "sizeBytes": 792803
+        }
+      ]
+    },
+    {
+      "id": "map_5",
+      "name": "map_5",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 51949,
+        "key": "@byte:1612800",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 793,
+        "key": "@byte:1611916",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "map_5.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/map_5.e44a2832..png",
+          "sizeBytes": 779016
+        }
+      ]
+    },
+    {
+      "id": "map_test2",
+      "name": "map_test2",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 12512,
+        "key": "@byte:1665322",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 442,
+        "key": "@byte:1664814",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "map_test2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/map_test2.6f809f6a..png",
+          "sizeBytes": 750856
+        }
+      ]
+    },
+    {
+      "id": "map_test4",
+      "name": "map_test4",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 53572,
+        "key": "@byte:1678892",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 925,
+        "key": "@byte:1677863",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "map_test4.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/map_test4.fa79f253..png",
+          "sizeBytes": 1453101
+        }
+      ]
+    },
+    {
+      "id": "map_test5",
+      "name": "map_test5",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 157941,
+        "key": "@byte:1733634",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1000,
+        "key": "@byte:1732529",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "map_test5.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/map_test5.979b83e8..png",
+          "sizeBytes": 1494924
+        }
+      ]
+    },
+    {
+      "id": "map3",
+      "name": "map3",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 117678,
+        "key": "@byte:1893323",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1438,
+        "key": "@byte:1891760",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "map3.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/map3.ca09fc39..png",
+          "sizeBytes": 898569
+        },
+        {
+          "page": "map3_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/map3_2.428f982f..png",
+          "sizeBytes": 696176
+        }
+      ]
+    },
+    {
+      "id": "mubu_1",
+      "name": "mubu_1",
+      "version": "4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 44671,
+        "key": "@byte:2011640",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 495,
+        "key": "@byte:2011074",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "mubu_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/mubu_1.dd8f7632..png",
+          "sizeBytes": 371435
+        },
+        {
+          "page": "mubu_1_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/mubu_1_2.b7cb4bbd..png",
+          "sizeBytes": 187700
+        }
+      ]
+    },
+    {
+      "id": "mubu_2",
+      "name": "mubu_2",
+      "version": "4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 9694,
+        "key": "@byte:2057213",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 772,
+        "key": "@byte:2056354",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "mubu_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/mubu_2.08f8d3a5..png",
+          "sizeBytes": 1102414
+        },
+        {
+          "page": "mubu_2_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/mubu_2_2.606eb5f5..png",
+          "sizeBytes": 529487
+        }
+      ]
+    },
+    {
+      "id": "mubu_3",
+      "name": "mubu_3",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 24801,
+        "key": "@byte:2067367",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 365,
+        "key": "@byte:2066940",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "mubu_3.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/mubu_3.1b9de0a6..png",
+          "sizeBytes": 219260
+        }
+      ]
+    },
+    {
+      "id": "mubu_4",
+      "name": "mubu_4",
+      "version": "4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 26575,
+        "key": "@byte:2093278",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 973,
+        "key": "@byte:2092199",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "mubu_4.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/mubu_4.3daf4f54..png",
+          "sizeBytes": 864547
+        },
+        {
+          "page": "mubu_4_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/mubu_4_2.98b9089a..png",
+          "sizeBytes": 628130
+        }
+      ]
+    },
+    {
+      "id": "mubu_5",
+      "name": "mubu_5",
+      "version": "4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 20997,
+        "key": "@byte:2121290",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1278,
+        "key": "@byte:2119892",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "mubu_5.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/mubu_5.e4478353..png",
+          "sizeBytes": 1081230
+        },
+        {
+          "page": "mubu_5_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/mubu_5_2.8f19470b..png",
+          "sizeBytes": 355472
+        }
+      ]
+    },
+    {
+      "id": "normal_item_0_0",
+      "name": "normal_item_0_0",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 6797,
+        "key": "@byte:2142747",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 365,
+        "key": "@byte:2142320",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_0_0.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_0_0.786cad0b..png",
+          "sizeBytes": 130920
+        }
+      ]
+    },
+    {
+      "id": "normal_item_0_1",
+      "name": "normal_item_0_1",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 54332,
+        "key": "@byte:2150173",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 529,
+        "key": "@byte:2149573",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_0_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+          "format": "embedded-image",
+          "sizeBytes": 12241,
+          "key": "@byte:6563537",
+          "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+        }
+      ]
+    },
+    {
+      "id": "normal_item_0_2",
+      "name": "normal_item_0_2",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act",
+        "4_yhc"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 9360,
+        "key": "@byte:2205064",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 461,
+        "key": "@byte:2204534",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_0_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_0_2.acda3056..png",
+          "sizeBytes": 18791
+        }
+      ]
+    },
+    {
+      "id": "normal_item_0_3",
+      "name": "normal_item_0_3",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act",
+        "4_yhc"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 9138,
+        "key": "@byte:2214958",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 438,
+        "key": "@byte:2214453",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_0_3.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_0_3.9d7622d0..png",
+          "sizeBytes": 34683
+        }
+      ]
+    },
+    {
+      "id": "normal_item_0_4",
+      "name": "normal_item_0_4",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act",
+        "4_yhc"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 15013,
+        "key": "@byte:2224888",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 673,
+        "key": "@byte:2224131",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_0_4.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_0_4.eeee29c9..png",
+          "sizeBytes": 53185
+        }
+      ]
+    },
+    {
+      "id": "normal_item_1_1",
+      "name": "normal_item_1_1",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 11720,
+        "key": "@byte:2240413",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 411,
+        "key": "@byte:2239936",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_1_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_1_1.03ac8cc4..png",
+          "sizeBytes": 53200
+        }
+      ]
+    },
+    {
+      "id": "normal_item_1_2",
+      "name": "normal_item_1_2",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 3732,
+        "key": "@byte:2252509",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 278,
+        "key": "@byte:2252176",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_1_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_1_2.2f94d223..png",
+          "sizeBytes": 48521
+        }
+      ]
+    },
+    {
+      "id": "normal_item_1_cat",
+      "name": "normal_item_1_cat",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 17155,
+        "key": "@byte:2256771",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 423,
+        "key": "@byte:2256278",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_1_cat.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_1_cat.3eeef750..png",
+          "sizeBytes": 43280
+        }
+      ]
+    },
+    {
+      "id": "normal_item_1_puke",
+      "name": "normal_item_1_puke",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 16738,
+        "key": "@byte:2274505",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 484,
+        "key": "@byte:2273955",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_1_puke.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_1_puke.c26b9a81..png",
+          "sizeBytes": 104798
+        }
+      ]
+    },
+    {
+      "id": "normal_item_2_0",
+      "name": "normal_item_2_0",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 15494,
+        "key": "@byte:2291634",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 299,
+        "key": "@byte:2291278",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_2_0.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_2_0.5b6e9ffa..png",
+          "sizeBytes": 183732
+        }
+      ]
+    },
+    {
+      "id": "normal_item_2_1",
+      "name": "normal_item_2_1",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 8109,
+        "key": "@byte:2307366",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 153,
+        "key": "@byte:2307165",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_2_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_2_1.4934fb7c..png",
+          "sizeBytes": 40059
+        }
+      ]
+    },
+    {
+      "id": "normal_item_2_2",
+      "name": "normal_item_2_2",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 8737,
+        "key": "@byte:2315737",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 182,
+        "key": "@byte:2315506",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_2_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+          "format": "embedded-image",
+          "sizeBytes": 9131,
+          "key": "@byte:6580733",
+          "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+        }
+      ]
+    },
+    {
+      "id": "normal_item_2_3",
+      "name": "normal_item_2_3",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 39212,
+        "key": "@byte:2325084",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 508,
+        "key": "@byte:2324505",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_2_3.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_2_3.93266855..png",
+          "sizeBytes": 75776
+        }
+      ]
+    },
+    {
+      "id": "normal_item_2_5",
+      "name": "normal_item_2_5",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 20731,
+        "key": "@byte:2364810",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 402,
+        "key": "@byte:2364343",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_2_5.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_2_5.0b7658e2..png",
+          "sizeBytes": 26175
+        }
+      ]
+    },
+    {
+      "id": "normal_item_3_0",
+      "name": "normal_item_3_0",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 9073,
+        "key": "@byte:2385998",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 360,
+        "key": "@byte:2385576",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_3_0.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_3_0.98fb41c5..png",
+          "sizeBytes": 139324
+        }
+      ]
+    },
+    {
+      "id": "normal_item_3_1",
+      "name": "normal_item_3_1",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 9410,
+        "key": "@byte:2395367",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 215,
+        "key": "@byte:2395100",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_3_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_3_1.f2bb4f42..png",
+          "sizeBytes": 25857
+        }
+      ]
+    },
+    {
+      "id": "normal_item_3_2",
+      "name": "normal_item_3_2",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 11391,
+        "key": "@byte:2405146",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 276,
+        "key": "@byte:2404812",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_3_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_3_2.258ecf5d..png",
+          "sizeBytes": 18884
+        }
+      ]
+    },
+    {
+      "id": "normal_item_3_4",
+      "name": "normal_item_3_4",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 1196,
+        "key": "@byte:2416838",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 216,
+        "key": "@byte:2416570",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_3_4.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_3_4.a9138bc3..png",
+          "sizeBytes": 26674
+        }
+      ]
+    },
+    {
+      "id": "normal_item_3_5",
+      "name": "normal_item_3_5",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 975,
+        "key": "@byte:2418298",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 185,
+        "key": "@byte:2418063",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_3_5.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_3_5.6a31e840..png",
+          "sizeBytes": 41763
+        }
+      ]
+    },
+    {
+      "id": "normal_item_3_niao",
+      "name": "normal_item_3_niao",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 51036,
+        "key": "@byte:2420172",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 778,
+        "key": "@byte:2419302",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_3_niao.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_3_niao.bf72ca5a..png",
+          "sizeBytes": 173900
+        }
+      ]
+    },
+    {
+      "id": "normal_item_3_qiancao",
+      "name": "normal_item_3_qiancao",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 12047,
+        "key": "@byte:2471579",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 274,
+        "key": "@byte:2471249",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_3_qiancao.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_3_qiancao.50fd08f9..png",
+          "sizeBytes": 64636
+        }
+      ]
+    },
+    {
+      "id": "normal_item_4_1",
+      "name": "normal_item_4_1",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 27471,
+        "key": "@byte:2484281",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 531,
+        "key": "@byte:2483675",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_4_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_4_1.23a6b1df..png",
+          "sizeBytes": 73220
+        }
+      ]
+    },
+    {
+      "id": "normal_item_4_2",
+      "name": "normal_item_4_2",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 16105,
+        "key": "@byte:2512171",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 324,
+        "key": "@byte:2511787",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_4_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_4_2.e276de24..png",
+          "sizeBytes": 29181
+        }
+      ]
+    },
+    {
+      "id": "normal_item_beike",
+      "name": "normal_item_beike",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 563,
+        "key": "@byte:2528478",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 115,
+        "key": "@byte:2528319",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_beike.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_beike.f59dda6a..png",
+          "sizeBytes": 36629
+        }
+      ]
+    },
+    {
+      "id": "normal_item_haita",
+      "name": "normal_item_haita",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 51346,
+        "key": "@byte:2530079",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 908,
+        "key": "@byte:2529070",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "normal_item_haita.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/normal_item_haita.d5030a08..png",
+          "sizeBytes": 116421
+        }
+      ]
+    },
+    {
+      "id": "seed",
+      "name": "seed",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 11845,
+        "key": "@byte:2582012",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 467,
+        "key": "@byte:2581476",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "Seed.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/Seed.acb4942d..png",
+          "sizeBytes": 45742
+        }
+      ]
+    },
+    {
+      "id": "special_item_0_0",
+      "name": "special_item_0_0",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 62174,
+        "key": "@byte:2596350",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2279,
+        "key": "@byte:2593886",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_0_0.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_0_0.72a8b3c8..png",
+          "sizeBytes": 165540
+        }
+      ]
+    },
+    {
+      "id": "special_item_0_1",
+      "name": "special_item_0_1",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 46815,
+        "key": "@byte:2659768",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1095,
+        "key": "@byte:2658563",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_0_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_0_1.fa8a9e4d..png",
+          "sizeBytes": 107788
+        }
+      ]
+    },
+    {
+      "id": "special_item_1_0",
+      "name": "special_item_1_0",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 22613,
+        "key": "@byte:2707387",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 669,
+        "key": "@byte:2706634",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_1_0.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_1_0.81f38192..png",
+          "sizeBytes": 185832
+        }
+      ]
+    },
+    {
+      "id": "special_item_1_1",
+      "name": "special_item_1_1",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 22668,
+        "key": "@byte:2730639",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 524,
+        "key": "@byte:2730041",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_1_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_1_1.b43de168..png",
+          "sizeBytes": 92483
+        }
+      ]
+    },
+    {
+      "id": "special_item_2_0",
+      "name": "special_item_2_0",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 58058,
+        "key": "@byte:2754723",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1276,
+        "key": "@byte:2753336",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_2_0.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_2_0.9d56dff3..png",
+          "sizeBytes": 107725
+        }
+      ]
+    },
+    {
+      "id": "special_item_2_1",
+      "name": "special_item_2_1",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 31536,
+        "key": "@byte:2813344",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 457,
+        "key": "@byte:2812816",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_2_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_2_1.9208509e..png",
+          "sizeBytes": 38913
+        }
+      ]
+    },
+    {
+      "id": "special_item_2_2",
+      "name": "special_item_2_2",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 55780,
+        "key": "@byte:2846827",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1771,
+        "key": "@byte:2844913",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_2_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_2_2.03b01f38..png",
+          "sizeBytes": 86031
+        }
+      ]
+    },
+    {
+      "id": "special_item_3_0",
+      "name": "special_item_3_0",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 20667,
+        "key": "@byte:2903239",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 509,
+        "key": "@byte:2902656",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_3_0.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_3_0.d05d8ab7..png",
+          "sizeBytes": 58587
+        }
+      ]
+    },
+    {
+      "id": "special_item_3_1",
+      "name": "special_item_3_1",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 18546,
+        "key": "@byte:2924135",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 142,
+        "key": "@byte:2923945",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_3_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_3_1.d0deeb51..png",
+          "sizeBytes": 35831
+        }
+      ]
+    },
+    {
+      "id": "special_item_4_0",
+      "name": "special_item_4_0",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 5945,
+        "key": "@byte:2943104",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 318,
+        "key": "@byte:2942726",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_4_0.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_4_0.168598e9..png",
+          "sizeBytes": 20388
+        }
+      ]
+    },
+    {
+      "id": "special_item_4_1",
+      "name": "special_item_4_1",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 16871,
+        "key": "@byte:2950043",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 868,
+        "key": "@byte:2949078",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_4_1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_4_1.4169b878..png",
+          "sizeBytes": 128484
+        }
+      ]
+    },
+    {
+      "id": "special_item_4_2",
+      "name": "special_item_4_2",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 33756,
+        "key": "@byte:2967309",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 301,
+        "key": "@byte:2966951",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_4_2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_4_2.3e4117b0..png",
+          "sizeBytes": 51458
+        }
+      ]
+    },
+    {
+      "id": "special_item_zhangyu",
+      "name": "special_item_zhangyu",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "1_stay2",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 46232,
+        "key": "@byte:3001793",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 592,
+        "key": "@byte:3001122",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "special_item_zhangyu.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/special_item_zhangyu.d001736c..png",
+          "sizeBytes": 110454
+        }
+      ]
+    },
+    {
+      "id": "sprecial_item_2_3",
+      "name": "sprecial_item_2_3",
+      "version": "4.1.24",
+      "animations": [
+        "1_stay",
+        "2_loop",
+        "3_act"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 36460,
+        "key": "@byte:3048669",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 514,
+        "key": "@byte:3048082",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "sprecial_item_2_3.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/sprecial_item_2_3.a71a93cc..png",
+          "sizeBytes": 44633
+        }
+      ]
+    },
+    {
+      "id": "sy_balloon",
+      "name": "sy_balloon",
+      "version": "4.1.24",
+      "animations": [
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 6007,
+        "key": "@byte:3085577",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 354,
+        "key": "@byte:3085162",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "sy_balloon.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/sy_balloon.46c753f9..png",
+          "sizeBytes": 81876
+        }
+      ]
+    },
+    {
+      "id": "sy_flower_a",
+      "name": "sy_flower_a",
+      "version": "4.1.24",
+      "animations": [
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 20318,
+        "key": "@byte:3092032",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 359,
+        "key": "@byte:3091613",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "sy_flower_a.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/sy_flower_a.2ae58859..png",
+          "sizeBytes": 91511
+        }
+      ]
+    },
+    {
+      "id": "sy_paimon",
+      "name": "sy_paimon",
+      "version": "4.1.24",
+      "animations": [
+        "1_in",
+        "2_loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 81746,
+        "key": "@byte:3114969",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2395,
+        "key": "@byte:3112387",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "sy_paimon.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/sy_paimon.3bc77c95..png",
+          "sizeBytes": 545828
+        }
+      ]
+    },
+    {
+      "id": "sy_qiandang",
+      "name": "sy_qiandang",
+      "version": "4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 12183,
+        "key": "@byte:3196910",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 93,
+        "key": "@byte:3196774",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "sy_qiandang.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/sy_qiandang.68547470..png",
+          "sizeBytes": 195147
+        }
+      ]
+    },
+    {
+      "id": "sy_traveler",
+      "name": "sy_traveler",
+      "version": "4.1.24",
+      "animations": [
+        "1_in",
+        "2_loop"
+      ],
+      "skins": [
+        "default",
+        "boy",
+        "girl"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-json",
+        "sizeBytes": 254048,
+        "key": "@byte:3214620",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/vendors_a14caa1680283f508f2b.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 5113,
+        "key": "@byte:3209166",
+        "sourceSha256": "0e69409cd16eaa6e8fbb44a53deec08ce23cb0b6cf9b749612b0f4db7d788a44"
+      },
+      "textures": [
+        {
+          "page": "sy_traveler.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20231227filmfest-qw321w/images/sy_traveler.eddf9a99..png",
+          "sizeBytes": 1099148
+        }
+      ]
+    }
+  ]
+}

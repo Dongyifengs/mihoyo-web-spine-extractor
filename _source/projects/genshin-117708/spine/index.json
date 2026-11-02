@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117708",
+  "items": [
+    {
+      "id": "1shenhe",
+      "name": "1shenhe",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-json",
+        "sizeBytes": 42326,
+        "key": "@byte:1991922",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 863,
+        "key": "@byte:1990962",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "textures": [
+        {
+          "page": "1shenhe.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/images/1shenhe.cfafda00..png",
+          "sizeBytes": 854147
+        }
+      ]
+    },
+    {
+      "id": "2wanye",
+      "name": "2wanye",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-json",
+        "sizeBytes": 48132,
+        "key": "@byte:2035155",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 768,
+        "key": "@byte:2034295",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "textures": [
+        {
+          "page": "2wanye.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/images/2wanye.6ae8568f..png",
+          "sizeBytes": 453776
+        }
+      ]
+    },
+    {
+      "id": "3babala",
+      "name": "3babala",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-json",
+        "sizeBytes": 63919,
+        "key": "@byte:2084088",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 610,
+        "key": "@byte:2083396",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "textures": [
+        {
+          "page": "3babala.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/images/3babala.ebc732d7..png",
+          "sizeBytes": 618873
+        }
+      ]
+    },
+    {
+      "id": "4yunjin",
+      "name": "4yunjin",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-json",
+        "sizeBytes": 40892,
+        "key": "@byte:2148687",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 502,
+        "key": "@byte:2148114",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "textures": [
+        {
+          "page": "4yunjin.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/images/4yunjin.372861e5..png",
+          "sizeBytes": 1090747
+        }
+      ]
+    },
+    {
+      "id": "5bacong",
+      "name": "5bacong",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-json",
+        "sizeBytes": 56255,
+        "key": "@byte:2190493",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 763,
+        "key": "@byte:2189644",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "textures": [
+        {
+          "page": "5bacong.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/images/5bacong.8505d3fb..png",
+          "sizeBytes": 986074
+        }
+      ]
+    },
+    {
+      "id": "6xinyan",
+      "name": "6xinyan",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-json",
+        "sizeBytes": 41073,
+        "key": "@byte:2247722",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 806,
+        "key": "@byte:2246823",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "textures": [
+        {
+          "page": "6xinyan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/images/6xinyan.f55414a0..png",
+          "sizeBytes": 519405
+        }
+      ]
+    },
+    {
+      "id": "7cube",
+      "name": "7cube",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-json",
+        "sizeBytes": 7675,
+        "key": "@byte:2289497",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 581,
+        "key": "@byte:2288838",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "textures": [
+        {
+          "page": "7cube.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/images/7cube.bde904c3..png",
+          "sizeBytes": 42299
+        }
+      ]
+    },
+    {
+      "id": "loading_mb",
+      "name": "loading_mb",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-json",
+        "sizeBytes": 9790,
+        "key": "@byte:2298204",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 899,
+        "key": "@byte:2297201",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "textures": [
+        {
+          "page": "loading_mb.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/index_ca40d56503d495da8087.js",
+          "format": "embedded-image",
+          "sizeBytes": 8710,
+          "key": "@byte:278026",
+          "sourceSha256": "83455854e48dffcdbc4a714b2deeb98318562fca1c16437ffc8ad959cd2dc5a4"
+        }
+      ]
+    },
+    {
+      "id": "loading_pc",
+      "name": "loading_pc",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-json",
+        "sizeBytes": 12536,
+        "key": "@byte:2308886",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/vendors_e92b017fc5f1e50efbde.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 771,
+        "key": "@byte:2308025",
+        "sourceSha256": "796f74bcede4553c65e8ca42c930a9464cb5f90aaaf09c56098b1f98bb98aeb8"
+      },
+      "textures": [
+        {
+          "page": "loading_pc.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220916music/images/loading_pc.c4b17af5..png",
+          "sizeBytes": 60054
+        }
+      ]
+    }
+  ]
+}

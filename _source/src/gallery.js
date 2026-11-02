@@ -73,7 +73,7 @@ export class Gallery {
     this.monitor = new FrameMonitor(this.hub, this.container, {floating: true}); this.monitor.setVisible(false); toolbar.append(this.monitor.button);
     this.empty = node('div', 'empty-state', '没有匹配的资源，请调整搜索词或筛选条件。'); this.empty.hidden = true; this.grid.append(this.empty);
     this.applyFilter();
-    // Start every preview now; scrolling and filtering never create or destroy renderers.
+    // Queue every preview now; scrolling and filtering never create or destroy renderers.
     this.cards.forEach((card, index) => {
       const group = activity.groups[index];
       if (group.status !== 'complete') return;

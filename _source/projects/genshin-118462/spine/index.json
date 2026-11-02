@@ -1,0 +1,616 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-118462",
+  "items": [
+    {
+      "id": "abeiduo",
+      "name": "abeiduo",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 8625,
+        "key": "@byte:1259415",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 527,
+        "key": "@byte:1044521",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "abeiduo.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/abeiduo.c4c63936..png",
+          "sizeBytes": 175353
+        }
+      ]
+    },
+    {
+      "id": "dadaliya",
+      "name": "dadaliya",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 9665,
+        "key": "@byte:1268094",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 534,
+        "key": "@byte:1045110",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "dadaliya.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/dadaliya.f27e1cb7..png",
+          "sizeBytes": 201055
+        }
+      ]
+    },
+    {
+      "id": "diaona",
+      "name": "diaona",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 9325,
+        "key": "@byte:1277809",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 501,
+        "key": "@byte:1045706",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "diaona.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/diaona.bbd63cc0..png",
+          "sizeBytes": 180064
+        }
+      ]
+    },
+    {
+      "id": "feather",
+      "name": "feather",
+      "version": "4.1.17",
+      "animations": [
+        "animation",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 4215,
+        "key": "@byte:1287180",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 79,
+        "key": "@byte:1046268",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "feather.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/feather.3c327a1a..png",
+          "sizeBytes": 136991
+        }
+      ]
+    },
+    {
+      "id": "ganyu",
+      "name": "ganyu",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 10400,
+        "key": "@byte:1291437",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 576,
+        "key": "@byte:1046380",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "ganyu.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/ganyu.009c6bf0..png",
+          "sizeBytes": 244152
+        }
+      ]
+    },
+    {
+      "id": "mubu",
+      "name": "mubu",
+      "version": "4.1.17",
+      "animations": [
+        "close",
+        "close_wtyong",
+        "loop_close",
+        "loop_open",
+        "open",
+        "open_wtyong"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 71613,
+        "key": "@byte:1301889",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 190,
+        "key": "@byte:1047021",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "mubu.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/mubu.42004ec8..png",
+          "sizeBytes": 485068
+        }
+      ]
+    },
+    {
+      "id": "mubudy",
+      "name": "mubudy",
+      "version": "4.1.17",
+      "animations": [
+        "close",
+        "close_wtyong",
+        "loop_close",
+        "loop_open",
+        "open",
+        "open_wtyong"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 71562,
+        "key": "@byte:1373706",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 192,
+        "key": "@byte:1047252",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "mubudy.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/mubudy.01c51dbe..png",
+          "sizeBytes": 449633
+        }
+      ]
+    },
+    {
+      "id": "paimeng",
+      "name": "paimeng",
+      "version": "4.1.17",
+      "animations": [
+        "animation",
+        "in"
+      ],
+      "skins": [
+        "default",
+        "表情1_默认",
+        "表情2",
+        "表情3",
+        "表情4",
+        "表情5"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 30666,
+        "key": "@byte:1445472",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 618,
+        "key": "@byte:1047485",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "paimeng.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/paimeng.2078728f..png",
+          "sizeBytes": 282752
+        }
+      ]
+    },
+    {
+      "id": "wuxianpu",
+      "name": "wuxianpu",
+      "version": "4.1.17",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 6412,
+        "key": "@byte:1476196",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 80,
+        "key": "@byte:1048172",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "wuxianpu.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/wuxianpu.395a0241..png",
+          "sizeBytes": 83401
+        }
+      ]
+    },
+    {
+      "id": "xiao",
+      "name": "xiao",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 9454,
+        "key": "@byte:1482646",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 813,
+        "key": "@byte:1048285",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "xiao.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/xiao.9248df10..png",
+          "sizeBytes": 188082
+        }
+      ]
+    },
+    {
+      "id": "yinfu1",
+      "name": "yinfu1",
+      "version": "4.1.17",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 898,
+        "key": "@byte:1492152",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 75,
+        "key": "@byte:1049181",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "yinfu1.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+          "format": "embedded-image",
+          "sizeBytes": 9672,
+          "key": "@byte:3551444",
+          "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+        }
+      ]
+    },
+    {
+      "id": "yinfu2",
+      "name": "yinfu2",
+      "version": "4.1.17",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 908,
+        "key": "@byte:1493088",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 77,
+        "key": "@byte:1049289",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "yinfu2.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+          "format": "embedded-image",
+          "sizeBytes": 12449,
+          "key": "@byte:3564406",
+          "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+        }
+      ]
+    },
+    {
+      "id": "yinfu3",
+      "name": "yinfu3",
+      "version": "4.1.17",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 752,
+        "key": "@byte:1494034",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 77,
+        "key": "@byte:1049399",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "yinfu3.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/yinfu3.c20ffce4..png",
+          "sizeBytes": 30729
+        }
+      ]
+    },
+    {
+      "id": "yinzhang",
+      "name": "yinzhang",
+      "version": "4.1.17",
+      "animations": [
+        "in",
+        "in_loop",
+        "stop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 11477,
+        "key": "@byte:1494824",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 97,
+        "key": "@byte:1049509",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "yinzhang.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/yinzhang.f1a84e0b..png",
+          "sizeBytes": 145129
+        }
+      ]
+    },
+    {
+      "id": "youla",
+      "name": "youla",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 12712,
+        "key": "@byte:1506341",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 498,
+        "key": "@byte:1049640",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "youla.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/youla.5743997b..png",
+          "sizeBytes": 286690
+        }
+      ]
+    },
+    {
+      "id": "zhongli",
+      "name": "zhongli",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default",
+        "happy",
+        "默认"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 8659,
+        "key": "@byte:1519105",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 564,
+        "key": "@byte:1050198",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "zhongli.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/zhongli.57b8bc5e..png",
+          "sizeBytes": 197784
+        }
+      ]
+    },
+    {
+      "id": "zhonglizm",
+      "name": "zhonglizm",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-json",
+        "sizeBytes": 8392,
+        "key": "@byte:1527808",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/vendors_4c63f8d0755948972e7c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 76,
+        "key": "@byte:1050827",
+        "sourceSha256": "99e8b525722c68d7f71e5e246b2fdfce9cd4ca265224037577772022c788ff1e"
+      },
+      "textures": [
+        {
+          "page": "zhonglizm.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20230704concert-h5/images/zhonglizm.f229ffce..png",
+          "sizeBytes": 199166
+        }
+      ]
+    }
+  ]
+}

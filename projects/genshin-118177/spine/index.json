@@ -1,0 +1,1497 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-118177",
+  "items": [
+    {
+      "id": "back",
+      "name": "back",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "back"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 42537,
+        "key": "@byte:1095917",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 632,
+        "key": "@byte:1095207",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "back.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/back.39d09c9e..png",
+          "sizeBytes": 299796
+        }
+      ]
+    },
+    {
+      "id": "bellows",
+      "name": "bellows",
+      "version": "4.0-from-4.1.17",
+      "animations": [
+        "bellows",
+        "bellows2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 7270,
+        "key": "@byte:1138956",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 408,
+        "key": "@byte:1138485",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "bellows.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/bellows.4e086494..png",
+          "sizeBytes": 29236
+        }
+      ]
+    },
+    {
+      "id": "dd",
+      "name": "dd",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 353,
+        "key": "@byte:1146387",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 88,
+        "key": "@byte:1146255",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "dd.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/dd.92aae168..png",
+          "sizeBytes": 94031
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "fire1",
+        "fire2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 88246,
+        "key": "@byte:1147260",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 425,
+        "key": "@byte:1146769",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "fire.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/fire.74dd70bf..png",
+          "sizeBytes": 16540
+        }
+      ]
+    },
+    {
+      "id": "full_01",
+      "name": "full_01",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 15282,
+        "key": "@byte:1236504",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 407,
+        "key": "@byte:1236029",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_01.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/full_01.56ff0e3d..png",
+          "sizeBytes": 21856
+        }
+      ]
+    },
+    {
+      "id": "full_01_1",
+      "name": "full_01_1",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 15188,
+        "key": "@byte:1252296",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 411,
+        "key": "@byte:1251817",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_01_1.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/full_01_1.24e14290..png",
+          "sizeBytes": 50596
+        }
+      ]
+    },
+    {
+      "id": "full_02",
+      "name": "full_02",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 9040,
+        "key": "@byte:1267774",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 206,
+        "key": "@byte:1267515",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_02.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/full_02.7208f556..png",
+          "sizeBytes": 84293
+        }
+      ]
+    },
+    {
+      "id": "full_02_2",
+      "name": "full_02_2",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 9958,
+        "key": "@byte:1277150",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 248,
+        "key": "@byte:1276847",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_02_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/full_02_2.3722ddb4..png",
+          "sizeBytes": 22598
+        }
+      ]
+    },
+    {
+      "id": "full_02_3",
+      "name": "full_02_3",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 3176,
+        "key": "@byte:1287279",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 96,
+        "key": "@byte:1287139",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_02_3.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+          "format": "embedded-image",
+          "sizeBytes": 5961,
+          "key": "@byte:5897837",
+          "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+        }
+      ]
+    },
+    {
+      "id": "full_02_c",
+      "name": "full_02_c",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 2572,
+        "key": "@byte:1290624",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 96,
+        "key": "@byte:1290484",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_02_c.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+          "format": "embedded-image",
+          "sizeBytes": 10828,
+          "key": "@byte:5905852",
+          "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+        }
+      ]
+    },
+    {
+      "id": "full_02_d",
+      "name": "full_02_d",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 3217,
+        "key": "@byte:1293365",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 96,
+        "key": "@byte:1293225",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_02_d.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/full_02_d.9750ad14..png",
+          "sizeBytes": 15970
+        }
+      ]
+    },
+    {
+      "id": "full_02_e",
+      "name": "full_02_e",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 4102,
+        "key": "@byte:1296773",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 117,
+        "key": "@byte:1296611",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_02_e.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/full_02_e.9c776bf7..png",
+          "sizeBytes": 29738
+        }
+      ]
+    },
+    {
+      "id": "full_03",
+      "name": "full_03",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 18126,
+        "key": "@byte:1301391",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 415,
+        "key": "@byte:1300908",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_03.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/full_03.129e1f60..png",
+          "sizeBytes": 140172
+        }
+      ]
+    },
+    {
+      "id": "full_03_1",
+      "name": "full_03_1",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 3210,
+        "key": "@byte:1319777",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 173,
+        "key": "@byte:1319554",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_03_1.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/full_03_1.a1055b83..png",
+          "sizeBytes": 29177
+        }
+      ]
+    },
+    {
+      "id": "full_03_2",
+      "name": "full_03_2",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 13757,
+        "key": "@byte:1323346",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 272,
+        "key": "@byte:1323016",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_03_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/full_03_2.dc815bb4..png",
+          "sizeBytes": 75864
+        }
+      ]
+    },
+    {
+      "id": "full_cloads",
+      "name": "full_cloads",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 1488,
+        "key": "@byte:1337325",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 144,
+        "key": "@byte:1337134",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_cloads.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+          "format": "embedded-image",
+          "sizeBytes": 14084,
+          "key": "@byte:5920771",
+          "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+        }
+      ]
+    },
+    {
+      "id": "full_cloads2",
+      "name": "full_cloads2",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 905,
+        "key": "@byte:1338984",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 98,
+        "key": "@byte:1338842",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "full_cloads2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/full_cloads2.dbf57e29..png",
+          "sizeBytes": 25210
+        }
+      ]
+    },
+    {
+      "id": "icon",
+      "name": "icon",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "icon1",
+        "icon2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 7403,
+        "key": "@byte:1340213",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 241,
+        "key": "@byte:1339918",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "icon.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/icon.a39cc937..png",
+          "sizeBytes": 20419
+        }
+      ]
+    },
+    {
+      "id": "loading_paimeng",
+      "name": "loading_paimeng",
+      "version": "4.0-from-4.1.17",
+      "animations": [
+        "jump",
+        "jump2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 60011,
+        "key": "@byte:1348916",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1160,
+        "key": "@byte:1347645",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "loading_paimeng.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/loading_paimeng.46a21c2f..png",
+          "sizeBytes": 173529
+        }
+      ]
+    },
+    {
+      "id": "loading_pot",
+      "name": "loading_pot",
+      "version": "4.0-from-4.1.17",
+      "animations": [
+        "loading1",
+        "loading2",
+        "loading3"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 268199,
+        "key": "@byte:1409906",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 830,
+        "key": "@byte:1408982",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "loading_pot.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/loading_pot.ca9818a0..png",
+          "sizeBytes": 721888
+        }
+      ]
+    },
+    {
+      "id": "middle_flower",
+      "name": "middle_flower",
+      "version": "4.1.17",
+      "animations": [
+        "in",
+        "loading",
+        "middle_flower"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 45020,
+        "key": "@byte:1680962",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 799,
+        "key": "@byte:1680072",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "middle_flower.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/middle_flower.8519507c..png",
+          "sizeBytes": 56701
+        }
+      ]
+    },
+    {
+      "id": "middle_hua",
+      "name": "middle_hua",
+      "version": "4.1.17",
+      "animations": [
+        "待机loop",
+        "表演"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 6553,
+        "key": "@byte:1726151",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 92,
+        "key": "@byte:1726015",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "middle_hua.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+          "format": "embedded-image",
+          "sizeBytes": 3734,
+          "key": "@byte:5940041",
+          "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+        }
+      ]
+    },
+    {
+      "id": "middle_nxd",
+      "name": "middle_nxd",
+      "version": "4.1.17",
+      "animations": [
+        "待机loop",
+        "表演"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 113318,
+        "key": "@byte:1733208",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 406,
+        "key": "@byte:1732737",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "middle_nxd.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/middle_nxd.829c80f2..png",
+          "sizeBytes": 159588
+        }
+      ]
+    },
+    {
+      "id": "middle_nxd2",
+      "name": "middle_nxd2",
+      "version": "4.1.17",
+      "animations": [
+        "待机loop",
+        "表演"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 60077,
+        "key": "@byte:1847084",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 417,
+        "key": "@byte:1846601",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "middle_nxd2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/middle_nxd2.9466c28d..png",
+          "sizeBytes": 185483
+        }
+      ]
+    },
+    {
+      "id": "middle_nxd3",
+      "name": "middle_nxd3",
+      "version": "4.1.17",
+      "animations": [
+        "待机loop",
+        "表演"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 85643,
+        "key": "@byte:1908043",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 628,
+        "key": "@byte:1907334",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "middle_nxd3.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/middle_nxd3.c54e1be7..png",
+          "sizeBytes": 146477
+        },
+        {
+          "page": "middle_nxd3_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/middle_nxd3_2.05a65e8c..png",
+          "sizeBytes": 340080
+        }
+      ]
+    },
+    {
+      "id": "middle_nxdq",
+      "name": "middle_nxdq",
+      "version": "4.1.17",
+      "animations": [
+        "待机loop",
+        "表演"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 295677,
+        "key": "@byte:1998010",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3784,
+        "key": "@byte:1993935",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "middle_nxdq.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/middle_nxdq.f0990060..png",
+          "sizeBytes": 902768
+        }
+      ]
+    },
+    {
+      "id": "middle_user",
+      "name": "middle_user",
+      "version": "4.1.17",
+      "animations": [
+        "失败",
+        "待机",
+        "成功"
+      ],
+      "skins": [
+        "default",
+        "boy",
+        "girl"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 196835,
+        "key": "@byte:2298366",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 4287,
+        "key": "@byte:2293778",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "middle_user.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/middle_user.7f5d6d67..png",
+          "sizeBytes": 381908
+        }
+      ]
+    },
+    {
+      "id": "middle_yan",
+      "name": "middle_yan",
+      "version": "4.1.17",
+      "animations": [
+        "失败",
+        "待机",
+        "成功"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 55691,
+        "key": "@byte:2495646",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 260,
+        "key": "@byte:2495330",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "middle_yan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/middle_yan.5ed71758..png",
+          "sizeBytes": 26737
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "version": "4.0-from-4.1.17",
+      "animations": [
+        "oil",
+        "oil_normal"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 13848,
+        "key": "@byte:2551904",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 470,
+        "key": "@byte:2551366",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "oil.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/oil.88767983..png",
+          "sizeBytes": 19472
+        }
+      ]
+    },
+    {
+      "id": "peng",
+      "name": "peng",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 2605,
+        "key": "@byte:2566741",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 861,
+        "key": "@byte:2565783",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "peng.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/peng.196f7263..png",
+          "sizeBytes": 101167
+        }
+      ]
+    },
+    {
+      "id": "pm",
+      "name": "pm",
+      "version": "4.0-from-4.1.17",
+      "animations": [
+        "失败",
+        "待机",
+        "成功"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 168063,
+        "key": "@byte:2573321",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3684,
+        "key": "@byte:2569375",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "pm.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/pm.1ca17ce8..png",
+          "sizeBytes": 209351
+        }
+      ]
+    },
+    {
+      "id": "pot",
+      "name": "pot",
+      "version": "4.0-from-4.1.17",
+      "animations": [
+        "pot",
+        "potlight"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 7538,
+        "key": "@byte:2741901",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 376,
+        "key": "@byte:2741461",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "pot.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/pot.3352f13a..png",
+          "sizeBytes": 591386
+        }
+      ]
+    },
+    {
+      "id": "somke",
+      "name": "somke",
+      "version": "4.0-from-4.1.20",
+      "animations": [
+        "play_black",
+        "play_blue",
+        "play_glod",
+        "play_white"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 90769,
+        "key": "@byte:2750306",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 754,
+        "key": "@byte:2749468",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "somke.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/somke.b23f976c..png",
+          "sizeBytes": 201253
+        }
+      ]
+    },
+    {
+      "id": "up_kuang",
+      "name": "up_kuang",
+      "version": "4.1.17",
+      "animations": [
+        "in",
+        "loading",
+        "mainweb"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 1627,
+        "key": "@byte:2841531",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 247,
+        "key": "@byte:2841230",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "up_kuang.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/up_kuang.57de404d..png",
+          "sizeBytes": 302681
+        }
+      ]
+    },
+    {
+      "id": "up_kuangq",
+      "name": "up_kuangq",
+      "version": "4.1.17",
+      "animations": [
+        "in",
+        "loading",
+        "mainweb"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 1937,
+        "key": "@byte:2843489",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 248,
+        "key": "@byte:2843187",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "up_kuangq.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/up_kuangq.57de404d..png",
+          "sizeBytes": 302681
+        }
+      ]
+    },
+    {
+      "id": "up_kuangyan",
+      "name": "up_kuangyan",
+      "version": "4.1.17",
+      "animations": [
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 10321,
+        "key": "@byte:2845920",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 399,
+        "key": "@byte:2845455",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "up_kuangyan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/up_kuangyan.e794855b..png",
+          "sizeBytes": 368375
+        }
+      ]
+    },
+    {
+      "id": "up_sn",
+      "name": "up_sn",
+      "version": "4.0-from-4.1.17",
+      "animations": [
+        "1_action1",
+        "1_action2",
+        "1_action2_back",
+        "2_action1",
+        "2_action2",
+        "2_action2_back",
+        "2_action3",
+        "2_action4"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 224998,
+        "key": "@byte:2858992",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2518,
+        "key": "@byte:2856276",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "up_sn.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/up_sn.0b71b6d5..png",
+          "sizeBytes": 1353951
+        }
+      ]
+    },
+    {
+      "id": "userbg01",
+      "name": "userbg01",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 356,
+        "key": "@byte:3084193",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 94,
+        "key": "@byte:3084055",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "userbg01.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/userbg01.c357ecbd..png",
+          "sizeBytes": 28149
+        }
+      ]
+    },
+    {
+      "id": "userbg02",
+      "name": "userbg02",
+      "version": "4.1.17",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 346,
+        "key": "@byte:3084716",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 94,
+        "key": "@byte:3084578",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "userbg02.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/userbg02.51c1f324..png",
+          "sizeBytes": 86676
+        }
+      ]
+    },
+    {
+      "id": "water_normal",
+      "name": "water_normal",
+      "version": "4.0-from-4.1.17",
+      "animations": [
+        "water",
+        "water_normal"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 14032,
+        "key": "@byte:3085638",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 479,
+        "key": "@byte:3085091",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "water_normal.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/images/water_normal.88767983..png",
+          "sizeBytes": 19472
+        }
+      ]
+    },
+    {
+      "id": "xx_nxd",
+      "name": "xx_nxd",
+      "version": "4.1.17",
+      "animations": [
+        "nostar",
+        "star"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 8075,
+        "key": "@byte:3099830",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 86,
+        "key": "@byte:3099701",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "xx_nxd.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+          "format": "embedded-image",
+          "sizeBytes": 1684,
+          "key": "@byte:5946649",
+          "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+        }
+      ]
+    },
+    {
+      "id": "xx_sn",
+      "name": "xx_sn",
+      "version": "4.1.17",
+      "animations": [
+        "nostar",
+        "star"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-json",
+        "sizeBytes": 8907,
+        "key": "@byte:3108062",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 85,
+        "key": "@byte:3107934",
+        "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+      },
+      "textures": [
+        {
+          "page": "xx_sn.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20230511-school-4gaxpk/vendors_a085fcf42d249d905250.js",
+          "format": "embedded-image",
+          "sizeBytes": 1684,
+          "key": "@byte:5946649",
+          "sourceSha256": "a5c95a85946f8a28fcd109e23e4c7cb8e7f35356ee04a483c079b5222a2bcaca"
+        }
+      ]
+    }
+  ]
+}

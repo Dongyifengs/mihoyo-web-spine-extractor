@@ -1,0 +1,1557 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-158874",
+  "items": [
+    {
+      "id": "mail2_sllh_hua_dl",
+      "name": "mail2_sllh_hua_dl",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 13375,
+        "key": "@byte:25963",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 233,
+        "key": "@byte:884969",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "mail2_sllh_hua_dl.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/mail2_sllh_hua_dl.42223cdd..png",
+          "sizeBytes": 2020048
+        }
+      ]
+    },
+    {
+      "id": "menu_e",
+      "name": "menu_e",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "animation",
+        "call",
+        "click",
+        "mouseover"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "b"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 7945,
+        "key": "@byte:44482",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 329,
+        "key": "@byte:1026034",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "menu_e.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/menu_e.c4c2fb0a..png",
+          "sizeBytes": 319850
+        }
+      ]
+    },
+    {
+      "id": "main2_sd_a",
+      "name": "main2_sd_a",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 2540,
+        "key": "@byte:75657",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 79,
+        "key": "@byte:662381",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "main2_sd_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/main2_sd_a.b458e975..png",
+          "sizeBytes": 54241
+        }
+      ]
+    },
+    {
+      "id": "index2_light",
+      "name": "index2_light",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 1524,
+        "key": "@byte:78722",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 146,
+        "key": "@byte:663004",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "index2_light.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/index2_light.63f82e88..png",
+          "sizeBytes": 547305
+        }
+      ]
+    },
+    {
+      "id": "menu_c",
+      "name": "menu_c",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "animation",
+        "call",
+        "click",
+        "mouseover"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "b"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 8823,
+        "key": "@byte:80502",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 498,
+        "key": "@byte:1325126",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "menu_c.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/menu_c.d3ab6331..png",
+          "sizeBytes": 371740
+        }
+      ]
+    },
+    {
+      "id": "mail2_mwk_hue_dl",
+      "name": "mail2_mwk_hue_dl",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 6621,
+        "key": "@byte:93062",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 101,
+        "key": "@byte:875833",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "mail2_mwk_hue_dl.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/mail2_mwk_hue_dl.ecca5795..png",
+          "sizeBytes": 680405
+        }
+      ]
+    },
+    {
+      "id": "main2_hua_ur",
+      "name": "main2_hua_ur",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 6538,
+        "key": "@byte:105682",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 83,
+        "key": "@byte:581617",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "main2_hua_ur.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/main2_hua_ur.e22836a1..png",
+          "sizeBytes": 1037092
+        }
+      ]
+    },
+    {
+      "id": "index2_icon_hdj",
+      "name": "index2_icon_hdj",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 6896,
+        "key": "@byte:112521",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 89,
+        "key": "@byte:1266527",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "index2_icon_hdj.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/index2_icon_hdj.86c839e2..png",
+          "sizeBytes": 36096
+        }
+      ]
+    },
+    {
+      "id": "pop_bg",
+      "name": "pop_bg",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 13591,
+        "key": "@byte:533438",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 324,
+        "key": "@byte:1324747",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "pop_bg.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/pop_bg.e1f9aa9a..png",
+          "sizeBytes": 661149
+        }
+      ]
+    },
+    {
+      "id": "call_hua_b",
+      "name": "call_hua_b",
+      "version": "4.2.43",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 2955,
+        "key": "@byte:547392",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 79,
+        "key": "@byte:1255041",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "call_hua_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/call_hua_b.bd50411f..png",
+          "sizeBytes": 185833
+        }
+      ]
+    },
+    {
+      "id": "mail2_light",
+      "name": "mail2_light",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 3289,
+        "key": "@byte:577883",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 232,
+        "key": "@byte:567997",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "mail2_light.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/mail2_light.f8979e1e..png",
+          "sizeBytes": 782368
+        }
+      ]
+    },
+    {
+      "id": "menu_d",
+      "name": "menu_d",
+      "version": "4.2.42",
+      "animations": [
+        "0",
+        "animation",
+        "call",
+        "click",
+        "mouseover"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "b"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 26627,
+        "key": "@byte:581931",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 643,
+        "key": "@byte:99718",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "menu_d.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/menu_d.c19fa749..png",
+          "sizeBytes": 453853
+        }
+      ]
+    },
+    {
+      "id": "index2_sd_b",
+      "name": "index2_sd_b",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 3011,
+        "key": "@byte:644144",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 81,
+        "key": "@byte:882525",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "index2_sd_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/index2_sd_b.3122483a..png",
+          "sizeBytes": 177554
+        }
+      ]
+    },
+    {
+      "id": "index_slogan",
+      "name": "index_slogan",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 11652,
+        "key": "@byte:672337",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2107,
+        "key": "@byte:684203",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "index_slogan.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/index_slogan.e63d9ae7..png",
+          "sizeBytes": 402588
+        }
+      ]
+    },
+    {
+      "id": "call_hua_a",
+      "name": "call_hua_a",
+      "version": "4.2.43",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 3262,
+        "key": "@byte:686511",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 79,
+        "key": "@byte:978495",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "call_hua_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/call_hua_a.58bd62e6..png",
+          "sizeBytes": 237703
+        }
+      ]
+    },
+    {
+      "id": "call_hua_e",
+      "name": "call_hua_e",
+      "version": "4.2.43",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 3199,
+        "key": "@byte:696978",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 79,
+        "key": "@byte:980293",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "call_hua_e.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/call_hua_e.1d3f21d3..png",
+          "sizeBytes": 185849
+        }
+      ]
+    },
+    {
+      "id": "mail2_nxd_hua_dl",
+      "name": "mail2_nxd_hua_dl",
+      "version": "4.2.43",
+      "animations": [
+        "down",
+        "top"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 84198,
+        "key": "@byte:885276",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 207,
+        "key": "@byte:1325687",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "mail2_nxd_hua_dl.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/mail2_nxd_hua_dl.a360164f..png",
+          "sizeBytes": 1004062
+        }
+      ]
+    },
+    {
+      "id": "mail2_abd_hua_ul",
+      "name": "mail2_abd_hua_ul",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 2524,
+        "key": "@byte:969615",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 96,
+        "key": "@byte:981766",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "mail2_abd_hua_ul.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/mail2_abd_hua_ul.11a0def8..png",
+          "sizeBytes": 402393
+        }
+      ]
+    },
+    {
+      "id": "main2_paopao",
+      "name": "main2_paopao",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 4079,
+        "key": "@byte:1009821",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 233,
+        "key": "@byte:623248",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "main2_paopao.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/main2_paopao.1e6aa88d..png",
+          "sizeBytes": 152312
+        }
+      ]
+    },
+    {
+      "id": "loading_yy",
+      "name": "loading_yy",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 7475,
+        "key": "@byte:1018516",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 200,
+        "key": "@byte:662741",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "loading_yy.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/loading_yy.7dc9d8a7..png",
+          "sizeBytes": 146236
+        }
+      ]
+    },
+    {
+      "id": "index2_sd_a",
+      "name": "index2_sd_a",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 2072,
+        "key": "@byte:1026523",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 81,
+        "key": "@byte:272",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "index2_sd_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/index2_sd_a.215a0f18..png",
+          "sizeBytes": 19836
+        }
+      ]
+    },
+    {
+      "id": "loading_mail_dai",
+      "name": "loading_mail_dai",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 1203,
+        "key": "@byte:1028652",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 161,
+        "key": "@byte:547076",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "loading_mail_dai.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+          "format": "embedded-image",
+          "sizeBytes": 7856,
+          "key": "@byte:1266666",
+          "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+        }
+      ]
+    },
+    {
+      "id": "main2_sd_a2",
+      "name": "main2_sd_a2",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 2576,
+        "key": "@byte:1031043",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 80,
+        "key": "@byte:981400",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "main2_sd_a2.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/main2_sd_a2.28799bcc..png",
+          "sizeBytes": 54753
+        }
+      ]
+    },
+    {
+      "id": "call2_hua_ul",
+      "name": "call2_hua_ul",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 12830,
+        "key": "@byte:1035174",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 117,
+        "key": "@byte:1255243",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "call2_hua_ul.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/call2_hua_ul.24d84c55..png",
+          "sizeBytes": 415538
+        }
+      ]
+    },
+    {
+      "id": "call_hua_d",
+      "name": "call_hua_d",
+      "version": "4.2.43",
+      "animations": [
+        "in",
+        "index",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 28350,
+        "key": "@byte:1048101",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 284,
+        "key": "@byte:78229",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "call_hua_d.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/call_hua_d.a5ca6117..png",
+          "sizeBytes": 683934
+        }
+      ]
+    },
+    {
+      "id": "mail2_ddly_hua_ul",
+      "name": "mail2_ddly_hua_ul",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 8432,
+        "key": "@byte:1087363",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 102,
+        "key": "@byte:623023",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "mail2_ddly_hua_ul.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/mail2_ddly_hua_ul.734ab0d0..png",
+          "sizeBytes": 879909
+        }
+      ]
+    },
+    {
+      "id": "index_hau_a",
+      "name": "index_hau_a",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 11710,
+        "key": "@byte:1096041",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 155,
+        "key": "@byte:1254845",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "index_hau_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/index_hau_a.6379419b..png",
+          "sizeBytes": 668390
+        }
+      ]
+    },
+    {
+      "id": "main2_hua_ul",
+      "name": "main2_hua_ul",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 6806,
+        "key": "@byte:1122696",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 108,
+        "key": "@byte:551327",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "main2_hua_ul.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/main2_hua_ul.16966eb8..png",
+          "sizeBytes": 564129
+        }
+      ]
+    },
+    {
+      "id": "main2_light",
+      "name": "main2_light",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 2567,
+        "key": "@byte:1130690",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 93,
+        "key": "@byte:875702",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "main2_light.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/main2_light.6065e933..png",
+          "sizeBytes": 397484
+        }
+      ]
+    },
+    {
+      "id": "mail2_ddly_hua_dl",
+      "name": "mail2_ddly_hua_dl",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 7911,
+        "key": "@byte:1142589",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 147,
+        "key": "@byte:978695",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "mail2_ddly_hua_dl.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/mail2_ddly_hua_dl.b68d4399..png",
+          "sizeBytes": 1122681
+        }
+      ]
+    },
+    {
+      "id": "call2_hua_dl",
+      "name": "call2_hua_dl",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 6132,
+        "key": "@byte:1150569",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 103,
+        "key": "@byte:551104",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "call2_hua_dl.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/call2_hua_dl.eb8f78f7..png",
+          "sizeBytes": 664071
+        }
+      ]
+    },
+    {
+      "id": "call2_bi",
+      "name": "call2_bi",
+      "version": "4.2.43",
+      "animations": [
+        "bilin",
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 5469,
+        "key": "@byte:1156856",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 115,
+        "key": "@byte:662586",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "call2_bi.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/call2_bi.7108d306..png",
+          "sizeBytes": 244740
+        }
+      ]
+    },
+    {
+      "id": "main2_light_sun",
+      "name": "main2_light_sun",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 3272,
+        "key": "@byte:1168852",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 130,
+        "key": "@byte:608795",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "main2_light_sun.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/main2_light_sun.ddc17263..png",
+          "sizeBytes": 700663
+        }
+      ]
+    },
+    {
+      "id": "menu_a",
+      "name": "menu_a",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "animation",
+        "call",
+        "click",
+        "mouseover",
+        "mouseover_loop",
+        "mouseover_out"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "b"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 19664,
+        "key": "@byte:1172514",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 436,
+        "key": "@byte:1122084",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "menu_a.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/menu_a.bf58f296..png",
+          "sizeBytes": 193996
+        }
+      ]
+    },
+    {
+      "id": "call_hua_c",
+      "name": "call_hua_c",
+      "version": "4.2.43",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 18581,
+        "key": "@byte:1192611",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 306,
+        "key": "@byte:625622",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "call_hua_c.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/call_hua_c.9b03cbf7..png",
+          "sizeBytes": 304872
+        }
+      ]
+    },
+    {
+      "id": "loading_bar",
+      "name": "loading_bar",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 900,
+        "key": "@byte:1212590",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 132,
+        "key": "@byte:1324483",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "loading_bar.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+          "format": "embedded-image",
+          "sizeBytes": 7603,
+          "key": "@byte:54192",
+          "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+        }
+      ]
+    },
+    {
+      "id": "menu_b",
+      "name": "menu_b",
+      "version": "4.2.43",
+      "animations": [
+        "0",
+        "animation",
+        "call",
+        "click",
+        "mouseover"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "b"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 8586,
+        "key": "@byte:1213547",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 582,
+        "key": "@byte:53448",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "menu_b.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/menu_b.fcb47de3..png",
+          "sizeBytes": 313461
+        }
+      ]
+    },
+    {
+      "id": "mail2_abd_hua_dl",
+      "name": "mail2_abd_hua_dl",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 7057,
+        "key": "@byte:1225904",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 76,
+        "key": "@byte:80365",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "mail2_abd_hua_dl.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/mail2_abd_hua_dl.511791c7..png",
+          "sizeBytes": 394854
+        }
+      ]
+    },
+    {
+      "id": "mail2_mwk_hue_ul",
+      "name": "mail2_mwk_hue_ul",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 4474,
+        "key": "@byte:1239410",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 96,
+        "key": "@byte:623529",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "mail2_mwk_hue_ul.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/mail2_mwk_hue_ul.0568621b..png",
+          "sizeBytes": 298580
+        }
+      ]
+    },
+    {
+      "id": "loading_light",
+      "name": "loading_light",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 9462,
+        "key": "@byte:1245350",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 97,
+        "key": "@byte:1009662",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "loading_light.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/loading_light.29bf29a0..png",
+          "sizeBytes": 100418
+        }
+      ]
+    },
+    {
+      "id": "main2_hua_dr",
+      "name": "main2_hua_dr",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 3721,
+        "key": "@byte:1255720",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 83,
+        "key": "@byte:1192467",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "main2_hua_dr.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/main2_hua_dr.d3ca8846..png",
+          "sizeBytes": 488255
+        }
+      ]
+    },
+    {
+      "id": "main2_hua_dl",
+      "name": "main2_hua_dl",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 6110,
+        "key": "@byte:1287039",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 83,
+        "key": "@byte:1087138",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "main2_hua_dl.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/main2_hua_dl.49c60925..png",
+          "sizeBytes": 658192
+        }
+      ]
+    },
+    {
+      "id": "main2_hua_cr",
+      "name": "main2_hua_cr",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 3543,
+        "key": "@byte:1313503",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 83,
+        "key": "@byte:882643",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "main2_hua_cr.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/main2_hua_cr.7c2b2ad3..png",
+          "sizeBytes": 357708
+        }
+      ]
+    },
+    {
+      "id": "mail2_sllh_hua_ul",
+      "name": "mail2_sllh_hua_ul",
+      "version": "4.2.43",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-json",
+        "sizeBytes": 6737,
+        "key": "@byte:1317627",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/index_7232d9dece57ee1ec0d8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 146,
+        "key": "@byte:1317079",
+        "sourceSha256": "60cbacfba39ee13c488bbf9d47a1a719a8a0dc34609f272da45d225d841f799f"
+      },
+      "textures": [
+        {
+          "page": "mail2_sllh_hua_ul.png",
+          "url": "https://act.mihoyo.com/ys/event/e20250818phone-i8lamk/images/mail2_sllh_hua_ul.ac9480af..png",
+          "sizeBytes": 352363
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-124712",
+  "items": [
+    {
+      "id": "card_add",
+      "name": "card_add",
+      "version": "4.2.29",
+      "animations": [
+        "0",
+        "animation",
+        "hecheng"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 24720,
+        "key": "@byte:3655004",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 489,
+        "key": "@byte:3654383",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "card_add.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/card_add.ce1d128d..png",
+          "sizeBytes": 71548
+        }
+      ]
+    },
+    {
+      "id": "card_faguan",
+      "name": "card_faguan",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 656,
+        "key": "@byte:3676464",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 106,
+        "key": "@byte:3676253",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "card_faguan.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+          "format": "embedded-image",
+          "sizeBytes": 7543,
+          "key": "@byte:3643476",
+          "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+        }
+      ]
+    },
+    {
+      "id": "fnn",
+      "name": "fnn",
+      "version": "4.2.29",
+      "animations": [
+        "eye",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 238464,
+        "key": "@byte:3679860",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2481,
+        "key": "@byte:3677128",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "fnn.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/fnn.2d247b88..png",
+          "sizeBytes": 75719
+        }
+      ]
+    },
+    {
+      "id": "kv_bg",
+      "name": "kv_bg",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 4673,
+        "key": "@byte:3905804",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 256,
+        "key": "@byte:3905437",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "kv_bg.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/kv_bg.f8eb477b..png",
+          "sizeBytes": 108904
+        }
+      ]
+    },
+    {
+      "id": "kv_bg_hua",
+      "name": "kv_bg_hua",
+      "version": "4.2.32",
+      "animations": [
+        "0",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 8205,
+        "key": "@byte:3910466",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 210,
+        "key": "@byte:3910146",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "kv_bg_hua.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/kv_bg_hua.5343bde6..png",
+          "sizeBytes": 118034
+        }
+      ]
+    },
+    {
+      "id": "loading_bar",
+      "name": "loading_bar",
+      "version": "4.2.32",
+      "animations": [
+        "index",
+        "loading",
+        "shui"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 37981,
+        "key": "@byte:3918596",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 322,
+        "key": "@byte:3918153",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bar.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_bar.03871b8d..png",
+          "sizeBytes": 144220
+        }
+      ]
+    },
+    {
+      "id": "loading_bar_bg",
+      "name": "loading_bar_bg",
+      "version": "4.2.29",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 27013,
+        "key": "@byte:3955063",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 864,
+        "key": "@byte:3954039",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bar_bg.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_bar_bg.27a2268c..png",
+          "sizeBytes": 202510
+        }
+      ]
+    },
+    {
+      "id": "loading_bg_hua",
+      "name": "loading_bg_hua",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 2176,
+        "key": "@byte:3979715",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 87,
+        "key": "@byte:3979522",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bg_hua.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+          "format": "embedded-image",
+          "sizeBytes": 11552,
+          "key": "@byte:3482294",
+          "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+        }
+      ]
+    },
+    {
+      "id": "loading_bg_juan_d",
+      "name": "loading_bg_juan_d",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 2322,
+        "key": "@byte:3982028",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 93,
+        "key": "@byte:3981826",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bg_juan_d.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_bg_juan_d.80aeafce..png",
+          "sizeBytes": 76875
+        }
+      ]
+    },
+    {
+      "id": "loading_bg_juan_hua_a",
+      "name": "loading_bg_juan_hua_a",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 9306,
+        "key": "@byte:3984644",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 233,
+        "key": "@byte:3984286",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bg_juan_hua_a.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_bg_juan_hua_a.71684354..png",
+          "sizeBytes": 90557
+        }
+      ]
+    },
+    {
+      "id": "loading_bg_juan_hua_b",
+      "name": "loading_bg_juan_hua_b",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 8032,
+        "key": "@byte:3993748",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 266,
+        "key": "@byte:3993357",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bg_juan_hua_b.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_bg_juan_hua_b.07ab9c96..png",
+          "sizeBytes": 209366
+        }
+      ]
+    },
+    {
+      "id": "loading_bg_juan_la",
+      "name": "loading_bg_juan_la",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 3256,
+        "key": "@byte:4001478",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 97,
+        "key": "@byte:4001271",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bg_juan_la.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_bg_juan_la.3dc465b0..png",
+          "sizeBytes": 132884
+        }
+      ]
+    },
+    {
+      "id": "loading_bg_juan_lb",
+      "name": "loading_bg_juan_lb",
+      "version": "4.2.29",
+      "animations": [
+        "0",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 14972,
+        "key": "@byte:4005171",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 426,
+        "key": "@byte:4004612",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bg_juan_lb.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_bg_juan_lb.e6e7b490..png",
+          "sizeBytes": 190784
+        }
+      ]
+    },
+    {
+      "id": "loading_bg_juan_ra",
+      "name": "loading_bg_juan_ra",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 13415,
+        "key": "@byte:4019289",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 273,
+        "key": "@byte:4018894",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bg_juan_ra.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_bg_juan_ra.25e2ede9..png",
+          "sizeBytes": 192399
+        }
+      ]
+    },
+    {
+      "id": "loading_bg_juan_rb",
+      "name": "loading_bg_juan_rb",
+      "version": "4.2.29",
+      "animations": [
+        "0",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 5303,
+        "key": "@byte:4032019",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 97,
+        "key": "@byte:4031812",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bg_juan_rb.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_bg_juan_rb.c133e1d5..png",
+          "sizeBytes": 141591
+        }
+      ]
+    },
+    {
+      "id": "loading_bg_lv",
+      "name": "loading_bg_lv",
+      "version": "4.2.29",
+      "animations": [
+        "0",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 24102,
+        "key": "@byte:4037814",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 822,
+        "key": "@byte:4036840",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_bg_lv.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_bg_lv.d1154f6a..png",
+          "sizeBytes": 75985
+        }
+      ]
+    },
+    {
+      "id": "loading_down_a",
+      "name": "loading_down_a",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 4249,
+        "key": "@byte:4059800",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 122,
+        "key": "@byte:4059569",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_down_a.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+          "format": "embedded-image",
+          "sizeBytes": 14463,
+          "key": "@byte:3498973",
+          "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+        }
+      ]
+    },
+    {
+      "id": "loading_down_b",
+      "name": "loading_down_b",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 2413,
+        "key": "@byte:4063980",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 87,
+        "key": "@byte:4063787",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_down_b.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+          "format": "embedded-image",
+          "sizeBytes": 9078,
+          "key": "@byte:3518412",
+          "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+        }
+      ]
+    },
+    {
+      "id": "loading_down_c",
+      "name": "loading_down_c",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 2403,
+        "key": "@byte:4066502",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 87,
+        "key": "@byte:4066309",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_down_c.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+          "format": "embedded-image",
+          "sizeBytes": 7625,
+          "key": "@byte:3530671",
+          "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+        }
+      ]
+    },
+    {
+      "id": "loading_hua_l",
+      "name": "loading_hua_l",
+      "version": "4.2.29",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 2876,
+        "key": "@byte:4069109",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 187,
+        "key": "@byte:4068809",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_hua_l.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_hua_l.5cf894f6..png",
+          "sizeBytes": 15850
+        }
+      ]
+    },
+    {
+      "id": "loading_hua_r",
+      "name": "loading_hua_r",
+      "version": "4.2.29",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 3180,
+        "key": "@byte:4071955",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 183,
+        "key": "@byte:4071659",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_hua_r.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+          "format": "embedded-image",
+          "sizeBytes": 12669,
+          "key": "@byte:3541123",
+          "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+        }
+      ]
+    },
+    {
+      "id": "loading_juan_a",
+      "name": "loading_juan_a",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 3077,
+        "key": "@byte:4074956",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 87,
+        "key": "@byte:4074763",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_juan_a.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_juan_a.99931f22..png",
+          "sizeBytes": 31382
+        }
+      ]
+    },
+    {
+      "id": "loading_juan_b",
+      "name": "loading_juan_b",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 6675,
+        "key": "@byte:4078139",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 128,
+        "key": "@byte:4077901",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_juan_b.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_juan_b.a9d95fe1..png",
+          "sizeBytes": 37390
+        }
+      ]
+    },
+    {
+      "id": "loading_zhiwu_r",
+      "name": "loading_zhiwu_r",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 5784,
+        "key": "@byte:4084598",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 100,
+        "key": "@byte:4084389",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "loading_zhiwu_r.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/loading_zhiwu_r.2b3293a0..png",
+          "sizeBytes": 54164
+        }
+      ]
+    },
+    {
+      "id": "nwy",
+      "name": "nwy",
+      "version": "4.2.29",
+      "animations": [
+        "eye",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 367805,
+        "key": "@byte:4092704",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2421,
+        "key": "@byte:4090035",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "nwy.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/nwy.cdf02dd1..png",
+          "sizeBytes": 129588
+        }
+      ]
+    },
+    {
+      "id": "txs",
+      "name": "txs",
+      "version": "4.2.29",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 302791,
+        "key": "@byte:4449372",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3270,
+        "key": "@byte:4445798",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "txs.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/txs.d1696e4b..png",
+          "sizeBytes": 208797
+        }
+      ]
+    },
+    {
+      "id": "xgw",
+      "name": "xgw",
+      "version": "4.2.32",
+      "animations": [
+        "animation",
+        "绑定测试"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-json",
+        "sizeBytes": 241368,
+        "key": "@byte:4737701",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/vendors_cfaa05ec34edcc84e55c.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2347,
+        "key": "@byte:4735109",
+        "sourceSha256": "33bc7f271e0c48a859cae577546338e40544c404c4b15315eca36ec034a2882b"
+      },
+      "textures": [
+        {
+          "page": "xgw.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240710perfume-f65h6y/images/xgw.08232784..png",
+          "sizeBytes": 123906
+        }
+      ]
+    }
+  ]
+}

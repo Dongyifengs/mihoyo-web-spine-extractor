@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-116837",
+  "title": "「夏祭留影」",
+  "subtitle": "「夏祭留影」——《原神》新角色：宵宫分享H5正式上线",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2021-08-05",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://webstatic.mihoyo.com/ys/event/e20210805-yoimiya/index.html",
+  "cover": {
+    "url": "https://uploadstatic.mihoyo.com/contentweb/20210805/2021080511054028076.png",
+    "alt": "「夏祭留影」",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-116837",
+    "kind": "official-news-cover",
+    "sizeBytes": 433311
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 18,
+  "textureCount": 18,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/116837",
+    "title": "「夏祭留影」——《原神》新角色：宵宫分享H5正式上线",
+    "publishedAt": "2021-08-05T04:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-116837"
+  },
+  "articleText": "绽于天际的烟火，点亮了身侧少女的眼眸...\n「夏祭留影」——《原神》新角色：宵宫分享H5正式上线\n点击\n【网页链接】\n或扫描图中二维码立即参与。\n〓活动奖励〓\n旅行者拍摄照片并分享后，即可领取原石、宵宫角色突破材料等游戏奖励。\n活动期间，共可获得3次游戏内道具奖励。\n〓活动简介〓\n活动期间，在烟火会中拍下照片并完成分享，即可领取游戏内道具奖励。\n〓活动时间〓\n2021/8/5 12:00 至 2021/8/11 23:59\n*活动结束后不可领取奖励，请及时领取。\n〓参与条件〓\n冒险等阶≥10级\n关于《原神》\n《原神》是由米哈游自研的一款全新开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端与PC端数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 10,
+    "skeletons": 18,
+    "atlases": 18
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "冒险等阶≥10级",
+  "activitySummary": "绽于天际的烟火，点亮了身侧少女的眼眸...\n「夏祭留影」——《原神》新角色：宵宫分享H5正式上线\n点击\n【网页链接】\n或扫描图中二维码立即参与。\n〓活动奖励〓"
+}

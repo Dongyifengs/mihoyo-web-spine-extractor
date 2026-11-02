@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-117499",
+  "title": "《原神》「蹦蹦史莱姆」网页活动限时开启",
+  "subtitle": "《原神》「蹦蹦史莱姆」网页活动限时开启",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2022-07-04",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/index.html",
+  "cover": {
+    "url": "https://webstatic.mihoyo.com/upload/contentweb/2022/07/04/ef38206a7cffe5b48156a6ceb0c72e99_4232571666208136663.jpg",
+    "alt": "《原神》「蹦蹦史莱姆」网页活动限时开启",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117499",
+    "kind": "official-news-cover",
+    "sizeBytes": 154434
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 53,
+  "textureCount": 53,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/117499",
+    "title": "《原神》「蹦蹦史莱姆」网页活动限时开启",
+    "publishedAt": "2022-07-04T03:40:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117499"
+  },
+  "articleText": "「蹦蹦史莱姆」网页活动限时开启。蓄满元气，与史莱姆酱一起在层岩巨渊冒险吧~\n>>点击前往「蹦蹦史莱姆」活动<<\n〓活动时间〓\n2022年7月4日-2022年7月10日23:59\n活动结束后不可领取奖励，请及时领取\n〓参与条件〓\n冒险等阶≥10级的旅行者即可参与活动。\n〓活动介绍〓\n活动期间，旅行者可以通过每日登录原神、完成每日委托、消耗原粹树脂来获得体力。体力可用于在活动中进行蹦蹦冒险，获取活动道具姆姆币。姆姆币可用来兑换原石等活动奖励。\n*更多活动细则详见活动页面-活动规则。\n〓活动奖励〓\n兑换姆姆商店全部奖励，可获得120原石、精锻用魔矿*8、大英雄的经验*9、摩拉*50000。\n该网页活动仅供娱乐，与游戏内实际情况无关。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 11,
+    "skeletons": 53,
+    "atlases": 53
+  },
+  "activityPeriod": "2022年7月4日-2022年7月10日23:59",
+  "eligibility": "冒险等阶≥10级的旅行者即可参与活动。",
+  "activitySummary": "「蹦蹦史莱姆」网页活动限时开启。蓄满元气，与史莱姆酱一起在层岩巨渊冒险吧~\n>>点击前往「蹦蹦史莱姆」活动<<\n〓活动时间〓\n2022年7月4日-2022年7月10日23:59\n活动结束后不可领取奖励，请及时领取\n〓参与条件〓"
+}

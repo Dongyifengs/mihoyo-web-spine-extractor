@@ -1,0 +1,1163 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117386",
+  "items": [
+    {
+      "id": "1001",
+      "name": "1001",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 36323,
+        "key": "@byte:2356646",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 695,
+        "key": "@byte:2355863",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "1001.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/1001.88d6ef68.png",
+          "sizeBytes": 88889
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "name": "1002",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 41745,
+        "key": "@byte:2393562",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 481,
+        "key": "@byte:2393006",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "1002.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/1002.da26897c.png",
+          "sizeBytes": 64921
+        }
+      ]
+    },
+    {
+      "id": "1003",
+      "name": "1003",
+      "version": "4.0.33",
+      "animations": [
+        "animation",
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 55454,
+        "key": "@byte:2436009",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 583,
+        "key": "@byte:2435350",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "1003.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/1003.fdf0954d.png",
+          "sizeBytes": 331000
+        }
+      ]
+    },
+    {
+      "id": "1004",
+      "name": "1004",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 30644,
+        "key": "@byte:2492901",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1293,
+        "key": "@byte:2491498",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "1004.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/1004.3842aa87.png",
+          "sizeBytes": 519683
+        }
+      ]
+    },
+    {
+      "id": "1006",
+      "name": "1006",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 58026,
+        "key": "@byte:2523726",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 105,
+        "key": "@byte:2523576",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "1006.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/1006.a97fe5b0.png",
+          "sizeBytes": 20825
+        }
+      ]
+    },
+    {
+      "id": "1007",
+      "name": "1007",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 32565,
+        "key": "@byte:2582656",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 605,
+        "key": "@byte:2581967",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "1007.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/1007.0b9ba06f.png",
+          "sizeBytes": 110325
+        }
+      ]
+    },
+    {
+      "id": "1008",
+      "name": "1008",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 46139,
+        "key": "@byte:2616105",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 740,
+        "key": "@byte:2615272",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "1008.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/1008.fb64c36c.png",
+          "sizeBytes": 42005
+        }
+      ]
+    },
+    {
+      "id": "1009",
+      "name": "1009",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 49111,
+        "key": "@byte:2662868",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 493,
+        "key": "@byte:2662299",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "1009.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/1009.be63013a.png",
+          "sizeBytes": 38393
+        }
+      ]
+    },
+    {
+      "id": "1011",
+      "name": "1011",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 41069,
+        "key": "@byte:2712701",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 581,
+        "key": "@byte:2712036",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "1011.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/1011.85b0ce4e.png",
+          "sizeBytes": 112529
+        }
+      ]
+    },
+    {
+      "id": "img_fengche",
+      "name": "img_fengche",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 2574,
+        "key": "@byte:2754071",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 188,
+        "key": "@byte:2753835",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "img_fengche.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/img_fengche.544da84b.png",
+          "sizeBytes": 251040
+        }
+      ]
+    },
+    {
+      "id": "img_muzhuan",
+      "name": "img_muzhuan",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 18402,
+        "key": "@byte:2757283",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 530,
+        "key": "@byte:2756674",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "img_muzhuan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/img_muzhuan.5f39d2d7.png",
+          "sizeBytes": 79543
+        }
+      ]
+    },
+    {
+      "id": "img_penrejia",
+      "name": "img_penrejia",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 4689,
+        "key": "@byte:2775980",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 205,
+        "key": "@byte:2775722",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "img_penrejia.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/img_penrejia.ac6d03bf.png",
+          "sizeBytes": 58189
+        }
+      ]
+    },
+    {
+      "id": "img_shu",
+      "name": "img_shu",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 13200,
+        "key": "@byte:2780980",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 229,
+        "key": "@byte:2780698",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "img_shu.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/img_shu.48017886.png",
+          "sizeBytes": 146321
+        }
+      ]
+    },
+    {
+      "id": "img_xinlin",
+      "name": "img_xinlin",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 3196,
+        "key": "@byte:2795762",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1442,
+        "key": "@byte:2794215",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "img_xinlin.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/img_xinlin.8b115c68.png",
+          "sizeBytes": 140721
+        }
+      ]
+    },
+    {
+      "id": "loading_intro_btn",
+      "name": "loading_intro_btn",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 334,
+        "key": "@byte:2799135",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 105,
+        "key": "@byte:2798987",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "loading_intro_btn.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/loading_intro_btn.8b8f5938.png",
+          "sizeBytes": 12991
+        }
+      ]
+    },
+    {
+      "id": "loading_intro_title_cn",
+      "name": "loading_intro_title_cn",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 25986,
+        "key": "@byte:2800235",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 657,
+        "key": "@byte:2799498",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "loading_intro_title_cn.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/loading_intro_title_cn.2f648a13.png",
+          "sizeBytes": 186816
+        }
+      ]
+    },
+    {
+      "id": "touzi_xx",
+      "name": "touzi_xx",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 6101,
+        "key": "@byte:2826382",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 89,
+        "key": "@byte:2826250",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "touzi_xx.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/index.96df82442b.js",
+          "format": "embedded-image",
+          "sizeBytes": 2837,
+          "key": "@byte:27282",
+          "sourceSha256": "00f5f792bf9aa0aaa4d4e53b2846cefe98aaacd5d7ff54f4be495be6d74f243b"
+        }
+      ]
+    },
+    {
+      "id": "qet_tips",
+      "name": "qet_tips",
+      "version": "4.0.33",
+      "animations": [
+        "paopao_out",
+        "paopao_out2",
+        "paopao_tips",
+        "paopao_tips_in",
+        "paopao_tips_loop",
+        "pashen_tips",
+        "pashen_tips_in",
+        "pashen_tips_loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 3329,
+        "key": "@byte:2832720",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 161,
+        "key": "@byte:2832512",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "QET_tips.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/QET_tips.4c626229.png",
+          "sizeBytes": 371553
+        }
+      ]
+    },
+    {
+      "id": "img_hua",
+      "name": "img_hua",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 14715,
+        "key": "@byte:2837339",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1134,
+        "key": "@byte:2836078",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "img_hua.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/img_hua.c6f3a85e.png",
+          "sizeBytes": 43068
+        }
+      ]
+    },
+    {
+      "id": "img_paizi",
+      "name": "img_paizi",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 2127,
+        "key": "@byte:2852234",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 106,
+        "key": "@byte:2852083",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "img_paizi.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/img_paizi.e9c7b163.png",
+          "sizeBytes": 31988
+        }
+      ]
+    },
+    {
+      "id": "loading_intro_gm",
+      "name": "loading_intro_gm",
+      "version": "4.0.33",
+      "animations": [
+        "l",
+        "r"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 21812,
+        "key": "@byte:2855302",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 815,
+        "key": "@byte:2854390",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "loading_intro_gm.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/loading_intro_gm.fbc94e67.png",
+          "sizeBytes": 49405
+        }
+      ]
+    },
+    {
+      "id": "user_paimen",
+      "name": "user_paimen",
+      "version": "4.0.33",
+      "animations": [
+        "QET_pashen_in",
+        "QET_pashen_loop",
+        "QET_pashen_loop1",
+        "QET_pashen_loop2",
+        "QET_pashen_loop3",
+        "QET_pashen_loop4",
+        "QET_pashen_loop5",
+        "QET_pashen_out",
+        "待机",
+        "抖",
+        "水泡事件in",
+        "水泡事件loop",
+        "热气球",
+        "爬绳事件in",
+        "爬绳事件loop",
+        "走",
+        "进1格",
+        "进1格loop",
+        "进2格loop",
+        "进3格loop",
+        "退1格",
+        "退1格loop",
+        "退2格",
+        "退2格loop",
+        "退3格",
+        "退3格loop",
+        "随机奖励loop",
+        "飞"
+      ],
+      "skins": [
+        "default",
+        "L",
+        "R"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 237532,
+        "key": "@byte:2879767",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2423,
+        "key": "@byte:2877151",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "user_paimen.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/user_paimen.0f72e192.png",
+          "sizeBytes": 197178
+        }
+      ]
+    },
+    {
+      "id": "qet_btn",
+      "name": "qet_btn",
+      "version": "4.0.33",
+      "animations": [
+        "L",
+        "R"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 13421,
+        "key": "@byte:3117794",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 234,
+        "key": "@byte:3117508",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "QET_btn.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/QET_btn.7a5a59d9.png",
+          "sizeBytes": 103354
+        }
+      ]
+    },
+    {
+      "id": "img_qinbao",
+      "name": "img_qinbao",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 16109,
+        "key": "@byte:3131444",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 150,
+        "key": "@byte:3131246",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "img_qinbao.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/img_qinbao.94ad4b4b.png",
+          "sizeBytes": 21480
+        }
+      ]
+    },
+    {
+      "id": "img_ru",
+      "name": "img_ru",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "c"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 16189,
+        "key": "@byte:3148163",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 506,
+        "key": "@byte:3147582",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "img_ru.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/img_ru.32f493c4.png",
+          "sizeBytes": 89751
+        }
+      ]
+    },
+    {
+      "id": "user_kong",
+      "name": "user_kong",
+      "version": "4.0.33",
+      "animations": [
+        "QET_paopao_in",
+        "QET_paopao_loop",
+        "QET_paopao_out",
+        "QET_pashen_click1",
+        "QET_pashen_click2",
+        "QET_pashen_click3",
+        "QET_pashen_click4",
+        "QET_pashen_in",
+        "QET_pashen_loop1",
+        "QET_pashen_loop2",
+        "QET_pashen_loop3",
+        "QET_pashen_loop4",
+        "QET_pashen_loop5",
+        "QET_pashen_out",
+        "待机",
+        "水泡事件in",
+        "水泡事件loop",
+        "热气球",
+        "爬绳事件in",
+        "爬绳事件loop",
+        "走",
+        "进1格",
+        "进1格loop",
+        "进2格loop",
+        "进3格loop",
+        "退1格",
+        "退1格loop",
+        "退2格",
+        "退2格loop",
+        "退3格",
+        "退3格loop",
+        "随机奖励loop",
+        "飞"
+      ],
+      "skins": [
+        "default",
+        "L",
+        "R"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 475414,
+        "key": "@byte:3168242",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3612,
+        "key": "@byte:3164385",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "user_kong.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/user_kong.363cb43b.png",
+          "sizeBytes": 918832
+        }
+      ]
+    },
+    {
+      "id": "user_ying",
+      "name": "user_ying",
+      "version": "4.0.33",
+      "animations": [
+        "QET_paopao_in",
+        "QET_paopao_loop",
+        "QET_paopao_out",
+        "QET_pashen_click1",
+        "QET_pashen_click2",
+        "QET_pashen_click3",
+        "QET_pashen_click4",
+        "QET_pashen_in",
+        "QET_pashen_loop1",
+        "QET_pashen_loop2",
+        "QET_pashen_loop3",
+        "QET_pashen_loop4",
+        "QET_pashen_loop5",
+        "QET_pashen_out",
+        "待机",
+        "水泡事件in",
+        "水泡事件loop",
+        "热气球",
+        "爬绳事件in",
+        "爬绳事件loop",
+        "走",
+        "进1格",
+        "进1格loop",
+        "进2格loop",
+        "进3格loop",
+        "退1格",
+        "退1格loop",
+        "退2格",
+        "退2格loop",
+        "退3格",
+        "退3格loop",
+        "随机奖励loop",
+        "飞"
+      ],
+      "skins": [
+        "default",
+        "L",
+        "R"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 456979,
+        "key": "@byte:3647086",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3019,
+        "key": "@byte:3643853",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "user_ying.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/user_ying.9d6b7aea.png",
+          "sizeBytes": 914110
+        }
+      ]
+    },
+    {
+      "id": "img_caodui",
+      "name": "img_caodui",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 29278,
+        "key": "@byte:4104482",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 165,
+        "key": "@byte:4104268",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "img_caodui.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/img_caodui.7aada0c1.png",
+          "sizeBytes": 38617
+        }
+      ]
+    },
+    {
+      "id": "loading_intro_cao",
+      "name": "loading_intro_cao",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 17588,
+        "key": "@byte:4134200",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 348,
+        "key": "@byte:4133793",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "loading_intro_cao.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/index.96df82442b.js",
+          "format": "embedded-image",
+          "sizeBytes": 4623,
+          "key": "@byte:169917",
+          "sourceSha256": "00f5f792bf9aa0aaa4d4e53b2846cefe98aaacd5d7ff54f4be495be6d74f243b"
+        }
+      ]
+    },
+    {
+      "id": "loading_intro_yun",
+      "name": "loading_intro_yun",
+      "version": "4.0.33",
+      "animations": [
+        "yun1",
+        "yun2",
+        "yun3",
+        "yun4",
+        "yun5",
+        "yun6",
+        "yun7",
+        "yun_down"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-json",
+        "sizeBytes": 44168,
+        "key": "@byte:4152442",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/vendors.1e31886857.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 552,
+        "key": "@byte:4151823",
+        "sourceSha256": "4e5cf74beda47ed7b598fe2002a03698b4893a170b6fab5df5c84088791c4632"
+      },
+      "textures": [
+        {
+          "page": "loading_intro_yun.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220429-chess-gop5/images/loading_intro_yun.eeef8abf.png",
+          "sizeBytes": 78219
+        }
+      ]
+    }
+  ]
+}

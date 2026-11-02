@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-123890",
+  "items": [
+    {
+      "id": "default_spine",
+      "name": "default_spine",
+      "version": "4.0.19",
+      "animations": [
+        "animation",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240514promotion-4h9j6/vendors_f726f387ec19a16fddcc.js",
+        "format": "embedded-json",
+        "sizeBytes": 74178,
+        "key": "@byte:1051233",
+        "sourceSha256": "9c03df17934c7468b9128f7e2d6c9413a3bed0a57b4261ca8b7714c8436e4a2f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240514promotion-4h9j6/vendors_f726f387ec19a16fddcc.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 913,
+        "key": "@byte:1050225",
+        "sourceSha256": "9c03df17934c7468b9128f7e2d6c9413a3bed0a57b4261ca8b7714c8436e4a2f"
+      },
+      "textures": [
+        {
+          "page": "DEFAULT_SPINE.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240514promotion-4h9j6/images/DEFAULT_SPINE.e0bdab40..png",
+          "sizeBytes": 2868428
+        }
+      ]
+    },
+    {
+      "id": "new_map_img_bg",
+      "name": "new_map_img_bg",
+      "version": "4.0-from-4.1.24",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240514promotion-4h9j6/vendors_f726f387ec19a16fddcc.js",
+        "format": "embedded-json",
+        "sizeBytes": 9121,
+        "key": "@byte:1125719",
+        "sourceSha256": "9c03df17934c7468b9128f7e2d6c9413a3bed0a57b4261ca8b7714c8436e4a2f"
+      },
+      "atlas": {
+        "url": "https://act.mihoyo.com/act/ys/event/e20240514promotion-4h9j6/vendors_f726f387ec19a16fddcc.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 173,
+        "key": "@byte:1125496",
+        "sourceSha256": "9c03df17934c7468b9128f7e2d6c9413a3bed0a57b4261ca8b7714c8436e4a2f"
+      },
+      "textures": [
+        {
+          "page": "new_map_img_bg.png",
+          "url": "https://act.mihoyo.com/act/ys/event/e20240514promotion-4h9j6/images/new_map_img_bg.ed682baf..png",
+          "sizeBytes": 93107
+        }
+      ]
+    }
+  ]
+}

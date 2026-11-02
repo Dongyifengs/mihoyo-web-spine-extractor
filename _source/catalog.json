@@ -13,6 +13,286 @@
     {
       "id": "snezhnaya-is-coming",
       "manifest": "projects/snezhnaya-is-coming/manifest.json"
+    },
+    {
+      "id": "genshin-166508",
+      "manifest": "projects/genshin-166508/manifest.json"
+    },
+    {
+      "id": "genshin-163482",
+      "manifest": "projects/genshin-163482/manifest.json"
+    },
+    {
+      "id": "genshin-159931",
+      "manifest": "projects/genshin-159931/manifest.json"
+    },
+    {
+      "id": "genshin-159371",
+      "manifest": "projects/genshin-159371/manifest.json"
+    },
+    {
+      "id": "genshin-157821",
+      "manifest": "projects/genshin-157821/manifest.json"
+    },
+    {
+      "id": "genshin-157091",
+      "manifest": "projects/genshin-157091/manifest.json"
+    },
+    {
+      "id": "genshin-155204",
+      "manifest": "projects/genshin-155204/manifest.json"
+    },
+    {
+      "id": "genshin-129699",
+      "manifest": "projects/genshin-129699/manifest.json"
+    },
+    {
+      "id": "genshin-127652",
+      "manifest": "projects/genshin-127652/manifest.json"
+    },
+    {
+      "id": "genshin-127543",
+      "manifest": "projects/genshin-127543/manifest.json"
+    },
+    {
+      "id": "genshin-126958",
+      "manifest": "projects/genshin-126958/manifest.json"
+    },
+    {
+      "id": "genshin-126256",
+      "manifest": "projects/genshin-126256/manifest.json"
+    },
+    {
+      "id": "genshin-125829",
+      "manifest": "projects/genshin-125829/manifest.json"
+    },
+    {
+      "id": "genshin-125449",
+      "manifest": "projects/genshin-125449/manifest.json"
+    },
+    {
+      "id": "genshin-125431",
+      "manifest": "projects/genshin-125431/manifest.json"
+    },
+    {
+      "id": "genshin-125088",
+      "manifest": "projects/genshin-125088/manifest.json"
+    },
+    {
+      "id": "genshin-124712",
+      "manifest": "projects/genshin-124712/manifest.json"
+    },
+    {
+      "id": "genshin-161806",
+      "manifest": "projects/genshin-161806/manifest.json"
+    },
+    {
+      "id": "genshin-158874",
+      "manifest": "projects/genshin-158874/manifest.json"
+    },
+    {
+      "id": "genshin-126258",
+      "manifest": "projects/genshin-126258/manifest.json"
+    },
+    {
+      "id": "genshin-126154",
+      "manifest": "projects/genshin-126154/manifest.json"
+    },
+    {
+      "id": "genshin-124193",
+      "manifest": "projects/genshin-124193/manifest.json"
+    },
+    {
+      "id": "genshin-123915",
+      "manifest": "projects/genshin-123915/manifest.json"
+    },
+    {
+      "id": "genshin-123890",
+      "manifest": "projects/genshin-123890/manifest.json"
+    },
+    {
+      "id": "genshin-123535",
+      "manifest": "projects/genshin-123535/manifest.json"
+    },
+    {
+      "id": "genshin-123320",
+      "manifest": "projects/genshin-123320/manifest.json"
+    },
+    {
+      "id": "genshin-122781",
+      "manifest": "projects/genshin-122781/manifest.json"
+    },
+    {
+      "id": "genshin-122067",
+      "manifest": "projects/genshin-122067/manifest.json"
+    },
+    {
+      "id": "genshin-119466",
+      "manifest": "projects/genshin-119466/manifest.json"
+    },
+    {
+      "id": "genshin-119464",
+      "manifest": "projects/genshin-119464/manifest.json"
+    },
+    {
+      "id": "genshin-118725",
+      "manifest": "projects/genshin-118725/manifest.json"
+    },
+    {
+      "id": "genshin-118724",
+      "manifest": "projects/genshin-118724/manifest.json"
+    },
+    {
+      "id": "genshin-118719",
+      "manifest": "projects/genshin-118719/manifest.json"
+    },
+    {
+      "id": "genshin-118677",
+      "manifest": "projects/genshin-118677/manifest.json"
+    },
+    {
+      "id": "genshin-118548",
+      "manifest": "projects/genshin-118548/manifest.json"
+    },
+    {
+      "id": "genshin-118484",
+      "manifest": "projects/genshin-118484/manifest.json"
+    },
+    {
+      "id": "genshin-118462",
+      "manifest": "projects/genshin-118462/manifest.json"
+    },
+    {
+      "id": "genshin-118300",
+      "manifest": "projects/genshin-118300/manifest.json"
+    },
+    {
+      "id": "genshin-118177",
+      "manifest": "projects/genshin-118177/manifest.json"
+    },
+    {
+      "id": "genshin-118051",
+      "manifest": "projects/genshin-118051/manifest.json"
+    },
+    {
+      "id": "genshin-118021",
+      "manifest": "projects/genshin-118021/manifest.json"
+    },
+    {
+      "id": "genshin-118020",
+      "manifest": "projects/genshin-118020/manifest.json"
+    },
+    {
+      "id": "genshin-117961",
+      "manifest": "projects/genshin-117961/manifest.json"
+    },
+    {
+      "id": "genshin-117921",
+      "manifest": "projects/genshin-117921/manifest.json"
+    },
+    {
+      "id": "genshin-117919",
+      "manifest": "projects/genshin-117919/manifest.json"
+    },
+    {
+      "id": "genshin-117857",
+      "manifest": "projects/genshin-117857/manifest.json"
+    },
+    {
+      "id": "genshin-117798",
+      "manifest": "projects/genshin-117798/manifest.json"
+    },
+    {
+      "id": "genshin-117756",
+      "manifest": "projects/genshin-117756/manifest.json"
+    },
+    {
+      "id": "genshin-117747",
+      "manifest": "projects/genshin-117747/manifest.json"
+    },
+    {
+      "id": "genshin-117708",
+      "manifest": "projects/genshin-117708/manifest.json"
+    },
+    {
+      "id": "genshin-117704",
+      "manifest": "projects/genshin-117704/manifest.json"
+    },
+    {
+      "id": "genshin-117604",
+      "manifest": "projects/genshin-117604/manifest.json"
+    },
+    {
+      "id": "genshin-117596",
+      "manifest": "projects/genshin-117596/manifest.json"
+    },
+    {
+      "id": "genshin-117550",
+      "manifest": "projects/genshin-117550/manifest.json"
+    },
+    {
+      "id": "genshin-117499",
+      "manifest": "projects/genshin-117499/manifest.json"
+    },
+    {
+      "id": "genshin-117422",
+      "manifest": "projects/genshin-117422/manifest.json"
+    },
+    {
+      "id": "genshin-117386",
+      "manifest": "projects/genshin-117386/manifest.json"
+    },
+    {
+      "id": "genshin-117381",
+      "manifest": "projects/genshin-117381/manifest.json"
+    },
+    {
+      "id": "genshin-117330",
+      "manifest": "projects/genshin-117330/manifest.json"
+    },
+    {
+      "id": "genshin-117251",
+      "manifest": "projects/genshin-117251/manifest.json"
+    },
+    {
+      "id": "genshin-117235",
+      "manifest": "projects/genshin-117235/manifest.json"
+    },
+    {
+      "id": "genshin-117223",
+      "manifest": "projects/genshin-117223/manifest.json"
+    },
+    {
+      "id": "genshin-117148",
+      "manifest": "projects/genshin-117148/manifest.json"
+    },
+    {
+      "id": "genshin-117144",
+      "manifest": "projects/genshin-117144/manifest.json"
+    },
+    {
+      "id": "genshin-117104",
+      "manifest": "projects/genshin-117104/manifest.json"
+    },
+    {
+      "id": "genshin-117039",
+      "manifest": "projects/genshin-117039/manifest.json"
+    },
+    {
+      "id": "genshin-117010",
+      "manifest": "projects/genshin-117010/manifest.json"
+    },
+    {
+      "id": "genshin-116837",
+      "manifest": "projects/genshin-116837/manifest.json"
+    },
+    {
+      "id": "genshin-116777",
+      "manifest": "projects/genshin-116777/manifest.json"
+    },
+    {
+      "id": "genshin-116496",
+      "manifest": "projects/genshin-116496/manifest.json"
     }
   ],
   "updatedAt": "2026-11-02"

@@ -24,25 +24,21 @@
         "b",
         "c"
       ],
-      "bounds": {
-        "x": -250.94,
-        "y": -224.31,
-        "width": 499.38,
-        "height": 463.28
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/box.json",
-        "sizeBytes": 54986
+        "sizeBytes": 54970,
+        "key": "@byte:476956",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/box.atlas",
-        "sizeBytes": 1926
+        "sizeBytes": 1926,
+        "key": "@byte:474820",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
@@ -66,25 +62,21 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -137,
-        "y": -137,
-        "width": 274,
-        "height": 274
-      },
       "hasExtra": false,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/box_click.json",
-        "sizeBytes": 6228
+        "sizeBytes": 6228,
+        "key": "@byte:526163",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/box_click.atlas",
-        "sizeBytes": 125
+        "sizeBytes": 125,
+        "key": "@byte:525933",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
@@ -106,25 +98,21 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -414,
-        "y": -406,
-        "width": 846,
-        "height": 759
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/d_box_light.json",
-        "sizeBytes": 11501
+        "sizeBytes": 11501,
+        "key": "@byte:532430",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/d_box_light.atlas",
-        "sizeBytes": 768
+        "sizeBytes": 768,
+        "key": "@byte:531513",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
@@ -144,33 +132,30 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -707,
-        "y": -300.5,
-        "width": 1668,
-        "height": 527
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/d_snow_icon.json",
-        "sizeBytes": 2774
+        "sizeBytes": 2774,
+        "key": "@byte:542867",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/d_snow_icon.atlas",
-        "sizeBytes": 273
+        "sizeBytes": 273,
+        "key": "@byte:542477",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
           "page": "d_snow_icon.png",
           "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
           "format": "embedded-image",
-          "key": "/src/resources/images/effect/spine/d_snow_icon.png",
-          "sizeBytes": 14464
+          "sizeBytes": 14464,
+          "key": "@byte:418198",
+          "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
         }
       ]
     },
@@ -184,25 +169,21 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -467.5,
-        "y": -76.5,
-        "width": 935,
-        "height": 153
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/d_tips_bg.json",
-        "sizeBytes": 10261
+        "sizeBytes": 10261,
+        "key": "@byte:546279",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/d_tips_bg.atlas",
-        "sizeBytes": 767
+        "sizeBytes": 767,
+        "key": "@byte:545363",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
@@ -224,33 +205,30 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -419.75,
-        "y": -36,
-        "width": 829.25,
-        "height": 72
-      },
       "hasExtra": false,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/loading_bar.json",
-        "sizeBytes": 2070
+        "sizeBytes": 2070,
+        "key": "@byte:555587",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/loading_bar.atlas",
-        "sizeBytes": 217
+        "sizeBytes": 217,
+        "key": "@byte:555257",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
           "page": "loading_bar.png",
           "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
           "format": "embedded-image",
-          "key": "/src/resources/images/effect/spine/loading_bar.png",
-          "sizeBytes": 9805
+          "sizeBytes": 9805,
+          "key": "@byte:260981",
+          "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
         }
       ]
     },
@@ -265,25 +243,21 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -228,
-        "y": -246.5,
-        "width": 456,
-        "height": 493
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/loading_icon.json",
-        "sizeBytes": 1754
+        "sizeBytes": 1754,
+        "key": "@byte:557754",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/loading_icon.atlas",
-        "sizeBytes": 153
+        "sizeBytes": 153,
+        "key": "@byte:557493",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
@@ -303,25 +277,21 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -1052.5,
-        "y": -164,
-        "width": 2105,
-        "height": 328
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/loading_snow.json",
-        "sizeBytes": 3323
+        "sizeBytes": 3323,
+        "key": "@byte:559865",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/loading_snow.atlas",
-        "sizeBytes": 334
+        "sizeBytes": 334,
+        "key": "@byte:559410",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
@@ -342,25 +312,21 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -186.5,
-        "y": -181.5,
-        "width": 373,
-        "height": 363
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/main_btn.json",
-        "sizeBytes": 20323
+        "sizeBytes": 20323,
+        "key": "@byte:564925",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/main_btn.atlas",
-        "sizeBytes": 1833
+        "sizeBytes": 1833,
+        "key": "@byte:562870",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
@@ -383,25 +349,21 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -853,
-        "y": -472.5,
-        "width": 1706,
-        "height": 950
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/task_content_bg.json",
-        "sizeBytes": 17337
+        "sizeBytes": 17337,
+        "key": "@byte:584800",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/task_content_bg.atlas",
-        "sizeBytes": 2132
+        "sizeBytes": 2132,
+        "key": "@byte:582420",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
@@ -421,25 +383,21 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -1196.5,
-        "y": -299.5,
-        "width": 2393,
-        "height": 615
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/task_ice_lizi.json",
-        "sizeBytes": 9071
+        "sizeBytes": 9071,
+        "key": "@byte:600221",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/task_ice_lizi.atlas",
-        "sizeBytes": 442
+        "sizeBytes": 442,
+        "key": "@byte:599647",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
@@ -459,33 +417,30 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -845.5,
-        "y": -455,
-        "width": 1750,
-        "height": 882
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/task_k_lizi.json",
-        "sizeBytes": 4864
+        "sizeBytes": 4864,
+        "key": "@byte:608831",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/task_k_lizi.atlas",
-        "sizeBytes": 471
+        "sizeBytes": 471,
+        "key": "@byte:608227",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
           "page": "task_k_lizi.png",
           "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
           "format": "embedded-image",
-          "key": "/src/resources/images/effect/spine/task_k_lizi.png",
-          "sizeBytes": 12203
+          "sizeBytes": 12203,
+          "key": "@byte:438145",
+          "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
         }
       ]
     },
@@ -501,25 +456,21 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -1250.01,
-        "y": -266,
-        "width": 2499.51,
-        "height": 780
-      },
       "hasExtra": false,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/win_bg.json",
-        "sizeBytes": 10706
+        "sizeBytes": 10706,
+        "key": "@byte:613673",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/win_bg.atlas",
-        "sizeBytes": 429
+        "sizeBytes": 429,
+        "key": "@byte:613124",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
@@ -539,33 +490,30 @@
       "skins": [
         "default"
       ],
-      "bounds": {
-        "x": -977,
-        "y": -344.5,
-        "width": 1954,
-        "height": 689
-      },
       "hasExtra": true,
       "premultipliedAlpha": false,
       "skeleton": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-json",
-        "key": "../../resources/images/effect/spine/win_lizi.json",
-        "sizeBytes": 5570
+        "sizeBytes": 5570,
+        "key": "@byte:623817",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "atlas": {
         "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
         "format": "embedded-atlas",
-        "key": "../../resources/images/effect/spine/win_lizi.atlas",
-        "sizeBytes": 534
+        "sizeBytes": 534,
+        "key": "@byte:623151",
+        "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
       },
       "textures": [
         {
           "page": "win_lizi.png",
           "url": "https://act.mihoyo.com/ys/event/e20260812winter-1npovj/index_09bbf9e8997ad0385d31.js",
           "format": "embedded-image",
-          "key": "/src/resources/images/effect/spine/win_lizi.png",
-          "sizeBytes": 14989
+          "sizeBytes": 14989,
+          "key": "@byte:454680",
+          "sourceSha256": "35264d130999a7a8b54156e342007501a3a0b3d9720828f037a67ddd2d21f29a"
         }
       ]
     }

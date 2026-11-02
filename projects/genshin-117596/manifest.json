@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-117596",
+  "title": "纸间奇旅",
+  "subtitle": "【网页活动上线】纸间奇旅——参与可得原石等奖励",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2022-08-17",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://webstatic.mihoyo.com/ys/event/20220817puzzle-qgrp/index.html",
+  "cover": {
+    "url": "https://webstatic.mihoyo.com/upload/contentweb/2022/08/17/69b2a42731be723625c50d4990b2ac74_6235543626078479664.jpg",
+    "alt": "纸间奇旅",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117596",
+    "kind": "official-news-cover",
+    "sizeBytes": 193145
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 46,
+  "textureCount": 46,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/117596",
+    "title": "【网页活动上线】纸间奇旅——参与可得原石等奖励",
+    "publishedAt": "2022-08-17T03:52:38.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117596"
+  },
+  "articleText": "「纸间奇旅」网页活动限时开启。蒙德图书馆中，纸片一张一张拼接出一段奇妙的旅途，快来探索吧！\n>>点击前往「纸间奇旅」活动<<\n【活动时间】\n2022年8月17日-2022年8月23日23:59\n*活动结束后不可领取奖励，请及时领取\n【参与条件】\n冒险等阶≥10级的旅行者即可参与活动。\n【活动介绍】\n活动期间，旅行者可以通过每日登录原神、完成每日委托、消耗原粹树脂等任务获取活跃值。累计活跃值可以获得奇遇碎片，奇遇碎片可在玩法界面进行拼接，不断扩大地图。旅行者可以切换探索模式，在地图中解锁各个奇遇，并与之互动。累计解锁奇遇记录，可领取原石等奖励。\n*更多活动细则详见活动页面-活动规则。\n【活动奖励】\n累计解锁奇遇记录以及首次分享活动共可获得120原石、大英雄的经验*9、精锻用魔矿*8、摩拉*70000。\n*该网页活动仅供娱乐，与游戏内实际情况无关。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 10,
+    "skeletons": 46,
+    "atlases": 46
+  },
+  "activityPeriod": "2022年8月17日-2022年8月23日23:59",
+  "eligibility": "冒险等阶≥10级的旅行者即可参与活动。",
+  "activitySummary": "「纸间奇旅」网页活动限时开启。蒙德图书馆中，纸片一张一张拼接出一段奇妙的旅途，快来探索吧！\n>>点击前往「纸间奇旅」活动<<\n【活动时间】\n2022年8月17日-2022年8月23日23:59\n*活动结束后不可领取奖励，请及时领取\n【参与条件】"
+}

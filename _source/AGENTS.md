@@ -15,6 +15,9 @@
 - `npm test`：运行 Node 测试。
 - `npm run build`：校验目录并构建到 `dist/`。
 - `npm run preview`：在本地预览生产构建。
+- `python scripts/sync-news.py`：统一检查网页活动并增量收录；先安装 `scripts/importer/requirements.txt`。
+- `python scripts/sync-news.py --diagnose`：离线汇总问题；使用 `--retry-failed --category texture` 定向重试，避免逐个手动请求。
+- `python -m unittest discover -s tests -p 'test_*.py'`：验证批处理、失败重试与静态解析。
 
 请通过 HTTP 访问页面，以便加载 JSON。保留 Vite 相对路径配置；修改路由或部署方式时，验证项目子路径。
 

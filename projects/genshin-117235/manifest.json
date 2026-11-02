@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-117235",
+  "title": "「流彩贺佳节」网页活动现已开启",
+  "subtitle": "「流彩贺佳节」网页活动现已开启",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2022-01-29",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.html",
+  "cover": {
+    "url": "https://uploadstatic.mihoyo.com/contentweb/20220129/2022012911214578963.jpg",
+    "alt": "「流彩贺佳节」网页活动现已开启",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117235",
+    "kind": "official-news-cover",
+    "sizeBytes": 110731
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 82,
+  "textureCount": 82,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/117235",
+    "title": "「流彩贺佳节」网页活动现已开启",
+    "publishedAt": "2022-01-29T03:30:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117235"
+  },
+  "articleText": "参与「流彩贺佳节」网页活动，制作专属自己的动态贺卡吧！\n>>「流彩贺佳节」网页活动传送门<<\n网页活动开启时间：2022/01/29 11:00-2022/02/07 23:59\n活动期间，信鸽咕咕每天都会为旅行者送来贺卡灵感，旅行者可以使用这些灵感制作自己的动态贺卡，送出祝福。\n完成活动内的佳节热度任务即可提高热度值，热度值累积到一定阶段后，旅行者可以获得冒险家的经验、精锻用魔矿、原石等游戏内奖励。\n关于《原神》\n《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端、PC端以及PS平台数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 94,
+    "skeletons": 82,
+    "atlases": 82
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "以官方活动页面为准",
+  "activitySummary": "参与「流彩贺佳节」网页活动，制作专属自己的动态贺卡吧！\n>>「流彩贺佳节」网页活动传送门<<\n网页活动开启时间：2022/01/29 11:00-2022/02/07 23:59\n活动期间，信鸽咕咕每天都会为旅行者送来贺卡灵感，旅行者可以使用这些灵感制作自己的动态贺卡，送出祝福。\n完成活动内的佳节热度任务即可提高热度值，热度值累积到一定阶段后，旅行者可以获得冒险家的经验、精锻用魔矿、原石等游戏内奖励。\n关于《原神》"
+}

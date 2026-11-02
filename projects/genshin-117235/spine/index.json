@@ -1,0 +1,2695 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117235",
+  "items": [
+    {
+      "id": "bg_1",
+      "name": "bg_1",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/bg_1.622a771c.json",
+        "format": "json",
+        "sizeBytes": 69127
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 781,
+        "key": "@byte:2626340",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "bg_1.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/bg_1.df677f25.png",
+          "sizeBytes": 115809
+        }
+      ]
+    },
+    {
+      "id": "bg_2",
+      "name": "bg_2",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/bg_2.318eee27.json",
+        "format": "json",
+        "sizeBytes": 37938
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2147,
+        "key": "@byte:2627230",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "bg_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/bg_2.24a66a5e.png",
+          "sizeBytes": 526005
+        }
+      ]
+    },
+    {
+      "id": "bg_3",
+      "name": "bg_3",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/bg_3.838df70d.json",
+        "format": "json",
+        "sizeBytes": 62372
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 757,
+        "key": "@byte:2629597",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "bg_3.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/bg_3.022c773c.png",
+          "sizeBytes": 162133
+        }
+      ]
+    },
+    {
+      "id": "bg_4",
+      "name": "bg_4",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/bg_4.aa0d4cf8.json",
+        "format": "json",
+        "sizeBytes": 43295
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 656,
+        "key": "@byte:2630460",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "bg_4.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/bg_4.ebcefd2d.png",
+          "sizeBytes": 235963
+        }
+      ]
+    },
+    {
+      "id": "bg_5",
+      "name": "bg_5",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/bg_5.95842321.json",
+        "format": "json",
+        "sizeBytes": 52642
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1753,
+        "key": "@byte:2631217",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "bg_5.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/bg_5.4df6dd92.png",
+          "sizeBytes": 116135
+        }
+      ]
+    },
+    {
+      "id": "index_bird_l",
+      "name": "index_bird_l",
+      "version": "4.0.33",
+      "animations": [
+        "daiji",
+        "fly",
+        "fly_out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/index_bird_l.ff63f0cb.json",
+        "format": "json",
+        "sizeBytes": 63966
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3172,
+        "key": "@byte:2616967",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "index_bird_l.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/index_bird_l.684e93d5.png",
+          "sizeBytes": 300925
+        }
+      ]
+    },
+    {
+      "id": "index_bird_r",
+      "name": "index_bird_r",
+      "version": "4.0.33",
+      "animations": [
+        "click",
+        "daiji",
+        "daiji2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/index_bird_r.769a4a87.json",
+        "format": "json",
+        "sizeBytes": 32298
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 699,
+        "key": "@byte:2620525",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "index_bird_r.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/index_bird_r.a494bb22.png",
+          "sizeBytes": 19558
+        }
+      ]
+    },
+    {
+      "id": "index_caoxi",
+      "name": "index_caoxi",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "c"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/index_caoxi.5214f73d.json",
+        "format": "json",
+        "sizeBytes": 18583
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 81,
+        "key": "@byte:2616825",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "index_caoxi.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/index_caoxi.ae4f2d43.png",
+          "sizeBytes": 10852
+        }
+      ]
+    },
+    {
+      "id": "index_tree",
+      "name": "index_tree",
+      "version": "4.0.33",
+      "animations": [
+        "diy",
+        "diy2index",
+        "index",
+        "index2diy"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/index_tree.1ec63a5a.json",
+        "format": "json",
+        "sizeBytes": 32041
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 170,
+        "key": "@byte:2616589",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "index_tree.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/index_tree.7eb4026d.png",
+          "sizeBytes": 246817
+        }
+      ]
+    },
+    {
+      "id": "index_yin",
+      "name": "index_yin",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/index_yin.03476959.json",
+        "format": "json",
+        "sizeBytes": 23189
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 101,
+        "key": "@byte:2620362",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "index_yin.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 2854,
+          "key": "@byte:493373",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "intro_brid",
+      "name": "intro_brid",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/intro_brid.23369f0b.json",
+        "format": "json",
+        "sizeBytes": 2707
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 263,
+        "key": "@byte:2623735",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "intro_brid.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 4206,
+          "key": "@byte:511121",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "intro_shan",
+      "name": "intro_shan",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "d",
+        "l",
+        "r"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/intro_shan.d7b944a8.json",
+        "format": "json",
+        "sizeBytes": 18366
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 477,
+        "key": "@byte:2623175",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "intro_shan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/intro_shan.6b8fa579.png",
+          "sizeBytes": 88199
+        }
+      ]
+    },
+    {
+      "id": "intro_tips_bg",
+      "name": "intro_tips_bg",
+      "version": "4.0.33",
+      "animations": [
+        "01_in",
+        "02_loop",
+        "03_out2bg",
+        "04_bg",
+        "05_close"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/intro_tips_bg.e96c5eea.json",
+        "format": "json",
+        "sizeBytes": 80782
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 839,
+        "key": "@byte:2624126",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "intro_tips_bg.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/intro_tips_bg.48dbd96d.png",
+          "sizeBytes": 248944
+        }
+      ]
+    },
+    {
+      "id": "intro_tips_btn",
+      "name": "intro_tips_btn",
+      "version": "4.0.33",
+      "animations": [
+        "03_out2bg",
+        "04_bg",
+        "04_bg2",
+        "05_close"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/intro_tips_btn.dd101e87.json",
+        "format": "json",
+        "sizeBytes": 40892
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 840,
+        "key": "@byte:2625077",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "intro_tips_btn.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/intro_tips_btn.9d281c57.png",
+          "sizeBytes": 27142
+        }
+      ]
+    },
+    {
+      "id": "loading_bird",
+      "name": "loading_bird",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/loading_bird.a9974cba.json",
+        "format": "json",
+        "sizeBytes": 22266
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1404,
+        "key": "@byte:2621386",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "loading_bird.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/loading_bird.46196be9.png",
+          "sizeBytes": 60615
+        }
+      ]
+    },
+    {
+      "id": "pc_1",
+      "name": "pc_1",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_1.4a392844.json",
+        "format": "json",
+        "sizeBytes": 73293
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1917,
+        "key": "@byte:2640265",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_1.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_1.2fce70cd.png",
+          "sizeBytes": 51220
+        }
+      ]
+    },
+    {
+      "id": "pc_10",
+      "name": "pc_10",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_10.bdcb11f1.json",
+        "format": "json",
+        "sizeBytes": 69810
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1098,
+        "key": "@byte:2642375",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_10.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_10.41f3577a.png",
+          "sizeBytes": 60062
+        }
+      ]
+    },
+    {
+      "id": "pc_11",
+      "name": "pc_11",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_11.24a07adb.json",
+        "format": "json",
+        "sizeBytes": 88538
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3016,
+        "key": "@byte:2643611",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_11.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_11.90ababaa.png",
+          "sizeBytes": 86270
+        }
+      ]
+    },
+    {
+      "id": "pc_12",
+      "name": "pc_12",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_12.e7471585.json",
+        "format": "json",
+        "sizeBytes": 72089
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1356,
+        "key": "@byte:2646853",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_12.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_12.3972b0b1.png",
+          "sizeBytes": 49343
+        }
+      ]
+    },
+    {
+      "id": "pc_13",
+      "name": "pc_13",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_13.3a6a4867.json",
+        "format": "json",
+        "sizeBytes": 95172
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3393,
+        "key": "@byte:2648363",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_13.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_13.80a5b21c.png",
+          "sizeBytes": 138453
+        }
+      ]
+    },
+    {
+      "id": "pc_14",
+      "name": "pc_14",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_14.84ae2365.json",
+        "format": "json",
+        "sizeBytes": 50234
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 964,
+        "key": "@byte:2652011",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_14.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_14.e39af656.png",
+          "sizeBytes": 44042
+        }
+      ]
+    },
+    {
+      "id": "pc_15",
+      "name": "pc_15",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_15.dd0924bb.json",
+        "format": "json",
+        "sizeBytes": 57409
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1080,
+        "key": "@byte:2653099",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_15.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_15.b9330e5c.png",
+          "sizeBytes": 44288
+        }
+      ]
+    },
+    {
+      "id": "pc_16",
+      "name": "pc_16",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_16.34990f8f.json",
+        "format": "json",
+        "sizeBytes": 42769
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 766,
+        "key": "@byte:2654313",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_16.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_16.6504b116.png",
+          "sizeBytes": 41048
+        }
+      ]
+    },
+    {
+      "id": "pc_17",
+      "name": "pc_17",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_17.9c78f44b.json",
+        "format": "json",
+        "sizeBytes": 75798
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1104,
+        "key": "@byte:2655190",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_17.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_17.534785d7.png",
+          "sizeBytes": 53074
+        }
+      ]
+    },
+    {
+      "id": "pc_18",
+      "name": "pc_18",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_18.61902083.json",
+        "format": "json",
+        "sizeBytes": 58019
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1094,
+        "key": "@byte:2656428",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_18.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_18.65f0b420.png",
+          "sizeBytes": 55919
+        }
+      ]
+    },
+    {
+      "id": "pc_2",
+      "name": "pc_2",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_2.acf717c2.json",
+        "format": "json",
+        "sizeBytes": 61308
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1135,
+        "key": "@byte:2657659",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_2.7f5f28b9.png",
+          "sizeBytes": 43837
+        }
+      ]
+    },
+    {
+      "id": "pc_3",
+      "name": "pc_3",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_3.d1a52ce2.json",
+        "format": "json",
+        "sizeBytes": 58038
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 901,
+        "key": "@byte:2658934",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_3.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_3.5c3519b3.png",
+          "sizeBytes": 43672
+        }
+      ]
+    },
+    {
+      "id": "pc_4",
+      "name": "pc_4",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_4.a19d32d3.json",
+        "format": "json",
+        "sizeBytes": 49574
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 960,
+        "key": "@byte:2659956",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_4.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_4.8f4cb8ec.png",
+          "sizeBytes": 44037
+        }
+      ]
+    },
+    {
+      "id": "pc_5",
+      "name": "pc_5",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_5.e4f10403.json",
+        "format": "json",
+        "sizeBytes": 84472
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1157,
+        "key": "@byte:2661039",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_5.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_5.c3137f26.png",
+          "sizeBytes": 66028
+        }
+      ]
+    },
+    {
+      "id": "pc_6",
+      "name": "pc_6",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_6.0471d3e2.json",
+        "format": "json",
+        "sizeBytes": 77356
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1870,
+        "key": "@byte:2662334",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_6.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_6.24d58425.png",
+          "sizeBytes": 52302
+        }
+      ]
+    },
+    {
+      "id": "pc_7",
+      "name": "pc_7",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_7.d345dcfb.json",
+        "format": "json",
+        "sizeBytes": 96947
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2022,
+        "key": "@byte:2664388",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_7.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_7.b3f86689.png",
+          "sizeBytes": 58084
+        }
+      ]
+    },
+    {
+      "id": "pc_8",
+      "name": "pc_8",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_8.c7beb8a9.json",
+        "format": "json",
+        "sizeBytes": 57374
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 826,
+        "key": "@byte:2666601",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_8.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_8.61e78878.png",
+          "sizeBytes": 34487
+        }
+      ]
+    },
+    {
+      "id": "pc_9",
+      "name": "pc_9",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pc_9.a85b4537.json",
+        "format": "json",
+        "sizeBytes": 62642
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1302,
+        "key": "@byte:2667545",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pc_9.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pc_9.97b0d748.png",
+          "sizeBytes": 38677
+        }
+      ]
+    },
+    {
+      "id": "pt_1",
+      "name": "pt_1",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_1.65f75182.json",
+        "format": "json",
+        "sizeBytes": 26848
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 596,
+        "key": "@byte:2668998",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_1.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_1.7281732a.png",
+          "sizeBytes": 58385
+        }
+      ]
+    },
+    {
+      "id": "pt_10",
+      "name": "pt_10",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_10.3be0f620.json",
+        "format": "json",
+        "sizeBytes": 534
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 147,
+        "key": "@byte:2669694",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_10.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_10.e4ebd684.png",
+          "sizeBytes": 56946
+        }
+      ]
+    },
+    {
+      "id": "pt_11",
+      "name": "pt_11",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_11.0ccee28f.json",
+        "format": "json",
+        "sizeBytes": 5090
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 397,
+        "key": "@byte:2669907",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_11.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_11.0f55ae03.png",
+          "sizeBytes": 22227
+        }
+      ]
+    },
+    {
+      "id": "pt_12",
+      "name": "pt_12",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_12.8fb89655.json",
+        "format": "json",
+        "sizeBytes": 536
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 146,
+        "key": "@byte:2670386",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_12.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_12.63ff2553.png",
+          "sizeBytes": 34611
+        }
+      ]
+    },
+    {
+      "id": "pt_13",
+      "name": "pt_13",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_13.6bae7db1.json",
+        "format": "json",
+        "sizeBytes": 531
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 125,
+        "key": "@byte:2670598",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_13.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_13.e305e3a2.png",
+          "sizeBytes": 28700
+        }
+      ]
+    },
+    {
+      "id": "pt_14",
+      "name": "pt_14",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_14.ad1abe96.json",
+        "format": "json",
+        "sizeBytes": 57908
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 974,
+        "key": "@byte:2670788",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_14.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_14.1572f385.png",
+          "sizeBytes": 23359
+        }
+      ]
+    },
+    {
+      "id": "pt_15",
+      "name": "pt_15",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_15.3219a600.json",
+        "format": "json",
+        "sizeBytes": 11166
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 244,
+        "key": "@byte:2671880",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_15.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_15.faae819f.png",
+          "sizeBytes": 11292
+        }
+      ]
+    },
+    {
+      "id": "pt_16",
+      "name": "pt_16",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_16.10d19caa.json",
+        "format": "json",
+        "sizeBytes": 29409
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 509,
+        "key": "@byte:2672197",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_16.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_16.4619759a.png",
+          "sizeBytes": 100487
+        }
+      ]
+    },
+    {
+      "id": "pt_17",
+      "name": "pt_17",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_17.e0b08801.json",
+        "format": "json",
+        "sizeBytes": 31682
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 426,
+        "key": "@byte:2672796",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_17.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_17.a7c3addd.png",
+          "sizeBytes": 50240
+        }
+      ]
+    },
+    {
+      "id": "pt_18",
+      "name": "pt_18",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_18.bb8e8fc3.json",
+        "format": "json",
+        "sizeBytes": 44481
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 744,
+        "key": "@byte:2673310",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_18.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_18.234f10b4.png",
+          "sizeBytes": 52399
+        }
+      ]
+    },
+    {
+      "id": "pt_19",
+      "name": "pt_19",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_19.951af460.json",
+        "format": "json",
+        "sizeBytes": 91593
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1273,
+        "key": "@byte:2674163",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_19.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_19.b86c6af7.png",
+          "sizeBytes": 79449
+        }
+      ]
+    },
+    {
+      "id": "pt_2",
+      "name": "pt_2",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_2.8425a72d.json",
+        "format": "json",
+        "sizeBytes": 58442
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1316,
+        "key": "@byte:2675572",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_2.c9451104.png",
+          "sizeBytes": 84384
+        }
+      ]
+    },
+    {
+      "id": "pt_20",
+      "name": "pt_20",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_20.f607741d.json",
+        "format": "json",
+        "sizeBytes": 171843
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3026,
+        "key": "@byte:2677031",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_20.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_20.999ec9dc.png",
+          "sizeBytes": 42604
+        }
+      ]
+    },
+    {
+      "id": "pt_21",
+      "name": "pt_21",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_21.2211c0d6.json",
+        "format": "json",
+        "sizeBytes": 60045
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 420,
+        "key": "@byte:2680306",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_21.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_21.6cb95d67.png",
+          "sizeBytes": 29349
+        }
+      ]
+    },
+    {
+      "id": "pt_22",
+      "name": "pt_22",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_22.27e215b5.json",
+        "format": "json",
+        "sizeBytes": 90832
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 486,
+        "key": "@byte:2680813",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_22.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_22.c3dc07ee.png",
+          "sizeBytes": 15147
+        }
+      ]
+    },
+    {
+      "id": "pt_23",
+      "name": "pt_23",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_23.275e4d48.json",
+        "format": "json",
+        "sizeBytes": 24893
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 404,
+        "key": "@byte:2681392",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_23.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_23.570d4915.png",
+          "sizeBytes": 10108
+        }
+      ]
+    },
+    {
+      "id": "pt_24",
+      "name": "pt_24",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_24.98dc239c.json",
+        "format": "json",
+        "sizeBytes": 34212
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 749,
+        "key": "@byte:2681882",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_24.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_24.5d745352.png",
+          "sizeBytes": 14126
+        }
+      ]
+    },
+    {
+      "id": "pt_25",
+      "name": "pt_25",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_25.d3bed9c3.json",
+        "format": "json",
+        "sizeBytes": 16757
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 333,
+        "key": "@byte:2682740",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_25.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 3572,
+          "key": "@byte:168392",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_26",
+      "name": "pt_26",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_26.60f8b6d0.json",
+        "format": "json",
+        "sizeBytes": 30137
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 338,
+        "key": "@byte:2683151",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_26.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_26.e5f9b8a2.png",
+          "sizeBytes": 12531
+        }
+      ]
+    },
+    {
+      "id": "pt_27",
+      "name": "pt_27",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_27.e9fc75fd.json",
+        "format": "json",
+        "sizeBytes": 16069
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 291,
+        "key": "@byte:2683569",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_27.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 6481,
+          "key": "@byte:362028",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_28",
+      "name": "pt_28",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_28.d7169eee.json",
+        "format": "json",
+        "sizeBytes": 28387
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 580,
+        "key": "@byte:2683938",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_28.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_28.833e8769.png",
+          "sizeBytes": 20513
+        }
+      ]
+    },
+    {
+      "id": "pt_29",
+      "name": "pt_29",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_29.51171a8d.json",
+        "format": "json",
+        "sizeBytes": 35908
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 747,
+        "key": "@byte:2684617",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_29.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 6785,
+          "key": "@byte:433851",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_3",
+      "name": "pt_3",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_3.bbb0c20e.json",
+        "format": "json",
+        "sizeBytes": 25596
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 209,
+        "key": "@byte:2685476",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_3.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_3.efc2ad68.png",
+          "sizeBytes": 35877
+        }
+      ]
+    },
+    {
+      "id": "pt_30",
+      "name": "pt_30",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_30.428d24af.json",
+        "format": "json",
+        "sizeBytes": 28567
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 366,
+        "key": "@byte:2685756",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_30.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 7218,
+          "key": "@byte:155256",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_31",
+      "name": "pt_31",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_31.0f887443.json",
+        "format": "json",
+        "sizeBytes": 12577
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 272,
+        "key": "@byte:2686204",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_31.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 7002,
+          "key": "@byte:49951",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_32",
+      "name": "pt_32",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_32.33c31d34.json",
+        "format": "json",
+        "sizeBytes": 19992
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1105,
+        "key": "@byte:2686553",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_32.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 3768,
+          "key": "@byte:488165",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_33",
+      "name": "pt_33",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_33.603e0ae7.json",
+        "format": "json",
+        "sizeBytes": 1487
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 207,
+        "key": "@byte:2687802",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_33.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_33.797504fd.png",
+          "sizeBytes": 12764
+        }
+      ]
+    },
+    {
+      "id": "pt_34",
+      "name": "pt_34",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_34.d28f5405.json",
+        "format": "json",
+        "sizeBytes": 1477
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 208,
+        "key": "@byte:2688079",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_34.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_34.245e2186.png",
+          "sizeBytes": 13904
+        }
+      ]
+    },
+    {
+      "id": "pt_35",
+      "name": "pt_35",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_35.e899949f.json",
+        "format": "json",
+        "sizeBytes": 1297
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 198,
+        "key": "@byte:2688357",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_35.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_35.04fe1e36.png",
+          "sizeBytes": 14984
+        }
+      ]
+    },
+    {
+      "id": "pt_36",
+      "name": "pt_36",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_36.869c3b36.json",
+        "format": "json",
+        "sizeBytes": 35883
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 872,
+        "key": "@byte:2688624",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_36.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_36.9d2e0b69.png",
+          "sizeBytes": 34807
+        }
+      ]
+    },
+    {
+      "id": "pt_37",
+      "name": "pt_37",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_37.b2bef951.json",
+        "format": "json",
+        "sizeBytes": 4355
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 280,
+        "key": "@byte:2689613",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_37.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_37.905b6fe4.png",
+          "sizeBytes": 11378
+        }
+      ]
+    },
+    {
+      "id": "pt_38",
+      "name": "pt_38",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_38.3dbc090c.json",
+        "format": "json",
+        "sizeBytes": 21627
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 314,
+        "key": "@byte:2689968",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_38.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_38.f52c79c0.png",
+          "sizeBytes": 13556
+        }
+      ]
+    },
+    {
+      "id": "pt_39",
+      "name": "pt_39",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_39.24a5a478.json",
+        "format": "json",
+        "sizeBytes": 57019
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1682,
+        "key": "@byte:2690361",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_39.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_39.0758f53a.png",
+          "sizeBytes": 40005
+        }
+      ]
+    },
+    {
+      "id": "pt_4",
+      "name": "pt_4",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_4.3dc460ec.json",
+        "format": "json",
+        "sizeBytes": 36870
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 343,
+        "key": "@byte:2692212",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_4.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_4.67efe695.png",
+          "sizeBytes": 127368
+        }
+      ]
+    },
+    {
+      "id": "pt_40",
+      "name": "pt_40",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_40.0a38732c.json",
+        "format": "json",
+        "sizeBytes": 61797
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1081,
+        "key": "@byte:2692634",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_40.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_40.5ffe5220.png",
+          "sizeBytes": 46844
+        }
+      ]
+    },
+    {
+      "id": "pt_41",
+      "name": "pt_41",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_41.f86dc4c9.json",
+        "format": "json",
+        "sizeBytes": 1211
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 96,
+        "key": "@byte:2693838",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_41.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 1611,
+          "key": "@byte:520287",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_42",
+      "name": "pt_42",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_42.674be4a5.json",
+        "format": "json",
+        "sizeBytes": 2017
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 96,
+        "key": "@byte:2693997",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_42.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 1736,
+          "key": "@byte:313",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_43",
+      "name": "pt_43",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_43.32e7b1a3.json",
+        "format": "json",
+        "sizeBytes": 26837
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 272,
+        "key": "@byte:2694156",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_43.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 3324,
+          "key": "@byte:25087",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_44",
+      "name": "pt_44",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_44.d9200732.json",
+        "format": "json",
+        "sizeBytes": 3491
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 162,
+        "key": "@byte:2694505",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_44.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 2585,
+          "key": "@byte:545312",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_45",
+      "name": "pt_45",
+      "version": "4.0.33",
+      "animations": [
+        "animtion"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_45.cfbfec0a.json",
+        "format": "json",
+        "sizeBytes": 1473
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 95,
+        "key": "@byte:2694735",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_45.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 2004,
+          "key": "@byte:165284",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_46",
+      "name": "pt_46",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_46.281e38ec.json",
+        "format": "json",
+        "sizeBytes": 676
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 95,
+        "key": "@byte:2694893",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_46.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/index.03c444e9e0.js",
+          "format": "embedded-image",
+          "sizeBytes": 3009,
+          "key": "@byte:528779",
+          "sourceSha256": "8551049b82460a4972260b7fff2fd3452cc4868cd2a2536c64f4586669661717"
+        }
+      ]
+    },
+    {
+      "id": "pt_47",
+      "name": "pt_47",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_47.556502e4.json",
+        "format": "json",
+        "sizeBytes": 520
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 126,
+        "key": "@byte:2695051",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_47.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_47.bd038fd8.png",
+          "sizeBytes": 20654
+        }
+      ]
+    },
+    {
+      "id": "pt_48",
+      "name": "pt_48",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_48.572cf085.json",
+        "format": "json",
+        "sizeBytes": 5242
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 178,
+        "key": "@byte:2695242",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_48.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_48.95ef545a.png",
+          "sizeBytes": 17361
+        }
+      ]
+    },
+    {
+      "id": "pt_49",
+      "name": "pt_49",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_49.27eb7913.json",
+        "format": "json",
+        "sizeBytes": 64605
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1586,
+        "key": "@byte:2695488",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_49.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_49.f8bede19.png",
+          "sizeBytes": 51832
+        }
+      ]
+    },
+    {
+      "id": "pt_5",
+      "name": "pt_5",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_5.43129f79.json",
+        "format": "json",
+        "sizeBytes": 532
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 155,
+        "key": "@byte:2697240",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_5.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_5.0bcbcfb3.png",
+          "sizeBytes": 71873
+        }
+      ]
+    },
+    {
+      "id": "pt_6",
+      "name": "pt_6",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_6.9797e8b3.json",
+        "format": "json",
+        "sizeBytes": 5635
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 250,
+        "key": "@byte:2697462",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_6.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_6.413bbc2e.png",
+          "sizeBytes": 27692
+        }
+      ]
+    },
+    {
+      "id": "pt_7",
+      "name": "pt_7",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_7.973f3ccf.json",
+        "format": "json",
+        "sizeBytes": 7413
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 296,
+        "key": "@byte:2697786",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_7.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_7.1085255f.png",
+          "sizeBytes": 44108
+        }
+      ]
+    },
+    {
+      "id": "pt_8",
+      "name": "pt_8",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_8.5a36b45e.json",
+        "format": "json",
+        "sizeBytes": 14177
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 982,
+        "key": "@byte:2698158",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_8.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_8.f31c6a52.png",
+          "sizeBytes": 126267
+        }
+      ]
+    },
+    {
+      "id": "pt_9",
+      "name": "pt_9",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/src/resources/images/effect/spine/pt_9.ef69f25d.json",
+        "format": "json",
+        "sizeBytes": 538
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/vendors.cf061306c8.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 144,
+        "key": "@byte:2633157",
+        "sourceSha256": "b383829b07530a8c872c2c2e12c80021dd5409e92d16b47aa6e7629f3c71d116"
+      },
+      "textures": [
+        {
+          "page": "pt_9.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220129-postcard/images/pt_9.9e684695.png",
+          "sizeBytes": 22684
+        }
+      ]
+    }
+  ]
+}

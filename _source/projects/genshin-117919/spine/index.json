@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117919",
+  "items": [
+    {
+      "id": "open_letter",
+      "name": "open_letter",
+      "version": "4.1.17",
+      "animations": [
+        "open",
+        "paimon_solo",
+        "stay"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221220-wish-f9somk/vendors_b5fbe804cdad4efe6c58.js",
+        "format": "embedded-json",
+        "sizeBytes": 10805,
+        "key": "@byte:57846",
+        "sourceSha256": "223968bffb755e9cd86bedab41e075da380521443d486f5eb7c3c9ed980d9077"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20221220-wish-f9somk/vendors_b5fbe804cdad4efe6c58.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 230,
+        "key": "@byte:57564",
+        "sourceSha256": "223968bffb755e9cd86bedab41e075da380521443d486f5eb7c3c9ed980d9077"
+      },
+      "textures": [
+        {
+          "page": "open_letter.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20221220-wish-f9somk/images/open_letter.cf57ce48..png",
+          "sizeBytes": 1179743
+        }
+      ]
+    }
+  ]
+}

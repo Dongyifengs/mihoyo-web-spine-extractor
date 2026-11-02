@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117422",
+  "items": [
+    {
+      "id": "boy_npc",
+      "name": "boy_npc",
+      "version": "4.0.33",
+      "animations": [
+        "1_IN_ScenesA_boy1",
+        "1_IN_ScenesA_boy2",
+        "2_OUT_ScenesA_boy1",
+        "2_OUT_ScenesA_boy2",
+        "3_stand_ScenesA_boy1",
+        "3_stand_ScenesA_boy2",
+        "4_stand_cry_ScenesB",
+        "4_stand_normal_ScenesB",
+        "5_OUT_ScenesB"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-json",
+        "sizeBytes": 102635,
+        "key": "@byte:2182077",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1367,
+        "key": "@byte:2180580",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "textures": [
+        {
+          "page": "boy_npc.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/images/boy_npc.984d39c4.png",
+          "sizeBytes": 175135
+        }
+      ]
+    },
+    {
+      "id": "girl_npc",
+      "name": "girl_npc",
+      "version": "4.0.33",
+      "animations": [
+        "1_IN_ScenesA_girl1",
+        "1_IN_ScenesA_girl2",
+        "2_OUT_ScenesA_girl1",
+        "2_OUT_ScenesA_girl2",
+        "3_STAND_ScenesA_girl1",
+        "3_STAND_ScenesA_girl2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-json",
+        "sizeBytes": 115379,
+        "key": "@byte:2287266",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2340,
+        "key": "@byte:2284743",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "textures": [
+        {
+          "page": "girl_npc.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/images/girl_npc.b984c478.png",
+          "sizeBytes": 277780
+        }
+      ]
+    },
+    {
+      "id": "qianyanjun",
+      "name": "qianyanjun",
+      "version": "4.0.33",
+      "animations": [
+        "1_IN_ScenesA",
+        "2_stand_loop_ScenesA",
+        "3_give_paper_ScenesA",
+        "4_OUT_ScenesA",
+        "5_IN_ScenesB",
+        "6_stand_loop_ScenesB",
+        "7_OUT_ScenesB"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-json",
+        "sizeBytes": 140188,
+        "key": "@byte:2404227",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1389,
+        "key": "@byte:2402706",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "textures": [
+        {
+          "page": "qianyanjun.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/images/qianyanjun.baf75385.png",
+          "sizeBytes": 352825
+        }
+      ]
+    },
+    {
+      "id": "scenesa_langan",
+      "name": "scenesa_langan",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "day",
+        "night"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-json",
+        "sizeBytes": 717,
+        "key": "@byte:2544677",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 175,
+        "key": "@byte:2544456",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "textures": [
+        {
+          "page": "ScenesA_langan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/images/ScenesA_langan.76ad7fae.png",
+          "sizeBytes": 1044834
+        }
+      ]
+    },
+    {
+      "id": "scenesa_zhongjing",
+      "name": "scenesa_zhongjing",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "day",
+        "night"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-json",
+        "sizeBytes": 32893,
+        "key": "@byte:2546189",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 690,
+        "key": "@byte:2545423",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "textures": [
+        {
+          "page": "ScenesA_zhongjing.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/images/ScenesA_zhongjing.a8669c2b.png",
+          "sizeBytes": 454867
+        },
+        {
+          "page": "ScenesA_zhongjing_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/images/ScenesA_zhongjing_2.7a620038.png",
+          "sizeBytes": 201370
+        }
+      ]
+    },
+    {
+      "id": "scenesb",
+      "name": "scenesb",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-json",
+        "sizeBytes": 7340,
+        "key": "@byte:2579335",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 130,
+        "key": "@byte:2579159",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "textures": [
+        {
+          "page": "ScenesB.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/images/ScenesB.852cc4b0.png",
+          "sizeBytes": 116765
+        }
+      ]
+    },
+    {
+      "id": "yelan",
+      "name": "yelan",
+      "version": "4.0.33",
+      "animations": [
+        "1_loop_buhuaihaoyi_ScenesA",
+        "1_loop_fangsong_ScenesA",
+        "1_loop_weixiao_ScenesA",
+        "1_loop_yourenyouyu_ScenesA",
+        "2_get_paper_ScenesA",
+        "3_loop_ScenesB",
+        "4_identify_ScenesB"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-json",
+        "sizeBytes": 214198,
+        "key": "@byte:2590071",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 3133,
+        "key": "@byte:2586706",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "textures": [
+        {
+          "page": "yelan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/images/yelan.c085341b.png",
+          "sizeBytes": 703710
+        }
+      ]
+    },
+    {
+      "id": "yelan_index",
+      "name": "yelan_index",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-json",
+        "sizeBytes": 116568,
+        "key": "@byte:2807430",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/vendors.9a9f25b725.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 2890,
+        "key": "@byte:2804322",
+        "sourceSha256": "9615159b3c0ca58d757bca9bbc8322c2fc12c7c196183a1c8f69681feb5a2088"
+      },
+      "textures": [
+        {
+          "page": "yelan_index.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/images/yelan_index.b6bff285.png",
+          "sizeBytes": 636010
+        },
+        {
+          "page": "yelan_index_2.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220526yelan-q8ne/images/yelan_index_2.1be8aba8.png",
+          "sizeBytes": 138662
+        }
+      ]
+    }
+  ]
+}

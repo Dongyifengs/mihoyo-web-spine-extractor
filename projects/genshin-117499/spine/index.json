@@ -1,0 +1,1954 @@
+{
+  "schemaVersion": 1,
+  "projectId": "genshin-117499",
+  "items": [
+    {
+      "id": "321",
+      "name": "321",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 10875,
+        "key": "@byte:2902164",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 293,
+        "key": "@byte:2901813",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "321.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/321.46c8fa8a..png",
+          "sizeBytes": 240776
+        }
+      ]
+    },
+    {
+      "id": "game_slime_bing",
+      "name": "game_slime_bing",
+      "version": "4.0.33",
+      "animations": [
+        "00daiji",
+        "01畜力",
+        "01畜力loop",
+        "02上升",
+        "03腾空",
+        "04下落",
+        "05完美着地",
+        "05惊恐着地",
+        "05正常着地",
+        "06通关",
+        "07死亡",
+        "07跳空死亡",
+        "jump_all"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 63541,
+        "key": "@byte:2913785",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 638,
+        "key": "@byte:2913068",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "game_slime_bing.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/game_slime_bing.79c0fb06..png",
+          "sizeBytes": 191080
+        }
+      ]
+    },
+    {
+      "id": "game_slime_cao",
+      "name": "game_slime_cao",
+      "version": "4.0.33",
+      "animations": [
+        "00daiji",
+        "01畜力",
+        "01畜力loop",
+        "02上升",
+        "03腾空",
+        "04下落",
+        "05完美着地",
+        "05惊恐着地",
+        "05正常着地",
+        "06通关",
+        "07死亡",
+        "07跳空死亡",
+        "jump_all"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 97938,
+        "key": "@byte:2978428",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 955,
+        "key": "@byte:2977365",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "game_slime_cao.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/game_slime_cao.6b9e0d98..png",
+          "sizeBytes": 423094
+        }
+      ]
+    },
+    {
+      "id": "game_slime_feng",
+      "name": "game_slime_feng",
+      "version": "4.0.33",
+      "animations": [
+        "00daiji",
+        "01畜力",
+        "01畜力loop",
+        "02上升",
+        "03腾空",
+        "04下落",
+        "05完美着地",
+        "05惊恐着地",
+        "05正常着地",
+        "06通关",
+        "07死亡",
+        "07跳空死亡",
+        "jump_all"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 88813,
+        "key": "@byte:3078223",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1670,
+        "key": "@byte:3076427",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "game_slime_feng.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/game_slime_feng.7cb7e2d1..png",
+          "sizeBytes": 1003833
+        }
+      ]
+    },
+    {
+      "id": "game_slime_huo",
+      "name": "game_slime_huo",
+      "version": "4.0.33",
+      "animations": [
+        "00daiji",
+        "01畜力",
+        "01畜力loop",
+        "02上升",
+        "03腾空",
+        "04下落",
+        "05完美着地",
+        "05惊恐着地",
+        "05正常着地",
+        "06通关",
+        "07死亡",
+        "07跳空死亡",
+        "jump_all"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 38534,
+        "key": "@byte:3167676",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 533,
+        "key": "@byte:3167071",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "game_slime_huo.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/game_slime_huo.ab91b306..png",
+          "sizeBytes": 200808
+        }
+      ]
+    },
+    {
+      "id": "game_slime_lei",
+      "name": "game_slime_lei",
+      "version": "4.0.33",
+      "animations": [
+        "00daiji",
+        "01畜力",
+        "01畜力loop",
+        "02上升",
+        "03腾空",
+        "04下落",
+        "05完美着地",
+        "05惊恐着地",
+        "05正常着地",
+        "06通关",
+        "07放电",
+        "07死亡",
+        "07跳空死亡",
+        "jump_all"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 75507,
+        "key": "@byte:3207434",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1076,
+        "key": "@byte:3206251",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "game_slime_lei.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/game_slime_lei.3a51a12c..png",
+          "sizeBytes": 424752
+        }
+      ]
+    },
+    {
+      "id": "game_slime_shui",
+      "name": "game_slime_shui",
+      "version": "4.0.33",
+      "animations": [
+        "00daiji",
+        "01畜力",
+        "01畜力loop",
+        "02上升",
+        "03腾空",
+        "04下落",
+        "05完美着地",
+        "05惊恐着地",
+        "05正常着地",
+        "06通关",
+        "07死亡",
+        "07跳空死亡",
+        "jump_all"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 140047,
+        "key": "@byte:3283828",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 742,
+        "key": "@byte:3283000",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "game_slime_shui.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/game_slime_shui.c3c4cf49..png",
+          "sizeBytes": 180122
+        }
+      ]
+    },
+    {
+      "id": "game_slime_yan",
+      "name": "game_slime_yan",
+      "version": "4.0.33",
+      "animations": [
+        "00daiji",
+        "01畜力",
+        "01畜力loop",
+        "02上升",
+        "03腾空",
+        "04下落",
+        "05完美着地",
+        "05惊恐着地",
+        "05正常着地",
+        "06通关",
+        "07死亡",
+        "07跳空死亡",
+        "jump_all"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 61557,
+        "key": "@byte:3424970",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 954,
+        "key": "@byte:3423918",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "game_slime_yan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/game_slime_yan.686ecc82..png",
+          "sizeBytes": 257877
+        }
+      ]
+    },
+    {
+      "id": "gameover_bg",
+      "name": "gameover_bg",
+      "version": "4.0.33",
+      "animations": [
+        "lose",
+        "win_loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 75738,
+        "key": "@byte:3487499",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 836,
+        "key": "@byte:3486576",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_bg.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_bg.334b79d9..png",
+          "sizeBytes": 423517
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_lose_bing",
+      "name": "gameover_slime_lose_bing",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 104666,
+        "key": "@byte:3564389",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1026,
+        "key": "@byte:3563266",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_lose_bing.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_lose_bing.a49d6e19..png",
+          "sizeBytes": 213465
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_lose_cao",
+      "name": "gameover_slime_lose_cao",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 140359,
+        "key": "@byte:3670604",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1387,
+        "key": "@byte:3669094",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_lose_cao.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_lose_cao.4a0148c1..png",
+          "sizeBytes": 400431
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_lose_feng",
+      "name": "gameover_slime_lose_feng",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 115981,
+        "key": "@byte:3812235",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1105,
+        "key": "@byte:3811026",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_lose_feng.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_lose_feng.7e848c77..png",
+          "sizeBytes": 229993
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_lose_huo",
+      "name": "gameover_slime_lose_huo",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 104689,
+        "key": "@byte:3929417",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1057,
+        "key": "@byte:3928261",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_lose_huo.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_lose_huo.803b81e0..png",
+          "sizeBytes": 208643
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_lose_lei",
+      "name": "gameover_slime_lose_lei",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 110689,
+        "key": "@byte:4035269",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1025,
+        "key": "@byte:4034147",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_lose_lei.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_lose_lei.02219280..png",
+          "sizeBytes": 237660
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_lose_shui",
+      "name": "gameover_slime_lose_shui",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 103884,
+        "key": "@byte:4147164",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1057,
+        "key": "@byte:4146009",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_lose_shui.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_lose_shui.0900d9f1..png",
+          "sizeBytes": 209513
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_lose_yan",
+      "name": "gameover_slime_lose_yan",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 115825,
+        "key": "@byte:4252551",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1341,
+        "key": "@byte:4251091",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_lose_yan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_lose_yan.3fb115ae..png",
+          "sizeBytes": 281270
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_win_bing",
+      "name": "gameover_slime_win_bing",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 18384,
+        "key": "@byte:4368850",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 372,
+        "key": "@byte:4368417",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_win_bing.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_win_bing.6d4bf3e0..png",
+          "sizeBytes": 131724
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_win_cao",
+      "name": "gameover_slime_win_cao",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 44964,
+        "key": "@byte:4388037",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 687,
+        "key": "@byte:4387269",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_win_cao.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_win_cao.7bb7a69b..png",
+          "sizeBytes": 357640
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_win_feng",
+      "name": "gameover_slime_win_feng",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 27703,
+        "key": "@byte:4433553",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 449,
+        "key": "@byte:4433038",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_win_feng.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_win_feng.768757de..png",
+          "sizeBytes": 172242
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_win_huo",
+      "name": "gameover_slime_win_huo",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 15115,
+        "key": "@byte:4461720",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 371,
+        "key": "@byte:4461289",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_win_huo.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_win_huo.cac3650a..png",
+          "sizeBytes": 142757
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_win_lei",
+      "name": "gameover_slime_win_lei",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 22763,
+        "key": "@byte:4477824",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 869,
+        "key": "@byte:4476868",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_win_lei.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_win_lei.be403559..png",
+          "sizeBytes": 445311
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_win_shui",
+      "name": "gameover_slime_win_shui",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 16690,
+        "key": "@byte:4500999",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 312,
+        "key": "@byte:4500630",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_win_shui.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_win_shui.4b05b143..png",
+          "sizeBytes": 119394
+        }
+      ]
+    },
+    {
+      "id": "gameover_slime_win_yan",
+      "name": "gameover_slime_win_yan",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 18745,
+        "key": "@byte:4518331",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 530,
+        "key": "@byte:4517728",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gameover_slime_win_yan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gameover_slime_win_yan.66687447..png",
+          "sizeBytes": 195269
+        }
+      ]
+    },
+    {
+      "id": "intro_bg_deng_a",
+      "name": "intro_bg_deng_a",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 1346,
+        "key": "@byte:4537357",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 202,
+        "key": "@byte:4537105",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_bg_deng_a.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_bg_deng_a.b6b59e75..png",
+          "sizeBytes": 119387
+        }
+      ]
+    },
+    {
+      "id": "intro_bg_deng_c",
+      "name": "intro_bg_deng_c",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 1546,
+        "key": "@byte:4539011",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 228,
+        "key": "@byte:4538732",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_bg_deng_c.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_bg_deng_c.ec530cf7..png",
+          "sizeBytes": 310056
+        }
+      ]
+    },
+    {
+      "id": "intro_bg_deng_d",
+      "name": "intro_bg_deng_d",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 1445,
+        "key": "@byte:4540835",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 199,
+        "key": "@byte:4540586",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_bg_deng_d.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_bg_deng_d.0adf4d27..png",
+          "sizeBytes": 65180
+        }
+      ]
+    },
+    {
+      "id": "intro_bg_st_a",
+      "name": "intro_bg_st_a",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 12788,
+        "key": "@byte:4542607",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 245,
+        "key": "@byte:4542309",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_bg_st_a.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_bg_st_a.5c2901c7..png",
+          "sizeBytes": 804760
+        }
+      ]
+    },
+    {
+      "id": "intro_bg_st_b",
+      "name": "intro_bg_st_b",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 22494,
+        "key": "@byte:4555706",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 221,
+        "key": "@byte:4555434",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_bg_st_b.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_bg_st_b.bf9306ec..png",
+          "sizeBytes": 374330
+        }
+      ]
+    },
+    {
+      "id": "intro_faguan",
+      "name": "intro_faguan",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 1739,
+        "key": "@byte:4578538",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 234,
+        "key": "@byte:4578251",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_faguan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_faguan.1f127a6a..png",
+          "sizeBytes": 114095
+        }
+      ]
+    },
+    {
+      "id": "intro_shitou_a",
+      "name": "intro_shitou_a",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 12414,
+        "key": "@byte:4580883",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 507,
+        "key": "@byte:4580306",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_shitou_a.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_shitou_a.11ecddb0..png",
+          "sizeBytes": 162834
+        }
+      ]
+    },
+    {
+      "id": "intro_slime_bing",
+      "name": "intro_slime_bing",
+      "version": "4.0.33",
+      "animations": [
+        "click",
+        "daiji_a",
+        "daiji_b",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 94101,
+        "key": "@byte:4594240",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 822,
+        "key": "@byte:4593326",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_slime_bing.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_slime_bing.f12f8386..png",
+          "sizeBytes": 203601
+        }
+      ]
+    },
+    {
+      "id": "intro_slime_cao",
+      "name": "intro_slime_cao",
+      "version": "4.0.33",
+      "animations": [
+        "click",
+        "daiji_a",
+        "daiji_b",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 73749,
+        "key": "@byte:4689355",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 877,
+        "key": "@byte:4688378",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_slime_cao.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_slime_cao.6328a965..png",
+          "sizeBytes": 203907
+        }
+      ]
+    },
+    {
+      "id": "intro_slime_feng",
+      "name": "intro_slime_feng",
+      "version": "4.0.33",
+      "animations": [
+        "click",
+        "daiji_a",
+        "daiji_b",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 59112,
+        "key": "@byte:4764693",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1442,
+        "key": "@byte:4763137",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_slime_feng.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_slime_feng.30a259d4..png",
+          "sizeBytes": 997253
+        }
+      ]
+    },
+    {
+      "id": "intro_slime_huo",
+      "name": "intro_slime_huo",
+      "version": "4.0.33",
+      "animations": [
+        "click",
+        "daiji_a",
+        "daiji_b",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 58640,
+        "key": "@byte:4824692",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 763,
+        "key": "@byte:4823842",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_slime_huo.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_slime_huo.7264f155..png",
+          "sizeBytes": 278070
+        }
+      ]
+    },
+    {
+      "id": "intro_slime_lei",
+      "name": "intro_slime_lei",
+      "version": "4.0.33",
+      "animations": [
+        "click",
+        "daiji_a",
+        "daiji_b",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 56973,
+        "key": "@byte:4884405",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 905,
+        "key": "@byte:4883401",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_slime_lei.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_slime_lei.9255d9c9..png",
+          "sizeBytes": 394774
+        }
+      ]
+    },
+    {
+      "id": "intro_slime_shui",
+      "name": "intro_slime_shui",
+      "version": "4.0.33",
+      "animations": [
+        "click",
+        "daiji_a",
+        "daiji_b",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 92143,
+        "key": "@byte:4942033",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 520,
+        "key": "@byte:4941441",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_slime_shui.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_slime_shui.ed8c9d65..png",
+          "sizeBytes": 150582
+        }
+      ]
+    },
+    {
+      "id": "intro_slime_yan",
+      "name": "intro_slime_yan",
+      "version": "4.0.33",
+      "animations": [
+        "click",
+        "daiji_a",
+        "daiji_b",
+        "in"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 49931,
+        "key": "@byte:5035186",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 884,
+        "key": "@byte:5034205",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_slime_yan.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_slime_yan.c068b644..png",
+          "sizeBytes": 246780
+        }
+      ]
+    },
+    {
+      "id": "loading_slg_cn",
+      "name": "loading_slg_cn",
+      "version": "4.0.33",
+      "animations": [
+        "in",
+        "loop"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 11422,
+        "key": "@byte:5085566",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 341,
+        "key": "@byte:5085168",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "loading_slg_cn.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/loading_slg_cn.2a56ace3..png",
+          "sizeBytes": 314437
+        }
+      ]
+    },
+    {
+      "id": "tips_jt",
+      "name": "tips_jt",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default",
+        "a",
+        "b"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 12200,
+        "key": "@byte:5097277",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 208,
+        "key": "@byte:5097017",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "tips_jt.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/index_e419b2294575f173ec57.js",
+          "format": "embedded-image",
+          "sizeBytes": 8466,
+          "key": "@byte:526126",
+          "sourceSha256": "2189b1745cf7c11e6acfddf6ee8789b7c6cb0cdd1ce750aee0899eeb92e00cea"
+        }
+      ]
+    },
+    {
+      "id": "intro_bg_st",
+      "name": "intro_bg_st",
+      "version": "4.0.33",
+      "animations": [
+        "a1",
+        "a2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 7397,
+        "key": "@byte:5109809",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 246,
+        "key": "@byte:5109510",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "intro_bg_st.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/intro_bg_st.d43514ad..png",
+          "sizeBytes": 240612
+        }
+      ]
+    },
+    {
+      "id": "mouse",
+      "name": "mouse",
+      "version": "4.0.33",
+      "animations": [
+        "pc",
+        "pc2",
+        "phone",
+        "phone2"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 21914,
+        "key": "@byte:5117773",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 471,
+        "key": "@byte:5117235",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "mouse.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/mouse.483f8da6..png",
+          "sizeBytes": 57716
+        }
+      ]
+    },
+    {
+      "id": "eff_shui_xue",
+      "name": "eff_shui_xue",
+      "version": "4.0.33",
+      "animations": [
+        "a_shui",
+        "a_xue",
+        "b_shui",
+        "b_xue",
+        "c_shui",
+        "c_xue"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 48557,
+        "key": "@byte:5140637",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 826,
+        "key": "@byte:5139716",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "eff_shui_xue.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/eff_shui_xue.a5c67434..png",
+          "sizeBytes": 898651
+        }
+      ]
+    },
+    {
+      "id": "gk7_heiyuni_da",
+      "name": "gk7_heiyuni_da",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 26855,
+        "key": "@byte:5189625",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 342,
+        "key": "@byte:5189223",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gk7_heiyuni_da.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gk7_heiyuni_da.d9e5a829..png",
+          "sizeBytes": 205437
+        }
+      ]
+    },
+    {
+      "id": "gk7_heiyuni_xiao",
+      "name": "gk7_heiyuni_xiao",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 34135,
+        "key": "@byte:5217037",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 448,
+        "key": "@byte:5216519",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gk7_heiyuni_xiao.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gk7_heiyuni_xiao.326acbcd..png",
+          "sizeBytes": 158002
+        }
+      ]
+    },
+    {
+      "id": "eff_jj",
+      "name": "eff_jj",
+      "version": "4.0.33",
+      "animations": [
+        "fire",
+        "jj"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 165538,
+        "key": "@byte:5251965",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 662,
+        "key": "@byte:5251217",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "eff_jj.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/eff_jj.830fd859..png",
+          "sizeBytes": 136636
+        }
+      ]
+    },
+    {
+      "id": "game_di_cao",
+      "name": "game_di_cao",
+      "version": "4.0.33",
+      "animations": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 57992,
+        "key": "@byte:5418156",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 507,
+        "key": "@byte:5417580",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "game_di_cao.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/game_di_cao.72e4f470..png",
+          "sizeBytes": 207742
+        }
+      ]
+    },
+    {
+      "id": "gk4_jiguancong",
+      "name": "gk4_jiguancong",
+      "version": "4.0.33",
+      "animations": [
+        "animation",
+        "animation2",
+        "animation3"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 38401,
+        "key": "@byte:5477072",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 747,
+        "key": "@byte:5476237",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gk4_jiguancong.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gk4_jiguancong.d2b6a96d..png",
+          "sizeBytes": 119796
+        }
+      ]
+    },
+    {
+      "id": "gk5_shuitanshou",
+      "name": "gk5_shuitanshou",
+      "version": "4.0.33",
+      "animations": [
+        "animation",
+        "animation2",
+        "animation3"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 26402,
+        "key": "@byte:5515969",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 391,
+        "key": "@byte:5515512",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gk5_shuitanshou.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gk5_shuitanshou.4e5515fc..png",
+          "sizeBytes": 44750
+        }
+      ]
+    },
+    {
+      "id": "gk4_ptmogu",
+      "name": "gk4_ptmogu",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": false,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 4683,
+        "key": "@byte:5543309",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 782,
+        "key": "@byte:5542436",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gk4_ptmogu.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gk4_ptmogu.14d01fd5..png",
+          "sizeBytes": 164187
+        }
+      ]
+    },
+    {
+      "id": "gk5_fanguazhiwu",
+      "name": "gk5_fanguazhiwu",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 26444,
+        "key": "@byte:5548609",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 514,
+        "key": "@byte:5548021",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gk5_fanguazhiwu.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gk5_fanguazhiwu.3167e0c4..png",
+          "sizeBytes": 116324
+        }
+      ]
+    },
+    {
+      "id": "gk8_yinguanshanhu",
+      "name": "gk8_yinguanshanhu",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 19900,
+        "key": "@byte:5576335",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 1130,
+        "key": "@byte:5575090",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gk8_yinguanshanhu.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gk8_yinguanshanhu.ea05b49e..png",
+          "sizeBytes": 161253
+        }
+      ]
+    },
+    {
+      "id": "gk2_liumingdeng",
+      "name": "gk2_liumingdeng",
+      "version": "4.0.33",
+      "animations": [
+        "animation"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 30217,
+        "key": "@byte:5596772",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 431,
+        "key": "@byte:5596274",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gk2_liumingdeng.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gk2_liumingdeng.c081690b..png",
+          "sizeBytes": 104535
+        }
+      ]
+    },
+    {
+      "id": "gk6_yanjindie",
+      "name": "gk6_yanjindie",
+      "version": "4.0.33",
+      "animations": [
+        "animation",
+        "animation2",
+        "animation3"
+      ],
+      "skins": [
+        "default"
+      ],
+      "hasExtra": true,
+      "premultipliedAlpha": false,
+      "skeleton": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-json",
+        "sizeBytes": 43502,
+        "key": "@byte:5627609",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "atlas": {
+        "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/vendors_735328799526457018d1.js",
+        "format": "embedded-atlas",
+        "sizeBytes": 510,
+        "key": "@byte:5627026",
+        "sourceSha256": "69b771fff5a1923ca8d37a3fdc658745a59c8ac82d10b1630d1b6e0321e5557b"
+      },
+      "textures": [
+        {
+          "page": "gk6_yanjindie.png",
+          "url": "https://webstatic.mihoyo.com/ys/event/e20220517-jump-eola/images/gk6_yanjindie.d5869903..png",
+          "sizeBytes": 23585
+        }
+      ]
+    }
+  ]
+}

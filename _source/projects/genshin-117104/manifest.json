@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-117104",
+  "title": "「开幕！荒泷派剧场！」",
+  "subtitle": "「开幕！荒泷派剧场！」——《原神》新角色：荒泷一斗分享H5正式上线",
+  "game": "原神",
+  "kind": "网页活动",
+  "eventDate": "2021-12-09",
+  "indexedAt": "2026-11-02",
+  "sourceUrl": "https://webstatic.mihoyo.com/ys/event/e20211208itto/index.html",
+  "cover": {
+    "url": "https://uploadstatic.mihoyo.com/contentweb/20211209/2021120911464668336.jpg",
+    "alt": "「开幕！荒泷派剧场！」",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117104",
+    "kind": "official-news-cover",
+    "sizeBytes": 348191
+  },
+  "spineIndex": "spine/index.json",
+  "spineCount": 24,
+  "textureCount": 25,
+  "tags": [
+    "原神",
+    "网页活动"
+  ],
+  "sizeMeasuredOn": "2026-11-02",
+  "officialArticle": {
+    "url": "https://ys.mihoyo.com/main/news/detail/117104",
+    "title": "「开幕！荒泷派剧场！」——《原神》新角色：荒泷一斗分享H5正式上线",
+    "publishedAt": "2021-12-09T04:00:00.000Z",
+    "source": "https://news-api.amarea.cn/news/detail/genshin.web_cn-117104"
+  },
+  "articleText": "“快快，老大最近要办一件大事，我们也得去帮忙，可不能拖了老大后腿！”\n「开幕！荒泷派剧场！」——《原神》新角色：荒泷一斗分享H5正式上线。\n点击\n>>网页链接<<\n或扫描图中二维码立即参与。\n〓活动时间〓\n2021/12/9 12:00 至 2021/12/13 23:59\n〓参与条件〓\n冒险等阶≥10级\n〓活动简介〓\n活动期间，完成活动内指定任务，帮助荒泷一斗完成剧场筹备，即可领取游戏内道具奖励。\n〓游戏奖励〓\n1、旅行者帮助荒泷一斗完成剧场筹备并分享画片，即可领取原石、荒泷一斗角色突破材料等游戏奖励。活动期间，共可获得3次游戏内道具奖励；\n2、邀请2位好友组成观看剧场的队伍可获得额外游戏内道具奖励。\n关于《原神》\n《原神》是由米哈游自研的一款全新开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。\n在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。《原神》现已登录PS平台、iOS、Android、PC平台，并支持移动端与PC端数据互通，旅行者可自由选择平台和设备开启冒险。",
+  "importAudit": {
+    "files": 12,
+    "skeletons": 24,
+    "atlases": 24
+  },
+  "activityPeriod": "官方文章未标明",
+  "eligibility": "冒险等阶≥10级",
+  "activitySummary": "“快快，老大最近要办一件大事，我们也得去帮忙，可不能拖了老大后腿！”\n「开幕！荒泷派剧场！」——《原神》新角色：荒泷一斗分享H5正式上线。\n点击\n>>网页链接<<\n或扫描图中二维码立即参与。\n〓活动时间〓"
+}
