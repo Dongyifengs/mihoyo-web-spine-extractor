@@ -36,7 +36,7 @@ export class Gallery {
     const activity = this.activity, heading = node('div', 'activity-heading');
     const text = node('div'); text.append(node('h2', '', activity.title), node('p', 'muted', `${activity.groups.length} 组素材 · 官方在线资源 · ${activity.eventDate}`));
     const actions = node('div', 'activity-actions');
-    for (const [label, url] of [['项目 manifest ↗', activity.manifestUrl], ['活动网页 ↗', activity.sourceUrl]]) {
+    for (const [label, url] of [['活动网页 ↗', activity.sourceUrl]]) {
       const link = node('a', 'button', label); link.href = url; link.target = '_blank'; link.rel = 'noopener'; actions.append(link);
     }
     heading.append(text, actions);
@@ -219,20 +219,17 @@ export class Gallery {
     };
     side.append(extra);
     const warning = node('div', 'detail-warning'); warning.hidden = true; side.append(warning);
-    const files = node('details', 'detail-files'); files.open = true; files.append(node('summary', '', '在线资源'));
+    const files = node('details', 'detail-files'); files.append(node('summary', '', '在线资源'));
     const item = group.sourceItem;
-    for (const [type, ref] of [[item.skeleton.format === 'skel' ? 'SKEL' : 'JSON', item.skeleton], ['ATLAS', item.atlas], ...item.textures.map(t => ['PNG', t])]) {
-      const row = node('div', 'resource-row');
-      const link = node('a', '', type + ' · ' + new URL(ref.url).pathname.split('/').pop() + ' ↗');
-      link.href = ref.url; link.target = '_blank'; link.rel = 'noopener noreferrer'; row.append(link);
-      if (ref.key) row.append(node('code', 'source-key', '内嵌定位：' + ref.key));
-      row.append(button('复制链接', async () => {
-        try { await navigator.clipboard.writeText(ref.url + (ref.key ? '\n' + ref.key : '')); toast('已复制官方链接与资源定位'); }
-        catch { toast('复制失败，可右键复制资源链接'); }
-      }, 'small'));
-      files.append(row);
+    for (const [type, ref] of [[item.skeleton.format === 'skel' ? 'SKEL' : 'JSON', item.skeleton], ['atlas', item.atlas], ...item.textures.map(t => ['PNG · ' + t.page, t])]) {
+      const embedded = !!ref.key;
+      const copy = button('复制 ' + type, async () => {
+        try { await navigator.clipboard.writeText(ref.url + (embedded ? '\n' + ref.key : '')); toast(embedded ? '已复制官方脚本地址及资源定位键' : '已复制官方资源地址'); }
+        catch { toast('复制失败，请检查浏览器剪贴板权限'); }
+      });
+      if (embedded) copy.title = '资源内嵌在官方脚本中，复制脚本地址及定位键';
+      files.append(copy);
     }
-    files.append(node('p', 'field-note', '内嵌资源链接指向官方脚本，只解析数据，不执行活动代码。'));
     side.append(files);
     body.append(viewer, side); dialog.append(top, body); document.body.append(dialog);
     dialog.addEventListener('close', () => { if (this.dialog === dialog) { this.closeDetail(); dialog.remove(); this.dialog = null; } });

@@ -39,6 +39,17 @@ export function validateItems(items) {
   }
 }
 
+export function validateComposition(composition, items) {
+  assert.ok(Number.isFinite(composition.width) && composition.width > 0);
+  assert.ok(Number.isFinite(composition.height) && composition.height > 0);
+  assert.ok(composition.scenes.length, '场景数据不能为空');
+  const groupIds = new Set(items.map((item) => item.id));
+  for (const scene of composition.scenes) for (const layer of scene.layers) {
+    assert.ok(layer.kind === 'spine' && groupIds.has(layer.spine_id), '场景图层必须匹配已收录的 Spine');
+    assert.ok(Array.isArray(layer.matrix) && layer.matrix.length === 16 && layer.matrix.every(Number.isFinite), '场景矩阵无效');
+  }
+}
+
 export async function validateCatalog() {
   const catalog = await json('catalog.json');
   assert.equal(catalog.schemaVersion, 1);
@@ -60,6 +71,10 @@ export async function validateCatalog() {
     validateItems(index.items);
     assert.equal(manifest.spineCount, index.items.length);
     assert.equal(manifest.textureCount, index.items.reduce((n, item) => n + item.textures.length, 0));
+    if (manifest.composition) {
+      assert.equal(manifest.composition, 'composition.json');
+      validateComposition(await json(`projects/${ref.id}/${manifest.composition}`), index.items);
+    }
     const html = await readFile(resolve(root, `projects/${ref.id}/index.html`), 'utf8');
     assert.ok(html.includes(`data-project="${ref.id}"`));
     assert.ok(html.includes('data-root="../../"'));

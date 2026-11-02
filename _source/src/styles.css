@@ -252,6 +252,7 @@ summary { cursor: pointer; font-size: 12px; font-weight: 500; padding: 3px 0; }
 .resource-row a { overflow-wrap:anywhere; }
 .source-key { display:block; overflow-wrap:anywhere; font-size:10px; color:#667481; padding:5px 0; }
 .resource-row button { margin-top:4px; }
+.detail-files button { margin:8px 6px 0 0; }
 .about-panel { max-width:960px; }
 .about-panel h3 { margin:24px 0 8px; }
 .about-panel p, .about-panel li { line-height:1.85; color:#53616d; }

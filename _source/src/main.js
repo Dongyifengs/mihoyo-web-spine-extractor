@@ -55,7 +55,7 @@ function renderLibrary(onlyFavorites = false) {
       && `${p.title} ${p.game} ${p.tags.join(' ')}`.toLowerCase().includes(query))
       .sort((a, b) => sort === 'name' ? a.title.localeCompare(b.title, 'zh-CN') : (sort === 'new' ? -1 : 1) * a.eventDate.localeCompare(b.eventDate));
     document.querySelector('.library-results').textContent = `${visible.length} 个活动`;
-    document.querySelector('#library-grid').innerHTML = visible.length ? visible.map((p) => `<article class="activity-tile"><a class="activity-cover" href="${projectUrl(p.id)}" tabindex="-1" aria-hidden="true">${cover(p)}</a><a class="activity-info" href="${projectUrl(p.id)}"><h2>${escape(p.title)}</h2><p class="activity-description">${escape(p.subtitle)}</p><div class="tile-stat"><span><strong>${p.spineCount}</strong>组素材</span><span><strong>${p.textureCount}</strong>张贴图</span><span>${escape(p.game)}</span></div><span class="muted">活动日期 ${p.eventDate}</span></a><div class="tile-footer"><a href="${escape(p.manifestUrl)}" target="_blank" rel="noopener">manifest ↗</a><button data-favorite="${escape(p.id)}" aria-label="${favorites.has(p.id) ? '取消收藏' : '收藏'}${escape(p.title)}" aria-pressed="${favorites.has(p.id)}">${favorites.has(p.id) ? '♥ 已收藏' : '♡ 收藏'}</button></div></article>`).join('')
+    document.querySelector('#library-grid').innerHTML = visible.length ? visible.map((p) => `<article class="activity-tile"><a class="activity-cover" href="${projectUrl(p.id)}" tabindex="-1" aria-hidden="true">${cover(p)}</a><a class="activity-info" href="${projectUrl(p.id)}"><h2>${escape(p.title)}</h2><p class="activity-description">${escape(p.subtitle)}</p><div class="tile-stat"><span><strong>${p.spineCount}</strong>组素材</span><span><strong>${p.textureCount}</strong>张贴图</span><span>${escape(p.game)}</span></div><span class="muted">活动日期 ${p.eventDate}</span></a><div class="tile-footer"><span>${escape(p.kind)}</span><button data-favorite="${escape(p.id)}" aria-label="${favorites.has(p.id) ? '取消收藏' : '收藏'}${escape(p.title)}" aria-pressed="${favorites.has(p.id)}">${favorites.has(p.id) ? '♥ 已收藏' : '♡ 收藏'}</button></div></article>`).join('')
       : `<div class="empty-state"><h2>${onlyFavorites && !favorites.size ? '还没有收藏活动' : '没有匹配的活动'}</h2><p>${onlyFavorites && !favorites.size ? '在素材库点击收藏，将活动添加到这里。' : '尝试其他关键词，或清空筛选条件。'}</p><a class="button" href="${root.href}">查看全部活动</a></div>`;
     document.querySelectorAll('[data-favorite]').forEach((button) => button.onclick = () => { toggleFavorite(button.dataset.favorite); update(); });
     bindImages();
@@ -71,9 +71,7 @@ async function renderProject(project) {
   document.title = `${project.title} · Spine 素材工作台`;
   const indexUrl = new URL(project.spineIndex, project.manifestUrl).href;
   const index = await getJson(indexUrl);
-  app.innerHTML = shell(project.title, `<div class="project-navigation"><a href="${root.href}">← 返回素材库</a><div class="project-tabs" aria-label="项目内容"><button data-tab="spine" class="active" aria-pressed="true">Spine 资源</button><button data-tab="manifest" aria-pressed="false">项目信息</button></div></div><section id="activity-gallery" aria-label="活动动画素材"><p class="muted" role="status">正在加载播放器…</p></section><section id="project-information" class="panel" hidden><h2>项目基本信息</h2><p class="settings-description">${escape(project.description)}</p><dl class="project-meta"><dt>原网页</dt><dd><a href="${escape(remoteUrl(project.sourceUrl))}" target="_blank" rel="noopener noreferrer">${escape(project.sourceUrl)} ↗</a></dd><dt>封面</dt><dd><a href="${escape(remoteUrl(project.cover.url))}" target="_blank" rel="noopener noreferrer">查看官方封面 ↗</a> · <a href="${escape(new URL('cover.json', project.manifestUrl).href)}" target="_blank" rel="noopener">cover.json ↗</a></dd><dt>资源索引</dt><dd><a href="${escape(indexUrl)}" target="_blank" rel="noopener">spine/index.json ↗</a></dd><dt>收录日期</dt><dd>${project.indexedAt}</dd></dl><div class="section-heading"><h3>Manifest</h3><a class="button small" href="${escape(project.manifestUrl)}" target="_blank" rel="noopener">查看原始 JSON ↗</a></div><pre class="manifest-code" tabindex="0" aria-label="项目 manifest"></pre></section>`, '');
-  const raw = { ...project }; delete raw.manifestUrl;
-  document.querySelector('.manifest-code').textContent = JSON.stringify(raw, null, 2);
+  app.innerHTML = shell(project.title, `<div class="project-navigation"><a href="${root.href}">← 返回素材库</a><div class="project-tabs" aria-label="项目内容"><button data-tab="spine" class="active" aria-pressed="true">Spine 资源</button><button data-tab="composition" aria-pressed="false">测试合并</button><button data-tab="manifest" aria-pressed="false">项目信息</button></div></div><section id="activity-gallery" aria-label="活动动画素材"><p class="muted" role="status">正在加载播放器…</p></section><section id="composition-view" hidden aria-label="测试合并"></section><section id="project-information" class="panel" hidden><h2>项目基本信息</h2><p class="settings-description">${escape(project.description)}</p><dl class="project-meta"><dt>原网页</dt><dd><a href="${escape(remoteUrl(project.sourceUrl))}" target="_blank" rel="noopener noreferrer">${escape(project.sourceUrl)} ↗</a></dd><dt>封面</dt><dd><a href="${escape(remoteUrl(project.cover.url))}" target="_blank" rel="noopener noreferrer">查看官方封面 ↗</a></dd><dt>收录日期</dt><dd>${project.indexedAt}</dd></dl></section>`, '');
   const { Gallery } = await import('./gallery.js');
   const groups = index.items.map((item) => ({
     ...item,
@@ -85,21 +83,44 @@ async function renderProject(project) {
     sourceItems: index.items,
   }));
   gallery = new Gallery(document.querySelector('#activity-gallery'), { ...project, groups, complete_count: groups.length });
-  document.querySelectorAll('[data-tab]').forEach((button) => button.onclick = () => {
+  let composition;
+  let navigation = 0;
+  document.querySelectorAll('[data-tab]').forEach((button) => button.onclick = async () => {
+    const current = ++navigation;
     const spine = button.dataset.tab === 'spine';
+    const combined = button.dataset.tab === 'composition';
     document.querySelector('#activity-gallery').hidden = !spine;
-    document.querySelector('#project-information').hidden = spine;
+    document.querySelector('#project-information').hidden = button.dataset.tab !== 'manifest';
+    const host = document.querySelector('#composition-view');
+    host.hidden = !combined;
+    composition?.destroy(); composition = null;
     gallery.hub.setSuspended(!spine || document.hidden);
     gallery.informationVisible = !spine;
     document.querySelectorAll('[data-tab]').forEach((tab) => { tab.classList.toggle('active', tab === button); tab.setAttribute('aria-pressed', tab === button); });
+    if (combined) {
+      host.innerHTML = '<p class="muted" role="status">正在读取场景布局…</p>';
+      try {
+        const [{ Composition }, data] = await Promise.all([
+          import('./composition.js'),
+          project.composition ? getJson(new URL(project.composition, project.manifestUrl).href) : Promise.resolve({ scenes: [] }),
+        ]);
+        if (current !== navigation) return;
+        for (const scene of data.scenes) for (const layer of scene.layers) {
+          layer.group = groups.findIndex((group) => group.id === layer.spine_id);
+        }
+        composition = new Composition(host, { ...project, groups }, data);
+      } catch (error) {
+        if (current === navigation) host.innerHTML = `<div class="empty-state">场景布局读取失败：${escape(error.message)}</div>`;
+      }
+    }
   });
-  window.addEventListener('pagehide', () => gallery.destroy(), { once: true });
+  window.addEventListener('pagehide', () => { navigation++; composition?.destroy(); gallery.destroy(); }, { once: true });
   window.addEventListener('pageshow', (event) => { if (event.persisted) location.reload(); });
 }
 
 function renderAbout() {
   document.title = '收录说明 · Spine 素材工作台';
-  app.innerHTML = shell('收录说明', `<section class="panel about-panel"><h2>静态版 Spine 素材库</h2><p>延续 main-o 的工作台布局，浏览已手动解析的网页活动。网站无需后端，可以部署在 GitHub Pages。</p><h3>每个活动都有什么？</h3><ul><li>项目总览 <code>index.html</code>：查看动画与项目信息。</li><li>封面索引 <code>cover.json</code> 和项目清单 <code>manifest.json</code>。</li><li><code>spine/index.json</code>：骨骼、atlas、纹理图集的在线来源，以及版本、动作和皮肤。</li></ul><h3>资源如何加载？</h3><p>JSON / SKEL、atlas 和 PNG 均使用官方 HTTPS 来源。部分资源被打包在官方 JavaScript 中，索引记录脚本 URL 与定位键；浏览器只解析数据，不执行官方活动脚本。仓库不保存活动骨骼、图集、贴图或 base64 内容。</p><h3>Demo 包含哪些功能？</h3><p>素材库搜索、筛选、收藏；动画卡片全部预览、动作与皮肤切换、播放暂停、循环；详情拖拽缩放、全屏、背景、骨骼调试、extra 飘动和帧率调试。单动作直接显示名称，2–4 个动作使用按钮，更多动作用下拉框。</p><p>当前三个样例均为 Spine 4.2，其他版本可记录链接，但此 demo 暂不播放。未移植自动提取、拆图、Spine 工程导出和原网页场景合成。</p><h3>资源失效怎么办？</h3><p>源站更改 URL 或限制跨域访问时，预览会显示失败信息。可打开右侧官方链接核对，再手动更新索引。静态网站不提供绕过跨域限制的代理。</p><h3>许可与来源</h3><p>素材版权归原作者所有，本项目为非官方浏览工具。Spine 运行时与 extra 参考代码保留各自许可和版权说明。<a href="${url('SPINE-RUNTIMES-LICENSE.txt')}" target="_blank" rel="noopener">运行时许可 ↗</a> · <a href="${url('DAYU-NOTICE.txt')}" target="_blank" rel="noopener">extra 来源说明 ↗</a></p></section>`, 'about');
+  app.innerHTML = shell('收录说明', `<section class="panel about-panel"><h2>静态版 Spine 素材库</h2><p>延续 main-o 的工作台布局，浏览已手动解析的网页活动。网站无需后端，可以部署在 GitHub Pages。</p><h3>每个活动都有什么？</h3><p>查看活动封面、项目介绍和原网页，浏览动画、动作与皮肤，也可复制资源来源。</p><h3>资源如何加载？</h3><p>JSON / SKEL、atlas 和 PNG 均使用官方 HTTPS 来源。部分资源被打包在官方 JavaScript 中，索引记录脚本 URL 与定位键；浏览器只解析数据，不执行官方活动脚本。仓库不保存活动骨骼、图集、贴图或 base64 内容。</p><h3>Demo 包含哪些功能？</h3><p>素材库搜索、筛选、收藏；动画卡片全部预览、动作与皮肤切换、播放暂停、循环；详情拖拽缩放、全屏、背景、骨骼调试、extra 飘动和帧率调试。单动作直接显示名称，2–4 个动作使用按钮，更多动作用下拉框。</p><p>当前三个样例均为 Spine 4.2，其他版本可记录链接，但此 demo 暂不播放。未移植自动提取、拆图和 Spine 工程导出。测试合并使用已收录的原网页动画图层布局。</p><h3>资源失效怎么办？</h3><p>源站更改 URL 或限制跨域访问时，预览会显示失败信息。可打开右侧官方链接核对，再手动更新索引。静态网站不提供绕过跨域限制的代理。</p><h3>许可与来源</h3><p>素材版权归原作者所有，本项目为非官方浏览工具。Spine 运行时与 extra 参考代码保留各自许可和版权说明。<a href="${url('SPINE-RUNTIMES-LICENSE.txt')}" target="_blank" rel="noopener">运行时许可 ↗</a> · <a href="${url('DAYU-NOTICE.txt')}" target="_blank" rel="noopener">extra 来源说明 ↗</a></p></section>`, 'about');
 }
 
 async function start() {

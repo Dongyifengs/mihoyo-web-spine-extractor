@@ -10,11 +10,10 @@
   "indexedAt": "2026-11-02",
   "sourceUrl": "https://act.mihoyo.com/ys/event/e20260520invite-19ccy4/index.html",
   "cover": {
-    "url": "https://fastcdn.mihoyo.com/mi18n/hk4e_cn/m20260420hy3fyccge8/upload/faa7eac7c1b79962cd2cc284b448429c_7807150298531647488.png",
-    "alt": "魔女尼可的茶会官方活动分享图",
-    "kind": "official-share-image",
-    "sourceUrl": "https://fastcdn.mihoyo.com/mi18n/hk4e_cn/m20260420hy3fyccge8/m20260420hy3fyccge8-zh-cn.json",
-    "sourceKey": "share-bg"
+    "url": "https://fastcdn.mihoyo.com/content-v2/hk4e/164277/53a15ee96b6c2d70db42bc214e97090b_2738405601344857470.jpg",
+    "alt": "魔女尼可的茶会活动新闻封面",
+    "kind": "official-news-cover",
+    "sourceUrl": "https://news-api.amarea.cn/news/detail/genshin.web_cn-164277"
   },
   "accent": "#c7a1c8",
   "featuredSpine": "main_nike",
@@ -26,5 +25,6 @@
     "网页活动",
     "Spine 4.2"
   ],
-  "notes": "手动整理的公开资源索引；JSON 与 atlas 存于官方脚本中。保留基础动画与 extra 飘动预览；未复刻原网页场景与自定义着色器。"
+  "notes": "手动整理的公开资源索引；JSON 与 atlas 存于官方脚本中。保留基础动画与 extra 飘动预览；未复刻原网页场景与自定义着色器。",
+  "composition": "composition.json"
 }

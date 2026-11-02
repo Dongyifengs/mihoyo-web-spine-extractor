@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { decodeBundle, atlasPages } from '../src/source-decoder.js';
 import { remoteUrl, loadImage } from '../src/resources.js';
-import { validateItems, validateCatalog } from '../scripts/validate-catalog.mjs';
+import { validateItems, validateCatalog, validateComposition } from '../scripts/validate-catalog.mjs';
 
 test('extracts embedded data without executing bundle code', () => {
   globalThis.bundleExecuted = false;
@@ -44,6 +44,14 @@ test('validates direct SKEL sources and rejects duplicate atlas pages', () => {
 });
 
 test('all checked-in project indexes satisfy the online-only contract', validateCatalog);
+
+test('composition references existing groups and finite projection matrices', () => {
+  const composition = { width: 1280, height: 720, scenes: [{ layers: [{ kind: 'spine', spine_id: 'hero', matrix: Array(16).fill(1) }] }] };
+  validateComposition(composition, [{ id: 'hero' }]);
+  assert.throws(() => validateComposition(composition, [{ id: 'other' }]), /必须匹配/);
+  composition.scenes[0].layers[0].matrix[4] = Infinity;
+  assert.throws(() => validateComposition(composition, [{ id: 'hero' }]), /场景矩阵无效/);
+});
 
 test('failed or cancelled image loads settle and detach browser handlers', async () => {
   const original = globalThis.Image;
